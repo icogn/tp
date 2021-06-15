@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['letter_5finfo_5fbit_34757',['LETTER_INFO_BIT',['../d__save_8h.html#a54347ceb85ca9ecbaad8b3f42bcca65a',1,'d_save.h']]],
-  ['light_5fdrop_5fstage_34758',['LIGHT_DROP_STAGE',['../d__save_8h.html#ab33908adcf0731110db7e2c429a5693f',1,'d_save.h']]],
-  ['logf_34759',['LOGF',['../global_8h.html#a81d5f6c32dcf2185fe6cac2f3e2e4f7b',1,'global.h']]]
+  ['huge_5fval_99467',['HUGE_VAL',['../dol2asm_8h.html#af2164b2db92d8a0ed3838ad5c28db971',1,'dol2asm.h']]],
+  ['huge_5fvalf_99468',['HUGE_VALF',['../dol2asm_8h.html#acd69981d54c27fe0ff514645dbfc6359',1,'dol2asm.h']]],
+  ['huge_5fvall_99469',['HUGE_VALL',['../dol2asm_8h.html#ab8b359c356d4311bf5d4ae6c03f43182',1,'dol2asm.h']]]
 ];

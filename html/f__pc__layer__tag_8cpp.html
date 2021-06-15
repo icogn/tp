@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_pc/f_pc_layer_tag.cpp File Reference</title>
+<title>Twilight Princess: src/f_pc/f_pc_layer_tag.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_89dee0e9ccaa7c098b3a159a2ece8505.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_15a1977171855e2c8b0c1e68c97c2b83.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,9 +80,9 @@ $(function() {
 <div class="title">f_pc_layer_tag.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__layer__tag_8h_source.html">f/f_pc/f_pc_layer_tag.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__layer__tag_8h_source.html">f_pc/f_pc_layer_tag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__layer_8h_source.html">f/f_pc/f_pc_layer.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_layer_tag.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -105,8 +105,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a89fab537ad5dca411c7c2f8a21a0f303"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlayer__management__tag__class.html">layer_management_tag_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__layer__tag_8cpp.html#a89fab537ad5dca411c7c2f8a21a0f303">lbl_803A3A00</a></td></tr>
-<tr class="separator:a89fab537ad5dca411c7c2f8a21a0f303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80fc4733485c4e4a36d2e9ca04c3a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlayer__management__tag__class.html">layer_management_tag_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__layer__tag_8cpp.html#ae80fc4733485c4e4a36d2e9ca04c3a0e">crear</a></td></tr>
+<tr class="separator:ae80fc4733485c4e4a36d2e9ca04c3a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="abad61b09dd4e3e8bacd261faf9fed696"></a>
@@ -242,26 +242,22 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a89fab537ad5dca411c7c2f8a21a0f303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89fab537ad5dca411c7c2f8a21a0f303">&#9670;&nbsp;</a></span>lbl_803A3A00</h2>
+<a id="ae80fc4733485c4e4a36d2e9ca04c3a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80fc4733485c4e4a36d2e9ca04c3a0e">&#9670;&nbsp;</a></span>crear</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structlayer__management__tag__class.html">layer_management_tag_class</a> lbl_803A3A00</td>
+          <td class="memname"><a class="el" href="structlayer__management__tag__class.html">layer_management_tag_class</a> crear</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0xFFFF, 0xFFFF,</div>
+<div class="line">}</div>
+<div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

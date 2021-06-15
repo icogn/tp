@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_pc/f_pc_line_iter.cpp File Reference</title>
+<title>Twilight Princess: src/f_pc/f_pc_line_iter.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,22 +69,25 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_89dee0e9ccaa7c098b3a159a2ece8505.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_15a1977171855e2c8b0c1e68c97c2b83.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">f_pc_line_iter.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__line__iter_8h_source.html">f/f_pc/f_pc_line_iter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__tag__iter_8h_source.html">SComponent/c_tag_iter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__tree__iter_8h_source.html">SComponent/c_tree_iter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__base_8h_source.html">f/f_pc/f_pc_base.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__layer_8h_source.html">f/f_pc/f_pc_layer.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__line__iter_8h_source.html">f_pc/f_pc_line_iter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__tag__iter_8h_source.html">SSystem/SComponent/c_tag_iter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__tree__iter_8h_source.html">SSystem/SComponent/c_tree_iter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__base_8h_source.html">f_pc/f_pc_base.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__create__tag_8h_source.html">f_pc/f_pc_create_tag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__layer_8h_source.html">f_pc/f_pc_layer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__line_8h_source.html">f_pc/f_pc_line.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_line_iter.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -100,11 +103,6 @@ Functions</h2></td></tr>
 <tr class="separator:a47e0db33ad622a08ba843322094dba3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae881597e0ebbfe1f6ac0bf52f614fb38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__line__iter_8cpp.html#ae881597e0ebbfe1f6ac0bf52f614fb38">fpcLnIt_Queue</a> (<a class="el" href="f__pc__line__iter_8h.html#a841df23b7c7aa894221100158dcaf59a">fpcLnIt_QueueFunc</a> pFunc)</td></tr>
 <tr class="separator:ae881597e0ebbfe1f6ac0bf52f614fb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a69a355c1b248cfcadeb1c2a001423b87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode__lists__tree__class.html">node_lists_tree_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__line__iter_8cpp.html#a69a355c1b248cfcadeb1c2a001423b87">lbl_804505D8</a></td></tr>
-<tr class="separator:a69a355c1b248cfcadeb1c2a001423b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a47e0db33ad622a08ba843322094dba3b"></a>
@@ -157,29 +155,6 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a69a355c1b248cfcadeb1c2a001423b87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a355c1b248cfcadeb1c2a001423b87">&#9670;&nbsp;</a></span>lbl_804505D8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structnode__lists__tree__class.html">node_lists_tree_class</a> lbl_804505D8</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

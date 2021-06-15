@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_pc/f_pc_node_req.cpp File Reference</title>
+<title>Twilight Princess: src/f_pc/f_pc_node_req.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_89dee0e9ccaa7c098b3a159a2ece8505.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_15a1977171855e2c8b0c1e68c97c2b83.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -81,17 +81,18 @@ $(function() {
 <div class="title">f_pc_node_req.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__node__req_8h_source.html">f/f_pc/f_pc_node_req.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__malloc_8h_source.html">SComponent/c_malloc.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="s__basic_8h_source.html">SStandard/s_basic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__node__req_8h_source.html">f_pc/f_pc_node_req.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__malloc_8h_source.html">SSystem/SComponent/c_malloc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="s__basic_8h_source.html">SSystem/SStandard/s_basic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__base_8h_source.html">f/f_pc/f_pc_base.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__create__req_8h_source.html">f/f_pc/f_pc_create_req.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__creator_8h_source.html">f/f_pc/f_pc_creator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__deletor_8h_source.html">f/f_pc/f_pc_deletor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__executor_8h_source.html">f/f_pc/f_pc_executor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__layer_8h_source.html">f/f_pc/f_pc_layer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__stdcreate__req_8h_source.html">f/f_pc/f_pc_stdcreate_req.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__base_8h_source.html">f_pc/f_pc_base.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__create__req_8h_source.html">f_pc/f_pc_create_req.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__creator_8h_source.html">f_pc/f_pc_creator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__deletor_8h_source.html">f_pc/f_pc_deletor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__executor_8h_source.html">f_pc/f_pc_executor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__layer_8h_source.html">f_pc/f_pc_layer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__stdcreate__req_8h_source.html">f_pc/f_pc_stdcreate_req.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_node_req.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -108,12 +109,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a74f8ace52f67e71c86b8d8c752f8e209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a74f8ace52f67e71c86b8d8c752f8e209">free__3cMlFPv</a> (void *pPtr)</td></tr>
-<tr class="separator:a74f8ace52f67e71c86b8d8c752f8e209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8161b6a2e6e5a49ca9ce43cbcb1eaf1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#af8161b6a2e6e5a49ca9ce43cbcb1eaf1">memalignB__3cMlFiUl</a> (int pAlign, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> pSize)</td></tr>
-<tr class="separator:af8161b6a2e6e5a49ca9ce43cbcb1eaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97a4a5892917a8961337c55e8d98f8cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a97a4a5892917a8961337c55e8d98f8cb">sBs_ClearArea</a> (void *pPtr, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> pSize)</td></tr>
-<tr class="separator:a97a4a5892917a8961337c55e8d98f8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6c9365113625d622afca9458619af45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#af6c9365113625d622afca9458619af45">fpcNdRq_RequestQTo</a> (<a class="el" href="structnode__create__request.html">node_create_request</a> *pNodeCreateReq)</td></tr>
 <tr class="separator:af6c9365113625d622afca9458619af45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11872779e3c962a0ba9bb2d61dc9b09d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a11872779e3c962a0ba9bb2d61dc9b09d">fpcNdRq_ToRequestQ</a> (<a class="el" href="structnode__create__request.html">node_create_request</a> *pNodeCreateReq)</td></tr>
@@ -159,20 +154,16 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aecee080b41d41d3ea5bd4afc9d4db5bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode__list__class.html">node_list_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#aecee080b41d41d3ea5bd4afc9d4db5bc">lbl_803A3A38</a></td></tr>
-<tr class="separator:aecee080b41d41d3ea5bd4afc9d4db5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c84c87c68503dbb7c4c3aa337839275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode__create__request.html">node_create_request</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a9c84c87c68503dbb7c4c3aa337839275">lbl_803A3A44</a></td></tr>
-<tr class="separator:a9c84c87c68503dbb7c4c3aa337839275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c40648962b6dbd4f810b30c316ccac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a7c40648962b6dbd4f810b30c316ccac9">lbl_803A3AA8</a> [6]</td></tr>
-<tr class="separator:a7c40648962b6dbd4f810b30c316ccac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19dac1373404bf46f3f892121c21d2f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a19dac1373404bf46f3f892121c21d2f1">lbl_803A3AC0</a> [4]</td></tr>
-<tr class="separator:a19dac1373404bf46f3f892121c21d2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1814fed97e18ce571f579b773383d109"><td class="memItemLeft" align="right" valign="top"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a1814fed97e18ce571f579b773383d109">lbl_803A3AD0</a> [4]</td></tr>
-<tr class="separator:a1814fed97e18ce571f579b773383d109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6449b68b5c3ff0b8d77fedac48d97fa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a6449b68b5c3ff0b8d77fedac48d97fa9">lbl_80450D48</a></td></tr>
-<tr class="separator:a6449b68b5c3ff0b8d77fedac48d97fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a246a5dda65a88aaeff1fea8bb87919fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a246a5dda65a88aaeff1fea8bb87919fb">lbl_80450D4C</a></td></tr>
-<tr class="separator:a246a5dda65a88aaeff1fea8bb87919fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ad189e3bbe6a71d597963ba7fb582c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structnode__list__class.html">node_list_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a04ad189e3bbe6a71d597963ba7fb582c">l_fpcNdRq_Queue</a> = {<a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0}</td></tr>
+<tr class="separator:a04ad189e3bbe6a71d597963ba7fb582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41cd45f76f63eb149b18a92ec73d22fc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structnode__create__request.html">node_create_request</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a41cd45f76f63eb149b18a92ec73d22fc">clear</a></td></tr>
+<tr class="separator:a41cd45f76f63eb149b18a92ec73d22fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e64f99748071f6e469aa8e93880ec96"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a2e64f99748071f6e469aa8e93880ec96">methods_2376</a> [6]</td></tr>
+<tr class="separator:a2e64f99748071f6e469aa8e93880ec96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2262b97e85b866536f3750ac2bc031"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a6a2262b97e85b866536f3750ac2bc031">methods_2386</a> [4]</td></tr>
+<tr class="separator:a6a2262b97e85b866536f3750ac2bc031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2cf269c15c9837579d796c658e0718"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node__req_8cpp.html#a3a2cf269c15c9837579d796c658e0718">methods_2397</a> [3]</td></tr>
+<tr class="separator:a3a2cf269c15c9837579d796c658e0718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a352c7405241571dcaabe7d8114a83c45"></a>
@@ -686,83 +677,9 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a74f8ace52f67e71c86b8d8c752f8e209"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74f8ace52f67e71c86b8d8c752f8e209">&#9670;&nbsp;</a></span>free__3cMlFPv()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void free__3cMlFPv </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>pPtr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8161b6a2e6e5a49ca9ce43cbcb1eaf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8161b6a2e6e5a49ca9ce43cbcb1eaf1">&#9670;&nbsp;</a></span>memalignB__3cMlFiUl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* memalignB__3cMlFiUl </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pAlign</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>pSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a97a4a5892917a8961337c55e8d98f8cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97a4a5892917a8961337c55e8d98f8cb">&#9670;&nbsp;</a></span>sBs_ClearArea()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sBs_ClearArea </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>pPtr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
-          <td class="paramname"><em>pSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aecee080b41d41d3ea5bd4afc9d4db5bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecee080b41d41d3ea5bd4afc9d4db5bc">&#9670;&nbsp;</a></span>lbl_803A3A38</h2>
+<a id="a41cd45f76f63eb149b18a92ec73d22fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41cd45f76f63eb149b18a92ec73d22fc">&#9670;&nbsp;</a></span>clear</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -771,20 +688,25 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structnode__list__class.html">node_list_class</a> lbl_803A3A38</td>
+          <td class="memname"><a class="el" href="structnode__create__request.html">node_create_request</a> clear</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,   <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       0,    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">                                    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,   0,    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       0,</div>
+<div class="line">                                    0,          <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,   5,    0xFFFFFFFF, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0xFFFFFFFE, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">                                    0xFFFFFFFE, 0x7FFF, <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0x7FFF}</div>
+<div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a9c84c87c68503dbb7c4c3aa337839275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c84c87c68503dbb7c4c3aa337839275">&#9670;&nbsp;</a></span>lbl_803A3A44</h2>
+<a id="a04ad189e3bbe6a71d597963ba7fb582c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ad189e3bbe6a71d597963ba7fb582c">&#9670;&nbsp;</a></span>l_fpcNdRq_Queue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -793,20 +715,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structnode__create__request.html">node_create_request</a> lbl_803A3A44</td>
+          <td class="memname"><a class="el" href="structnode__list__class.html">node_list_class</a> l_fpcNdRq_Queue = {<a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0}</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7c40648962b6dbd4f810b30c316ccac9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c40648962b6dbd4f810b30c316ccac9">&#9670;&nbsp;</a></span>lbl_803A3AA8</h2>
+<a id="a2e64f99748071f6e469aa8e93880ec96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e64f99748071f6e469aa8e93880ec96">&#9670;&nbsp;</a></span>methods_2376</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -815,20 +737,31 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> lbl_803A3AA8[6]</td>
+          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> methods_2376[6]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a0862f8a00cadd400781ef77056f4e71a">fpcNdRq_phase_IsDeleteTiming</a>, (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#aa3a7909ce7631ddbabc89d9a009cb777">fpcNdRq_phase_Delete</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a490ab4d9236eb7710bd7b8de03094c28">fpcNdRq_phase_IsDeleted</a>,      (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a11b363bf353ba21c0a11e363f9b7d9d6">fpcNdRq_phase_Create</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a63db8142f2666606732012b3eec04ea9">fpcNdRq_phase_IsCreated</a>,      <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="ac__phase_8h_html_afb28692301f219f0e73d2d0046192335"><div class="ttname"><a href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a></div><div class="ttdeci">int(* cPhs__Handler)(void *)</div><div class="ttdef"><b>Definition:</b> c_phase.h:6</div></div>
+<div class="ttc" id="af__pc__node__req_8cpp_html_a0862f8a00cadd400781ef77056f4e71a"><div class="ttname"><a href="f__pc__node__req_8cpp.html#a0862f8a00cadd400781ef77056f4e71a">fpcNdRq_phase_IsDeleteTiming</a></div><div class="ttdeci">s32 fpcNdRq_phase_IsDeleteTiming(node_create_request *pNodeCreateReq)</div><div class="ttdef"><b>Definition:</b> f_pc_node_req.cpp:65</div></div>
+<div class="ttc" id="af__pc__node__req_8cpp_html_a11b363bf353ba21c0a11e363f9b7d9d6"><div class="ttname"><a href="f__pc__node__req_8cpp.html#a11b363bf353ba21c0a11e363f9b7d9d6">fpcNdRq_phase_Create</a></div><div class="ttdeci">s32 fpcNdRq_phase_Create(node_create_request *pNodeCreateReq)</div><div class="ttdef"><b>Definition:</b> f_pc_node_req.cpp:55</div></div>
+<div class="ttc" id="af__pc__node__req_8cpp_html_a490ab4d9236eb7710bd7b8de03094c28"><div class="ttname"><a href="f__pc__node__req_8cpp.html#a490ab4d9236eb7710bd7b8de03094c28">fpcNdRq_phase_IsDeleted</a></div><div class="ttdeci">s32 fpcNdRq_phase_IsDeleted(node_create_request *pNodeCreateReq)</div><div class="ttdef"><b>Definition:</b> f_pc_node_req.cpp:71</div></div>
+<div class="ttc" id="af__pc__node__req_8cpp_html_a63db8142f2666606732012b3eec04ea9"><div class="ttname"><a href="f__pc__node__req_8cpp.html#a63db8142f2666606732012b3eec04ea9">fpcNdRq_phase_IsCreated</a></div><div class="ttdeci">s32 fpcNdRq_phase_IsCreated(node_create_request *pNodeCreateReq)</div><div class="ttdef"><b>Definition:</b> f_pc_node_req.cpp:45</div></div>
+<div class="ttc" id="af__pc__node__req_8cpp_html_aa3a7909ce7631ddbabc89d9a009cb777"><div class="ttname"><a href="f__pc__node__req_8cpp.html#aa3a7909ce7631ddbabc89d9a009cb777">fpcNdRq_phase_Delete</a></div><div class="ttdeci">s32 fpcNdRq_phase_Delete(node_create_request *pNodeCreateReq)</div><div class="ttdef"><b>Definition:</b> f_pc_node_req.cpp:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a19dac1373404bf46f3f892121c21d2f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19dac1373404bf46f3f892121c21d2f1">&#9670;&nbsp;</a></span>lbl_803A3AC0</h2>
+<a id="a6a2262b97e85b866536f3750ac2bc031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a2262b97e85b866536f3750ac2bc031">&#9670;&nbsp;</a></span>methods_2386</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -837,20 +770,26 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> lbl_803A3AC0[4]</td>
+          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> methods_2386[4]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a0862f8a00cadd400781ef77056f4e71a">fpcNdRq_phase_IsDeleteTiming</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#aa3a7909ce7631ddbabc89d9a009cb777">fpcNdRq_phase_Delete</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a490ab4d9236eb7710bd7b8de03094c28">fpcNdRq_phase_IsDeleted</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a1814fed97e18ce571f579b773383d109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1814fed97e18ce571f579b773383d109">&#9670;&nbsp;</a></span>lbl_803A3AD0</h2>
+<a id="a3a2cf269c15c9837579d796c658e0718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2cf269c15c9837579d796c658e0718">&#9670;&nbsp;</a></span>methods_2397</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -859,60 +798,21 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> lbl_803A3AD0[4]</td>
+          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> methods_2397[3]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6449b68b5c3ff0b8d77fedac48d97fa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6449b68b5c3ff0b8d77fedac48d97fa9">&#9670;&nbsp;</a></span>lbl_80450D48</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> lbl_80450D48</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a246a5dda65a88aaeff1fea8bb87919fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a246a5dda65a88aaeff1fea8bb87919fb">&#9670;&nbsp;</a></span>lbl_80450D4C</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> lbl_80450D4C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a11b363bf353ba21c0a11e363f9b7d9d6">fpcNdRq_phase_Create</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__pc__node__req_8cpp.html#a63db8142f2666606732012b3eec04ea9">fpcNdRq_phase_IsCreated</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

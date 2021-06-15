@@ -74,23 +74,20 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">m_Do_controller_pad.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="m__Do__controller__pad_8h_source.html">m_Do/m_Do_controller_pad/m_Do_controller_pad.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="JUTGamePad_8h_source.html">JSystem/JUtility/JUTGamePad/JUTGamePad.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__lib_8h_source.html">SComponent/c_lib.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="m__Do__Reset_8h_source.html">m_Do/m_Do_Reset/m_Do_Reset.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="m__Do__main_8h_source.html">m_Do/m_Do_main/m_Do_main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="pad_8h_source.html">pad/pad.h</a>&quot;</code><br />
-<code>#include &quot;m_Do/m_Do_controller_pad/asm/mDoCPd_c_NS_create.s&quot;</code><br />
-<code>#include &quot;m_Do/m_Do_controller_pad/asm/mDoCPd_c_NS_read.s&quot;</code><br />
-<code>#include &quot;m_Do/m_Do_controller_pad/asm/mDoCPd_c_NS_convert.s&quot;</code><br />
-<code>#include &quot;m_Do/m_Do_controller_pad/asm/mDoCPd_c_NS_LRlockCheck.s&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="m__Do__controller__pad_8h_source.html">m_Do/m_Do_controller_pad.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;asm/m_Do/m_Do_controller_pad/create__8mDoCPd_cFv.s&quot;</code><br />
+<code>#include &quot;asm/m_Do/m_Do_controller_pad/read__8mDoCPd_cFv.s&quot;</code><br />
+<code>#include &quot;asm/m_Do/m_Do_controller_pad/convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad.s&quot;</code><br />
+<code>#include &quot;asm/m_Do/m_Do_controller_pad/LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for m_Do_controller_pad.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -100,47 +97,76 @@ $(function() {
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmDoRst.html">mDoRst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac2ab2de87cf542699fd725b0f10e5f20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ac2ab2de87cf542699fd725b0f10e5f20">__ct__10JUTGamePadFQ210JUTGamePad8EPadPort</a> (void)</td></tr>
-<tr class="separator:ac2ab2de87cf542699fd725b0f10e5f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31925805534cb754e85545c8c7e7574e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a31925805534cb754e85545c8c7e7574e">__nw__FUl</a> (void)</td></tr>
-<tr class="separator:a31925805534cb754e85545c8c7e7574e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f2b3b6f91d3976c161ea49042f71531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a5f2b3b6f91d3976c161ea49042f71531">cLib_memSet__FPviUl</a> (void)</td></tr>
-<tr class="separator:a5f2b3b6f91d3976c161ea49042f71531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a2faab7c6e4ae022332702ff802e21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a59a2faab7c6e4ae022332702ff802e21">convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad</a> (void)</td></tr>
-<tr class="separator:a59a2faab7c6e4ae022332702ff802e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d6f8f2a6b792c8b80e604b7b305212"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a34d6f8f2a6b792c8b80e604b7b305212">getGamePad__10JUTGamePadFi</a> (void)</td></tr>
-<tr class="separator:a34d6f8f2a6b792c8b80e604b7b305212"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e063dd36d3b1e2e0346b17803359526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a0e063dd36d3b1e2e0346b17803359526">LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad</a> (void)</td></tr>
-<tr class="separator:a0e063dd36d3b1e2e0346b17803359526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec02deef509d4efc334ed87dab3ec6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a4ec02deef509d4efc334ed87dab3ec6c">mDoRst_resetCallBack__FiPv</a> (void)</td></tr>
-<tr class="separator:a4ec02deef509d4efc334ed87dab3ec6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495b2437d499b77e35de8a6f05bc41a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a495b2437d499b77e35de8a6f05bc41a0">read__10JUTGamePadFv</a> (void)</td></tr>
-<tr class="separator:a495b2437d499b77e35de8a6f05bc41a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39803b416d947fe18827a8d4ba046dc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a39803b416d947fe18827a8d4ba046dc8">create__8mDoCPd_cFv</a> ()</td></tr>
+<tr class="separator:a39803b416d947fe18827a8d4ba046dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1968f0947ae9379e58112405f1467aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ad1968f0947ae9379e58112405f1467aa">read__8mDoCPd_cFv</a> ()</td></tr>
+<tr class="separator:ad1968f0947ae9379e58112405f1467aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18487596852bcd9004847b79df75d5dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a18487596852bcd9004847b79df75d5dc">convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad</a> ()</td></tr>
+<tr class="separator:a18487596852bcd9004847b79df75d5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5c40074c9118a8fa492a73893faa1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a4f5c40074c9118a8fa492a73893faa1d">LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad</a> ()</td></tr>
+<tr class="separator:a4f5c40074c9118a8fa492a73893faa1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8572d974c9b0f4ce5ac89f7c1b3e0ae0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a8572d974c9b0f4ce5ac89f7c1b3e0ae0">recalibrate__8mDoCPd_cFv</a> ()</td></tr>
+<tr class="separator:a8572d974c9b0f4ce5ac89f7c1b3e0ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78120ac515485cffc10b9dacb28acd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#aa78120ac515485cffc10b9dacb28acd6">mDoRst_resetCallBack__FiPv</a> ()</td></tr>
+<tr class="separator:aa78120ac515485cffc10b9dacb28acd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2dc24d7f9553e60d9e89ba572caa3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a5b2dc24d7f9553e60d9e89ba572caa3c">cLib_memSet__FPviUl</a> ()</td></tr>
+<tr class="separator:a5b2dc24d7f9553e60d9e89ba572caa3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c38b5b6513e6b5e4905f19cf277fd2c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a4c38b5b6513e6b5e4905f19cf277fd2c">__nw__FUl</a> ()</td></tr>
+<tr class="separator:a4c38b5b6513e6b5e4905f19cf277fd2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2aecada905cc9373e87d144d6e6ee6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ad2aecada905cc9373e87d144d6e6ee6f">__ct__10JUTGamePadFQ210JUTGamePad8EPadPort</a> ()</td></tr>
+<tr class="separator:ad2aecada905cc9373e87d144d6e6ee6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71edc67afedfed77779a15043efe144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ac71edc67afedfed77779a15043efe144">read__10JUTGamePadFv</a> ()</td></tr>
+<tr class="separator:ac71edc67afedfed77779a15043efe144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cc8637858133f107c53c2e5763ad4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a32cc8637858133f107c53c2e5763ad4c">clearForReset__10JUTGamePadFv</a> ()</td></tr>
+<tr class="separator:a32cc8637858133f107c53c2e5763ad4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a722b183677c88ca0df25e1db8f55ecfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a722b183677c88ca0df25e1db8f55ecfa">getGamePad__10JUTGamePadFi</a> ()</td></tr>
+<tr class="separator:a722b183677c88ca0df25e1db8f55ecfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a143ae569e563db2211b8fccee0212daa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a143ae569e563db2211b8fccee0212daa">setEnabled__Q210JUTGamePad7CRumbleFUl</a> ()</td></tr>
+<tr class="separator:a143ae569e563db2211b8fccee0212daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3662cd06864ff7627d5424c192e6f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a5f3662cd06864ff7627d5424c192e6f2">_savegpr_29</a> ()</td></tr>
+<tr class="separator:a5f3662cd06864ff7627d5424c192e6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed5bd59c54272a132a5b4da4beff66d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#abed5bd59c54272a132a5b4da4beff66d">_restgpr_29</a> ()</td></tr>
+<tr class="separator:abed5bd59c54272a132a5b4da4beff66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:adb53cf5d26cf91c0761078533a3e8b31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJUTGamePad.html">JUTGamePad</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#adb53cf5d26cf91c0761078533a3e8b31">m_gamePad</a> [4]</td></tr>
-<tr class="separator:adb53cf5d26cf91c0761078533a3e8b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82baf800d4346e4484f55733f153da5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ac82baf800d4346e4484f55733f153da5">lbl_80450580</a></td></tr>
-<tr class="separator:ac82baf800d4346e4484f55733f153da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c778fce94bc090a77d0b48d9e51a2f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a8c778fce94bc090a77d0b48d9e51a2f4">lbl_804514EC</a></td></tr>
-<tr class="separator:a8c778fce94bc090a77d0b48d9e51a2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a938a1ccb0275a4b2e8a48a46b4dacc5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a938a1ccb0275a4b2e8a48a46b4dacc5a">lbl_804514F0</a></td></tr>
-<tr class="separator:a938a1ccb0275a4b2e8a48a46b4dacc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7630c0f7cd1da8cd73faa3a24a226c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a7630c0f7cd1da8cd73faa3a24a226c6c">lbl_80451A20</a></td></tr>
-<tr class="separator:a7630c0f7cd1da8cd73faa3a24a226c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3b17580bc3d9bf2ee7eeaa72b638aa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#af3b17580bc3d9bf2ee7eeaa72b638aa4">lbl_80451A30</a></td></tr>
-<tr class="separator:af3b17580bc3d9bf2ee7eeaa72b638aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e35bf2269d55f1f6cf46dc39314da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a79e35bf2269d55f1f6cf46dc39314da4">lbl_80451A24</a></td></tr>
-<tr class="separator:a79e35bf2269d55f1f6cf46dc39314da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c77fe40eb6a08276a2d208981a907e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a4c77fe40eb6a08276a2d208981a907e6">lbl_80451A28</a></td></tr>
-<tr class="separator:a4c77fe40eb6a08276a2d208981a907e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae390db7bcda728c7045a8fa8ccd0dc82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ae390db7bcda728c7045a8fa8ccd0dc82">m_gamePad__8mDoCPd_c</a> [16]</td></tr>
+<tr class="separator:ae390db7bcda728c7045a8fa8ccd0dc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e0f928ce61adfff0bee856273d7ec4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a76e0f928ce61adfff0bee856273d7ec4">m_cpadInfo__8mDoCPd_c</a> [256]</td></tr>
+<tr class="separator:a76e0f928ce61adfff0bee856273d7ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8ffc0d2d61e251c2399be8e905c58f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#adb8ffc0d2d61e251c2399be8e905c58f">g_HIO</a> [64+4]</td></tr>
+<tr class="separator:adb8ffc0d2d61e251c2399be8e905c58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d484b040fa1b5b34eb5d2e9f5e95be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ab3d484b040fa1b5b34eb5d2e9f5e95be">data_80450580</a></td></tr>
+<tr class="separator:ab3d484b040fa1b5b34eb5d2e9f5e95be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae265a193f6aaabcee462778eb760549a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ae265a193f6aaabcee462778eb760549a">mResetData__6mDoRst</a> [4+4]</td></tr>
+<tr class="separator:ae265a193f6aaabcee462778eb760549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21a837de85b9d413fc38416019c20b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#ab21a837de85b9d413fc38416019c20b0">sAnalogMode__10JUTGamePad</a> [4]</td></tr>
+<tr class="separator:ab21a837de85b9d413fc38416019c20b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ac850e1fb9802544a6f3e4f6df25f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#af1ac850e1fb9802544a6f3e4f6df25f5">sCallback__Q210JUTGamePad13C3ButtonReset</a> [4]</td></tr>
+<tr class="separator:af1ac850e1fb9802544a6f3e4f6df25f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a4a0b79bf71bb49bbf7aee6c68a576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a86a4a0b79bf71bb49bbf7aee6c68a576">sCallbackArg__Q210JUTGamePad13C3ButtonReset</a> [4+4]</td></tr>
+<tr class="separator:a86a4a0b79bf71bb49bbf7aee6c68a576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf5f5e2e606fe37a97b8634052204f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#acbf5f5e2e606fe37a97b8634052204f9">struct_80451500</a> [4]</td></tr>
+<tr class="separator:acbf5f5e2e606fe37a97b8634052204f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf6a558f506a2530e2123995c8d5371"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a4bf6a558f506a2530e2123995c8d5371">lit_3709</a> = 1.0f / 15.0f</td></tr>
+<tr class="separator:a4bf6a558f506a2530e2123995c8d5371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060f1e47c28399c2e051b59889fdb401"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a060f1e47c28399c2e051b59889fdb401">lit_3710</a> = 1.0f</td></tr>
+<tr class="separator:a060f1e47c28399c2e051b59889fdb401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f879dfe3843cb76e9e984017a10456b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a9f879dfe3843cb76e9e984017a10456b">lit_3711</a> [1+1]</td></tr>
+<tr class="separator:a9f879dfe3843cb76e9e984017a10456b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f4587e682ef636859b05955473ce24"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__controller__pad_8cpp.html#a19f4587e682ef636859b05955473ce24">lit_3713</a> = 4503599627370496.0</td></tr>
+<tr class="separator:a19f4587e682ef636859b05955473ce24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac2ab2de87cf542699fd725b0f10e5f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2ab2de87cf542699fd725b0f10e5f20">&#9670;&nbsp;</a></span>__ct__10JUTGamePadFQ210JUTGamePad8EPadPort()</h2>
+<a id="ad2aecada905cc9373e87d144d6e6ee6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2aecada905cc9373e87d144d6e6ee6f">&#9670;&nbsp;</a></span>__ct__10JUTGamePadFQ210JUTGamePad8EPadPort()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,7 +174,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void __ct__10JUTGamePadFQ210JUTGamePad8EPadPort </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -157,16 +182,15 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a31925805534cb754e85545c8c7e7574e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31925805534cb754e85545c8c7e7574e">&#9670;&nbsp;</a></span>__nw__FUl()</h2>
+<a id="a4c38b5b6513e6b5e4905f19cf277fd2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c38b5b6513e6b5e4905f19cf277fd2c">&#9670;&nbsp;</a></span>__nw__FUl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __nw__FUl </td>
+          <td class="memname">void* __nw__FUl </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -175,8 +199,59 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f2b3b6f91d3976c161ea49042f71531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f2b3b6f91d3976c161ea49042f71531">&#9670;&nbsp;</a></span>cLib_memSet__FPviUl()</h2>
+<a id="abed5bd59c54272a132a5b4da4beff66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed5bd59c54272a132a5b4da4beff66d">&#9670;&nbsp;</a></span>_restgpr_29()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void _restgpr_29 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f3662cd06864ff7627d5424c192e6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3662cd06864ff7627d5424c192e6f2">&#9670;&nbsp;</a></span>_savegpr_29()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void _savegpr_29 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32cc8637858133f107c53c2e5763ad4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32cc8637858133f107c53c2e5763ad4c">&#9670;&nbsp;</a></span>clearForReset__10JUTGamePadFv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearForReset__10JUTGamePadFv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b2dc24d7f9553e60d9e89ba572caa3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2dc24d7f9553e60d9e89ba572caa3c">&#9670;&nbsp;</a></span>cLib_memSet__FPviUl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +259,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void cLib_memSet__FPviUl </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -193,8 +267,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a59a2faab7c6e4ae022332702ff802e21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a2faab7c6e4ae022332702ff802e21">&#9670;&nbsp;</a></span>convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad()</h2>
+<a id="a18487596852bcd9004847b79df75d5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18487596852bcd9004847b79df75d5dc">&#9670;&nbsp;</a></span>convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +276,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void convert__8mDoCPd_cFP27interface_of_controller_padP10JUTGamePad </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -211,8 +284,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a34d6f8f2a6b792c8b80e604b7b305212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d6f8f2a6b792c8b80e604b7b305212">&#9670;&nbsp;</a></span>getGamePad__10JUTGamePadFi()</h2>
+<a id="a39803b416d947fe18827a8d4ba046dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39803b416d947fe18827a8d4ba046dc8">&#9670;&nbsp;</a></span>create__8mDoCPd_cFv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void create__8mDoCPd_cFv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a722b183677c88ca0df25e1db8f55ecfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a722b183677c88ca0df25e1db8f55ecfa">&#9670;&nbsp;</a></span>getGamePad__10JUTGamePadFi()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +310,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void getGamePad__10JUTGamePadFi </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -229,8 +318,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e063dd36d3b1e2e0346b17803359526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e063dd36d3b1e2e0346b17803359526">&#9670;&nbsp;</a></span>LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad()</h2>
+<a id="a4f5c40074c9118a8fa492a73893faa1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5c40074c9118a8fa492a73893faa1d">&#9670;&nbsp;</a></span>LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +327,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void LRlockCheck__8mDoCPd_cFP27interface_of_controller_pad </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -247,8 +335,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ec02deef509d4efc334ed87dab3ec6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec02deef509d4efc334ed87dab3ec6c">&#9670;&nbsp;</a></span>mDoRst_resetCallBack__FiPv()</h2>
+<a id="aa78120ac515485cffc10b9dacb28acd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78120ac515485cffc10b9dacb28acd6">&#9670;&nbsp;</a></span>mDoRst_resetCallBack__FiPv()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +344,6 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void mDoRst_resetCallBack__FiPv </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -265,8 +352,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a495b2437d499b77e35de8a6f05bc41a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495b2437d499b77e35de8a6f05bc41a0">&#9670;&nbsp;</a></span>read__10JUTGamePadFv()</h2>
+<a id="ac71edc67afedfed77779a15043efe144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71edc67afedfed77779a15043efe144">&#9670;&nbsp;</a></span>read__10JUTGamePadFv()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +361,57 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void read__10JUTGamePadFv </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1968f0947ae9379e58112405f1467aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1968f0947ae9379e58112405f1467aa">&#9670;&nbsp;</a></span>read__8mDoCPd_cFv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void read__8mDoCPd_cFv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8572d974c9b0f4ce5ac89f7c1b3e0ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8572d974c9b0f4ce5ac89f7c1b3e0ae0">&#9670;&nbsp;</a></span>recalibrate__8mDoCPd_cFv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void recalibrate__8mDoCPd_cFv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a143ae569e563db2211b8fccee0212daa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a143ae569e563db2211b8fccee0212daa">&#9670;&nbsp;</a></span>setEnabled__Q210JUTGamePad7CRumbleFUl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setEnabled__Q210JUTGamePad7CRumbleFUl </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -284,8 +421,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ac82baf800d4346e4484f55733f153da5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac82baf800d4346e4484f55733f153da5">&#9670;&nbsp;</a></span>lbl_80450580</h2>
+<a id="ab3d484b040fa1b5b34eb5d2e9f5e95be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d484b040fa1b5b34eb5d2e9f5e95be">&#9670;&nbsp;</a></span>data_80450580</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +431,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_80450580</td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> data_80450580</td>
         </tr>
       </table>
   </td>
@@ -306,8 +443,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c778fce94bc090a77d0b48d9e51a2f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c778fce94bc090a77d0b48d9e51a2f4">&#9670;&nbsp;</a></span>lbl_804514EC</h2>
+<a id="adb8ffc0d2d61e251c2399be8e905c58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8ffc0d2d61e251c2399be8e905c58f">&#9670;&nbsp;</a></span>g_HIO</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +453,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_804514EC</td>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> g_HIO[64+4]</td>
         </tr>
       </table>
   </td>
@@ -328,8 +465,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a938a1ccb0275a4b2e8a48a46b4dacc5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a938a1ccb0275a4b2e8a48a46b4dacc5a">&#9670;&nbsp;</a></span>lbl_804514F0</h2>
+<a id="a4bf6a558f506a2530e2123995c8d5371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf6a558f506a2530e2123995c8d5371">&#9670;&nbsp;</a></span>lit_3709</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,20 +475,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_804514F0</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_3709 = 1.0f / 15.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7630c0f7cd1da8cd73faa3a24a226c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7630c0f7cd1da8cd73faa3a24a226c6c">&#9670;&nbsp;</a></span>lbl_80451A20</h2>
+<a id="a060f1e47c28399c2e051b59889fdb401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060f1e47c28399c2e051b59889fdb401">&#9670;&nbsp;</a></span>lit_3710</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,20 +497,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_80451A20</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_3710 = 1.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a79e35bf2269d55f1f6cf46dc39314da4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e35bf2269d55f1f6cf46dc39314da4">&#9670;&nbsp;</a></span>lbl_80451A24</h2>
+<a id="a9f879dfe3843cb76e9e984017a10456b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f879dfe3843cb76e9e984017a10456b">&#9670;&nbsp;</a></span>lit_3711</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,64 +519,131 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_80451A24</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_3711[1+1]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0.0071428571827709675f,</div>
+<div class="line">    </div>
+<div class="line">    0.0f,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a19f4587e682ef636859b05955473ce24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f4587e682ef636859b05955473ce24">&#9670;&nbsp;</a></span>lit_3713</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_3713 = 4503599627370496.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4c77fe40eb6a08276a2d208981a907e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c77fe40eb6a08276a2d208981a907e6">&#9670;&nbsp;</a></span>lbl_80451A28</h2>
+<a id="a76e0f928ce61adfff0bee856273d7ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e0f928ce61adfff0bee856273d7ec4">&#9670;&nbsp;</a></span>m_cpadInfo__8mDoCPd_c</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_80451A28</td>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> m_cpadInfo__8mDoCPd_c[256]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af3b17580bc3d9bf2ee7eeaa72b638aa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3b17580bc3d9bf2ee7eeaa72b638aa4">&#9670;&nbsp;</a></span>lbl_80451A30</h2>
+<a id="ae390db7bcda728c7045a8fa8ccd0dc82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae390db7bcda728c7045a8fa8ccd0dc82">&#9670;&nbsp;</a></span>m_gamePad__8mDoCPd_c</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lbl_80451A30</td>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> m_gamePad__8mDoCPd_c[16]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="adb53cf5d26cf91c0761078533a3e8b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb53cf5d26cf91c0761078533a3e8b31">&#9670;&nbsp;</a></span>m_gamePad</h2>
+<a id="ae265a193f6aaabcee462778eb760549a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae265a193f6aaabcee462778eb760549a">&#9670;&nbsp;</a></span>mResetData__6mDoRst</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> mResetData__6mDoRst[4+4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab21a837de85b9d413fc38416019c20b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab21a837de85b9d413fc38416019c20b0">&#9670;&nbsp;</a></span>sAnalogMode__10JUTGamePad</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> sAnalogMode__10JUTGamePad[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ac850e1fb9802544a6f3e4f6df25f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ac850e1fb9802544a6f3e4f6df25f5">&#9670;&nbsp;</a></span>sCallback__Q210JUTGamePad13C3ButtonReset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> sCallback__Q210JUTGamePad13C3ButtonReset[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86a4a0b79bf71bb49bbf7aee6c68a576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a4a0b79bf71bb49bbf7aee6c68a576">&#9670;&nbsp;</a></span>sCallbackArg__Q210JUTGamePad13C3ButtonReset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> sCallbackArg__Q210JUTGamePad13C3ButtonReset[4+4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbf5f5e2e606fe37a97b8634052204f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf5f5e2e606fe37a97b8634052204f9">&#9670;&nbsp;</a></span>struct_80451500</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +652,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structJUTGamePad.html">JUTGamePad</a>* m_gamePad[4]</td>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> struct_80451500[4]</td>
         </tr>
       </table>
   </td>

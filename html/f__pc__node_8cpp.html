@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_pc/f_pc_node.cpp File Reference</title>
+<title>Twilight Princess: src/f_pc/f_pc_node.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_89dee0e9ccaa7c098b3a159a2ece8505.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_15a1977171855e2c8b0c1e68c97c2b83.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,9 +80,10 @@ $(function() {
 <div class="title">f_pc_node.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__node_8h_source.html">f/f_pc/f_pc_node.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__node_8h_source.html">f_pc/f_pc_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__layer__iter_8h_source.html">f/f_pc/f_pc_layer_iter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__layer__iter_8h_source.html">f_pc/f_pc_layer_iter.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_node.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -115,8 +116,10 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a9eb803f2b88198e1cae5608cf1232989"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node_8cpp.html#a9eb803f2b88198e1cae5608cf1232989">g_fpcNd_type</a></td></tr>
 <tr class="separator:a9eb803f2b88198e1cae5608cf1232989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eb9f479042a5ce7cf64e01133dfc8e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node_8cpp.html#a9eb9f479042a5ce7cf64e01133dfc8e2">lbl_804505E0</a></td></tr>
-<tr class="separator:a9eb9f479042a5ce7cf64e01133dfc8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4271701786c442232b1e04934390e3bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node_8cpp.html#a4271701786c442232b1e04934390e3bb">g_fpcNd_IsCheckOfDeleteTiming</a> = 1</td></tr>
+<tr class="separator:a4271701786c442232b1e04934390e3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeb9e240dad1a9e1b466a1ad05b61dc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnodedraw__method__class.html">nodedraw_method_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__node_8cpp.html#aaeb9e240dad1a9e1b466a1ad05b61dc9">g_fpcNd_Method</a></td></tr>
+<tr class="separator:aaeb9e240dad1a9e1b466a1ad05b61dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="abb0f19a8fbf4ebfbd564fc8efaf001d2"></a>
@@ -274,8 +277,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a9eb803f2b88198e1cae5608cf1232989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eb803f2b88198e1cae5608cf1232989">&#9670;&nbsp;</a></span>g_fpcNd_type</h2>
+<a id="a4271701786c442232b1e04934390e3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4271701786c442232b1e04934390e3bb">&#9670;&nbsp;</a></span>g_fpcNd_IsCheckOfDeleteTiming</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,36 +287,53 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int g_fpcNd_type</td>
+          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> g_fpcNd_IsCheckOfDeleteTiming = 1</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9eb9f479042a5ce7cf64e01133dfc8e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eb9f479042a5ce7cf64e01133dfc8e2">&#9670;&nbsp;</a></span>lbl_804505E0</h2>
+<a id="aaeb9e240dad1a9e1b466a1ad05b61dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb9e240dad1a9e1b466a1ad05b61dc9">&#9670;&nbsp;</a></span>g_fpcNd_Method</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> lbl_804505E0</td>
+          <td class="memname"><a class="el" href="structnodedraw__method__class.html">nodedraw_method_class</a> g_fpcNd_Method</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a>,  (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a>, (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="af__pc__method_8h_html_a56bd92368b7dda361388b2d13df2e4ac"><div class="ttname"><a href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a></div><div class="ttdeci">int(* process_method_func)(void *)</div><div class="ttdef"><b>Definition:</b> f_pc_method.h:7</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_a4a172b993e32ce21e34a0686b3155675"><div class="ttname"><a href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a></div><div class="ttdeci">s32 fpcNd_IsDelete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:80</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_a7adf7f08ebfd8f8e91dff0bc9f97d8bf"><div class="ttname"><a href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a></div><div class="ttdeci">s32 fpcNd_Draw(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:22</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_aac58759dd23d4d377bf3064c92786b29"><div class="ttname"><a href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a></div><div class="ttdeci">s32 fpcNd_Delete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:85</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_abb0f19a8fbf4ebfbd564fc8efaf001d2"><div class="ttname"><a href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a></div><div class="ttdeci">s32 fpcNd_Create(process_node_class *pProcNode1)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:96</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_af5d0cde86620bc9bd88dcc8e8d4b4e31"><div class="ttname"><a href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a></div><div class="ttdeci">s32 fpcNd_Execute(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9eb803f2b88198e1cae5608cf1232989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb803f2b88198e1cae5608cf1232989">&#9670;&nbsp;</a></span>g_fpcNd_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int g_fpcNd_type</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

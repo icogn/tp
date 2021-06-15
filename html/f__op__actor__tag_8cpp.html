@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_op/f_op_actor_tag.cpp File Reference</title>
+<title>Twilight Princess: src/f_op/f_op_actor_tag.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,46 +69,53 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_78d979f70e66f5399b8b2e33e5bfc8e1.html">f_op</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1067c0d41a0230984cbcba896d5e4c43.html">f_op</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">f_op_actor_tag.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__op__actor__tag_8h_source.html">f/f_op/f_op_actor_tag.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__tag_8h_source.html">SComponent/c_tag.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__op__actor__tag_8h_source.html">f_op/f_op_actor_tag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__tag_8h_source.html">SSystem/SComponent/c_tag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_op_actor_tag.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="f__op__actor__tag_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="f__op__actor__tag_8cpp__incl.svg" width="430" height="559"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a38895f5d2189191e4f4bc526ac0ab4d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#a38895f5d2189191e4f4bc526ac0ab4d1">fopAcTg_ToActorQ__FP16create_tag_class</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *c)</td></tr>
-<tr class="separator:a38895f5d2189191e4f4bc526ac0ab4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf04dcd01f73c71d88aff7ab122c3a8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#aaf04dcd01f73c71d88aff7ab122c3a8d">fopAcTg_ActorQTo__FP16create_tag_class</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *pTag)</td></tr>
-<tr class="separator:aaf04dcd01f73c71d88aff7ab122c3a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab275c2b009d63381a25ef95d00e23b5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#ab275c2b009d63381a25ef95d00e23b5a">fopAcTg_Init__FP16create_tag_classPv</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *pTag, void *data)</td></tr>
-<tr class="separator:ab275c2b009d63381a25ef95d00e23b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad569d79926c41a0c6b8247eb448b791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#aad569d79926c41a0c6b8247eb448b791">fopAcTg_ToActorQ</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *c)</td></tr>
+<tr class="separator:aad569d79926c41a0c6b8247eb448b791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a3818c2f28a73f1d258fe7a5408a24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#ac9a3818c2f28a73f1d258fe7a5408a24">fopAcTg_ActorQTo</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *pTag)</td></tr>
+<tr class="separator:ac9a3818c2f28a73f1d258fe7a5408a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c2b96e052c3cbf19e906d22cdafd01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#a00c2b96e052c3cbf19e906d22cdafd01">fopAcTg_Init</a> (<a class="el" href="structcreate__tag__class.html">create_tag_class</a> *pTag, void *<a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a>)</td></tr>
+<tr class="separator:a00c2b96e052c3cbf19e906d22cdafd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0e9cb070f68cf3c40e4b965c2c27a147"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode__list__class.html">node_list_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__tag_8cpp.html#a0e9cb070f68cf3c40e4b965c2c27a147">g_fopAcTg_Queue</a> = {<a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0}</td></tr>
+<tr class="separator:a0e9cb070f68cf3c40e4b965c2c27a147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aaf04dcd01f73c71d88aff7ab122c3a8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf04dcd01f73c71d88aff7ab122c3a8d">&#9670;&nbsp;</a></span>fopAcTg_ActorQTo__FP16create_tag_class()</h2>
+<a id="ac9a3818c2f28a73f1d258fe7a5408a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a3818c2f28a73f1d258fe7a5408a24">&#9670;&nbsp;</a></span>fopAcTg_ActorQTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_ActorQTo__FP16create_tag_class </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_ActorQTo </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcreate__tag__class.html">create_tag_class</a> *&#160;</td>
           <td class="paramname"><em>pTag</em></td><td>)</td>
@@ -119,14 +126,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab275c2b009d63381a25ef95d00e23b5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab275c2b009d63381a25ef95d00e23b5a">&#9670;&nbsp;</a></span>fopAcTg_Init__FP16create_tag_classPv()</h2>
+<a id="a00c2b96e052c3cbf19e906d22cdafd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c2b96e052c3cbf19e906d22cdafd01">&#9670;&nbsp;</a></span>fopAcTg_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_Init__FP16create_tag_classPv </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_Init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcreate__tag__class.html">create_tag_class</a> *&#160;</td>
           <td class="paramname"><em>pTag</em>, </td>
@@ -147,18 +154,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a38895f5d2189191e4f4bc526ac0ab4d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38895f5d2189191e4f4bc526ac0ab4d1">&#9670;&nbsp;</a></span>fopAcTg_ToActorQ__FP16create_tag_class()</h2>
+<a id="aad569d79926c41a0c6b8247eb448b791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad569d79926c41a0c6b8247eb448b791">&#9670;&nbsp;</a></span>fopAcTg_ToActorQ()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_ToActorQ__FP16create_tag_class </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> fopAcTg_ToActorQ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcreate__tag__class.html">create_tag_class</a> *&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0e9cb070f68cf3c40e4b965c2c27a147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9cb070f68cf3c40e4b965c2c27a147">&#9670;&nbsp;</a></span>g_fopAcTg_Queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structnode__list__class.html">node_list_class</a> g_fopAcTg_Queue = {<a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0}</td>
         </tr>
       </table>
 </div><div class="memdoc">

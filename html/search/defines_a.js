@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['os_5fassert_34766',['OS_ASSERT',['../OS_8h.html#a24b1d8059dd9c28417f8ef31ec709410',1,'OS.h']]],
-  ['os_5fmessage_5fblocking_34767',['OS_MESSAGE_BLOCKING',['../OS_8h.html#a97ffad36c4f71ab4098dafe6a5d0c400',1,'OS.h']]],
-  ['os_5fmessage_5fnon_5fblocking_34768',['OS_MESSAGE_NON_BLOCKING',['../OS_8h.html#aab8d4a132fbbd592e4ac9ce5b2a1da21',1,'OS.h']]],
-  ['os_5fthread_5fstate_5fdead_34769',['OS_THREAD_STATE_DEAD',['../OS_8h.html#acddb7a183b19af60a30859da61585376',1,'OS.h']]],
-  ['os_5fthread_5fstate_5fready_34770',['OS_THREAD_STATE_READY',['../OS_8h.html#a5a1e8a94c9e3575c21f038d0a9e609b1',1,'OS.h']]],
-  ['os_5fthread_5fstate_5frunning_34771',['OS_THREAD_STATE_RUNNING',['../OS_8h.html#a36c6840a102aa29f750acab2f7787dd6',1,'OS.h']]],
-  ['os_5fthread_5fstate_5funinitialized_34772',['OS_THREAD_STATE_UNINITIALIZED',['../OS_8h.html#a14b73f409a743f908793e892c001edb3',1,'OS.h']]],
-  ['os_5fthread_5fstate_5fwaiting_34773',['OS_THREAD_STATE_WAITING',['../OS_8h.html#aef58f65cd16d052b435577ccc378478f',1,'OS.h']]]
+  ['letter_5finfo_5fbit_99483',['LETTER_INFO_BIT',['../d__save_8h.html#a54347ceb85ca9ecbaad8b3f42bcca65a',1,'d_save.h']]],
+  ['light_5fdrop_5fstage_99484',['LIGHT_DROP_STAGE',['../d__save_8h.html#ab33908adcf0731110db7e2c429a5693f',1,'d_save.h']]],
+  ['logf_99485',['LOGF',['../global_8h.html#a81d5f6c32dcf2185fe6cac2f3e2e4f7b',1,'global.h']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: include/f/f_pc/f_pc_profile.h Source File</title>
+<title>Twilight Princess: include/f_pc/f_pc_profile.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_33eed416d00e84841337708fc7e11b48.html">f</a></li><li class="navelem"><a class="el" href="dir_240ab0ee7b26e6185d01a5528f19cc96.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_14c28d3bb977da9b21a3aa2d366ba228.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -81,8 +81,8 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef F_PC_PROFILE_H_</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#define F_PC_PROFILE_H_</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="f__pc__method_8h.html">f/f_pc/f_pc_method.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="global_8h.html">global.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">dolphin/types.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="f__pc__method_8h.html">f_pc/f_pc_method.h</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">struct </span><a class="code" href="structnodedraw__method__class.html">nodedraw_method_class</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
@@ -100,13 +100,15 @@ $(function() {
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="structprocess__profile__definition.html">process_profile_definition</a>* <a class="code" href="f__pc__profile_8h.html#ab7e4c9b51e91f4a991eec2138bd43b6b">fpcPf_Get</a>(<a class="code" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> profileID);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">extern</span> <a class="code" href="structprocess__profile__definition.html">process_profile_definition</a>** <a class="code" href="f__pc__profile_8h.html#ae935259d9e2402ab1941c4f695b7d3e0">g_fpcPf_ProfileList_p</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="af__pc__method_8h_html"><div class="ttname"><a href="f__pc__method_8h.html">f_pc_method.h</a></div></div>
 <div class="ttc" id="af__pc__profile_8h_html_a3bf87d720828244bd2fdb4f39f39598b"><div class="ttname"><a href="f__pc__profile_8h.html#a3bf87d720828244bd2fdb4f39f39598b">process_profile_definition</a></div><div class="ttdeci">struct process_profile_definition process_profile_definition</div></div>
-<div class="ttc" id="af__pc__profile_8h_html_ab7e4c9b51e91f4a991eec2138bd43b6b"><div class="ttname"><a href="f__pc__profile_8h.html#ab7e4c9b51e91f4a991eec2138bd43b6b">fpcPf_Get</a></div><div class="ttdeci">process_profile_definition * fpcPf_Get(s16 profileID)</div><div class="ttdef"><b>Definition:</b> f_pc_profile.cpp:7</div></div>
-<div class="ttc" id="aglobal_8h_html"><div class="ttname"><a href="global_8h.html">global.h</a></div></div>
+<div class="ttc" id="af__pc__profile_8h_html_ab7e4c9b51e91f4a991eec2138bd43b6b"><div class="ttname"><a href="f__pc__profile_8h.html#ab7e4c9b51e91f4a991eec2138bd43b6b">fpcPf_Get</a></div><div class="ttdeci">process_profile_definition * fpcPf_Get(s16 profileID)</div><div class="ttdef"><b>Definition:</b> f_pc_profile.cpp:15</div></div>
+<div class="ttc" id="af__pc__profile_8h_html_ae935259d9e2402ab1941c4f695b7d3e0"><div class="ttname"><a href="f__pc__profile_8h.html#ae935259d9e2402ab1941c4f695b7d3e0">g_fpcPf_ProfileList_p</a></div><div class="ttdeci">process_profile_definition ** g_fpcPf_ProfileList_p</div><div class="ttdef"><b>Definition:</b> f_pc_profile.cpp:12</div></div>
 <div class="ttc" id="astructnodedraw__method__class_html"><div class="ttname"><a href="structnodedraw__method__class.html">nodedraw_method_class</a></div><div class="ttdef"><b>Definition:</b> f_pc_node.h:9</div></div>
-<div class="ttc" id="astructprocess__method__class_html"><div class="ttname"><a href="structprocess__method__class.html">process_method_class</a></div><div class="ttdef"><b>Definition:</b> f_pc_method.h:9</div></div>
+<div class="ttc" id="astructprocess__method__class_html"><div class="ttname"><a href="structprocess__method__class.html">process_method_class</a></div><div class="ttdef"><b>Definition:</b> f_op_kankyo.cpp:14</div></div>
 <div class="ttc" id="astructprocess__profile__definition_html"><div class="ttname"><a href="structprocess__profile__definition.html">process_profile_definition</a></div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:10</div></div>
 <div class="ttc" id="astructprocess__profile__definition_html_a01976179fa7f529732ce4ed1d6278f5d"><div class="ttname"><a href="structprocess__profile__definition.html#a01976179fa7f529732ce4ed1d6278f5d">process_profile_definition::mListPrio</a></div><div class="ttdeci">u16 mListPrio</div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:13</div></div>
 <div class="ttc" id="astructprocess__profile__definition_html_a01ece79728aaa445186407061f096486"><div class="ttname"><a href="structprocess__profile__definition.html#a01ece79728aaa445186407061f096486">process_profile_definition::mSize</a></div><div class="ttdeci">s32 mSize</div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:17</div></div>
@@ -117,6 +119,7 @@ $(function() {
 <div class="ttc" id="astructprocess__profile__definition_html_a783d6f9a378bc1abb8bd7f8e9245fdc7"><div class="ttname"><a href="structprocess__profile__definition.html#a783d6f9a378bc1abb8bd7f8e9245fdc7">process_profile_definition::mParameters</a></div><div class="ttdeci">s32 mParameters</div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:19</div></div>
 <div class="ttc" id="astructprocess__profile__definition_html_ad56ebc9be329f0c386af293273f1b6f5"><div class="ttname"><a href="structprocess__profile__definition.html#ad56ebc9be329f0c386af293273f1b6f5">process_profile_definition::mSizeOther</a></div><div class="ttdeci">s32 mSizeOther</div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:18</div></div>
 <div class="ttc" id="astructprocess__profile__definition_html_af8050636d43471c19780d0560266fd85"><div class="ttname"><a href="structprocess__profile__definition.html#af8050636d43471c19780d0560266fd85">process_profile_definition::mListID</a></div><div class="ttdeci">u16 mListID</div><div class="ttdef"><b>Definition:</b> f_pc_profile.h:12</div></div>
+<div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
 <div class="ttc" id="atypes_8h_html_a5ffa4f640862b25ba6d4f635b78bdbe1"><div class="ttname"><a href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a></div><div class="ttdeci">signed short s16</div><div class="ttdef"><b>Definition:</b> types.h:5</div></div>
 <div class="ttc" id="atypes_8h_html_a9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition:</b> types.h:9</div></div>
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition:</b> types.h:6</div></div>

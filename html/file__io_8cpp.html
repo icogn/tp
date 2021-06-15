@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: libs/MSL/MSL_C/MSL_Common/Src/file_io.cpp File Reference</title>
+<title>Twilight Princess: libs/MSL_C.PPCEABI.bare.H/MSL_Common/Src/file_io.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,14 +69,197 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_c490545d9b7ed98a950181fb612f8a42.html">MSL</a></li><li class="navelem"><a class="el" href="dir_9e2091b9d66bd1caa6bbc40d5003424b.html">MSL_C</a></li><li class="navelem"><a class="el" href="dir_4da7750deace7eeca56b22502f59cfa1.html">MSL_Common</a></li><li class="navelem"><a class="el" href="dir_4ba5678ad70f13897bbe164e5fa87612.html">Src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_aa3d6775a0d603c6e132443b98e78746.html">MSL_C.PPCEABI.bare.H</a></li><li class="navelem"><a class="el" href="dir_52736620adcfe3dd2628a2e7bddc7aec.html">MSL_Common</a></li><li class="navelem"><a class="el" href="dir_9fd32d1927a6d13e4b87431f0eb3ea12.html">Src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">file_io.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="file__io_8h_source.html">MSL_C.PPCEABI.bare.H/MSL_Common/Src/file_io.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;asm/MSL_C.PPCEABI.bare.H/MSL_Common/Src/file_io/__msl_strnicmp.s&quot;</code><br />
+<code>#include &quot;asm/MSL_C.PPCEABI.bare.H/MSL_Common/Src/file_io/fflush.s&quot;</code><br />
+<code>#include &quot;asm/MSL_C.PPCEABI.bare.H/MSL_Common/Src/file_io/fclose.s&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for file_io.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="file__io_8cpp__incl.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6c205a37dde99261448b9c41a8c24ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a6c205a37dde99261448b9c41a8c24ce1">__msl_strnicmp</a> ()</td></tr>
+<tr class="separator:a6c205a37dde99261448b9c41a8c24ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168eb08c9d3f9864a0d4a9b838a0c491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a168eb08c9d3f9864a0d4a9b838a0c491">fflush</a> ()</td></tr>
+<tr class="separator:a168eb08c9d3f9864a0d4a9b838a0c491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa7367efa074bd2eed53a2dab705601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a1fa7367efa074bd2eed53a2dab705601">fclose</a> ()</td></tr>
+<tr class="separator:a1fa7367efa074bd2eed53a2dab705601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafde19f7d36ca163a143579c1b125b6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#aafde19f7d36ca163a143579c1b125b6d">free</a> ()</td></tr>
+<tr class="separator:aafde19f7d36ca163a143579c1b125b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a590d15c4998a81fd164c2ec71e1c93d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a590d15c4998a81fd164c2ec71e1c93d8">__flush_all</a> ()</td></tr>
+<tr class="separator:a590d15c4998a81fd164c2ec71e1c93d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895556147b511327245a3d4429c219be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a895556147b511327245a3d4429c219be">__flush_buffer</a> ()</td></tr>
+<tr class="separator:a895556147b511327245a3d4429c219be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2121fbc4e1aa25d409f48544b4da7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a3f2121fbc4e1aa25d409f48544b4da7a">ftell</a> ()</td></tr>
+<tr class="separator:a3f2121fbc4e1aa25d409f48544b4da7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a72f3f8281cb4cb05d32007ce107cc45f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__io_8cpp.html#a72f3f8281cb4cb05d32007ce107cc45f">__lower_map</a> [256]</td></tr>
+<tr class="separator:a72f3f8281cb4cb05d32007ce107cc45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a590d15c4998a81fd164c2ec71e1c93d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a590d15c4998a81fd164c2ec71e1c93d8">&#9670;&nbsp;</a></span>__flush_all()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __flush_all </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a895556147b511327245a3d4429c219be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a895556147b511327245a3d4429c219be">&#9670;&nbsp;</a></span>__flush_buffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __flush_buffer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c205a37dde99261448b9c41a8c24ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c205a37dde99261448b9c41a8c24ce1">&#9670;&nbsp;</a></span>__msl_strnicmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __msl_strnicmp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fa7367efa074bd2eed53a2dab705601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa7367efa074bd2eed53a2dab705601">&#9670;&nbsp;</a></span>fclose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fclose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a168eb08c9d3f9864a0d4a9b838a0c491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168eb08c9d3f9864a0d4a9b838a0c491">&#9670;&nbsp;</a></span>fflush()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fflush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafde19f7d36ca163a143579c1b125b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafde19f7d36ca163a143579c1b125b6d">&#9670;&nbsp;</a></span>free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f2121fbc4e1aa25d409f48544b4da7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f2121fbc4e1aa25d409f48544b4da7a">&#9670;&nbsp;</a></span>ftell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm void ftell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a72f3f8281cb4cb05d32007ce107cc45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72f3f8281cb4cb05d32007ce107cc45f">&#9670;&nbsp;</a></span>__lower_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> __lower_map[256]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

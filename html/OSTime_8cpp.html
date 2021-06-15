@@ -73,10 +73,296 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">OSTime.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="OSTime_8h_source.html">dolphin/os/OSTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;asm/dolphin/os/OSTime/OSGetTime.s&quot;</code><br />
+<code>#include &quot;asm/dolphin/os/OSTime/__OSGetSystemTime.s&quot;</code><br />
+<code>#include &quot;asm/dolphin/os/OSTime/__OSTimeToSystemTime.s&quot;</code><br />
+<code>#include &quot;asm/dolphin/os/OSTime/GetDates.s&quot;</code><br />
+<code>#include &quot;asm/dolphin/os/OSTime/OSTicksToCalendarTime.s&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for OSTime.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="OSTime_8cpp__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad3a3da27911d7fc3f4f08506ac539ea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#ad3a3da27911d7fc3f4f08506ac539ea3">OSGetTime</a> ()</td></tr>
+<tr class="separator:ad3a3da27911d7fc3f4f08506ac539ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5396361b271662929897def7eed6de62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a5396361b271662929897def7eed6de62">OSGetTick</a> ()</td></tr>
+<tr class="separator:a5396361b271662929897def7eed6de62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab291114d2ce5fe2988a979db7b11f85c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#ab291114d2ce5fe2988a979db7b11f85c">__OSGetSystemTime</a> ()</td></tr>
+<tr class="separator:ab291114d2ce5fe2988a979db7b11f85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd5444f9ec695ca4a8aa762f354f7e0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#afd5444f9ec695ca4a8aa762f354f7e0f">__OSTimeToSystemTime</a> ()</td></tr>
+<tr class="separator:afd5444f9ec695ca4a8aa762f354f7e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66222bc9bebc59c86fe1de88486fdac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#ad66222bc9bebc59c86fe1de88486fdac">GetDates</a> ()</td></tr>
+<tr class="separator:ad66222bc9bebc59c86fe1de88486fdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a010ff7f8de64888213bca39888b1f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a5a010ff7f8de64888213bca39888b1f7">OSTicksToCalendarTime</a> ()</td></tr>
+<tr class="separator:a5a010ff7f8de64888213bca39888b1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a65b7dd4c9756f26d16dcf8f0dedb07bf">OSDisableInterrupts</a> ()</td></tr>
+<tr class="separator:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a14b5cc2befa83d8710fba14f4de14fd9">OSRestoreInterrupts</a> ()</td></tr>
+<tr class="separator:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1046e3742f7a74b930cd76bd54949702"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a1046e3742f7a74b930cd76bd54949702">__div2i</a> ()</td></tr>
+<tr class="separator:a1046e3742f7a74b930cd76bd54949702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec84838f38c5256f5da92edbecc7fa90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#aec84838f38c5256f5da92edbecc7fa90">__mod2i</a> ()</td></tr>
+<tr class="separator:aec84838f38c5256f5da92edbecc7fa90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae66bcadd365b0f12c4e3accd408e10e3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#ae66bcadd365b0f12c4e3accd408e10e3">YearDays</a> [48]</td></tr>
+<tr class="separator:ae66bcadd365b0f12c4e3accd408e10e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35739771bf996037bbd3b680e0ac4336"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8cpp.html#a35739771bf996037bbd3b680e0ac4336">LeapYearDays</a> [48]</td></tr>
+<tr class="separator:a35739771bf996037bbd3b680e0ac4336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1046e3742f7a74b930cd76bd54949702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1046e3742f7a74b930cd76bd54949702">&#9670;&nbsp;</a></span>__div2i()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __div2i </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec84838f38c5256f5da92edbecc7fa90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec84838f38c5256f5da92edbecc7fa90">&#9670;&nbsp;</a></span>__mod2i()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __mod2i </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab291114d2ce5fe2988a979db7b11f85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab291114d2ce5fe2988a979db7b11f85c">&#9670;&nbsp;</a></span>__OSGetSystemTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __OSGetSystemTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd5444f9ec695ca4a8aa762f354f7e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd5444f9ec695ca4a8aa762f354f7e0f">&#9670;&nbsp;</a></span>__OSTimeToSystemTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __OSTimeToSystemTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad66222bc9bebc59c86fe1de88486fdac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66222bc9bebc59c86fe1de88486fdac">&#9670;&nbsp;</a></span>GetDates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static asm void GetDates </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b7dd4c9756f26d16dcf8f0dedb07bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b7dd4c9756f26d16dcf8f0dedb07bf">&#9670;&nbsp;</a></span>OSDisableInterrupts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSDisableInterrupts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5396361b271662929897def7eed6de62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5396361b271662929897def7eed6de62">&#9670;&nbsp;</a></span>OSGetTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSGetTick </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3a3da27911d7fc3f4f08506ac539ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a3da27911d7fc3f4f08506ac539ea3">&#9670;&nbsp;</a></span>OSGetTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSGetTime </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14b5cc2befa83d8710fba14f4de14fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b5cc2befa83d8710fba14f4de14fd9">&#9670;&nbsp;</a></span>OSRestoreInterrupts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSRestoreInterrupts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a010ff7f8de64888213bca39888b1f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a010ff7f8de64888213bca39888b1f7">&#9670;&nbsp;</a></span>OSTicksToCalendarTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSTicksToCalendarTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a35739771bf996037bbd3b680e0ac4336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35739771bf996037bbd3b680e0ac4336">&#9670;&nbsp;</a></span>LeapYearDays</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> LeapYearDays[48]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x3C, 0x00, 0x00, 0x00, 0x5B,</div>
+<div class="line">    0x00, 0x00, 0x00, 0x79, 0x00, 0x00, 0x00, 0x98, 0x00, 0x00, 0x00, 0xB6, 0x00, 0x00, 0x00, 0xD5,</div>
+<div class="line">    0x00, 0x00, 0x00, 0xF4, 0x00, 0x00, 0x01, 0x12, 0x00, 0x00, 0x01, 0x31, 0x00, 0x00, 0x01, 0x4F,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae66bcadd365b0f12c4e3accd408e10e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66bcadd365b0f12c4e3accd408e10e3">&#9670;&nbsp;</a></span>YearDays</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> YearDays[48]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x3B, 0x00, 0x00, 0x00, 0x5A,</div>
+<div class="line">    0x00, 0x00, 0x00, 0x78, 0x00, 0x00, 0x00, 0x97, 0x00, 0x00, 0x00, 0xB5, 0x00, 0x00, 0x00, 0xD4,</div>
+<div class="line">    0x00, 0x00, 0x00, 0xF3, 0x00, 0x00, 0x01, 0x11, 0x00, 0x00, 0x01, 0x30, 0x00, 0x00, 0x01, 0x4E,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

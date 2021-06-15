@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_pc/f_pc_leaf.cpp File Reference</title>
+<title>Twilight Princess: src/f_pc/f_pc_leaf.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_89dee0e9ccaa7c098b3a159a2ece8505.html">f_pc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_15a1977171855e2c8b0c1e68c97c2b83.html">f_pc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,7 +80,8 @@ $(function() {
 <div class="title">f_pc_leaf.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__leaf_8h_source.html">f/f_pc/f_pc_leaf.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__pc__leaf_8h_source.html">f_pc/f_pc_leaf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_leaf.cpp:</div>
@@ -110,8 +111,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a793f472bfba2795186297b901290e2eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__leaf_8cpp.html#a793f472bfba2795186297b901290e2eb">lbl_80450D30</a></td></tr>
-<tr class="separator:a793f472bfba2795186297b901290e2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57061483239ff5c94f0e05332e76d5d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__leaf_8cpp.html#a57061483239ff5c94f0e05332e76d5d0">g_fpcLf_type</a></td></tr>
+<tr class="separator:a57061483239ff5c94f0e05332e76d5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2574d10ba20093312ea0a770ce1fb13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structleafdraw__method__class.html">leafdraw_method_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__pc__leaf_8cpp.html#aa2574d10ba20093312ea0a770ce1fb13">g_fpcLf_Method</a></td></tr>
+<tr class="separator:aa2574d10ba20093312ea0a770ce1fb13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a96385376d96fe956f30d24fccc10ba2c"></a>
@@ -251,24 +254,41 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a793f472bfba2795186297b901290e2eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793f472bfba2795186297b901290e2eb">&#9670;&nbsp;</a></span>lbl_80450D30</h2>
+<a id="aa2574d10ba20093312ea0a770ce1fb13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2574d10ba20093312ea0a770ce1fb13">&#9670;&nbsp;</a></span>g_fpcLf_Method</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int lbl_80450D30</td>
+          <td class="memname"><a class="el" href="structleafdraw__method__class.html">leafdraw_method_class</a> g_fpcLf_Method</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__leaf_8cpp.html#a96385376d96fe956f30d24fccc10ba2c">fpcLf_Create</a>,  (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__leaf_8cpp.html#a125be3608bfecd2d78ea411e2b14c0d1">fpcLf_Delete</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__leaf_8cpp.html#ad035e7ae0fbf96c650f8a0c47a4058fe">fpcLf_Execute</a>, (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__leaf_8cpp.html#ac431f184444af3f09c5f4d4c321a8dc2">fpcLf_IsDelete</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__pc__leaf_8cpp.html#a023c1d081cab23a9aa16afa5303aa135">fpcLf_Draw</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="af__pc__leaf_8cpp_html_a023c1d081cab23a9aa16afa5303aa135"><div class="ttname"><a href="f__pc__leaf_8cpp.html#a023c1d081cab23a9aa16afa5303aa135">fpcLf_Draw</a></div><div class="ttdeci">s32 fpcLf_Draw(leafdraw_class *pLeaf)</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:26</div></div>
+<div class="ttc" id="af__pc__leaf_8cpp_html_a125be3608bfecd2d78ea411e2b14c0d1"><div class="ttname"><a href="f__pc__leaf_8cpp.html#a125be3608bfecd2d78ea411e2b14c0d1">fpcLf_Delete</a></div><div class="ttdeci">s32 fpcLf_Delete(leafdraw_class *pLeaf)</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:44</div></div>
+<div class="ttc" id="af__pc__leaf_8cpp_html_a96385376d96fe956f30d24fccc10ba2c"><div class="ttname"><a href="f__pc__leaf_8cpp.html#a96385376d96fe956f30d24fccc10ba2c">fpcLf_Create</a></div><div class="ttdeci">s32 fpcLf_Create(leafdraw_class *pLeaf)</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:57</div></div>
+<div class="ttc" id="af__pc__leaf_8cpp_html_ac431f184444af3f09c5f4d4c321a8dc2"><div class="ttname"><a href="f__pc__leaf_8cpp.html#ac431f184444af3f09c5f4d4c321a8dc2">fpcLf_IsDelete</a></div><div class="ttdeci">s32 fpcLf_IsDelete(leafdraw_class *pLeaf)</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:39</div></div>
+<div class="ttc" id="af__pc__leaf_8cpp_html_ad035e7ae0fbf96c650f8a0c47a4058fe"><div class="ttname"><a href="f__pc__leaf_8cpp.html#ad035e7ae0fbf96c650f8a0c47a4058fe">fpcLf_Execute</a></div><div class="ttdeci">s32 fpcLf_Execute(leafdraw_class *pLeaf)</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:34</div></div>
+<div class="ttc" id="af__pc__method_8h_html_a56bd92368b7dda361388b2d13df2e4ac"><div class="ttname"><a href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a></div><div class="ttdeci">int(* process_method_func)(void *)</div><div class="ttdef"><b>Definition:</b> f_pc_method.h:7</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a57061483239ff5c94f0e05332e76d5d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57061483239ff5c94f0e05332e76d5d0">&#9670;&nbsp;</a></span>g_fpcLf_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int g_fpcLf_type</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

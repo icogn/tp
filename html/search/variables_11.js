@@ -1,24 +1,10 @@
 var searchData=
 [
-  ['r_33756',['r',['../structGXColorS10.html#a71a6832582b42363b45182dc0d88101c',1,'GXColorS10::r()'],['../structTColor.html#ada9bdb3ffb606ad92c0dd76bf95ddd81',1,'TColor::r()'],['../struct__GXColor.html#af4723bcb80b74798ce9b54a83b18410f',1,'_GXColor::r()']]],
-  ['range_5f_33757',['range_',['../structJStudio_1_1TFunctionValueAttributeSet__const.html#ad630faf3b5aaff087785d0a171330757',1,'JStudio::TFunctionValueAttributeSet_const']]],
-  ['raw_33758',['raw',['../structJGadget_1_1binary_1_1TParseData.html#ad20f34bba43116602826f17857a0ea32',1,'JGadget::binary::TParseData']]],
-  ['rawdata_33759',['rawData',['../structJStudio_1_1TFunctionValue__composite_1_1TData.html#a5e2b3292c3275af0fbf70fddd2155baa',1,'JStudio::TFunctionValue_composite::TData']]],
-  ['read_5ffn_33760',['read_fn',['../structFILE.html#a24c927c45f740ea09c1632c9c2a3d605',1,'FILE']]],
-  ['receiving_5fqueue_33761',['receiving_queue',['../structOSMessageQueue.html#a709e345b5b9bdc803d91e8ec429454fb',1,'OSMessageQueue']]],
-  ['refer_5f_33762',['refer_',['../structJStudio_1_1TFunctionValueAttributeSet__const.html#a447d8bca04e566a10c3fd3f10195e3ff',1,'JStudio::TFunctionValueAttributeSet_const']]],
-  ['render_5fobject_33763',['render_object',['../structJUTVideo.html#a0d24815d789165c35bfb1a48cbbf3ba7',1,'JUTVideo']]],
-  ['res_33764',['res',['../structJUTResReference.html#a2d75a0be7d7006644c5f89f94610ff01',1,'JUTResReference']]],
-  ['reserve_33765',['reserve',['../classdSv__save__c.html#a38b887bd2e2a6a271cfbd516bc09e9e5',1,'dSv_save_c']]],
-  ['reset_5fflag_33766',['reset_flag',['../structJUTGamePad.html#a57f9e3af0968575f327c54bd0e5ab413',1,'JUTGamePad']]],
-  ['reset_5ftime_33767',['reset_time',['../structJUTGamePad.html#a31409663ea7e088624473e39ecf3fd58',1,'JUTGamePad']]],
-  ['resource_5finfo1_33768',['resource_info1',['../classdComIfG__inf__c.html#ac817d9231c9c2f392b1a14d148c859af',1,'dComIfG_inf_c']]],
-  ['resource_5finfo2_33769',['resource_info2',['../classdComIfG__inf__c.html#a887e571df05d6ae01ba756fc65778691',1,'dComIfG_inf_c']]],
-  ['restart_33770',['restart',['../classdSv__info__c.html#a2b6a7b8fab342134a5c983832ac4a85c',1,'dSv_info_c']]],
-  ['retrace_5fcount_33771',['retrace_count',['../structJUTVideo.html#ab45a130328b24ae64aa4e63618605a74',1,'JUTVideo']]],
-  ['room_5fitem_33772',['room_item',['../classdSv__zoneBit__c.html#a58b46caeb231ded6f7b4414cd9712698',1,'dSv_zoneBit_c']]],
-  ['room_5fswitch_33773',['room_switch',['../classdSv__zoneBit__c.html#a4d39bb6addd5a847eb1a3b038fa6586b',1,'dSv_zoneBit_c']]],
-  ['roomnum_33774',['roomNum',['../classZ2SceneMgr.html#a0f8148656173794e492dfa51d45c9b51',1,'Z2SceneMgr']]],
-  ['rumble_33775',['rumble',['../structJUTGamePad.html#a675effa949f62dd9c43435a3acbd807b',1,'JUTGamePad']]],
-  ['rupee_5fflags_5fbitfields_33776',['rupee_flags_bitfields',['../classdSv__memBit__c.html#a3ee838916be374d44908eded8bc4c077',1,'dSv_memBit_c']]]
+  ['qmtx_90314',['qMtx',['../J3DShapeMtx_8cpp.html#a957291c7c66282cae2a193e01684652d',1,'J3DShapeMtx.cpp']]],
+  ['qmtx2_90315',['qMtx2',['../J3DShapeMtx_8cpp.html#a7361dd85920d4ad294be322517106fb9',1,'J3DShapeMtx.cpp']]],
+  ['qmtx2_5f1002_90316',['qMtx2_1002',['../J3DTevs_8cpp.html#a7c61fbeb20dba04ca6fa7e96079f35a4',1,'J3DTevs.cpp']]],
+  ['qmtx2_5f1064_90317',['qMtx2_1064',['../J3DTevs_8cpp.html#af379d99e2cf45d7c147e12ceb8f04fdd',1,'J3DTevs.cpp']]],
+  ['qmtx_5f1001_90318',['qMtx_1001',['../J3DTevs_8cpp.html#abaac21089557e319e4ec3154b51c8571',1,'J3DTevs.cpp']]],
+  ['qmtx_5f1063_90319',['qMtx_1063',['../J3DTevs_8cpp.html#abc32bcbcb3cd9856d458276ca1df2a02',1,'J3DTevs.cpp']]],
+  ['queue_90320',['queue',['../structOSCond.html#a986524709ca06b35e274c15ee0fd129b',1,'OSCond::queue()'],['../structOSThread.html#ad4db9ecdbeb784a78a7d6abf52f1ff57',1,'OSThread::queue()'],['../f__pc__manager_8cpp.html#a73b5e8250c6bfb2e8fb034569229b3ca',1,'queue():&#160;f_pc_manager.cpp']]]
 ];

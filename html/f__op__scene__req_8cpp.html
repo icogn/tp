@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: src/f/f_op/f_op_scene_req.cpp File Reference</title>
+<title>Twilight Princess: src/f_op/f_op_scene_req.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_34ef17d041e5fba4773aca5ba7fe9b34.html">f</a></li><li class="navelem"><a class="el" href="dir_78d979f70e66f5399b8b2e33e5bfc8e1.html">f_op</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1067c0d41a0230984cbcba896d5e4c43.html">f_op</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,11 +80,11 @@ $(function() {
 <div class="title">f_op_scene_req.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="f__op__scene__req_8h_source.html">f/f_op/f_op_scene_req.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__op__overlap__mng_8h_source.html">f/f_op/f_op_overlap_mng.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__pc__executor_8h_source.html">f/f_pc/f_pc_executor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;f/f_op/f_op_scene_req/asm/func_8001F034.s&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="f__op__scene__req_8h_source.html">f_op/f_op_scene_req.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__op__overlap__mng_8h_source.html">f_op/f_op_overlap_mng.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__pc__executor_8h_source.html">f_pc/f_pc_executor.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_op_scene_req.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -96,34 +96,26 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aad421ea0ea51449f8793684b7e636c01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#aad421ea0ea51449f8793684b7e636c01">cPhs_Set__FP30request_of_phase_process_classPPFPv_i</a> (void)</td></tr>
-<tr class="separator:aad421ea0ea51449f8793684b7e636c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b1458c9f81c4f236bdc568ac7e8a1ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a6b1458c9f81c4f236bdc568ac7e8a1ef">fpcNdRq_Delete__FP19node_create_request</a> (void)</td></tr>
-<tr class="separator:a6b1458c9f81c4f236bdc568ac7e8a1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64fcd4e20b2aa3f88e975158b67ceb1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a64fcd4e20b2aa3f88e975158b67ceb1e">fopScnRq_FadeRequest__FsUs</a> (void)</td></tr>
-<tr class="separator:a64fcd4e20b2aa3f88e975158b67ceb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41ca293266b68d537d4f9c6f091b8c59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a41ca293266b68d537d4f9c6f091b8c59">fpcNdRq_Request__FUliP18process_node_classsPvP32node_create_request_method_class</a> (void)</td></tr>
-<tr class="separator:a41ca293266b68d537d4f9c6f091b8c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277482f0e16fa0766990d5097531d60b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a277482f0e16fa0766990d5097531d60b">fopScnRq_phase_ClearOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a277482f0e16fa0766990d5097531d60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad608127cc42ed16cf7428a5df4dffa56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#ad608127cc42ed16cf7428a5df4dffa56">fopScnRq_phase_Execute</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:ad608127cc42ed16cf7428a5df4dffa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4986dec18328c0a79e9f72fa178b88e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a4986dec18328c0a79e9f72fa178b88e7">fopScnRq_phase_IsDoingOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a4986dec18328c0a79e9f72fa178b88e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd57d2759e6a8ef26eecd313ed06906"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a4bd57d2759e6a8ef26eecd313ed06906">fopScnRq_phase_IsDoneOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a4bd57d2759e6a8ef26eecd313ed06906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e0aa7dfbaeff9e9a5878342a18378e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a28e0aa7dfbaeff9e9a5878342a18378e">fopScnRq_phase_Done</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a28e0aa7dfbaeff9e9a5878342a18378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fb5989a1e7628adb7c903197f060072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a8fb5989a1e7628adb7c903197f060072">fopScnRq_Execute</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a8fb5989a1e7628adb7c903197f060072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4dbdd01aa333971c9bde2756cbbdfc4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#ac4dbdd01aa333971c9bde2756cbbdfc4">fopScnRq_PostMethod</a> (void *param_1, <a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:ac4dbdd01aa333971c9bde2756cbbdfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a535a22d25da8bdd21aeb1c60ca9b7094"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a535a22d25da8bdd21aeb1c60ca9b7094">fopScnRq_Cancel</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
-<tr class="separator:a535a22d25da8bdd21aeb1c60ca9b7094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9c36d051c8d40aec274dea4a1fca953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#aa9c36d051c8d40aec274dea4a1fca953">fopScnRq_FadeRequest</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_1, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_2)</td></tr>
-<tr class="separator:aa9c36d051c8d40aec274dea4a1fca953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2438aac0102e47971bfb80b5ad58c78c"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a2438aac0102e47971bfb80b5ad58c78c">fopScnRq_Request</a> (int, <a class="el" href="classscene__class.html">scene_class</a> *, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>, void *, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)</td></tr>
-<tr class="separator:a2438aac0102e47971bfb80b5ad58c78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57191d298d3ea90c087e5b22488f3f4d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a57191d298d3ea90c087e5b22488f3f4d">fopScnRq_phase_ClearOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *param_0)</td></tr>
+<tr class="separator:a57191d298d3ea90c087e5b22488f3f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538200b5e2c46148e7dfeb9095ae347e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a538200b5e2c46148e7dfeb9095ae347e">fopScnRq_phase_Execute</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *param_0)</td></tr>
+<tr class="separator:a538200b5e2c46148e7dfeb9095ae347e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6212a2484e986735969396fb99e9d8df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a6212a2484e986735969396fb99e9d8df">fopScnRq_phase_IsDoingOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *param_0)</td></tr>
+<tr class="separator:a6212a2484e986735969396fb99e9d8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d471e0c298adf85879d505bf6c080c5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a9d471e0c298adf85879d505bf6c080c5">fopScnRq_phase_IsDoneOverlap</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *param_0)</td></tr>
+<tr class="separator:a9d471e0c298adf85879d505bf6c080c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0a04adb0557703c797f6290baa7fef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a1e0a04adb0557703c797f6290baa7fef">fopScnRq_phase_Done</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
+<tr class="separator:a1e0a04adb0557703c797f6290baa7fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988d5259968cfefb7e1a52650cd46e46"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a988d5259968cfefb7e1a52650cd46e46">fopScnRq_Execute</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
+<tr class="separator:a988d5259968cfefb7e1a52650cd46e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858a7a39666d2e5d3138bebdf4608cb6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a858a7a39666d2e5d3138bebdf4608cb6">fopScnRq_PostMethod</a> (void *param_1, <a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
+<tr class="separator:a858a7a39666d2e5d3138bebdf4608cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16c4429aa794e592e3650556107f5b0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#af16c4429aa794e592e3650556107f5b0">fopScnRq_Cancel</a> (<a class="el" href="classscene__request__class.html">scene_request_class</a> *pScnRq)</td></tr>
+<tr class="separator:af16c4429aa794e592e3650556107f5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7b42085fa5e8d3b4a9c2dd862faa15"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a9d7b42085fa5e8d3b4a9c2dd862faa15">fopScnRq_FadeRequest</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_1, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_2)</td></tr>
+<tr class="separator:a9d7b42085fa5e8d3b4a9c2dd862faa15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5404cbe3b2436a896fbcb41b6727a459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a5404cbe3b2436a896fbcb41b6727a459">fopScnRq_Request</a> (int param_1, <a class="el" href="structscene__class.html">scene_class</a> *param_2, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_3, void *param_4, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_5, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_6)</td></tr>
+<tr class="separator:a5404cbe3b2436a896fbcb41b6727a459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac355f248554668fcdaba52a684f379b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#ac355f248554668fcdaba52a684f379b4">fopScnRq_ReRequest</a> (unsigned int param_1, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_2, void *param_3)</td></tr>
 <tr class="separator:ac355f248554668fcdaba52a684f379b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61dd1039004c3497b034f37884b05e63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a61dd1039004c3497b034f37884b05e63">fopScnRq_Handler</a> (void)</td></tr>
@@ -131,78 +123,79 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0cf240e5e0e60ac39e6c2af5dbe1d9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode__create__request__method__class.html">node_create_request_method_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a0cf240e5e0e60ac39e6c2af5dbe1d9e6">submethod</a> [4]</td></tr>
-<tr class="separator:a0cf240e5e0e60ac39e6c2af5dbe1d9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b96cd3ad1efa15ad56845028525462"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrequest__of__phase__process__class.html">request_of_phase_process_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a89b96cd3ad1efa15ad56845028525462">noFadeFase</a> [8]</td></tr>
-<tr class="separator:a89b96cd3ad1efa15ad56845028525462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797fe944ddc8b29ed4cfb0569c53259b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrequest__of__phase__process__class.html">request_of_phase_process_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a797fe944ddc8b29ed4cfb0569c53259b">fadeFase</a> [8]</td></tr>
-<tr class="separator:a797fe944ddc8b29ed4cfb0569c53259b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc86d8fd39f7b7537fdd49cf59389bf9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#abc86d8fd39f7b7537fdd49cf59389bf9">l_fopScnRq_IsUsingOfOverlap</a></td></tr>
-<tr class="separator:abc86d8fd39f7b7537fdd49cf59389bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f005e066faab8890665e70c953332c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#af9f005e066faab8890665e70c953332c">l_fopScnRq_IsUsingOfOverlap</a></td></tr>
+<tr class="separator:af9f005e066faab8890665e70c953332c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c1f10075fbbbcad3c76a3dd3172292"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structnode__create__request__method__class.html">node_create_request_method_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a86c1f10075fbbbcad3c76a3dd3172292">submethod</a></td></tr>
+<tr class="separator:a86c1f10075fbbbcad3c76a3dd3172292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c509e248208eaa257c71d1fb920352"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#ad3c509e248208eaa257c71d1fb920352">noFadeFase</a> [8]</td></tr>
+<tr class="separator:ad3c509e248208eaa257c71d1fb920352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ffefba1e94858122a8cd3f6c31cd526"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__scene__req_8cpp.html#a9ffefba1e94858122a8cd3f6c31cd526">fadeFase</a> [8]</td></tr>
+<tr class="separator:a9ffefba1e94858122a8cd3f6c31cd526"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aad421ea0ea51449f8793684b7e636c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad421ea0ea51449f8793684b7e636c01">&#9670;&nbsp;</a></span>cPhs_Set__FP30request_of_phase_process_classPPFPv_i()</h2>
+<a id="af16c4429aa794e592e3650556107f5b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16c4429aa794e592e3650556107f5b0">&#9670;&nbsp;</a></span>fopScnRq_Cancel()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void cPhs_Set__FP30request_of_phase_process_classPPFPv_i </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a535a22d25da8bdd21aeb1c60ca9b7094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a535a22d25da8bdd21aeb1c60ca9b7094">&#9670;&nbsp;</a></span>fopScnRq_Cancel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fopScnRq_Cancel </td>
+          <td class="memname">static int fopScnRq_Cancel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
           <td class="paramname"><em>pScnRq</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8fb5989a1e7628adb7c903197f060072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fb5989a1e7628adb7c903197f060072">&#9670;&nbsp;</a></span>fopScnRq_Execute()</h2>
+<a id="a988d5259968cfefb7e1a52650cd46e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988d5259968cfefb7e1a52650cd46e46">&#9670;&nbsp;</a></span>fopScnRq_Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void fopScnRq_Execute </td>
+          <td class="memname">static void fopScnRq_Execute </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
           <td class="paramname"><em>pScnRq</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa9c36d051c8d40aec274dea4a1fca953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9c36d051c8d40aec274dea4a1fca953">&#9670;&nbsp;</a></span>fopScnRq_FadeRequest()</h2>
+<a id="a9d7b42085fa5e8d3b4a9c2dd862faa15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7b42085fa5e8d3b4a9c2dd862faa15">&#9670;&nbsp;</a></span>fopScnRq_FadeRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classscene__request__class.html">scene_request_class</a>* fopScnRq_FadeRequest </td>
+          <td class="memname">static <a class="el" href="classscene__request__class.html">scene_request_class</a>* fopScnRq_FadeRequest </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
           <td class="paramname"><em>param_1</em>, </td>
@@ -219,24 +212,11 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a64fcd4e20b2aa3f88e975158b67ceb1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64fcd4e20b2aa3f88e975158b67ceb1e">&#9670;&nbsp;</a></span>fopScnRq_FadeRequest__FsUs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fopScnRq_FadeRequest__FsUs </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -259,104 +239,147 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a277482f0e16fa0766990d5097531d60b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a277482f0e16fa0766990d5097531d60b">&#9670;&nbsp;</a></span>fopScnRq_phase_ClearOverlap()</h2>
+<a id="a57191d298d3ea90c087e5b22488f3f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57191d298d3ea90c087e5b22488f3f4d">&#9670;&nbsp;</a></span>fopScnRq_phase_ClearOverlap()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classscene__request__class.html">scene_request_class</a>* fopScnRq_phase_ClearOverlap </td>
+          <td class="memname">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a> fopScnRq_phase_ClearOverlap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e0a04adb0557703c797f6290baa7fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e0a04adb0557703c797f6290baa7fef">&#9670;&nbsp;</a></span>fopScnRq_phase_Done()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a> fopScnRq_phase_Done </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
           <td class="paramname"><em>pScnRq</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a28e0aa7dfbaeff9e9a5878342a18378e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e0aa7dfbaeff9e9a5878342a18378e">&#9670;&nbsp;</a></span>fopScnRq_phase_Done()</h2>
+<a id="a538200b5e2c46148e7dfeb9095ae347e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a538200b5e2c46148e7dfeb9095ae347e">&#9670;&nbsp;</a></span>fopScnRq_phase_Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int fopScnRq_phase_Done </td>
+          <td class="memname">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a> fopScnRq_phase_Execute </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
-          <td class="paramname"><em>pScnRq</em></td><td>)</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad608127cc42ed16cf7428a5df4dffa56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad608127cc42ed16cf7428a5df4dffa56">&#9670;&nbsp;</a></span>fopScnRq_phase_Execute()</h2>
+<a id="a6212a2484e986735969396fb99e9d8df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6212a2484e986735969396fb99e9d8df">&#9670;&nbsp;</a></span>fopScnRq_phase_IsDoingOverlap()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void fopScnRq_phase_Execute </td>
+          <td class="memname">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a> fopScnRq_phase_IsDoingOverlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
-          <td class="paramname"><em>pScnRq</em></td><td>)</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4986dec18328c0a79e9f72fa178b88e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4986dec18328c0a79e9f72fa178b88e7">&#9670;&nbsp;</a></span>fopScnRq_phase_IsDoingOverlap()</h2>
+<a id="a9d471e0c298adf85879d505bf6c080c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d471e0c298adf85879d505bf6c080c5">&#9670;&nbsp;</a></span>fopScnRq_phase_IsDoneOverlap()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classscene__request__class.html">scene_request_class</a>* fopScnRq_phase_IsDoingOverlap </td>
+          <td class="memname">static <a class="el" href="c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340">cPhs__Step</a> fopScnRq_phase_IsDoneOverlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
-          <td class="paramname"><em>pScnRq</em></td><td>)</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4bd57d2759e6a8ef26eecd313ed06906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd57d2759e6a8ef26eecd313ed06906">&#9670;&nbsp;</a></span>fopScnRq_phase_IsDoneOverlap()</h2>
+<a id="a858a7a39666d2e5d3138bebdf4608cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858a7a39666d2e5d3138bebdf4608cb6">&#9670;&nbsp;</a></span>fopScnRq_PostMethod()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classscene__request__class.html">scene_request_class</a>* fopScnRq_phase_IsDoneOverlap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classscene__request__class.html">scene_request_class</a> *&#160;</td>
-          <td class="paramname"><em>pScnRq</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4dbdd01aa333971c9bde2756cbbdfc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4dbdd01aa333971c9bde2756cbbdfc4">&#9670;&nbsp;</a></span>fopScnRq_PostMethod()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fopScnRq_PostMethod </td>
+          <td class="memname">static int fopScnRq_PostMethod </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>param_1</em>, </td>
@@ -373,51 +396,56 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2438aac0102e47971bfb80b5ad58c78c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2438aac0102e47971bfb80b5ad58c78c">&#9670;&nbsp;</a></span>fopScnRq_Request()</h2>
+<a id="a5404cbe3b2436a896fbcb41b6727a459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5404cbe3b2436a896fbcb41b6727a459">&#9670;&nbsp;</a></span>fopScnRq_Request()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopScnRq_Request </td>
+          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopScnRq_Request </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>param_1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classscene__class.html">scene_class</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="structscene__class.html">scene_class</a> *&#160;</td>
+          <td class="paramname"><em>param_2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>param_3</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>param_4</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>param_5</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>param_6</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -463,45 +491,9 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6b1458c9f81c4f236bdc568ac7e8a1ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b1458c9f81c4f236bdc568ac7e8a1ef">&#9670;&nbsp;</a></span>fpcNdRq_Delete__FP19node_create_request()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fpcNdRq_Delete__FP19node_create_request </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41ca293266b68d537d4f9c6f091b8c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ca293266b68d537d4f9c6f091b8c59">&#9670;&nbsp;</a></span>fpcNdRq_Request__FUliP18process_node_classsPvP32node_create_request_method_class()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fpcNdRq_Request__FUliP18process_node_classsPvP32node_create_request_method_class </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a797fe944ddc8b29ed4cfb0569c53259b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a797fe944ddc8b29ed4cfb0569c53259b">&#9670;&nbsp;</a></span>fadeFase</h2>
+<a id="a9ffefba1e94858122a8cd3f6c31cd526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffefba1e94858122a8cd3f6c31cd526">&#9670;&nbsp;</a></span>fadeFase</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,20 +502,37 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structrequest__of__phase__process__class.html">request_of_phase_process_class</a>* fadeFase[8]</td>
+          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> fadeFase[8]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a6212a2484e986735969396fb99e9d8df">fopScnRq_phase_IsDoingOverlap</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a9d471e0c298adf85879d505bf6c080c5">fopScnRq_phase_IsDoneOverlap</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a538200b5e2c46148e7dfeb9095ae347e">fopScnRq_phase_Execute</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a57191d298d3ea90c087e5b22488f3f4d">fopScnRq_phase_ClearOverlap</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a9d471e0c298adf85879d505bf6c080c5">fopScnRq_phase_IsDoneOverlap</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a1e0a04adb0557703c797f6290baa7fef">fopScnRq_phase_Done</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="ac__phase_8h_html_afb28692301f219f0e73d2d0046192335"><div class="ttname"><a href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a></div><div class="ttdeci">int(* cPhs__Handler)(void *)</div><div class="ttdef"><b>Definition:</b> c_phase.h:6</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a1e0a04adb0557703c797f6290baa7fef"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a1e0a04adb0557703c797f6290baa7fef">fopScnRq_phase_Done</a></div><div class="ttdeci">static cPhs__Step fopScnRq_phase_Done(scene_request_class *pScnRq)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:58</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a538200b5e2c46148e7dfeb9095ae347e"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a538200b5e2c46148e7dfeb9095ae347e">fopScnRq_phase_Execute</a></div><div class="ttdeci">static cPhs__Step fopScnRq_phase_Execute(scene_request_class *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:28</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a57191d298d3ea90c087e5b22488f3f4d"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a57191d298d3ea90c087e5b22488f3f4d">fopScnRq_phase_ClearOverlap</a></div><div class="ttdeci">static cPhs__Step fopScnRq_phase_ClearOverlap(scene_request_class *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:18</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a6212a2484e986735969396fb99e9d8df"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a6212a2484e986735969396fb99e9d8df">fopScnRq_phase_IsDoingOverlap</a></div><div class="ttdeci">static cPhs__Step fopScnRq_phase_IsDoingOverlap(scene_request_class *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:34</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a9d471e0c298adf85879d505bf6c080c5"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a9d471e0c298adf85879d505bf6c080c5">fopScnRq_phase_IsDoneOverlap</a></div><div class="ttdeci">static cPhs__Step fopScnRq_phase_IsDoneOverlap(scene_request_class *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:44</div></div>
+<div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="abc86d8fd39f7b7537fdd49cf59389bf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc86d8fd39f7b7537fdd49cf59389bf9">&#9670;&nbsp;</a></span>l_fopScnRq_IsUsingOfOverlap</h2>
+<a id="af9f005e066faab8890665e70c953332c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f005e066faab8890665e70c953332c">&#9670;&nbsp;</a></span>l_fopScnRq_IsUsingOfOverlap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,20 +541,20 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int l_fopScnRq_IsUsingOfOverlap</td>
+          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> l_fopScnRq_IsUsingOfOverlap</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a89b96cd3ad1efa15ad56845028525462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89b96cd3ad1efa15ad56845028525462">&#9670;&nbsp;</a></span>noFadeFase</h2>
+<a id="ad3c509e248208eaa257c71d1fb920352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c509e248208eaa257c71d1fb920352">&#9670;&nbsp;</a></span>noFadeFase</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -554,20 +563,30 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structrequest__of__phase__process__class.html">request_of_phase_process_class</a>* noFadeFase[8]</td>
+          <td class="memname"><a class="el" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a> noFadeFase[8]</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a538200b5e2c46148e7dfeb9095ae347e">fopScnRq_phase_Execute</a>,</div>
+<div class="line">    (<a class="code" href="c__phase_8h.html#afb28692301f219f0e73d2d0046192335">cPhs__Handler</a>)<a class="code" href="f__op__scene__req_8cpp.html#a1e0a04adb0557703c797f6290baa7fef">fopScnRq_phase_Done</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a0cf240e5e0e60ac39e6c2af5dbe1d9e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cf240e5e0e60ac39e6c2af5dbe1d9e6">&#9670;&nbsp;</a></span>submethod</h2>
+<a id="a86c1f10075fbbbcad3c76a3dd3172292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c1f10075fbbbcad3c76a3dd3172292">&#9670;&nbsp;</a></span>submethod</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -576,16 +595,26 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structnode__create__request__method__class.html">node_create_request_method_class</a>* submethod[4]</td>
+          <td class="memname"><a class="el" href="structnode__create__request__method__class.html">node_create_request_method_class</a> submethod</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__op__scene__req_8cpp.html#a988d5259968cfefb7e1a52650cd46e46">fopScnRq_Execute</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__op__scene__req_8cpp.html#af16c4429aa794e592e3650556107f5b0">fopScnRq_Cancel</a>,</div>
+<div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<a class="code" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code" href="f__op__scene__req_8cpp.html#a858a7a39666d2e5d3138bebdf4608cb6">fopScnRq_PostMethod</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a858a7a39666d2e5d3138bebdf4608cb6"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a858a7a39666d2e5d3138bebdf4608cb6">fopScnRq_PostMethod</a></div><div class="ttdeci">static int fopScnRq_PostMethod(void *param_1, scene_request_class *pScnRq)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:78</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_a988d5259968cfefb7e1a52650cd46e46"><div class="ttname"><a href="f__op__scene__req_8cpp.html#a988d5259968cfefb7e1a52650cd46e46">fopScnRq_Execute</a></div><div class="ttdeci">static void fopScnRq_Execute(scene_request_class *pScnRq)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:67</div></div>
+<div class="ttc" id="af__op__scene__req_8cpp_html_af16c4429aa794e592e3650556107f5b0"><div class="ttname"><a href="f__op__scene__req_8cpp.html#af16c4429aa794e592e3650556107f5b0">fopScnRq_Cancel</a></div><div class="ttdeci">static int fopScnRq_Cancel(scene_request_class *pScnRq)</div><div class="ttdef"><b>Definition:</b> f_op_scene_req.cpp:87</div></div>
+<div class="ttc" id="af__pc__method_8h_html_a56bd92368b7dda361388b2d13df2e4ac"><div class="ttname"><a href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a></div><div class="ttdeci">int(* process_method_func)(void *)</div><div class="ttdef"><b>Definition:</b> f_pc_method.h:7</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

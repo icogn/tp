@@ -74,30 +74,23 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">c_node_iter.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="c__node__iter_8h_source.html">SComponent/c_node_iter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="c__node__iter_8h_source.html">SSystem/SComponent/c_node_iter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for c_node_iter.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="c__node__iter_8cpp__incl.svg" width="400" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="c__node__iter_8cpp__incl.svg" width="374" height="306"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:acf1738f0418a2ad6e2959c26b82ebe36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__node__iter_8cpp.html#acf1738f0418a2ad6e2959c26b82ebe36">NODE_GET_PREV</a>(pNode)&#160;&#160;&#160;(pNode ? pNode-&gt;mpPrevNode : <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="separator:acf1738f0418a2ad6e2959c26b82ebe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a352c7405241571dcaabe7d8114a83c45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__node__iter_8cpp.html#a352c7405241571dcaabe7d8114a83c45">NODE_GET_NEXT</a>(pNode)&#160;&#160;&#160;(pNode ? pNode-&gt;mpNextNode : <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="separator:a352c7405241571dcaabe7d8114a83c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a31332e4431fbcc6e7bc4d75e234ef259"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__node__iter_8cpp.html#a31332e4431fbcc6e7bc4d75e234ef259">cNdIt_Method</a> (<a class="el" href="structnode__class.html">node_class</a> *pNode, <a class="el" href="c__node__iter_8h.html#a721a39d45276f2910d68164359852ec1">cNdIt_MethodFunc</a> pMethod, void *pUserData)</td></tr>
@@ -105,43 +98,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a82bf602659f7c4913395eeea0a9d9bc1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__node__iter_8cpp.html#a82bf602659f7c4913395eeea0a9d9bc1">cNdIt_Judge</a> (<a class="el" href="structnode__class.html">node_class</a> *pNode, <a class="el" href="c__node__iter_8h.html#a13e89ced3e69b80af73ddd92d5e1b047">cNdIt_JudgeFunc</a> pJudge, void *pUserData)</td></tr>
 <tr class="separator:a82bf602659f7c4913395eeea0a9d9bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a352c7405241571dcaabe7d8114a83c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a352c7405241571dcaabe7d8114a83c45">&#9670;&nbsp;</a></span>NODE_GET_NEXT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NODE_GET_NEXT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pNode</td><td>)</td>
-          <td>&#160;&#160;&#160;(pNode ? pNode-&gt;mpNextNode : <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acf1738f0418a2ad6e2959c26b82ebe36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf1738f0418a2ad6e2959c26b82ebe36">&#9670;&nbsp;</a></span>NODE_GET_PREV</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NODE_GET_PREV</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pNode</td><td>)</td>
-          <td>&#160;&#160;&#160;(pNode ? pNode-&gt;mpPrevNode : <a class="el" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a82bf602659f7c4913395eeea0a9d9bc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82bf602659f7c4913395eeea0a9d9bc1">&#9670;&nbsp;</a></span>cNdIt_Judge()</h2>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['g_5fhio_5fstruct_17519',['g_HIO_struct',['../structg__HIO__struct.html',1,'']]],
-  ['global_5fmemory_17520',['GLOBAL_MEMORY',['../structGLOBAL__MEMORY.html',1,'']]],
-  ['gxcolors10_17521',['GXColorS10',['../structGXColorS10.html',1,'']]],
-  ['gxrendermodeobj_17522',['GXRenderModeObj',['../structGXRenderModeObj.html',1,'']]]
+  ['gb_5fmaple_5fcol_5fchange_50250',['GB_MAPLE_COL_CHANGE',['../structGB__MAPLE__COL__CHANGE.html',1,'']]],
+  ['global_5fmemory_50251',['GLOBAL_MEMORY',['../structGLOBAL__MEMORY.html',1,'']]],
+  ['group_5fclass_50252',['group_class',['../structdDrawPath__c_1_1group__class.html',1,'dDrawPath_c']]],
+  ['gxrendermodeobj_50253',['GXRenderModeObj',['../structGXRenderModeObj.html',1,'']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: libs/debugger/MetroTRK/utils/gc/MWCriticalSection_gc.cpp File Reference</title>
+<title>Twilight Princess: libs/TRK_MINNOW_DOLPHIN/utils/gc/MWCriticalSection_gc.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,14 +69,129 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_24f13134bc6452a3f9fa8346c9be9d8b.html">debugger</a></li><li class="navelem"><a class="el" href="dir_e65b68ee53c6ff8e4aaf57f439c94be0.html">MetroTRK</a></li><li class="navelem"><a class="el" href="dir_24d4ad97a65d08677b03a82ac84febf5.html">utils</a></li><li class="navelem"><a class="el" href="dir_5578ae7a34d7032ad02f4b0f7a4466a3.html">gc</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_6b67cfcdbcbf1df04fac4a98c3b947ab.html">TRK_MINNOW_DOLPHIN</a></li><li class="navelem"><a class="el" href="dir_3c9cd48df70e38cf6a17fadbc821e78a.html">utils</a></li><li class="navelem"><a class="el" href="dir_1b66549940a05322b98c6111b5b78e69.html">gc</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MWCriticalSection_gc.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="MWCriticalSection__gc_8h_source.html">TRK_MINNOW_DOLPHIN/utils/gc/MWCriticalSection_gc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;asm/TRK_MINNOW_DOLPHIN/utils/gc/MWCriticalSection_gc/MWExitCriticalSection.s&quot;</code><br />
+<code>#include &quot;asm/TRK_MINNOW_DOLPHIN/utils/gc/MWCriticalSection_gc/MWEnterCriticalSection.s&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for MWCriticalSection_gc.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="MWCriticalSection__gc_8cpp__incl.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4c4da82bb83489536936897cb91f0631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MWCriticalSection__gc_8cpp.html#a4c4da82bb83489536936897cb91f0631">MWExitCriticalSection</a> ()</td></tr>
+<tr class="separator:a4c4da82bb83489536936897cb91f0631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934ccbe9a77730adef90e7e4770175e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MWCriticalSection__gc_8cpp.html#a934ccbe9a77730adef90e7e4770175e1">MWEnterCriticalSection</a> ()</td></tr>
+<tr class="separator:a934ccbe9a77730adef90e7e4770175e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432b849f89148225ca1466430100fd99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MWCriticalSection__gc_8cpp.html#a432b849f89148225ca1466430100fd99">MWInitializeCriticalSection</a> ()</td></tr>
+<tr class="separator:a432b849f89148225ca1466430100fd99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MWCriticalSection__gc_8cpp.html#a65b7dd4c9756f26d16dcf8f0dedb07bf">OSDisableInterrupts</a> ()</td></tr>
+<tr class="separator:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MWCriticalSection__gc_8cpp.html#a14b5cc2befa83d8710fba14f4de14fd9">OSRestoreInterrupts</a> ()</td></tr>
+<tr class="separator:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a934ccbe9a77730adef90e7e4770175e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a934ccbe9a77730adef90e7e4770175e1">&#9670;&nbsp;</a></span>MWEnterCriticalSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWEnterCriticalSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c4da82bb83489536936897cb91f0631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4da82bb83489536936897cb91f0631">&#9670;&nbsp;</a></span>MWExitCriticalSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWExitCriticalSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a432b849f89148225ca1466430100fd99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432b849f89148225ca1466430100fd99">&#9670;&nbsp;</a></span>MWInitializeCriticalSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MWInitializeCriticalSection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b7dd4c9756f26d16dcf8f0dedb07bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b7dd4c9756f26d16dcf8f0dedb07bf">&#9670;&nbsp;</a></span>OSDisableInterrupts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSDisableInterrupts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14b5cc2befa83d8710fba14f4de14fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b5cc2befa83d8710fba14f4de14fd9">&#9670;&nbsp;</a></span>OSRestoreInterrupts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSRestoreInterrupts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
