@@ -84,9 +84,8 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="d__stage_8h_source.html">d/d_stage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="m__Do__ext_8h_source.html">m_Do/m_Do_ext.h</a>&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/set__18dStage_nextStage_cFPCcScsScScUc.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_SetErrorRoom__Fv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_SetErrorStage__Fv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_GetKeepDoorInfo__Fv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_isBossStage__FP11dStage_dt_c.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_KeepDoorInfoInit__FP11dStage_dt_c.s&quot;</code><br />
@@ -95,40 +94,26 @@ $(function() {
 <code>#include &quot;asm/d/d_stage/dStage_initRoomKeepDoorInfo__Fv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_RoomKeepDoorInfoProc__FP11dStage_dt_cP16stage_tgsc_class.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/set__19dStage_startStage_cFPCcScsSc.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/init__20dStage_roomControl_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/initZone__20dStage_roomControl_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/getStatusRoomDt__20dStage_roomControl_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/getMemoryBlock__20dStage_roomControl_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/setStayNo__20dStage_roomControl_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/setNextStayNo__20dStage_roomControl_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/stayRoomCheck__FiPUci.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/createRoomScene__Fi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/checkRoomDisp__20dStage_roomControl_cCFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/loadRoom__20dStage_roomControl_cFiPUcb.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/zoneCountCheck__20dStage_roomControl_cCFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getStagInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/createMemoryBlock__20dStage_roomControl_cFiUl.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/destroyMemoryBlock__20dStage_roomControl_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/setArcBank__20dStage_roomControl_cFiPCc.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/getArcBank__20dStage_roomControl_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/resetArchiveBank__20dStage_roomControl_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/create__Q220dStage_roomControl_c9roomDzs_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/remove__Q220dStage_roomControl_c9roomDzs_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/add__Q220dStage_roomControl_c9roomDzs_cFUcUc.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/init__16dStage_stageDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/initFileList2__15dStage_roomDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/init__15dStage_roomDt_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_roomInit__Fi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/SetTimePass__20dStage_roomControl_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getRoom__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_searchName__FPCc.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_getName__FsSc.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_getName2__FsSc.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_actorCreate__FP22stage_actor_data_classP16fopAcM_prm_class.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_cameraCreate__FP24stage_camera2_data_classii.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlayer__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlayer__16dStage_stageDt_cCFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_playerInit__FP11dStage_dt_cPviPv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_cameraInit__FP11dStage_dt_cPviPv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_RoomCameraInit__FP11dStage_dt_cPviPv.s&quot;</code><br />
@@ -208,112 +193,10 @@ $(function() {
 <code>#include &quot;asm/d/d_stage/getSclsInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_changeScene4Event__FiScibfUlsi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_restartRoom__FUlUli.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getCamera__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getArrow__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlayerNum__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setRoom__15dStage_roomDt_cFP14roomRead_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getRoom__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMapInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPaletteInfo__15dStage_roomDt_cFP24stage_palette_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPaletteInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPselectInfo__15dStage_roomDt_cFP24stage_pselect_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPselectInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setEnvrInfo__15dStage_roomDt_cFP21stage_envr_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getEnvrInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxcolInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPlightInfo__15dStage_roomDt_cFP23stage_plight_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlightInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPaletteNumInfo__15dStage_roomDt_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPaletteNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPselectNumInfo__15dStage_roomDt_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPselectNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setEnvrNumInfo__15dStage_roomDt_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getEnvrNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxcolNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPlightNumInfo__15dStage_roomDt_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlightNumInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLightVecInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLightVecInfoNum__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setStagInfo__15dStage_roomDt_cFP21stage_stag_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getStagInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPntInfo__15dStage_roomDt_cFP13dStage_dPnt_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPntInf__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setPathInfo__15dStage_roomDt_cFP14dStage_dPath_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPathInf__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPnt2Inf__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPath2Inf__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getSoundInf__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getSoundInfCL__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMapEventInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getFileList2Info__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getFloorInfo__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setMemoryConfig__15dStage_roomDt_cFP21dStage_MemoryConfig_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMemoryConfig__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setMemoryMap__15dStage_roomDt_cFP18dStage_MemoryMap_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMemoryMap__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setMulti__15dStage_roomDt_cFP14dStage_Multi_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMulti__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setOldMulti__15dStage_roomDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/resetOldMulti__15dStage_roomDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getOldMulti__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLbnk__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getTresure__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getDrTg__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getDoor__15dStage_roomDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setMapPath__15dStage_roomDt_cFPv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMapPath__15dStage_roomDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setElst__15dStage_roomDt_cFP13dStage_Elst_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getElst__15dStage_roomDt_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getCamera__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getArrow__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlayerNum__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMapInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPaletteInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPselectInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getEnvrInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxcolInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlightInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPaletteNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPselectNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getEnvrNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getVrboxcolNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setLightVecInfo__16dStage_stageDt_cFP30stage_pure_lightvec_info_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLightVecInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setLightVecInfoNum__16dStage_stageDt_cFi.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLightVecInfoNum__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPlightNumInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPntInf__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPathInf__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPnt2Inf__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getPath2Inf__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getSoundInf__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getSoundInfCL__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMapEventInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setFileList2Info__16dStage_stageDt_cFP21dStage_FileList2_dt_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getFileList2Info__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setFileListInfo__16dStage_stageDt_cFP20dStage_FileList_dt_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getFileListInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getFloorInfo__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMemoryConfig__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMemoryMap__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getMulti__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getOldMulti__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/setLbnk__16dStage_stageDt_cFP13dStage_Lbnk_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getLbnk__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getTresure__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getDMap__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getDrTg__16dStage_stageDt_cCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/getDoor__16dStage_stageDt_cCFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/__sinit_d_stage_cpp.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/func_80028328.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/__dt__19dStage_roomStatus_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/__ct__19dStage_roomStatus_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/__dt__19dStage_KeepDoorInfoFv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/__dt__21stage_tgsc_data_classFv.s&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -328,8 +211,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdTres__c_1_1list__class.html">dTres_c::list_class</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSvBit__HIO__c.html">dSvBit_HIO_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdStage__dt__c.html">dStage_dt_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -355,13 +236,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcBgS__GndChk.html">cBgS_GndChk</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRHeap.html">JKRHeap</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRAramArchive.html">JKRAramArchive</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFuncTable.html">FuncTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -960,14 +835,10 @@ Functions</h2></td></tr>
 <tr class="separator:ad21f8e8abda70a0966e7ca9a8bf19aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa245926e92f5baf7da99a42cb5d7016f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aa245926e92f5baf7da99a42cb5d7016f">__ct__21stage_tgsc_data_classFv</a> ()</td></tr>
 <tr class="separator:aa245926e92f5baf7da99a42cb5d7016f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab80e3bd3be34ed40f1e4fba43e8c096c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ab80e3bd3be34ed40f1e4fba43e8c096c">OSReport</a> ()</td></tr>
-<tr class="separator:ab80e3bd3be34ed40f1e4fba43e8c096c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29e2afc2697a3f0cd9cc84158c5d6452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a29e2afc2697a3f0cd9cc84158c5d6452">OSReport_Error</a> ()</td></tr>
-<tr class="separator:a29e2afc2697a3f0cd9cc84158c5d6452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4235530040e23b64fa31e531fc61e0d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4235530040e23b64fa31e531fc61e0d0">mDoExt_getArchiveHeap__Fv</a> ()</td></tr>
-<tr class="separator:a4235530040e23b64fa31e531fc61e0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7b1f04b5a1c1f71bd858da39b630df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ada7b1f04b5a1c1f71bd858da39b630df">mDoExt_destroyExpHeap__FP10JKRExpHeap</a> ()</td></tr>
-<tr class="separator:ada7b1f04b5a1c1f71bd858da39b630df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71661e6a73de7e1e087dc1357ca58f80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRHeap.html">JKRHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a71661e6a73de7e1e087dc1357ca58f80">mDoExt_getArchiveHeap__Fv</a> ()</td></tr>
+<tr class="separator:a71661e6a73de7e1e087dc1357ca58f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d5b3266a05ca9c303db5a873e3362c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac4d5b3266a05ca9c303db5a873e3362c">mDoExt_destroyExpHeap__FP10JKRExpHeap</a> (<a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *)</td></tr>
+<tr class="separator:ac4d5b3266a05ca9c303db5a873e3362c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68cb6e1a90d818f2be184c225f62556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad68cb6e1a90d818f2be184c225f62556">__ct__11J3DLightObjFv</a> ()</td></tr>
 <tr class="separator:ad68cb6e1a90d818f2be184c225f62556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35661e82621a83efffad0838695e1096"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a35661e82621a83efffad0838695e1096">getFileListInfo__15dStage_roomDt_cCFv</a> ()</td></tr>
@@ -1096,12 +967,12 @@ Functions</h2></td></tr>
 <tr class="separator:abed5bd59c54272a132a5b4da4beff66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84191174c69215693bd801985a205889"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a84191174c69215693bd801985a205889">sprintf</a> ()</td></tr>
 <tr class="separator:a84191174c69215693bd801985a205889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78e8c81352852dc3a2910be00f5eca7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a78e8c81352852dc3a2910be00f5eca7b">snprintf</a> ()</td></tr>
-<tr class="separator:a78e8c81352852dc3a2910be00f5eca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede67ffd18be6ab1184da52ea19923f4"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aede67ffd18be6ab1184da52ea19923f4">dStage_SetErrorRoom</a> ()</td></tr>
-<tr class="separator:aede67ffd18be6ab1184da52ea19923f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1177796ba968234a45884e6fbc45c0fe"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a1177796ba968234a45884e6fbc45c0fe">dStage_SetErrorStage</a> ()</td></tr>
-<tr class="separator:a1177796ba968234a45884e6fbc45c0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f475e7f9fef7c1da8b1381e877c6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a38f475e7f9fef7c1da8b1381e877c6cf">snprintf</a> (char *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, char *,...)</td></tr>
+<tr class="separator:a38f475e7f9fef7c1da8b1381e877c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f8a9e87f2fa57e3b13426509d86014"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af9f8a9e87f2fa57e3b13426509d86014">dStage_SetErrorRoom</a> ()</td></tr>
+<tr class="separator:af9f8a9e87f2fa57e3b13426509d86014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952d8e58a4cc821e8ca034d95acb3ebe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a952d8e58a4cc821e8ca034d95acb3ebe">dStage_SetErrorStage</a> ()</td></tr>
+<tr class="separator:a952d8e58a4cc821e8ca034d95acb3ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a61c2a4e3fc778429ddccf0ed60c185"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a0a61c2a4e3fc778429ddccf0ed60c185">dStage_GetKeepDoorInfo</a> ()</td></tr>
 <tr class="separator:a0a61c2a4e3fc778429ddccf0ed60c185"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad62163c1e910bc42557252fa26a45e9f"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad62163c1e910bc42557252fa26a45e9f">dStage_isBossStage</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0)</td></tr>
@@ -1118,18 +989,18 @@ Functions</h2></td></tr>
 <tr class="separator:a798ec9fa1433cbf81bf8e71f710195fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd831ff94563c6146be4215644477f8"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, void *param_1, int param_2, void *param_3)</td></tr>
 <tr class="separator:acbd831ff94563c6146be4215644477f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2d3567d1f831f3630b589bd83bd29a"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a0d2d3567d1f831f3630b589bd83bd29a">stayRoomCheck</a> (int param_0, <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *param_1, int param_2)</td></tr>
-<tr class="separator:a0d2d3567d1f831f3630b589bd83bd29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d12f00495ba74b2f8c3bea6c41e81f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a36d12f00495ba74b2f8c3bea6c41e81f">stayRoomCheck</a> (int param_0, <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *param_1, int param_2)</td></tr>
+<tr class="separator:a36d12f00495ba74b2f8c3bea6c41e81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bc30aee04f1a7256a0877413d63a763"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2bc30aee04f1a7256a0877413d63a763">createRoomScene</a> (int param_0)</td></tr>
 <tr class="separator:a2bc30aee04f1a7256a0877413d63a763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cb0d369ec07d05905261bf72a747913"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a3cb0d369ec07d05905261bf72a747913">dStage_roomInit</a> (int param_0)</td></tr>
 <tr class="separator:a3cb0d369ec07d05905261bf72a747913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5ad1006425740cdaefcb0b45f103e4b"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac5ad1006425740cdaefcb0b45f103e4b">dStage_searchName</a> (char const *param_0)</td></tr>
-<tr class="separator:ac5ad1006425740cdaefcb0b45f103e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a885afe08b21f0d47c5c094b5d3b8c45f"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a885afe08b21f0d47c5c094b5d3b8c45f">dStage_getName</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_0, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> param_1)</td></tr>
-<tr class="separator:a885afe08b21f0d47c5c094b5d3b8c45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1e1bbca861799d7a1df3820b6649399"><td class="memItemLeft" align="right" valign="top">asm const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac1e1bbca861799d7a1df3820b6649399">dStage_getName2</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_0, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> param_1)</td></tr>
-<tr class="separator:ac1e1bbca861799d7a1df3820b6649399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4fd07d7198149c6710853aee0f8a6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdStage__objectNameInf.html">dStage_objectNameInf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#add4fd07d7198149c6710853aee0f8a6e">dStage_searchName</a> (char const *objName)</td></tr>
+<tr class="separator:add4fd07d7198149c6710853aee0f8a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad47ece672b679b1d4a51a00b88e632d3"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad47ece672b679b1d4a51a00b88e632d3">dStage_getName</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> procName, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> subtype)</td></tr>
+<tr class="separator:ad47ece672b679b1d4a51a00b88e632d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab37cb3cd766444452d0a0de755d2f9fb"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ab37cb3cd766444452d0a0de755d2f9fb">dStage_getName2</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> procName, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> subtype)</td></tr>
+<tr class="separator:ab37cb3cd766444452d0a0de755d2f9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0af424dcd9eb58171780b9710d76063"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad0af424dcd9eb58171780b9710d76063">dStage_actorCreate</a> (<a class="el" href="structstage__actor__data__class.html">stage_actor_data_class</a> *param_0, <a class="el" href="structfopAcM__prm__class.html">fopAcM_prm_class</a> *param_1)</td></tr>
 <tr class="separator:ad0af424dcd9eb58171780b9710d76063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82f952f1444574095bda0b605b578548"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a82f952f1444574095bda0b605b578548">dStage_cameraCreate</a> (<a class="el" href="structstage__camera2__data__class.html">stage_camera2_data_class</a> *param_0, int param_1, int param_2)</td></tr>
@@ -1309,10 +1180,6 @@ Variables</h2></td></tr>
 <tr class="separator:ae265a193f6aaabcee462778eb760549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dc92b452e4f7f6fc8d522d24e55de12"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2dc92b452e4f7f6fc8d522d24e55de12">stringBase_80378A50</a> = &quot;OPENING&quot;</td></tr>
 <tr class="separator:a2dc92b452e4f7f6fc8d522d24e55de12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7faa887c8844d3f8ed090a26098a8906"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a7faa887c8844d3f8ed090a26098a8906">stringBase_80378A58</a></td></tr>
-<tr class="separator:a7faa887c8844d3f8ed090a26098a8906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad78bebb6717f405855dbb026e610f84a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad78bebb6717f405855dbb026e610f84a">stringBase_80378A99</a></td></tr>
-<tr class="separator:ad78bebb6717f405855dbb026e610f84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d445e3262ff659782bc9342d99daf36"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a5d445e3262ff659782bc9342d99daf36">lit_3926</a> [12]</td></tr>
 <tr class="separator:a5d445e3262ff659782bc9342d99daf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3577bbec88777b2ddd5ca579ccf5f047"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a3577bbec88777b2ddd5ca579ccf5f047">DoorInfo</a> [2308]</td></tr>
@@ -1327,44 +1194,48 @@ Variables</h2></td></tr>
 <tr class="separator:a14d4a0d2b53ae2d76fc4d7cb74ec249b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8a253c18afbd1da3cec10ac6f29cbc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2b8a253c18afbd1da3cec10ac6f29cbc">lit_5376</a> [12]</td></tr>
 <tr class="separator:a2b8a253c18afbd1da3cec10ac6f29cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac0f63ffb1ea50a741a9cad36aa563e4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aac0f63ffb1ea50a741a9cad36aa563e4">tmp_name</a> [8]</td></tr>
-<tr class="separator:aac0f63ffb1ea50a741a9cad36aa563e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26bf0818a5e2965243a18b6f833cac42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a26bf0818a5e2965243a18b6f833cac42">struct_80450D64</a> [4]</td></tr>
-<tr class="separator:a26bf0818a5e2965243a18b6f833cac42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe864337f1fddf068f3b238937979f96"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#abe864337f1fddf068f3b238937979f96">tmp_name</a> [8]</td></tr>
+<tr class="separator:abe864337f1fddf068f3b238937979f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdc519cb7f5f3b68365fe7e45c00edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a9cdc519cb7f5f3b68365fe7e45c00edf">struct_80450D64</a></td></tr>
+<tr class="separator:a9cdc519cb7f5f3b68365fe7e45c00edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99aaff6ce36745365465768aebe56bd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a99aaff6ce36745365465768aebe56bd9">sLastStayNo</a></td></tr>
+<tr class="separator:a99aaff6ce36745365465768aebe56bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab0f594a0ee0381079420fce1134c566"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aab0f594a0ee0381079420fce1134c566">sNextStayNo</a></td></tr>
+<tr class="separator:aab0f594a0ee0381079420fce1134c566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0007e6543ff6c136926ffa04a73f346"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae0007e6543ff6c136926ffa04a73f346">sTimePass</a></td></tr>
+<tr class="separator:ae0007e6543ff6c136926ffa04a73f346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968e2b7d1b20c6d84e8cf3f6d4a4cbe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a968e2b7d1b20c6d84e8cf3f6d4a4cbe6">data_80450D68</a> [4]</td></tr>
 <tr class="separator:a968e2b7d1b20c6d84e8cf3f6d4a4cbe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bbb863deb6d71ad94fae774afeb7720"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a8bbb863deb6d71ad94fae774afeb7720">l_objectName</a> [10932]</td></tr>
-<tr class="separator:a8bbb863deb6d71ad94fae774afeb7720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8945a59369417f4584dd08d4777ca8b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af8945a59369417f4584dd08d4777ca8b">l_roomFuncTable</a> [12]</td></tr>
-<tr class="separator:af8945a59369417f4584dd08d4777ca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c0d1502257ba069d9b4d6f57234654d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a1c0d1502257ba069d9b4d6f57234654d">l_layerFuncTable_5053</a> [9]</td></tr>
-<tr class="separator:a1c0d1502257ba069d9b4d6f57234654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab34c566e4dfaf73b55943b51acf9d936"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ab34c566e4dfaf73b55943b51acf9d936">l_layerFuncTable_5131</a> [6]</td></tr>
-<tr class="separator:ab34c566e4dfaf73b55943b51acf9d936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29b9635307dbf79b7caa129ca1557b47"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a29b9635307dbf79b7caa129ca1557b47">l_funcTable_5136</a> [3]</td></tr>
-<tr class="separator:a29b9635307dbf79b7caa129ca1557b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f27195d6a9cb186e6b0aa3aa614c5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a73f27195d6a9cb186e6b0aa3aa614c5f">l_layerFuncTableA</a> [3]</td></tr>
-<tr class="separator:a73f27195d6a9cb186e6b0aa3aa614c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5259cee5fed39457eb9bacd80d3c2abe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a5259cee5fed39457eb9bacd80d3c2abe">l_envLayerFuncTable</a> [15]</td></tr>
-<tr class="separator:a5259cee5fed39457eb9bacd80d3c2abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e2897daf040bf3d7e511f27d577da18"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a0e2897daf040bf3d7e511f27d577da18">l_layerFuncTable_5158</a> [12]</td></tr>
-<tr class="separator:a0e2897daf040bf3d7e511f27d577da18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae208315679e615205b175418822c2648"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae208315679e615205b175418822c2648">l_funcTable_5163</a> [78]</td></tr>
-<tr class="separator:ae208315679e615205b175418822c2648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac108be9c7170bdc41fc82e84f11a5dc5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac108be9c7170bdc41fc82e84f11a5dc5">l_funcTable_5168</a> [42]</td></tr>
-<tr class="separator:ac108be9c7170bdc41fc82e84f11a5dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e6265e9946b3eb3aa81a950d5c560d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a58e6265e9946b3eb3aa81a950d5c560d">l_funcTable_5173</a> [24]</td></tr>
-<tr class="separator:a58e6265e9946b3eb3aa81a950d5c560d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad546ff54a9a1e820c19c64cfd0056df3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad546ff54a9a1e820c19c64cfd0056df3">l_funcTable_5178</a> [9]</td></tr>
-<tr class="separator:ad546ff54a9a1e820c19c64cfd0056df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9d57faa9d860b4bc71402658f068da"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdStage__objectNameInf.html">dStage_objectNameInf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a8e9d57faa9d860b4bc71402658f068da">l_objectName</a> [0x38F]</td></tr>
+<tr class="separator:a8e9d57faa9d860b4bc71402658f068da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94d0bca6d922d3bde59f1b9dc956a30"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac94d0bca6d922d3bde59f1b9dc956a30">l_roomFuncTable</a> [4]</td></tr>
+<tr class="separator:ac94d0bca6d922d3bde59f1b9dc956a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc90fa96eaa01dcf1df715d0d546fff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aadc90fa96eaa01dcf1df715d0d546fff">l_layerFuncTable_5053</a> [3]</td></tr>
+<tr class="separator:aadc90fa96eaa01dcf1df715d0d546fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8860e8081ff99bb924662a8219c349"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4c8860e8081ff99bb924662a8219c349">l_layerFuncTable_5131</a> [2]</td></tr>
+<tr class="separator:a4c8860e8081ff99bb924662a8219c349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5da0edef9c90ce7b58455832927e7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a0e5da0edef9c90ce7b58455832927e7d">l_funcTable_5136</a> = {&quot;STAG&quot;, dStage_stagInfoInit}</td></tr>
+<tr class="separator:a0e5da0edef9c90ce7b58455832927e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea16c7163c4c0cc7f5306fee4d1e8aa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a6ea16c7163c4c0cc7f5306fee4d1e8aa">l_layerFuncTableA</a> = {&quot;SON0&quot;, dStage_soundInfoInit}</td></tr>
+<tr class="separator:a6ea16c7163c4c0cc7f5306fee4d1e8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4632406d9ae7731035e58ec67b79e4fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4632406d9ae7731035e58ec67b79e4fb">l_envLayerFuncTable</a> [5]</td></tr>
+<tr class="separator:a4632406d9ae7731035e58ec67b79e4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8731dac63b120722e99f3ee1688843"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a3c8731dac63b120722e99f3ee1688843">l_layerFuncTable_5158</a> [4]</td></tr>
+<tr class="separator:a3c8731dac63b120722e99f3ee1688843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d2ef3076897df9412e92d41089a43f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad7d2ef3076897df9412e92d41089a43f">l_funcTable_5163</a> [26]</td></tr>
+<tr class="separator:ad7d2ef3076897df9412e92d41089a43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de76d2bb8f802e4ef6cb2e7300f4def"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2de76d2bb8f802e4ef6cb2e7300f4def">l_funcTable_5168</a> [14]</td></tr>
+<tr class="separator:a2de76d2bb8f802e4ef6cb2e7300f4def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf13182285d1d5bb8329065304825fed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#adf13182285d1d5bb8329065304825fed">l_funcTable_5173</a> [8]</td></tr>
+<tr class="separator:adf13182285d1d5bb8329065304825fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9872915871d2b971be175113e7382bec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a9872915871d2b971be175113e7382bec">l_funcTable_5178</a> [3]</td></tr>
+<tr class="separator:a9872915871d2b971be175113e7382bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4263d29d957a6f406d11f7e22317df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a6d4263d29d957a6f406d11f7e22317df">stringBase_80378AEF</a> = &quot;&quot;</td></tr>
 <tr class="separator:a6d4263d29d957a6f406d11f7e22317df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada442c25e8f7147dc2e52c1812c27e00"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ada442c25e8f7147dc2e52c1812c27e00">stringBase_80378AF0</a></td></tr>
 <tr class="separator:ada442c25e8f7147dc2e52c1812c27e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c396d76c96bc259467890f58c50f99"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af8c396d76c96bc259467890f58c50f99">stringBase_80378B16</a> = &quot;%s/room%d.dzs&quot;</td></tr>
 <tr class="separator:af8c396d76c96bc259467890f58c50f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a405d1e868539e4c6e80d61ca11bb9fe3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a405d1e868539e4c6e80d61ca11bb9fe3">stringBase_80378B24</a> = &quot;%d%+0d&quot;</td></tr>
-<tr class="separator:a405d1e868539e4c6e80d61ca11bb9fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21227d2b9d18d0a7730f977c1d7bb91f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a21227d2b9d18d0a7730f977c1d7bb91f">lit_4270</a> [4]</td></tr>
 <tr class="separator:a21227d2b9d18d0a7730f977c1d7bb91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d081636b75948ece7ac8fd6fce79cf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad4d081636b75948ece7ac8fd6fce79cf">stringBase_80378B2B</a> = &quot;S_MV000&quot;</td></tr>
@@ -1391,58 +1262,6 @@ Variables</h2></td></tr>
 <tr class="separator:af31695fcaacbed69fd6453e4cf4ddc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03070995d6eeb0d18004c62d133956c1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a03070995d6eeb0d18004c62d133956c1">stringBase_80378BB3</a> = &quot;d_stage.cpp&quot;</td></tr>
 <tr class="separator:a03070995d6eeb0d18004c62d133956c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2a4b291807031b09ee21aacf85b90b2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac2a4b291807031b09ee21aacf85b90b2">stringBase_80378BBF</a> = &quot;Room non room <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:ac2a4b291807031b09ee21aacf85b90b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a728f0e42e86312837ba5796e8fc336"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a6a728f0e42e86312837ba5796e8fc336">stringBase_80378BD6</a> = &quot;Room non palet <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a6a728f0e42e86312837ba5796e8fc336"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab19a44d918d1726578ff8675b8036dac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ab19a44d918d1726578ff8675b8036dac">stringBase_80378BEE</a> = &quot;Room non pselect <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:ab19a44d918d1726578ff8675b8036dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac37c1d30103d00c55c8ea7c97c8ef728"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac37c1d30103d00c55c8ea7c97c8ef728">stringBase_80378C08</a> = &quot;Room non envr <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:ac37c1d30103d00c55c8ea7c97c8ef728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50cee41d2acf42558c4473d66eee3724"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a50cee41d2acf42558c4473d66eee3724">stringBase_80378C1F</a> = &quot;Room non plight <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a50cee41d2acf42558c4473d66eee3724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b22a4a81ad01fc34ab581a1137e55f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a04b22a4a81ad01fc34ab581a1137e55f">stringBase_80378C38</a> = &quot;Room non palette num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a04b22a4a81ad01fc34ab581a1137e55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4802bbdff3893ac9b71560019f866473"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4802bbdff3893ac9b71560019f866473">stringBase_80378C56</a> = &quot;Room non pselect num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a4802bbdff3893ac9b71560019f866473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d92a96e921aa84f23e0679b225c5676"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a3d92a96e921aa84f23e0679b225c5676">stringBase_80378C74</a> = &quot;Room non envr num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a3d92a96e921aa84f23e0679b225c5676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f1d187a114fda5c08ea76692aa8193b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a5f1d187a114fda5c08ea76692aa8193b">stringBase_80378C8F</a> = &quot;Room non plight num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a5f1d187a114fda5c08ea76692aa8193b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc095e97791d449dde3e72bcc79932b8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#abc095e97791d449dde3e72bcc79932b8">stringBase_80378CAC</a> = &quot;Room non stag <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:abc095e97791d449dde3e72bcc79932b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8de86f8f5fd59091436d8655f84c88b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae8de86f8f5fd59091436d8655f84c88b">stringBase_80378CC3</a> = &quot;Room non Pnt <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td></tr>
-<tr class="separator:ae8de86f8f5fd59091436d8655f84c88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff3dc0c97fd098504e8f11a39da00b3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#abff3dc0c97fd098504e8f11a39da00b3">stringBase_80378CD8</a> = &quot;Room non Pnts <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td></tr>
-<tr class="separator:abff3dc0c97fd098504e8f11a39da00b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f5c61a58a9cdaaccff6f5482a6b8a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a99f5c61a58a9cdaaccff6f5482a6b8a7">stringBase_80378CEE</a> = &quot;Room non Path <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td></tr>
-<tr class="separator:a99f5c61a58a9cdaaccff6f5482a6b8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae576c5e5bead91577ec848e514c74bce"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae576c5e5bead91577ec848e514c74bce">stringBase_80378D04</a> = &quot;Room non memory config data!\n&quot;</td></tr>
-<tr class="separator:ae576c5e5bead91577ec848e514c74bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac110cedc31873ee0007f34d40288d8c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ac110cedc31873ee0007f34d40288d8c9">stringBase_80378D22</a> = &quot;Room non memory map data!\n&quot;</td></tr>
-<tr class="separator:ac110cedc31873ee0007f34d40288d8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af229c30277533a6f5c6ebb88c7c06079"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af229c30277533a6f5c6ebb88c7c06079">stringBase_80378D3D</a> = &quot;Room non multi data!\n&quot;</td></tr>
-<tr class="separator:af229c30277533a6f5c6ebb88c7c06079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a4df0b4906579090d09a4b53c5ae0ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a5a4df0b4906579090d09a4b53c5ae0ad">stringBase_80378D53</a> = &quot;Room non old multi data!\n&quot;</td></tr>
-<tr class="separator:a5a4df0b4906579090d09a4b53c5ae0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe8597b51ce8b430cfdceea29d703fc6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#abe8597b51ce8b430cfdceea29d703fc6">stringBase_80378D6D</a> = &quot;stage non 2d map path <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:abe8597b51ce8b430cfdceea29d703fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ba4c41ce3a5fc543366bebe00419dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a19ba4c41ce3a5fc543366bebe00419dc">stringBase_80378D8C</a> = &quot;Room non envLayserSet data\n&quot;</td></tr>
-<tr class="separator:a19ba4c41ce3a5fc543366bebe00419dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ce65d4d5d1b5826c7c64c84daf55056"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a7ce65d4d5d1b5826c7c64c84daf55056">stringBase_80378DA8</a> = &quot;Room no Elst Data!!\n&quot;</td></tr>
-<tr class="separator:a7ce65d4d5d1b5826c7c64c84daf55056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a159facfdd921ee5d7e4ec0fc92e7c438"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a159facfdd921ee5d7e4ec0fc92e7c438">stringBase_80378DBD</a> = &quot;stage non LightVec <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a159facfdd921ee5d7e4ec0fc92e7c438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5e99d40ead1d8c12121217fd237cd4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4f5e99d40ead1d8c12121217fd237cd4">stringBase_80378DD9</a> = &quot;stage non LightVecNum <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td></tr>
-<tr class="separator:a4f5e99d40ead1d8c12121217fd237cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d803511859a3e2b2f028099bfa29b2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ab0d803511859a3e2b2f028099bfa29b2">stringBase_80378DF8</a> = &quot;stage non filelist2 data!\n&quot;</td></tr>
-<tr class="separator:ab0d803511859a3e2b2f028099bfa29b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2bc4e8c10cef367cb18fa92c32cef63"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af2bc4e8c10cef367cb18fa92c32cef63">stringBase_80378E13</a> = &quot;stage non filelist data!\n&quot;</td></tr>
-<tr class="separator:af2bc4e8c10cef367cb18fa92c32cef63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53742304551df5ccc3fbb88dd2bccb0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a53742304551df5ccc3fbb88dd2bccb0e">stringBase_80378E2D</a> = &quot;stage non Lbnk data!\n&quot;</td></tr>
-<tr class="separator:a53742304551df5ccc3fbb88dd2bccb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba02624faff3bd24dec2ab8b2179b7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a4ba02624faff3bd24dec2ab8b2179b7a">pad_80378E43</a> = &quot;\0\0\0\0&quot;</td></tr>
-<tr class="separator:a4ba02624faff3bd24dec2ab8b2179b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603b9f3e911d6326a57d6ffa34b11873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a603b9f3e911d6326a57d6ffa34b11873">__vt__15dStage_roomDt_c</a> [93]</td></tr>
 <tr class="separator:a603b9f3e911d6326a57d6ffa34b11873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60f7a7bb7b65a08ccd9b658bd72e698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aa60f7a7bb7b65a08ccd9b658bd72e698">__vt__16dStage_stageDt_c</a> [93]</td></tr>
@@ -4250,8 +4069,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a885afe08b21f0d47c5c094b5d3b8c45f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a885afe08b21f0d47c5c094b5d3b8c45f">&#9670;&nbsp;</a></span>dStage_getName()</h2>
+<a id="ad47ece672b679b1d4a51a00b88e632d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad47ece672b679b1d4a51a00b88e632d3">&#9670;&nbsp;</a></span>dStage_getName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4260,16 +4079,16 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_getName </td>
+          <td class="memname">static const char* dStage_getName </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>procName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td>
-          <td class="paramname"><em>param_1</em>&#160;</td>
+          <td class="paramname"><em>subtype</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -4286,23 +4105,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac1e1bbca861799d7a1df3820b6649399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1e1bbca861799d7a1df3820b6649399">&#9670;&nbsp;</a></span>dStage_getName2()</h2>
+<a id="ab37cb3cd766444452d0a0de755d2f9fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37cb3cd766444452d0a0de755d2f9fb">&#9670;&nbsp;</a></span>dStage_getName2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm const char* dStage_getName2 </td>
+          <td class="memname">const char* dStage_getName2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>procName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td>
-          <td class="paramname"><em>param_1</em>&#160;</td>
+          <td class="paramname"><em>subtype</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -6559,17 +6378,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5ad1006425740cdaefcb0b45f103e4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5ad1006425740cdaefcb0b45f103e4b">&#9670;&nbsp;</a></span>dStage_searchName()</h2>
+<a id="add4fd07d7198149c6710853aee0f8a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4fd07d7198149c6710853aee0f8a6e">&#9670;&nbsp;</a></span>dStage_searchName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void dStage_searchName </td>
+          <td class="memname"><a class="el" href="structdStage__objectNameInf.html">dStage_objectNameInf</a>* dStage_searchName </td>
           <td>(</td>
           <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>objName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -6594,8 +6413,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aede67ffd18be6ab1184da52ea19923f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aede67ffd18be6ab1184da52ea19923f4">&#9670;&nbsp;</a></span>dStage_SetErrorRoom()</h2>
+<a id="af9f8a9e87f2fa57e3b13426509d86014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f8a9e87f2fa57e3b13426509d86014">&#9670;&nbsp;</a></span>dStage_SetErrorRoom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6604,7 +6423,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_SetErrorRoom </td>
+          <td class="memname">static void dStage_SetErrorRoom </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -6644,8 +6463,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1177796ba968234a45884e6fbc45c0fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1177796ba968234a45884e6fbc45c0fe">&#9670;&nbsp;</a></span>dStage_SetErrorStage()</h2>
+<a id="a952d8e58a4cc821e8ca034d95acb3ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952d8e58a4cc821e8ca034d95acb3ebe">&#9670;&nbsp;</a></span>dStage_SetErrorStage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6654,7 +6473,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_SetErrorStage </td>
+          <td class="memname">static void dStage_SetErrorStage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -9811,8 +9630,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ada7b1f04b5a1c1f71bd858da39b630df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7b1f04b5a1c1f71bd858da39b630df">&#9670;&nbsp;</a></span>mDoExt_destroyExpHeap__FP10JKRExpHeap()</h2>
+<a id="ac4d5b3266a05ca9c303db5a873e3362c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d5b3266a05ca9c303db5a873e3362c">&#9670;&nbsp;</a></span>mDoExt_destroyExpHeap__FP10JKRExpHeap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9820,6 +9639,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void mDoExt_destroyExpHeap__FP10JKRExpHeap </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -9828,14 +9648,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4235530040e23b64fa31e531fc61e0d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4235530040e23b64fa31e531fc61e0d0">&#9670;&nbsp;</a></span>mDoExt_getArchiveHeap__Fv()</h2>
+<a id="a71661e6a73de7e1e087dc1357ca58f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71661e6a73de7e1e087dc1357ca58f80">&#9670;&nbsp;</a></span>mDoExt_getArchiveHeap__Fv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void mDoExt_getArchiveHeap__Fv </td>
+          <td class="memname"><a class="el" href="structJKRHeap.html">JKRHeap</a>* mDoExt_getArchiveHeap__Fv </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -9853,40 +9673,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void memalignB__3cMlFiUl </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab80e3bd3be34ed40f1e4fba43e8c096c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab80e3bd3be34ed40f1e4fba43e8c096c">&#9670;&nbsp;</a></span>OSReport()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void OSReport </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29e2afc2697a3f0cd9cc84158c5d6452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29e2afc2697a3f0cd9cc84158c5d6452">&#9670;&nbsp;</a></span>OSReport_Error()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OSReport_Error </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -11725,8 +11511,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a78e8c81352852dc3a2910be00f5eca7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78e8c81352852dc3a2910be00f5eca7b">&#9670;&nbsp;</a></span>snprintf()</h2>
+<a id="a38f475e7f9fef7c1da8b1381e877c6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f475e7f9fef7c1da8b1381e877c6cf">&#9670;&nbsp;</a></span>snprintf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11734,8 +11520,31 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void snprintf </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -11759,8 +11568,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d2d3567d1f831f3630b589bd83bd29a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2d3567d1f831f3630b589bd83bd29a">&#9670;&nbsp;</a></span>stayRoomCheck()</h2>
+<a id="a36d12f00495ba74b2f8c3bea6c41e81f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d12f00495ba74b2f8c3bea6c41e81f">&#9670;&nbsp;</a></span>stayRoomCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11769,7 +11578,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void stayRoomCheck </td>
+          <td class="memname">static int stayRoomCheck </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -12073,8 +11882,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5259cee5fed39457eb9bacd80d3c2abe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5259cee5fed39457eb9bacd80d3c2abe">&#9670;&nbsp;</a></span>l_envLayerFuncTable</h2>
+<a id="a4632406d9ae7731035e58ec67b79e4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4632406d9ae7731035e58ec67b79e4fb">&#9670;&nbsp;</a></span>l_envLayerFuncTable</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12083,7 +11892,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_envLayerFuncTable[15]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_envLayerFuncTable[5]</td>
         </tr>
       </table>
   </td>
@@ -12093,23 +11902,20 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4C475430, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a14d90d9e9c8fcdb1bbf2f8d0751f23dc">dStage_lgtvInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x456E7630, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a0ed0389b9470da696aba67f5e8397c67">dStage_envrInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x436F6C30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a9642235dc35461fec71eb92e3dbc7f31">dStage_pselectInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x50414C30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a2b0adbf8fa3bb24864443e7205938c9a">dStage_paletteInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x56524230, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a394b2e9334854a98c30a0cabaf69781f">dStage_vrboxcolInfoInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;LGT0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a1e4afd8331f250da42117dc7912811d4">dStage_lgtvInfoInit</a>},     {<span class="stringliteral">&quot;Env0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a37db69a21182074574a2a231d669e18f">dStage_envrInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;Col0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a63c674559bdabaa6cb359ec3ebe89bef">dStage_pselectInfoInit</a>},  {<span class="stringliteral">&quot;PAL0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a2efddf571ed5851d320536c1d4a50aa1">dStage_paletteInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;VRB0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a07d6ffd9c8c4f39a1467cd0ebb06de44">dStage_vrboxcolInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a0ed0389b9470da696aba67f5e8397c67"><div class="ttname"><a href="d__stage_8cpp.html#a0ed0389b9470da696aba67f5e8397c67">dStage_envrInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_envrInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a14d90d9e9c8fcdb1bbf2f8d0751f23dc"><div class="ttname"><a href="d__stage_8cpp.html#a14d90d9e9c8fcdb1bbf2f8d0751f23dc">dStage_lgtvInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_lgtvInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a2b0adbf8fa3bb24864443e7205938c9a"><div class="ttname"><a href="d__stage_8cpp.html#a2b0adbf8fa3bb24864443e7205938c9a">dStage_paletteInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_paletteInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a394b2e9334854a98c30a0cabaf69781f"><div class="ttname"><a href="d__stage_8cpp.html#a394b2e9334854a98c30a0cabaf69781f">dStage_vrboxcolInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_vrboxcolInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a9642235dc35461fec71eb92e3dbc7f31"><div class="ttname"><a href="d__stage_8cpp.html#a9642235dc35461fec71eb92e3dbc7f31">dStage_pselectInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_pselectInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:32</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a07d6ffd9c8c4f39a1467cd0ebb06de44"><div class="ttname"><a href="d__stage_8cpp.html#a07d6ffd9c8c4f39a1467cd0ebb06de44">dStage_vrboxcolInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxcolInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1655</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a1e4afd8331f250da42117dc7912811d4"><div class="ttname"><a href="d__stage_8cpp.html#a1e4afd8331f250da42117dc7912811d4">dStage_lgtvInfoInit</a></div><div class="ttdeci">static asm void dStage_lgtvInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1678</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a2efddf571ed5851d320536c1d4a50aa1"><div class="ttname"><a href="d__stage_8cpp.html#a2efddf571ed5851d320536c1d4a50aa1">dStage_paletteInfoInit</a></div><div class="ttdeci">static asm void dStage_paletteInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1573</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a37db69a21182074574a2a231d669e18f"><div class="ttname"><a href="d__stage_8cpp.html#a37db69a21182074574a2a231d669e18f">dStage_envrInfoInit</a></div><div class="ttdeci">static asm void dStage_envrInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1596</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a63c674559bdabaa6cb359ec3ebe89bef"><div class="ttname"><a href="d__stage_8cpp.html#a63c674559bdabaa6cb359ec3ebe89bef">dStage_pselectInfoInit</a></div><div class="ttdeci">static asm void dStage_pselectInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1585</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a29b9635307dbf79b7caa129ca1557b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29b9635307dbf79b7caa129ca1557b47">&#9670;&nbsp;</a></span>l_funcTable_5136</h2>
+<a id="a0e5da0edef9c90ce7b58455832927e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5da0edef9c90ce7b58455832927e7d">&#9670;&nbsp;</a></span>l_funcTable_5136</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12118,7 +11924,29 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_funcTable_5136[3]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_funcTable_5136 = {&quot;STAG&quot;, dStage_stagInfoInit}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7d2ef3076897df9412e92d41089a43f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d2ef3076897df9412e92d41089a43f">&#9670;&nbsp;</a></span>l_funcTable_5163</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_funcTable_5163[26]</td>
         </tr>
       </table>
   </td>
@@ -12128,16 +11956,46 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53544147,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aa349fa5267e9df164cfb088b0d3d0d17">dStage_stagInfoInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;EVLY&quot;</span>, <a class="code" href="d__stage_8cpp.html#a548e5f86f63fe40401bfdc69e5db62b0">dStage_elstInfoInit</a>},      {<span class="stringliteral">&quot;RPPN&quot;</span>, <a class="code" href="d__stage_8cpp.html#a84517549c242b1dc859a6d08eef4cc15">dStage_rppnInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;RPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a>},      {<span class="stringliteral">&quot;MULT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a41e1a8c99d3aaf33a4cabfc8187c70d2">dStage_multInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;PLYR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a119118d4d6a315beee1c3c5e6f0c8bba">dStage_playerInit</a>},        {<span class="stringliteral">&quot;CAMR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a342f63eb058f729027406e9018c881cd">dStage_cameraInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;RCAM&quot;</span>, <a class="code" href="d__stage_8cpp.html#a342f63eb058f729027406e9018c881cd">dStage_cameraInit</a>},        {<span class="stringliteral">&quot;ACTR&quot;</span>, <a class="code" href="d__stage_8cpp.html#ac3c633b6a9364a81aa34a3083cabcb1c">dStage_actorInit_always</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGOB&quot;</span>, <a class="code" href="d__stage_8cpp.html#ac3c633b6a9364a81aa34a3083cabcb1c">dStage_actorInit_always</a>},  {<span class="stringliteral">&quot;RTBL&quot;</span>, <a class="code" href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;AROB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a>},         {<span class="stringliteral">&quot;RARO&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;Virt&quot;</span>, <a class="code" href="d__stage_8cpp.html#ac462f0f25ba80b34294af77e0c36c71e">dStage_vrboxInfoInit</a>},     {<span class="stringliteral">&quot;SCLS&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4a7f21ef14d188e1a399c0cc3139c2e1">dStage_sclsInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGSC&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},      {<span class="stringliteral">&quot;LGHT&quot;</span>, <a class="code" href="d__stage_8cpp.html#abd86b0ad1fbb0f53ba40ce74f04f15d8">dStage_plightInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;PPNT&quot;</span>, <a class="code" href="d__stage_8cpp.html#ae65806ee6a17a07e7ecbed1fa30a690f">dStage_ppntInfoInit</a>},      {<span class="stringliteral">&quot;PATH&quot;</span>, <a class="code" href="d__stage_8cpp.html#a5b1a214452e7cf2445743a2b251ab28f">dStage_pathInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;SCOB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},      {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;Door&quot;</span>, <a class="code" href="d__stage_8cpp.html#a79d6674f2d3b30f09a923b503dd922ab">dStage_stageDrtgInfoInit</a>}, {<span class="stringliteral">&quot;FLOR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGDR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},      {<span class="stringliteral">&quot;DMAP&quot;</span>, <a class="code" href="d__stage_8cpp.html#aed133fd93e1774d156f492b8132bde96">dStage_dmapInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;REVT&quot;</span>, <a class="code" href="d__stage_8cpp.html#af0f4f25e1c6ee50ef05dbeeabbcb1aa7">dStage_stEventInfoInit</a>},   {<span class="stringliteral">&quot;SOND&quot;</span>, <a class="code" href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_aa349fa5267e9df164cfb088b0d3d0d17"><div class="ttname"><a href="d__stage_8cpp.html#aa349fa5267e9df164cfb088b0d3d0d17">dStage_stagInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_stagInfoInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a06bfd1c8c9bd2effee3b8c172cb61100"><div class="ttname"><a href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a></div><div class="ttdeci">static asm void dStage_roomReadInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1808</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a119118d4d6a315beee1c3c5e6f0c8bba"><div class="ttname"><a href="d__stage_8cpp.html#a119118d4d6a315beee1c3c5e6f0c8bba">dStage_playerInit</a></div><div class="ttdeci">static asm void dStage_playerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1488</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a23b44e49672ef103fc8e5bee10e28361"><div class="ttname"><a href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a></div><div class="ttdeci">static asm void dStage_tgscInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1786</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a31a9ac0ea874d1c7274e011d703a18cd"><div class="ttname"><a href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a></div><div class="ttdeci">static asm void dStage_rpatInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1863</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a342f63eb058f729027406e9018c881cd"><div class="ttname"><a href="d__stage_8cpp.html#a342f63eb058f729027406e9018c881cd">dStage_cameraInit</a></div><div class="ttdeci">static asm void dStage_cameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1498</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a3d3bfb3a38d3f06d8e15b9848bab085b"><div class="ttname"><a href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a></div><div class="ttdeci">static asm void dStage_filiInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1631</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a41e1a8c99d3aaf33a4cabfc8187c70d2"><div class="ttname"><a href="d__stage_8cpp.html#a41e1a8c99d3aaf33a4cabfc8187c70d2">dStage_multInfoInit</a></div><div class="ttdeci">static asm void dStage_multInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2076</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4630a725958408fe58e33b73b28ae997"><div class="ttname"><a href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a></div><div class="ttdeci">static asm void dStage_arrowInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1520</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4a7f21ef14d188e1a399c0cc3139c2e1"><div class="ttname"><a href="d__stage_8cpp.html#a4a7f21ef14d188e1a399c0cc3139c2e1">dStage_sclsInfoInit</a></div><div class="ttdeci">static asm void dStage_sclsInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1729</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a548e5f86f63fe40401bfdc69e5db62b0"><div class="ttname"><a href="d__stage_8cpp.html#a548e5f86f63fe40401bfdc69e5db62b0">dStage_elstInfoInit</a></div><div class="ttdeci">static asm void dStage_elstInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2157</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a5b1a214452e7cf2445743a2b251ab28f"><div class="ttname"><a href="d__stage_8cpp.html#a5b1a214452e7cf2445743a2b251ab28f">dStage_pathInfoInit</a></div><div class="ttdeci">static asm void dStage_pathInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1841</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a79d6674f2d3b30f09a923b503dd922ab"><div class="ttname"><a href="d__stage_8cpp.html#a79d6674f2d3b30f09a923b503dd922ab">dStage_stageDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_stageDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2134</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a84517549c242b1dc859a6d08eef4cc15"><div class="ttname"><a href="d__stage_8cpp.html#a84517549c242b1dc859a6d08eef4cc15">dStage_rppnInfoInit</a></div><div class="ttdeci">static asm void dStage_rppnInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1852</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9590815d49148a29aab0aab8a580cb68"><div class="ttname"><a href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a></div><div class="ttdeci">static asm void dStage_floorInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1952</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aad58cff825e771317e4013e05bc415ea"><div class="ttname"><a href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a></div><div class="ttdeci">static asm void dStage_soundInfoInitCL(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1887</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_abd86b0ad1fbb0f53ba40ce74f04f15d8"><div class="ttname"><a href="d__stage_8cpp.html#abd86b0ad1fbb0f53ba40ce74f04f15d8">dStage_plightInfoInit</a></div><div class="ttdeci">static asm void dStage_plightInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1667</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ac3c633b6a9364a81aa34a3083cabcb1c"><div class="ttname"><a href="d__stage_8cpp.html#ac3c633b6a9364a81aa34a3083cabcb1c">dStage_actorInit_always</a></div><div class="ttdeci">static asm void dStage_actorInit_always(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1775</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ac462f0f25ba80b34294af77e0c36c71e"><div class="ttname"><a href="d__stage_8cpp.html#ac462f0f25ba80b34294af77e0c36c71e">dStage_vrboxInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1643</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ae65806ee6a17a07e7ecbed1fa30a690f"><div class="ttname"><a href="d__stage_8cpp.html#ae65806ee6a17a07e7ecbed1fa30a690f">dStage_ppntInfoInit</a></div><div class="ttdeci">static asm void dStage_ppntInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1830</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aed133fd93e1774d156f492b8132bde96"><div class="ttname"><a href="d__stage_8cpp.html#aed133fd93e1774d156f492b8132bde96">dStage_dmapInfoInit</a></div><div class="ttdeci">static asm void dStage_dmapInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2122</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af0f4f25e1c6ee50ef05dbeeabbcb1aa7"><div class="ttname"><a href="d__stage_8cpp.html#af0f4f25e1c6ee50ef05dbeeabbcb1aa7">dStage_stEventInfoInit</a></div><div class="ttdeci">static asm void dStage_stEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1928</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae208315679e615205b175418822c2648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae208315679e615205b175418822c2648">&#9670;&nbsp;</a></span>l_funcTable_5163</h2>
+<a id="a2de76d2bb8f802e4ef6cb2e7300f4def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de76d2bb8f802e4ef6cb2e7300f4def">&#9670;&nbsp;</a></span>l_funcTable_5168</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12146,7 +12004,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_funcTable_5163[78]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_funcTable_5168[14]</td>
         </tr>
       </table>
   </td>
@@ -12156,59 +12014,19 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x45564C59, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#add1af4e493e6bc3d68a6c21938cc486b">dStage_elstInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5250504E, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a422d3f02d80fc61dd77ac2a8f665fe5f">dStage_rppnInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x52504154, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aad5f4f01879810d4a65b5e422a7a229b">dStage_rpatInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D554C54, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a8f88c626e22309be78bb5f7ff5c6e152">dStage_multInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x504C5952, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a066b06c46831c07f586d93583d993d64">dStage_playerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x43414D52, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a671e3594b370e134e95c3402e24395d2">dStage_cameraInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5243414D, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a671e3594b370e134e95c3402e24395d2">dStage_cameraInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x41435452, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ab99fe011258847ebc175fdaeff1fe2fe">dStage_actorInit_always__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54474F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ab99fe011258847ebc175fdaeff1fe2fe">dStage_actorInit_always__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5254424C, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a274855b726be288ab1c8cfbf1803cf04">dStage_roomReadInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x41524F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aaa06075e343cbd8154ed1a4e1ec3cc0d">dStage_arrowInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5241524F, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aaa06075e343cbd8154ed1a4e1ec3cc0d">dStage_arrowInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x56697274, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac69127a998ed1284887c9a9d1f87e86d">dStage_vrboxInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53434C53, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#af7ae7dec55f73791cb18380af2160fcf">dStage_sclsInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54475343, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4C474854, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ad0bca48856af8118726d2e9b6833ca71">dStage_plightInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x50504E54, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a70b2948f89d627d86200055277c559f6">dStage_ppntInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x50415448, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a9bb5cff33b19ec0deb2b3035bb3a7157">dStage_pathInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53434F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x46494C49, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac9e3459fdbee7d3c9c404dcdeda55e22">dStage_filiInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x446F6F72, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a0176090481f546f6027e41d991180dc1">dStage_stageDrtgInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x464C4F52, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a3bc2e56b8912a9f337612a2dab46c883">dStage_floorInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54474452, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x444D4150, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aa5818ca706f27012abf37523746e9913">dStage_dmapInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x52455654, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a7894656f1c910bb35c550f305fd4f495">dStage_stEventInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x534F4E44, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a41f6c41a98739529da774f134a3ff75d">dStage_soundInfoInitCL__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;PLYR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a119118d4d6a315beee1c3c5e6f0c8bba">dStage_playerInit</a>},   {<span class="stringliteral">&quot;RCAM&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9c53238c7af8e8773f29c90462e8f985">dStage_RoomCameraInit</a>},  {<span class="stringliteral">&quot;RARO&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;RTBL&quot;</span>, <a class="code" href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a>}, {<span class="stringliteral">&quot;AROB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a>},       {<span class="stringliteral">&quot;Virt&quot;</span>, <a class="code" href="d__stage_8cpp.html#ac462f0f25ba80b34294af77e0c36c71e">dStage_vrboxInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;SCLS&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4a7f21ef14d188e1a399c0cc3139c2e1">dStage_sclsInfoInit</a>}, {<span class="stringliteral">&quot;LGHT&quot;</span>, <a class="code" href="d__stage_8cpp.html#abd86b0ad1fbb0f53ba40ce74f04f15d8">dStage_plightInfoInit</a>},  {<span class="stringliteral">&quot;RPPN&quot;</span>, <a class="code" href="d__stage_8cpp.html#a84517549c242b1dc859a6d08eef4cc15">dStage_rppnInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;RPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a>}, {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a>},    {<span class="stringliteral">&quot;FLOR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;LBNK&quot;</span>, <a class="code" href="d__stage_8cpp.html#af2275d3fc1a6654aa99e3b9e0f2db867">dStage_lbnkInfoInit</a>}, {<span class="stringliteral">&quot;SOND&quot;</span>, <a class="code" href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a0176090481f546f6027e41d991180dc1"><div class="ttname"><a href="d__stage_8cpp.html#a0176090481f546f6027e41d991180dc1">dStage_stageDrtgInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_stageDrtgInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a066b06c46831c07f586d93583d993d64"><div class="ttname"><a href="d__stage_8cpp.html#a066b06c46831c07f586d93583d993d64">dStage_playerInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_playerInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a274855b726be288ab1c8cfbf1803cf04"><div class="ttname"><a href="d__stage_8cpp.html#a274855b726be288ab1c8cfbf1803cf04">dStage_roomReadInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_roomReadInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a3bc2e56b8912a9f337612a2dab46c883"><div class="ttname"><a href="d__stage_8cpp.html#a3bc2e56b8912a9f337612a2dab46c883">dStage_floorInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_floorInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a41f6c41a98739529da774f134a3ff75d"><div class="ttname"><a href="d__stage_8cpp.html#a41f6c41a98739529da774f134a3ff75d">dStage_soundInfoInitCL__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_soundInfoInitCL__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a422d3f02d80fc61dd77ac2a8f665fe5f"><div class="ttname"><a href="d__stage_8cpp.html#a422d3f02d80fc61dd77ac2a8f665fe5f">dStage_rppnInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_rppnInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a671e3594b370e134e95c3402e24395d2"><div class="ttname"><a href="d__stage_8cpp.html#a671e3594b370e134e95c3402e24395d2">dStage_cameraInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_cameraInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a6d20612c57a60a1e492928dfea0b615c"><div class="ttname"><a href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_tgscInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a70b2948f89d627d86200055277c559f6"><div class="ttname"><a href="d__stage_8cpp.html#a70b2948f89d627d86200055277c559f6">dStage_ppntInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_ppntInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a7894656f1c910bb35c550f305fd4f495"><div class="ttname"><a href="d__stage_8cpp.html#a7894656f1c910bb35c550f305fd4f495">dStage_stEventInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_stEventInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a8f88c626e22309be78bb5f7ff5c6e152"><div class="ttname"><a href="d__stage_8cpp.html#a8f88c626e22309be78bb5f7ff5c6e152">dStage_multInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_multInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a9bb5cff33b19ec0deb2b3035bb3a7157"><div class="ttname"><a href="d__stage_8cpp.html#a9bb5cff33b19ec0deb2b3035bb3a7157">dStage_pathInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_pathInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aa5818ca706f27012abf37523746e9913"><div class="ttname"><a href="d__stage_8cpp.html#aa5818ca706f27012abf37523746e9913">dStage_dmapInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_dmapInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aaa06075e343cbd8154ed1a4e1ec3cc0d"><div class="ttname"><a href="d__stage_8cpp.html#aaa06075e343cbd8154ed1a4e1ec3cc0d">dStage_arrowInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_arrowInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aad5f4f01879810d4a65b5e422a7a229b"><div class="ttname"><a href="d__stage_8cpp.html#aad5f4f01879810d4a65b5e422a7a229b">dStage_rpatInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_rpatInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ab99fe011258847ebc175fdaeff1fe2fe"><div class="ttname"><a href="d__stage_8cpp.html#ab99fe011258847ebc175fdaeff1fe2fe">dStage_actorInit_always__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_actorInit_always__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ac69127a998ed1284887c9a9d1f87e86d"><div class="ttname"><a href="d__stage_8cpp.html#ac69127a998ed1284887c9a9d1f87e86d">dStage_vrboxInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_vrboxInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ac9e3459fdbee7d3c9c404dcdeda55e22"><div class="ttname"><a href="d__stage_8cpp.html#ac9e3459fdbee7d3c9c404dcdeda55e22">dStage_filiInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_filiInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ad0bca48856af8118726d2e9b6833ca71"><div class="ttname"><a href="d__stage_8cpp.html#ad0bca48856af8118726d2e9b6833ca71">dStage_plightInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_plightInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_add1af4e493e6bc3d68a6c21938cc486b"><div class="ttname"><a href="d__stage_8cpp.html#add1af4e493e6bc3d68a6c21938cc486b">dStage_elstInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_elstInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_af7ae7dec55f73791cb18380af2160fcf"><div class="ttname"><a href="d__stage_8cpp.html#af7ae7dec55f73791cb18380af2160fcf">dStage_sclsInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_sclsInfoInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9c53238c7af8e8773f29c90462e8f985"><div class="ttname"><a href="d__stage_8cpp.html#a9c53238c7af8e8773f29c90462e8f985">dStage_RoomCameraInit</a></div><div class="ttdeci">static asm void dStage_RoomCameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1509</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af2275d3fc1a6654aa99e3b9e0f2db867"><div class="ttname"><a href="d__stage_8cpp.html#af2275d3fc1a6654aa99e3b9e0f2db867">dStage_lbnkInfoInit</a></div><div class="ttdeci">static asm void dStage_lbnkInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2087</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ac108be9c7170bdc41fc82e84f11a5dc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac108be9c7170bdc41fc82e84f11a5dc5">&#9670;&nbsp;</a></span>l_funcTable_5168</h2>
+<a id="adf13182285d1d5bb8329065304825fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf13182285d1d5bb8329065304825fed">&#9670;&nbsp;</a></span>l_funcTable_5173</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12217,7 +12035,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_funcTable_5168[42]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_funcTable_5173[8]</td>
         </tr>
       </table>
   </td>
@@ -12227,28 +12045,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x504C5952, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a066b06c46831c07f586d93583d993d64">dStage_playerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5243414D, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ae325c5db973a5567d35f6247b06b27b2">dStage_RoomCameraInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5241524F, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aaa06075e343cbd8154ed1a4e1ec3cc0d">dStage_arrowInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5254424C, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a274855b726be288ab1c8cfbf1803cf04">dStage_roomReadInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x41524F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aaa06075e343cbd8154ed1a4e1ec3cc0d">dStage_arrowInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x56697274, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac69127a998ed1284887c9a9d1f87e86d">dStage_vrboxInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53434C53, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#af7ae7dec55f73791cb18380af2160fcf">dStage_sclsInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4C474854, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ad0bca48856af8118726d2e9b6833ca71">dStage_plightInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x5250504E, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a422d3f02d80fc61dd77ac2a8f665fe5f">dStage_rppnInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x52504154, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aad5f4f01879810d4a65b5e422a7a229b">dStage_rpatInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x46494C49, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac9e3459fdbee7d3c9c404dcdeda55e22">dStage_filiInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x464C4F52, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a3bc2e56b8912a9f337612a2dab46c883">dStage_floorInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4C424E4B, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ad7d09e76eb01efc8ccf6ca93610db043">dStage_lbnkInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x534F4E44, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a41f6c41a98739529da774f134a3ff75d">dStage_soundInfoInitCL__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;Door&quot;</span>, <a class="code" href="d__stage_8cpp.html#af92904dc32a571e7dd22f3afdf8ac6ea">dStage_roomDrtgInfoInit</a>},     {<span class="stringliteral">&quot;ACTR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9a4d6dd68d2d21648d62322f3701b1e5">dStage_actorCommonLayerInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGOB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9a4d6dd68d2d21648d62322f3701b1e5">dStage_actorCommonLayerInit</a>}, {<span class="stringliteral">&quot;TRES&quot;</span>, <a class="code" href="d__stage_8cpp.html#a416b33f572cd468dc208d438f3fc4246">dStage_roomTresureInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGSC&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a>},  {<span class="stringliteral">&quot;SCOB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TGDR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},         {<span class="stringliteral">&quot;REVT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a578f82851de8160e274cb3142211c0f9">dStage_mapEventInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_ad7d09e76eb01efc8ccf6ca93610db043"><div class="ttname"><a href="d__stage_8cpp.html#ad7d09e76eb01efc8ccf6ca93610db043">dStage_lbnkInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_lbnkInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ae325c5db973a5567d35f6247b06b27b2"><div class="ttname"><a href="d__stage_8cpp.html#ae325c5db973a5567d35f6247b06b27b2">dStage_RoomCameraInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_RoomCameraInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a416b33f572cd468dc208d438f3fc4246"><div class="ttname"><a href="d__stage_8cpp.html#a416b33f572cd468dc208d438f3fc4246">dStage_roomTresureInit</a></div><div class="ttdeci">static asm void dStage_roomTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2099</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4cecf5ca526a70271eaefe3c1221a079"><div class="ttname"><a href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_tgscCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1753</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a578f82851de8160e274cb3142211c0f9"><div class="ttname"><a href="d__stage_8cpp.html#a578f82851de8160e274cb3142211c0f9">dStage_mapEventInfoInit</a></div><div class="ttdeci">static asm void dStage_mapEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1940</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9a4d6dd68d2d21648d62322f3701b1e5"><div class="ttname"><a href="d__stage_8cpp.html#a9a4d6dd68d2d21648d62322f3701b1e5">dStage_actorCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_actorCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1741</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af92904dc32a571e7dd22f3afdf8ac6ea"><div class="ttname"><a href="d__stage_8cpp.html#af92904dc32a571e7dd22f3afdf8ac6ea">dStage_roomDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_roomDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2146</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a58e6265e9946b3eb3aa81a950d5c560d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58e6265e9946b3eb3aa81a950d5c560d">&#9670;&nbsp;</a></span>l_funcTable_5173</h2>
+<a id="a9872915871d2b971be175113e7382bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9872915871d2b971be175113e7382bec">&#9670;&nbsp;</a></span>l_funcTable_5178</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12257,7 +12068,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_funcTable_5173[24]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_funcTable_5178[3]</td>
         </tr>
       </table>
   </td>
@@ -12267,25 +12078,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x446F6F72, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#acf24318774f8a35c20da6645956141c3">dStage_roomDrtgInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x41435452, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a64753b916a877d5d9aa08105237d2750">dStage_actorCommonLayerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54474F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a64753b916a877d5d9aa08105237d2750">dStage_actorCommonLayerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54524553, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a0a0be6a4f2f941bf686ae0c7fcc04fea">dStage_roomTresureInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54475343, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aa2bde6fd41c4bd4954abdd648fd815e9">dStage_tgscCommonLayerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53434F42, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aa2bde6fd41c4bd4954abdd648fd815e9">dStage_tgscCommonLayerInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54474452, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x52455654, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a3b85a71e8d5009239a009cbe12506314">dStage_mapEventInfoInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;TRES&quot;</span>, <a class="code" href="d__stage_8cpp.html#a227f584b7d68ea901cbd9f4995e4aa21">dStage_fieldMapTresureInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#abd5c59ea69116a4cb61510c86d35429f">dStage_fieldMapFiliInfo2Init</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;MPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a98b40430fbf4d42c57286555a44acc91">dStage_fieldMapMapPathInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a0a0be6a4f2f941bf686ae0c7fcc04fea"><div class="ttname"><a href="d__stage_8cpp.html#a0a0be6a4f2f941bf686ae0c7fcc04fea">dStage_roomTresureInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_roomTresureInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a3b85a71e8d5009239a009cbe12506314"><div class="ttname"><a href="d__stage_8cpp.html#a3b85a71e8d5009239a009cbe12506314">dStage_mapEventInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_mapEventInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a64753b916a877d5d9aa08105237d2750"><div class="ttname"><a href="d__stage_8cpp.html#a64753b916a877d5d9aa08105237d2750">dStage_actorCommonLayerInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_actorCommonLayerInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aa2bde6fd41c4bd4954abdd648fd815e9"><div class="ttname"><a href="d__stage_8cpp.html#aa2bde6fd41c4bd4954abdd648fd815e9">dStage_tgscCommonLayerInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_tgscCommonLayerInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_acf24318774f8a35c20da6645956141c3"><div class="ttname"><a href="d__stage_8cpp.html#acf24318774f8a35c20da6645956141c3">dStage_roomDrtgInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_roomDrtgInfoInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a227f584b7d68ea901cbd9f4995e4aa21"><div class="ttname"><a href="d__stage_8cpp.html#a227f584b7d68ea901cbd9f4995e4aa21">dStage_fieldMapTresureInit</a></div><div class="ttdeci">static asm void dStage_fieldMapTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1998</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a98b40430fbf4d42c57286555a44acc91"><div class="ttname"><a href="d__stage_8cpp.html#a98b40430fbf4d42c57286555a44acc91">dStage_fieldMapMapPathInit</a></div><div class="ttdeci">static asm void dStage_fieldMapMapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2043</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_abd5c59ea69116a4cb61510c86d35429f"><div class="ttname"><a href="d__stage_8cpp.html#abd5c59ea69116a4cb61510c86d35429f">dStage_fieldMapFiliInfo2Init</a></div><div class="ttdeci">static asm void dStage_fieldMapFiliInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1620</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad546ff54a9a1e820c19c64cfd0056df3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad546ff54a9a1e820c19c64cfd0056df3">&#9670;&nbsp;</a></span>l_funcTable_5178</h2>
+<a id="aadc90fa96eaa01dcf1df715d0d546fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc90fa96eaa01dcf1df715d0d546fff">&#9670;&nbsp;</a></span>l_layerFuncTable_5053</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12294,7 +12098,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_funcTable_5178[9]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_layerFuncTable_5053[3]</td>
         </tr>
       </table>
   </td>
@@ -12304,18 +12108,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54524553, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a7df7828c9c5b3b2fd98f40d6c65f5919">dStage_fieldMapTresureInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x46494C49, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a28de2d781e6eb5baa94cd15488d1a006">dStage_fieldMapFiliInfo2Init__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D504154, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ad067c5fc0e15b95aa57afad4fb26ded9">dStage_fieldMapMapPathInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;TRE0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a2dcaf819d6cd3772465c704283fda7e4">dStage_stageKeepTresureInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;MPA0&quot;</span>, <a class="code" href="d__stage_8cpp.html#aa25ceb27adc4563cbcba16b7fe258aa5">dStage_mapPathInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;Doo0&quot;</span>, <a class="code" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a28de2d781e6eb5baa94cd15488d1a006"><div class="ttname"><a href="d__stage_8cpp.html#a28de2d781e6eb5baa94cd15488d1a006">dStage_fieldMapFiliInfo2Init__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_fieldMapFiliInfo2Init__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a7df7828c9c5b3b2fd98f40d6c65f5919"><div class="ttname"><a href="d__stage_8cpp.html#a7df7828c9c5b3b2fd98f40d6c65f5919">dStage_fieldMapTresureInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_fieldMapTresureInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ad067c5fc0e15b95aa57afad4fb26ded9"><div class="ttname"><a href="d__stage_8cpp.html#ad067c5fc0e15b95aa57afad4fb26ded9">dStage_fieldMapMapPathInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_fieldMapMapPathInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a2dcaf819d6cd3772465c704283fda7e4"><div class="ttname"><a href="d__stage_8cpp.html#a2dcaf819d6cd3772465c704283fda7e4">dStage_stageKeepTresureInit</a></div><div class="ttdeci">static asm void dStage_stageKeepTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1986</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aa25ceb27adc4563cbcba16b7fe258aa5"><div class="ttname"><a href="d__stage_8cpp.html#aa25ceb27adc4563cbcba16b7fe258aa5">dStage_mapPathInit</a></div><div class="ttdeci">static asm void dStage_mapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2019</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_acbd831ff94563c6146be4215644477f8"><div class="ttname"><a href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a></div><div class="ttdeci">static asm void dStage_RoomKeepDoorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:596</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a1c0d1502257ba069d9b4d6f57234654d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c0d1502257ba069d9b4d6f57234654d">&#9670;&nbsp;</a></span>l_layerFuncTable_5053</h2>
+<a id="a4c8860e8081ff99bb924662a8219c349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c8860e8081ff99bb924662a8219c349">&#9670;&nbsp;</a></span>l_layerFuncTable_5131</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12324,7 +12128,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_layerFuncTable_5053[9]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_layerFuncTable_5131[2]</td>
         </tr>
       </table>
   </td>
@@ -12334,18 +12138,16 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54524530, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a61da67c90279c65faf68ce1a8ee3f53a">dStage_stageKeepTresureInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D504130, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a1ee16198c21a73460106758bf04d61ff">dStage_mapPathInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x446F6F30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac1b838de899bff8fe24a8fa18869a93e">dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;MEM0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a5a1eb9c9ccfc086d871a2920e2b9f58f">dStage_memaInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;MEC0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a903a9c2470e2eb8b9d80d081c0ac7772">dStage_mecoInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a1ee16198c21a73460106758bf04d61ff"><div class="ttname"><a href="d__stage_8cpp.html#a1ee16198c21a73460106758bf04d61ff">dStage_mapPathInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_mapPathInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a61da67c90279c65faf68ce1a8ee3f53a"><div class="ttname"><a href="d__stage_8cpp.html#a61da67c90279c65faf68ce1a8ee3f53a">dStage_stageKeepTresureInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_stageKeepTresureInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ac1b838de899bff8fe24a8fa18869a93e"><div class="ttname"><a href="d__stage_8cpp.html#ac1b838de899bff8fe24a8fa18869a93e">dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a5a1eb9c9ccfc086d871a2920e2b9f58f"><div class="ttname"><a href="d__stage_8cpp.html#a5a1eb9c9ccfc086d871a2920e2b9f58f">dStage_memaInfoInit</a></div><div class="ttdeci">static asm void dStage_memaInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1963</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a903a9c2470e2eb8b9d80d081c0ac7772"><div class="ttname"><a href="d__stage_8cpp.html#a903a9c2470e2eb8b9d80d081c0ac7772">dStage_mecoInfoInit</a></div><div class="ttdeci">static asm void dStage_mecoInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1974</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ab34c566e4dfaf73b55943b51acf9d936"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab34c566e4dfaf73b55943b51acf9d936">&#9670;&nbsp;</a></span>l_layerFuncTable_5131</h2>
+<a id="a3c8731dac63b120722e99f3ee1688843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8731dac63b120722e99f3ee1688843">&#9670;&nbsp;</a></span>l_layerFuncTable_5158</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12354,7 +12156,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_layerFuncTable_5131[6]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_layerFuncTable_5158[4]</td>
         </tr>
       </table>
   </td>
@@ -12364,16 +12166,18 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D454D30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ae8bf80bdccfa213105db1cbe3c9a467b">dStage_memaInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D454330, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a5040b85fc4869f4513a5111782d6b4af">dStage_mecoInfoInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;Doo0&quot;</span>, <a class="code" href="d__stage_8cpp.html#af92904dc32a571e7dd22f3afdf8ac6ea">dStage_roomDrtgInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;SCO0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;ACT0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a6b0210810337c8c2a7ae3fec770be783">dStage_actorInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;TRE0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a0f1b0ad67bb64d5a6cab81ee98333638">dStage_layerTresureInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a5040b85fc4869f4513a5111782d6b4af"><div class="ttname"><a href="d__stage_8cpp.html#a5040b85fc4869f4513a5111782d6b4af">dStage_mecoInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_mecoInfoInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ae8bf80bdccfa213105db1cbe3c9a467b"><div class="ttname"><a href="d__stage_8cpp.html#ae8bf80bdccfa213105db1cbe3c9a467b">dStage_memaInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_memaInfoInit__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a0f1b0ad67bb64d5a6cab81ee98333638"><div class="ttname"><a href="d__stage_8cpp.html#a0f1b0ad67bb64d5a6cab81ee98333638">dStage_layerTresureInit</a></div><div class="ttdeci">static asm void dStage_layerTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2111</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a6b0210810337c8c2a7ae3fec770be783"><div class="ttname"><a href="d__stage_8cpp.html#a6b0210810337c8c2a7ae3fec770be783">dStage_actorInit</a></div><div class="ttdeci">static asm void dStage_actorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1764</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a0e2897daf040bf3d7e511f27d577da18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e2897daf040bf3d7e511f27d577da18">&#9670;&nbsp;</a></span>l_layerFuncTable_5158</h2>
+<a id="a6ea16c7163c4c0cc7f5306fee4d1e8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea16c7163c4c0cc7f5306fee4d1e8aa">&#9670;&nbsp;</a></span>l_layerFuncTableA</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12382,7 +12186,51 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_layerFuncTable_5158[12]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structFuncTable.html">FuncTable</a> l_layerFuncTableA = {&quot;SON0&quot;, dStage_soundInfoInit}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e9d57faa9d860b4bc71402658f068da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9d57faa9d860b4bc71402658f068da">&#9670;&nbsp;</a></span>l_objectName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdStage__objectNameInf.html">dStage_objectNameInf</a> l_objectName[0x38F]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac94d0bca6d922d3bde59f1b9dc956a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac94d0bca6d922d3bde59f1b9dc956a30">&#9670;&nbsp;</a></span>l_roomFuncTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFuncTable.html">FuncTable</a> l_roomFuncTable[4]</td>
         </tr>
       </table>
   </td>
@@ -12392,93 +12240,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x446F6F30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#acf24318774f8a35c20da6645956141c3">dStage_roomDrtgInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x53434F30, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a6d20612c57a60a1e492928dfea0b615c">dStage_tgscInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x41435430, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aabf56d9377077fc9aba95e92c88a640a">dStage_actorInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54524530, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a9fbad09d4681feeca4581134a9483d26">dStage_layerTresureInit__FP11dStage_dt_cPviPv</a>,</div>
+<div class="line">    {<span class="stringliteral">&quot;TRES&quot;</span>, <a class="code" href="d__stage_8cpp.html#a2dcaf819d6cd3772465c704283fda7e4">dStage_stageKeepTresureInit</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#a44a7793198a123753e3533367e2f8cec">dStage_filiInfo2Init</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;MPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a55ebe07efa5db18e1d16d0b7c0c7d98e">dStage_mapPathInitCommonLayer</a>},</div>
+<div class="line">    {<span class="stringliteral">&quot;Door&quot;</span>, <a class="code" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a9fbad09d4681feeca4581134a9483d26"><div class="ttname"><a href="d__stage_8cpp.html#a9fbad09d4681feeca4581134a9483d26">dStage_layerTresureInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_layerTresureInit__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aabf56d9377077fc9aba95e92c88a640a"><div class="ttname"><a href="d__stage_8cpp.html#aabf56d9377077fc9aba95e92c88a640a">dStage_actorInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_actorInit__FP11dStage_dt_cPviPv()</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a73f27195d6a9cb186e6b0aa3aa614c5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73f27195d6a9cb186e6b0aa3aa614c5f">&#9670;&nbsp;</a></span>l_layerFuncTableA</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_layerFuncTableA[3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x534F4E30,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#aa06e65c73d8db74dfe971b0bd69b1f15">dStage_soundInfoInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_aa06e65c73d8db74dfe971b0bd69b1f15"><div class="ttname"><a href="d__stage_8cpp.html#aa06e65c73d8db74dfe971b0bd69b1f15">dStage_soundInfoInit__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_soundInfoInit__FP11dStage_dt_cPviPv()</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8bbb863deb6d71ad94fae774afeb7720"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bbb863deb6d71ad94fae774afeb7720">&#9670;&nbsp;</a></span>l_objectName</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> l_objectName[10932]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8945a59369417f4584dd08d4777ca8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8945a59369417f4584dd08d4777ca8b">&#9670;&nbsp;</a></span>l_roomFuncTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* l_roomFuncTable[12]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x54524553, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a61da67c90279c65faf68ce1a8ee3f53a">dStage_stageKeepTresureInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x46494C49, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#a2a24162d5baea6833422778c1ed1a6c0">dStage_filiInfo2Init__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x4D504154, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ae3a86751ab134ec2e6cfc3d9a4d78e73">dStage_mapPathInitCommonLayer__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x446F6F72, (<span class="keywordtype">void</span>*)<a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code" href="d__stage_8cpp.html#ac1b838de899bff8fe24a8fa18869a93e">dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a2a24162d5baea6833422778c1ed1a6c0"><div class="ttname"><a href="d__stage_8cpp.html#a2a24162d5baea6833422778c1ed1a6c0">dStage_filiInfo2Init__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_filiInfo2Init__FP11dStage_dt_cPviPv()</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ae3a86751ab134ec2e6cfc3d9a4d78e73"><div class="ttname"><a href="d__stage_8cpp.html#ae3a86751ab134ec2e6cfc3d9a4d78e73">dStage_mapPathInitCommonLayer__FP11dStage_dt_cPviPv</a></div><div class="ttdeci">static void dStage_mapPathInitCommonLayer__FP11dStage_dt_cPviPv()</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a44a7793198a123753e3533367e2f8cec"><div class="ttname"><a href="d__stage_8cpp.html#a44a7793198a123753e3533367e2f8cec">dStage_filiInfo2Init</a></div><div class="ttdeci">static asm void dStage_filiInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1608</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a55ebe07efa5db18e1d16d0b7c0c7d98e"><div class="ttname"><a href="d__stage_8cpp.html#a55ebe07efa5db18e1d16d0b7c0c7d98e">dStage_mapPathInitCommonLayer</a></div><div class="ttdeci">static asm void dStage_mapPathInitCommonLayer(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2031</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -12768,28 +12536,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ba02624faff3bd24dec2ab8b2179b7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ba02624faff3bd24dec2ab8b2179b7a">&#9670;&nbsp;</a></span>pad_80378E43</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const pad_80378E43 = &quot;\0\0\0\0&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a245a332d46372470b5fd5f2839ec4596"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a245a332d46372470b5fd5f2839ec4596">&#9670;&nbsp;</a></span>pad_80450D7C</h2>
 
@@ -12808,6 +12554,48 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99aaff6ce36745365465768aebe56bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99aaff6ce36745365465768aebe56bd9">&#9670;&nbsp;</a></span>sLastStayNo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> sLastStayNo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab0f594a0ee0381079420fce1134c566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab0f594a0ee0381079420fce1134c566">&#9670;&nbsp;</a></span>sNextStayNo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> sNextStayNo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0007e6543ff6c136926ffa04a73f346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0007e6543ff6c136926ffa04a73f346">&#9670;&nbsp;</a></span>sTimePass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool sTimePass</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -12832,54 +12620,6 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7faa887c8844d3f8ed090a26098a8906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7faa887c8844d3f8ed090a26098a8906">&#9670;&nbsp;</a></span>stringBase_80378A58</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378A58</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">    <span class="stringliteral">&quot;部屋情報が、多分ですが壊れています。\n変換し直してみてください。\n&quot;</span></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad78bebb6717f405855dbb026e610f84a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad78bebb6717f405855dbb026e610f84a">&#9670;&nbsp;</a></span>stringBase_80378A99</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378A99</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">    <span class="stringliteral">&quot;ステージ情報が、多分ですが壊れています。\n変換し直してみてください。&quot;</span></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a01fdc1fa02ad4a653d20bcf383028bbb"></a>
@@ -12983,28 +12723,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378B16 = &quot;%s/room%d.dzs&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a405d1e868539e4c6e80d61ca11bb9fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a405d1e868539e4c6e80d61ca11bb9fe3">&#9670;&nbsp;</a></span>stringBase_80378B24</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378B24 = &quot;%d%+0d&quot;</td>
         </tr>
       </table>
   </td>
@@ -13236,8 +12954,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2a4b291807031b09ee21aacf85b90b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2a4b291807031b09ee21aacf85b90b2">&#9670;&nbsp;</a></span>stringBase_80378BBF</h2>
+<a id="a9cdc519cb7f5f3b68365fe7e45c00edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cdc519cb7f5f3b68365fe7e45c00edf">&#9670;&nbsp;</a></span>struct_80450D64</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> struct_80450D64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe864337f1fddf068f3b238937979f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe864337f1fddf068f3b238937979f96">&#9670;&nbsp;</a></span>tmp_name</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13246,571 +12978,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378BBF = &quot;Room non room <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a728f0e42e86312837ba5796e8fc336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a728f0e42e86312837ba5796e8fc336">&#9670;&nbsp;</a></span>stringBase_80378BD6</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378BD6 = &quot;Room non palet <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab19a44d918d1726578ff8675b8036dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab19a44d918d1726578ff8675b8036dac">&#9670;&nbsp;</a></span>stringBase_80378BEE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378BEE = &quot;Room non pselect <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac37c1d30103d00c55c8ea7c97c8ef728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac37c1d30103d00c55c8ea7c97c8ef728">&#9670;&nbsp;</a></span>stringBase_80378C08</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C08 = &quot;Room non envr <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50cee41d2acf42558c4473d66eee3724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50cee41d2acf42558c4473d66eee3724">&#9670;&nbsp;</a></span>stringBase_80378C1F</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C1F = &quot;Room non plight <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04b22a4a81ad01fc34ab581a1137e55f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04b22a4a81ad01fc34ab581a1137e55f">&#9670;&nbsp;</a></span>stringBase_80378C38</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C38 = &quot;Room non palette num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4802bbdff3893ac9b71560019f866473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4802bbdff3893ac9b71560019f866473">&#9670;&nbsp;</a></span>stringBase_80378C56</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C56 = &quot;Room non pselect num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3d92a96e921aa84f23e0679b225c5676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d92a96e921aa84f23e0679b225c5676">&#9670;&nbsp;</a></span>stringBase_80378C74</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C74 = &quot;Room non envr num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5f1d187a114fda5c08ea76692aa8193b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f1d187a114fda5c08ea76692aa8193b">&#9670;&nbsp;</a></span>stringBase_80378C8F</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378C8F = &quot;Room non plight num <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abc095e97791d449dde3e72bcc79932b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc095e97791d449dde3e72bcc79932b8">&#9670;&nbsp;</a></span>stringBase_80378CAC</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378CAC = &quot;Room non stag <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae8de86f8f5fd59091436d8655f84c88b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8de86f8f5fd59091436d8655f84c88b">&#9670;&nbsp;</a></span>stringBase_80378CC3</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378CC3 = &quot;Room non Pnt <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abff3dc0c97fd098504e8f11a39da00b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abff3dc0c97fd098504e8f11a39da00b3">&#9670;&nbsp;</a></span>stringBase_80378CD8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378CD8 = &quot;Room non Pnts <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a99f5c61a58a9cdaaccff6f5482a6b8a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99f5c61a58a9cdaaccff6f5482a6b8a7">&#9670;&nbsp;</a></span>stringBase_80378CEE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378CEE = &quot;Room non Path <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae576c5e5bead91577ec848e514c74bce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae576c5e5bead91577ec848e514c74bce">&#9670;&nbsp;</a></span>stringBase_80378D04</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D04 = &quot;Room non memory config data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac110cedc31873ee0007f34d40288d8c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac110cedc31873ee0007f34d40288d8c9">&#9670;&nbsp;</a></span>stringBase_80378D22</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D22 = &quot;Room non memory map data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af229c30277533a6f5c6ebb88c7c06079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af229c30277533a6f5c6ebb88c7c06079">&#9670;&nbsp;</a></span>stringBase_80378D3D</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D3D = &quot;Room non multi data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a4df0b4906579090d09a4b53c5ae0ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a4df0b4906579090d09a4b53c5ae0ad">&#9670;&nbsp;</a></span>stringBase_80378D53</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D53 = &quot;Room non old multi data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abe8597b51ce8b430cfdceea29d703fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe8597b51ce8b430cfdceea29d703fc6">&#9670;&nbsp;</a></span>stringBase_80378D6D</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D6D = &quot;stage non 2d map path <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a19ba4c41ce3a5fc543366bebe00419dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ba4c41ce3a5fc543366bebe00419dc">&#9670;&nbsp;</a></span>stringBase_80378D8C</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378D8C = &quot;Room non envLayserSet data\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ce65d4d5d1b5826c7c64c84daf55056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ce65d4d5d1b5826c7c64c84daf55056">&#9670;&nbsp;</a></span>stringBase_80378DA8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378DA8 = &quot;Room no Elst Data!!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a159facfdd921ee5d7e4ec0fc92e7c438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a159facfdd921ee5d7e4ec0fc92e7c438">&#9670;&nbsp;</a></span>stringBase_80378DBD</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378DBD = &quot;stage non LightVec <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4f5e99d40ead1d8c12121217fd237cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f5e99d40ead1d8c12121217fd237cd4">&#9670;&nbsp;</a></span>stringBase_80378DD9</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378DD9 = &quot;stage non LightVecNum <a class="el" href="d__map__path_8cpp.html#ab72cc6f5c31bf758ff61628521a836ab">data</a> !!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab0d803511859a3e2b2f028099bfa29b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d803511859a3e2b2f028099bfa29b2">&#9670;&nbsp;</a></span>stringBase_80378DF8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378DF8 = &quot;stage non filelist2 data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af2bc4e8c10cef367cb18fa92c32cef63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2bc4e8c10cef367cb18fa92c32cef63">&#9670;&nbsp;</a></span>stringBase_80378E13</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378E13 = &quot;stage non filelist data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53742304551df5ccc3fbb88dd2bccb0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53742304551df5ccc3fbb88dd2bccb0e">&#9670;&nbsp;</a></span>stringBase_80378E2D</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378E2D = &quot;stage non Lbnk data!\n&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a26bf0818a5e2965243a18b6f833cac42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26bf0818a5e2965243a18b6f833cac42">&#9670;&nbsp;</a></span>struct_80450D64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> struct_80450D64[4]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac0f63ffb1ea50a741a9cad36aa563e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac0f63ffb1ea50a741a9cad36aa563e4">&#9670;&nbsp;</a></span>tmp_name</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> tmp_name[8]</td>
+          <td class="memname">char tmp_name[8]</td>
         </tr>
       </table>
   </td>
