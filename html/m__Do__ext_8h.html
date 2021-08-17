@@ -82,6 +82,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="J3DAnimation_8h_source.html">JSystem/J3DGraphAnimator/J3DAnimation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="J3DModel_8h_source.html">JSystem/J3DGraphAnimator/J3DModel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JKRAssertHeap_8h_source.html">JSystem/JKernel/JKRAssertHeap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="JKRExpHeap_8h_source.html">JSystem/JKernel/JKRExpHeap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="JKRSolidHeap_8h_source.html">JSystem/JKernel/JKRSolidHeap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
@@ -149,8 +150,18 @@ Functions</h2></td></tr>
 <tr class="separator:ad57b73a617c32619997698380a6c49ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fbee979e612acfaf5697889a36a8b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a0fbee979e612acfaf5697889a36a8b80">mDoExt_getArchiveHeap</a> ()</td></tr>
 <tr class="separator:a0fbee979e612acfaf5697889a36a8b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8008d5a6517dba62e46af50f657ffcfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a8008d5a6517dba62e46af50f657ffcfe">mDoExt_getArchiveHeapPtr</a> ()</td></tr>
+<tr class="separator:a8008d5a6517dba62e46af50f657ffcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c1201fee209ba7bfca93de5f961362f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a5c1201fee209ba7bfca93de5f961362f">mDoExt_destroyExpHeap</a> (<a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *)</td></tr>
 <tr class="separator:a5c1201fee209ba7bfca93de5f961362f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae71cd9ac4d33060a6cc8324bca0622"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJKRAssertHeap.html">JKRAssertHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a1ae71cd9ac4d33060a6cc8324bca0622">mDoExt_getAssertHeap</a> ()</td></tr>
+<tr class="separator:a1ae71cd9ac4d33060a6cc8324bca0622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4aa412fc0eafb7409cb6bb6fd7471e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a5a4aa412fc0eafb7409cb6bb6fd7471e">mDoExt_getCommandHeap</a> ()</td></tr>
+<tr class="separator:a5a4aa412fc0eafb7409cb6bb6fd7471e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e3245b885ad592f754bf57230d4c101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#a9e3245b885ad592f754bf57230d4c101">mDoExt_getZeldaHeap</a> ()</td></tr>
+<tr class="separator:a9e3245b885ad592f754bf57230d4c101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad77d19c94af3ea19701e6401638ba8c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__ext_8h.html#ad77d19c94af3ea19701e6401638ba8c8">mDoExt_getJ2dHeap</a> ()</td></tr>
+<tr class="separator:ad77d19c94af3ea19701e6401638ba8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a4267b737de82afcdf0807842e46ac277"></a>
@@ -252,6 +263,57 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8008d5a6517dba62e46af50f657ffcfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8008d5a6517dba62e46af50f657ffcfe">&#9670;&nbsp;</a></span>mDoExt_getArchiveHeapPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a>* mDoExt_getArchiveHeapPtr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ae71cd9ac4d33060a6cc8324bca0622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae71cd9ac4d33060a6cc8324bca0622">&#9670;&nbsp;</a></span>mDoExt_getAssertHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classJKRAssertHeap.html">JKRAssertHeap</a>* mDoExt_getAssertHeap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a4aa412fc0eafb7409cb6bb6fd7471e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4aa412fc0eafb7409cb6bb6fd7471e">&#9670;&nbsp;</a></span>mDoExt_getCommandHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a>* mDoExt_getCommandHeap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a877da90d7e28f5d6749a053892a8b2ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a877da90d7e28f5d6749a053892a8b2ae">&#9670;&nbsp;</a></span>mDoExt_getGameHeap()</h2>
 
@@ -260,6 +322,40 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structJKRHeap.html">JKRHeap</a>* mDoExt_getGameHeap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad77d19c94af3ea19701e6401638ba8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad77d19c94af3ea19701e6401638ba8c8">&#9670;&nbsp;</a></span>mDoExt_getJ2dHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a>* mDoExt_getJ2dHeap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e3245b885ad592f754bf57230d4c101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3245b885ad592f754bf57230d4c101">&#9670;&nbsp;</a></span>mDoExt_getZeldaHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a>* mDoExt_getZeldaHeap </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
