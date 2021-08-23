@@ -85,13 +85,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="m__Do__ext_8h_source.html">m_Do/m_Do_ext.h</a>&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/set__18dStage_nextStage_cFPCcScsScScUc.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_GetKeepDoorInfo__Fv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_isBossStage__FP11dStage_dt_c.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_KeepDoorInfoInit__FP11dStage_dt_c.s&quot;</code><br />
+<code>#include &quot;m_Do/m_Do_reset.h&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_KeepDoorInfoProc__FP11dStage_dt_cP16stage_tgsc_class.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_GetRoomKeepDoorInfo__Fv.s&quot;</code><br />
-<code>#include &quot;asm/d/d_stage/dStage_initRoomKeepDoorInfo__Fv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_RoomKeepDoorInfoProc__FP11dStage_dt_cP16stage_tgsc_class.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/dStage_RoomKeepDoorInit__FP11dStage_dt_cPviPv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_stage/init__20dStage_roomControl_cFv.s&quot;</code><br />
@@ -196,10 +191,6 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmDoRst.html">mDoRst</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAcM__prm__class.html">fopAcM_prm_class</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaSus__c.html">daSus_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdTres__c.html">dTres_c</a></td></tr>
@@ -959,26 +950,24 @@ Functions</h2></td></tr>
 <tr class="separator:a3f61243ebf5cbb2ff90548d397b16772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed5bd59c54272a132a5b4da4beff66d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#abed5bd59c54272a132a5b4da4beff66d">_restgpr_29</a> ()</td></tr>
 <tr class="separator:abed5bd59c54272a132a5b4da4beff66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84191174c69215693bd801985a205889"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a84191174c69215693bd801985a205889">sprintf</a> ()</td></tr>
-<tr class="separator:a84191174c69215693bd801985a205889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f475e7f9fef7c1da8b1381e877c6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a38f475e7f9fef7c1da8b1381e877c6cf">snprintf</a> (char *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, char *,...)</td></tr>
 <tr class="separator:a38f475e7f9fef7c1da8b1381e877c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f8a9e87f2fa57e3b13426509d86014"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#af9f8a9e87f2fa57e3b13426509d86014">dStage_SetErrorRoom</a> ()</td></tr>
 <tr class="separator:af9f8a9e87f2fa57e3b13426509d86014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a952d8e58a4cc821e8ca034d95acb3ebe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a952d8e58a4cc821e8ca034d95acb3ebe">dStage_SetErrorStage</a> ()</td></tr>
 <tr class="separator:a952d8e58a4cc821e8ca034d95acb3ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a61c2a4e3fc778429ddccf0ed60c185"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a0a61c2a4e3fc778429ddccf0ed60c185">dStage_GetKeepDoorInfo</a> ()</td></tr>
-<tr class="separator:a0a61c2a4e3fc778429ddccf0ed60c185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad62163c1e910bc42557252fa26a45e9f"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ad62163c1e910bc42557252fa26a45e9f">dStage_isBossStage</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0)</td></tr>
-<tr class="separator:ad62163c1e910bc42557252fa26a45e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23c611fb891efc3ae15be5b2bdb9398"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae23c611fb891efc3ae15be5b2bdb9398">dStage_KeepDoorInfoInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0)</td></tr>
-<tr class="separator:ae23c611fb891efc3ae15be5b2bdb9398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbb047419b78cb5559fa8db9a06575d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#aebbb047419b78cb5559fa8db9a06575d">dStage_GetKeepDoorInfo</a> ()</td></tr>
+<tr class="separator:aebbb047419b78cb5559fa8db9a06575d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857193a0348adf02d7539491e907db7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a857193a0348adf02d7539491e907db7b">dStage_isBossStage</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0)</td></tr>
+<tr class="separator:a857193a0348adf02d7539491e907db7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377cd50b0698f7b56ad507fd0cdc72fc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a377cd50b0698f7b56ad507fd0cdc72fc">dStage_KeepDoorInfoInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0)</td></tr>
+<tr class="separator:a377cd50b0698f7b56ad507fd0cdc72fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee69a98e6849cc637b5f75676dbf606"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2ee69a98e6849cc637b5f75676dbf606">dStage_KeepDoorInfoProc</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, <a class="el" href="structstage__tgsc__class.html">stage_tgsc_class</a> *param_1)</td></tr>
 <tr class="separator:a2ee69a98e6849cc637b5f75676dbf606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16ca298c2c4ed3b1037acbc004ab0636"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a16ca298c2c4ed3b1037acbc004ab0636">dStage_GetRoomKeepDoorInfo</a> ()</td></tr>
-<tr class="separator:a16ca298c2c4ed3b1037acbc004ab0636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a008133c1ef921a30ad3686925e34d082"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a008133c1ef921a30ad3686925e34d082">dStage_initRoomKeepDoorInfo</a> ()</td></tr>
-<tr class="separator:a008133c1ef921a30ad3686925e34d082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ea6d7eafd2b302a585387f02348eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a67ea6d7eafd2b302a585387f02348eb2">dStage_GetRoomKeepDoorInfo</a> ()</td></tr>
+<tr class="separator:a67ea6d7eafd2b302a585387f02348eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11503decb160df7e55d0862051b1da67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a11503decb160df7e55d0862051b1da67">dStage_initRoomKeepDoorInfo</a> ()</td></tr>
+<tr class="separator:a11503decb160df7e55d0862051b1da67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a798ec9fa1433cbf81bf8e71f710195fb"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a798ec9fa1433cbf81bf8e71f710195fb">dStage_RoomKeepDoorInfoProc</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, <a class="el" href="structstage__tgsc__class.html">stage_tgsc_class</a> *param_1)</td></tr>
 <tr class="separator:a798ec9fa1433cbf81bf8e71f710195fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd831ff94563c6146be4215644477f8"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, void *param_1, int param_2, void *param_3)</td></tr>
@@ -1047,8 +1036,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4308dac6c4731f8557b96fe897ae23a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06bfd1c8c9bd2effee3b8c172cb61100"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, void *param_1, int param_2, void *param_3)</td></tr>
 <tr class="separator:a06bfd1c8c9bd2effee3b8c172cb61100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a505e6b1d7d61b10b9eb32c9eb0beec48"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a505e6b1d7d61b10b9eb32c9eb0beec48">dStage_roomRead_dt_c_GetReverbStage</a> (<a class="el" href="structroomRead__class.html">roomRead_class</a> &amp;param_0, int param_1)</td></tr>
-<tr class="separator:a505e6b1d7d61b10b9eb32c9eb0beec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee498af4964e5a4484fd718bbe3a304"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#acee498af4964e5a4484fd718bbe3a304">dStage_roomRead_dt_c_GetReverbStage</a> (<a class="el" href="structroomRead__class.html">roomRead_class</a> &amp;param_0, int param_1)</td></tr>
+<tr class="separator:acee498af4964e5a4484fd718bbe3a304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65806ee6a17a07e7ecbed1fa30a690f"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae65806ee6a17a07e7ecbed1fa30a690f">dStage_ppntInfoInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, void *param_1, int param_2, void *param_3)</td></tr>
 <tr class="separator:ae65806ee6a17a07e7ecbed1fa30a690f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b1a214452e7cf2445743a2b251ab28f"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a5b1a214452e7cf2445743a2b251ab28f">dStage_pathInfoInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *param_0, void *param_1, int param_2, void *param_3)</td></tr>
@@ -1170,8 +1159,6 @@ Variables</h2></td></tr>
 <tr class="separator:ab021ac8f46d3c9237ec945fec46dd55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae265a193f6aaabcee462778eb760549a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae265a193f6aaabcee462778eb760549a">mResetData__6mDoRst</a> [4+4]</td></tr>
 <tr class="separator:ae265a193f6aaabcee462778eb760549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dc92b452e4f7f6fc8d522d24e55de12"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a2dc92b452e4f7f6fc8d522d24e55de12">stringBase_80378A50</a> = &quot;OPENING&quot;</td></tr>
-<tr class="separator:a2dc92b452e4f7f6fc8d522d24e55de12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d89d454541d4d8b5b09a36965d175d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#ae2d89d454541d4d8b5b09a36965d175d">DoorInfo</a></td></tr>
 <tr class="separator:ae2d89d454541d4d8b5b09a36965d175d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a539289e13c1d079e6c67ed1928782961"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8cpp.html#a539289e13c1d079e6c67ed1928782961">l_RoomKeepDoorInfo</a></td></tr>
@@ -4015,14 +4002,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a61c2a4e3fc778429ddccf0ed60c185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a61c2a4e3fc778429ddccf0ed60c185">&#9670;&nbsp;</a></span>dStage_GetKeepDoorInfo()</h2>
+<a id="aebbb047419b78cb5559fa8db9a06575d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebbb047419b78cb5559fa8db9a06575d">&#9670;&nbsp;</a></span>dStage_GetKeepDoorInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void dStage_GetKeepDoorInfo </td>
+          <td class="memname"><a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a>* dStage_GetKeepDoorInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -4155,14 +4142,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a16ca298c2c4ed3b1037acbc004ab0636"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16ca298c2c4ed3b1037acbc004ab0636">&#9670;&nbsp;</a></span>dStage_GetRoomKeepDoorInfo()</h2>
+<a id="a67ea6d7eafd2b302a585387f02348eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ea6d7eafd2b302a585387f02348eb2">&#9670;&nbsp;</a></span>dStage_GetRoomKeepDoorInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void dStage_GetRoomKeepDoorInfo </td>
+          <td class="memname"><a class="el" href="classdStage__KeepDoorInfo.html">dStage_KeepDoorInfo</a>* dStage_GetRoomKeepDoorInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -4223,8 +4210,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a008133c1ef921a30ad3686925e34d082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a008133c1ef921a30ad3686925e34d082">&#9670;&nbsp;</a></span>dStage_initRoomKeepDoorInfo()</h2>
+<a id="a11503decb160df7e55d0862051b1da67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11503decb160df7e55d0862051b1da67">&#9670;&nbsp;</a></span>dStage_initRoomKeepDoorInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4233,7 +4220,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_initRoomKeepDoorInfo </td>
+          <td class="memname">static void dStage_initRoomKeepDoorInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -4273,8 +4260,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad62163c1e910bc42557252fa26a45e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad62163c1e910bc42557252fa26a45e9f">&#9670;&nbsp;</a></span>dStage_isBossStage()</h2>
+<a id="a857193a0348adf02d7539491e907db7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857193a0348adf02d7539491e907db7b">&#9670;&nbsp;</a></span>dStage_isBossStage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4283,7 +4270,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_isBossStage </td>
+          <td class="memname">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> dStage_isBossStage </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *&#160;</td>
           <td class="paramname"><em>param_0</em></td><td>)</td>
@@ -4324,8 +4311,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae23c611fb891efc3ae15be5b2bdb9398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae23c611fb891efc3ae15be5b2bdb9398">&#9670;&nbsp;</a></span>dStage_KeepDoorInfoInit()</h2>
+<a id="a377cd50b0698f7b56ad507fd0cdc72fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377cd50b0698f7b56ad507fd0cdc72fc">&#9670;&nbsp;</a></span>dStage_KeepDoorInfoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4334,7 +4321,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void dStage_KeepDoorInfoInit </td>
+          <td class="memname">static void dStage_KeepDoorInfoInit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *&#160;</td>
           <td class="paramname"><em>param_0</em></td><td>)</td>
@@ -5948,14 +5935,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a505e6b1d7d61b10b9eb32c9eb0beec48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a505e6b1d7d61b10b9eb32c9eb0beec48">&#9670;&nbsp;</a></span>dStage_roomRead_dt_c_GetReverbStage()</h2>
+<a id="acee498af4964e5a4484fd718bbe3a304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee498af4964e5a4484fd718bbe3a304">&#9670;&nbsp;</a></span>dStage_roomRead_dt_c_GetReverbStage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void dStage_roomRead_dt_c_GetReverbStage </td>
+          <td class="memname">asm <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> dStage_roomRead_dt_c_GetReverbStage </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structroomRead__class.html">roomRead_class</a> &amp;&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -11503,23 +11490,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a84191174c69215693bd801985a205889"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84191174c69215693bd801985a205889">&#9670;&nbsp;</a></span>sprintf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sprintf </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a36d12f00495ba74b2f8c3bea6c41e81f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36d12f00495ba74b2f8c3bea6c41e81f">&#9670;&nbsp;</a></span>stayRoomCheck()</h2>
 
@@ -11792,11 +11762,11 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;Col0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a63c674559bdabaa6cb359ec3ebe89bef">dStage_pselectInfoInit</a>},  {<span class="stringliteral">&quot;PAL0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a2efddf571ed5851d320536c1d4a50aa1">dStage_paletteInfoInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;VRB0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a07d6ffd9c8c4f39a1467cd0ebb06de44">dStage_vrboxcolInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a07d6ffd9c8c4f39a1467cd0ebb06de44"><div class="ttname"><a href="d__stage_8cpp.html#a07d6ffd9c8c4f39a1467cd0ebb06de44">dStage_vrboxcolInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxcolInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1651</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a1e4afd8331f250da42117dc7912811d4"><div class="ttname"><a href="d__stage_8cpp.html#a1e4afd8331f250da42117dc7912811d4">dStage_lgtvInfoInit</a></div><div class="ttdeci">static asm void dStage_lgtvInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1674</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a2efddf571ed5851d320536c1d4a50aa1"><div class="ttname"><a href="d__stage_8cpp.html#a2efddf571ed5851d320536c1d4a50aa1">dStage_paletteInfoInit</a></div><div class="ttdeci">static asm void dStage_paletteInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1569</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a37db69a21182074574a2a231d669e18f"><div class="ttname"><a href="d__stage_8cpp.html#a37db69a21182074574a2a231d669e18f">dStage_envrInfoInit</a></div><div class="ttdeci">static asm void dStage_envrInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1592</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a63c674559bdabaa6cb359ec3ebe89bef"><div class="ttname"><a href="d__stage_8cpp.html#a63c674559bdabaa6cb359ec3ebe89bef">dStage_pselectInfoInit</a></div><div class="ttdeci">static asm void dStage_pselectInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1581</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a07d6ffd9c8c4f39a1467cd0ebb06de44"><div class="ttname"><a href="d__stage_8cpp.html#a07d6ffd9c8c4f39a1467cd0ebb06de44">dStage_vrboxcolInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxcolInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1647</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a1e4afd8331f250da42117dc7912811d4"><div class="ttname"><a href="d__stage_8cpp.html#a1e4afd8331f250da42117dc7912811d4">dStage_lgtvInfoInit</a></div><div class="ttdeci">static asm void dStage_lgtvInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1670</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a2efddf571ed5851d320536c1d4a50aa1"><div class="ttname"><a href="d__stage_8cpp.html#a2efddf571ed5851d320536c1d4a50aa1">dStage_paletteInfoInit</a></div><div class="ttdeci">static asm void dStage_paletteInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1565</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a37db69a21182074574a2a231d669e18f"><div class="ttname"><a href="d__stage_8cpp.html#a37db69a21182074574a2a231d669e18f">dStage_envrInfoInit</a></div><div class="ttdeci">static asm void dStage_envrInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1588</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a63c674559bdabaa6cb359ec3ebe89bef"><div class="ttname"><a href="d__stage_8cpp.html#a63c674559bdabaa6cb359ec3ebe89bef">dStage_pselectInfoInit</a></div><div class="ttdeci">static asm void dStage_pselectInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1577</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11856,27 +11826,27 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;TGDR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},      {<span class="stringliteral">&quot;DMAP&quot;</span>, <a class="code" href="d__stage_8cpp.html#aed133fd93e1774d156f492b8132bde96">dStage_dmapInfoInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;REVT&quot;</span>, <a class="code" href="d__stage_8cpp.html#af0f4f25e1c6ee50ef05dbeeabbcb1aa7">dStage_stEventInfoInit</a>},   {<span class="stringliteral">&quot;SOND&quot;</span>, <a class="code" href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a06bfd1c8c9bd2effee3b8c172cb61100"><div class="ttname"><a href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a></div><div class="ttdeci">static asm void dStage_roomReadInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1804</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a119118d4d6a315beee1c3c5e6f0c8bba"><div class="ttname"><a href="d__stage_8cpp.html#a119118d4d6a315beee1c3c5e6f0c8bba">dStage_playerInit</a></div><div class="ttdeci">static asm void dStage_playerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1484</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a23b44e49672ef103fc8e5bee10e28361"><div class="ttname"><a href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a></div><div class="ttdeci">static asm void dStage_tgscInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1782</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a31a9ac0ea874d1c7274e011d703a18cd"><div class="ttname"><a href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a></div><div class="ttdeci">static asm void dStage_rpatInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1859</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a342f63eb058f729027406e9018c881cd"><div class="ttname"><a href="d__stage_8cpp.html#a342f63eb058f729027406e9018c881cd">dStage_cameraInit</a></div><div class="ttdeci">static asm void dStage_cameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1494</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a3d3bfb3a38d3f06d8e15b9848bab085b"><div class="ttname"><a href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a></div><div class="ttdeci">static asm void dStage_filiInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1627</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a41e1a8c99d3aaf33a4cabfc8187c70d2"><div class="ttname"><a href="d__stage_8cpp.html#a41e1a8c99d3aaf33a4cabfc8187c70d2">dStage_multInfoInit</a></div><div class="ttdeci">static asm void dStage_multInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2072</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a4630a725958408fe58e33b73b28ae997"><div class="ttname"><a href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a></div><div class="ttdeci">static asm void dStage_arrowInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1516</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a4a7f21ef14d188e1a399c0cc3139c2e1"><div class="ttname"><a href="d__stage_8cpp.html#a4a7f21ef14d188e1a399c0cc3139c2e1">dStage_sclsInfoInit</a></div><div class="ttdeci">static asm void dStage_sclsInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1725</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a548e5f86f63fe40401bfdc69e5db62b0"><div class="ttname"><a href="d__stage_8cpp.html#a548e5f86f63fe40401bfdc69e5db62b0">dStage_elstInfoInit</a></div><div class="ttdeci">static asm void dStage_elstInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2153</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a5b1a214452e7cf2445743a2b251ab28f"><div class="ttname"><a href="d__stage_8cpp.html#a5b1a214452e7cf2445743a2b251ab28f">dStage_pathInfoInit</a></div><div class="ttdeci">static asm void dStage_pathInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1837</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a79d6674f2d3b30f09a923b503dd922ab"><div class="ttname"><a href="d__stage_8cpp.html#a79d6674f2d3b30f09a923b503dd922ab">dStage_stageDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_stageDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2130</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a84517549c242b1dc859a6d08eef4cc15"><div class="ttname"><a href="d__stage_8cpp.html#a84517549c242b1dc859a6d08eef4cc15">dStage_rppnInfoInit</a></div><div class="ttdeci">static asm void dStage_rppnInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1848</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a9590815d49148a29aab0aab8a580cb68"><div class="ttname"><a href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a></div><div class="ttdeci">static asm void dStage_floorInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1948</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aad58cff825e771317e4013e05bc415ea"><div class="ttname"><a href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a></div><div class="ttdeci">static asm void dStage_soundInfoInitCL(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1883</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_abd86b0ad1fbb0f53ba40ce74f04f15d8"><div class="ttname"><a href="d__stage_8cpp.html#abd86b0ad1fbb0f53ba40ce74f04f15d8">dStage_plightInfoInit</a></div><div class="ttdeci">static asm void dStage_plightInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1663</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ac3c633b6a9364a81aa34a3083cabcb1c"><div class="ttname"><a href="d__stage_8cpp.html#ac3c633b6a9364a81aa34a3083cabcb1c">dStage_actorInit_always</a></div><div class="ttdeci">static asm void dStage_actorInit_always(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1771</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ac462f0f25ba80b34294af77e0c36c71e"><div class="ttname"><a href="d__stage_8cpp.html#ac462f0f25ba80b34294af77e0c36c71e">dStage_vrboxInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1639</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_ae65806ee6a17a07e7ecbed1fa30a690f"><div class="ttname"><a href="d__stage_8cpp.html#ae65806ee6a17a07e7ecbed1fa30a690f">dStage_ppntInfoInit</a></div><div class="ttdeci">static asm void dStage_ppntInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1826</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aed133fd93e1774d156f492b8132bde96"><div class="ttname"><a href="d__stage_8cpp.html#aed133fd93e1774d156f492b8132bde96">dStage_dmapInfoInit</a></div><div class="ttdeci">static asm void dStage_dmapInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2118</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_af0f4f25e1c6ee50ef05dbeeabbcb1aa7"><div class="ttname"><a href="d__stage_8cpp.html#af0f4f25e1c6ee50ef05dbeeabbcb1aa7">dStage_stEventInfoInit</a></div><div class="ttdeci">static asm void dStage_stEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1924</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a06bfd1c8c9bd2effee3b8c172cb61100"><div class="ttname"><a href="d__stage_8cpp.html#a06bfd1c8c9bd2effee3b8c172cb61100">dStage_roomReadInit</a></div><div class="ttdeci">static asm void dStage_roomReadInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1800</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a119118d4d6a315beee1c3c5e6f0c8bba"><div class="ttname"><a href="d__stage_8cpp.html#a119118d4d6a315beee1c3c5e6f0c8bba">dStage_playerInit</a></div><div class="ttdeci">static asm void dStage_playerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1480</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a23b44e49672ef103fc8e5bee10e28361"><div class="ttname"><a href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a></div><div class="ttdeci">static asm void dStage_tgscInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1778</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a31a9ac0ea874d1c7274e011d703a18cd"><div class="ttname"><a href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a></div><div class="ttdeci">static asm void dStage_rpatInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1855</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a342f63eb058f729027406e9018c881cd"><div class="ttname"><a href="d__stage_8cpp.html#a342f63eb058f729027406e9018c881cd">dStage_cameraInit</a></div><div class="ttdeci">static asm void dStage_cameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1490</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a3d3bfb3a38d3f06d8e15b9848bab085b"><div class="ttname"><a href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a></div><div class="ttdeci">static asm void dStage_filiInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1623</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a41e1a8c99d3aaf33a4cabfc8187c70d2"><div class="ttname"><a href="d__stage_8cpp.html#a41e1a8c99d3aaf33a4cabfc8187c70d2">dStage_multInfoInit</a></div><div class="ttdeci">static asm void dStage_multInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2068</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4630a725958408fe58e33b73b28ae997"><div class="ttname"><a href="d__stage_8cpp.html#a4630a725958408fe58e33b73b28ae997">dStage_arrowInit</a></div><div class="ttdeci">static asm void dStage_arrowInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1512</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4a7f21ef14d188e1a399c0cc3139c2e1"><div class="ttname"><a href="d__stage_8cpp.html#a4a7f21ef14d188e1a399c0cc3139c2e1">dStage_sclsInfoInit</a></div><div class="ttdeci">static asm void dStage_sclsInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1721</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a548e5f86f63fe40401bfdc69e5db62b0"><div class="ttname"><a href="d__stage_8cpp.html#a548e5f86f63fe40401bfdc69e5db62b0">dStage_elstInfoInit</a></div><div class="ttdeci">static asm void dStage_elstInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2149</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a5b1a214452e7cf2445743a2b251ab28f"><div class="ttname"><a href="d__stage_8cpp.html#a5b1a214452e7cf2445743a2b251ab28f">dStage_pathInfoInit</a></div><div class="ttdeci">static asm void dStage_pathInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1833</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a79d6674f2d3b30f09a923b503dd922ab"><div class="ttname"><a href="d__stage_8cpp.html#a79d6674f2d3b30f09a923b503dd922ab">dStage_stageDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_stageDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2126</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a84517549c242b1dc859a6d08eef4cc15"><div class="ttname"><a href="d__stage_8cpp.html#a84517549c242b1dc859a6d08eef4cc15">dStage_rppnInfoInit</a></div><div class="ttdeci">static asm void dStage_rppnInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1844</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9590815d49148a29aab0aab8a580cb68"><div class="ttname"><a href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a></div><div class="ttdeci">static asm void dStage_floorInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1944</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aad58cff825e771317e4013e05bc415ea"><div class="ttname"><a href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a></div><div class="ttdeci">static asm void dStage_soundInfoInitCL(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1879</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_abd86b0ad1fbb0f53ba40ce74f04f15d8"><div class="ttname"><a href="d__stage_8cpp.html#abd86b0ad1fbb0f53ba40ce74f04f15d8">dStage_plightInfoInit</a></div><div class="ttdeci">static asm void dStage_plightInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1659</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ac3c633b6a9364a81aa34a3083cabcb1c"><div class="ttname"><a href="d__stage_8cpp.html#ac3c633b6a9364a81aa34a3083cabcb1c">dStage_actorInit_always</a></div><div class="ttdeci">static asm void dStage_actorInit_always(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1767</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ac462f0f25ba80b34294af77e0c36c71e"><div class="ttname"><a href="d__stage_8cpp.html#ac462f0f25ba80b34294af77e0c36c71e">dStage_vrboxInfoInit</a></div><div class="ttdeci">static asm void dStage_vrboxInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1635</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_ae65806ee6a17a07e7ecbed1fa30a690f"><div class="ttname"><a href="d__stage_8cpp.html#ae65806ee6a17a07e7ecbed1fa30a690f">dStage_ppntInfoInit</a></div><div class="ttdeci">static asm void dStage_ppntInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1822</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aed133fd93e1774d156f492b8132bde96"><div class="ttname"><a href="d__stage_8cpp.html#aed133fd93e1774d156f492b8132bde96">dStage_dmapInfoInit</a></div><div class="ttdeci">static asm void dStage_dmapInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2114</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af0f4f25e1c6ee50ef05dbeeabbcb1aa7"><div class="ttname"><a href="d__stage_8cpp.html#af0f4f25e1c6ee50ef05dbeeabbcb1aa7">dStage_stEventInfoInit</a></div><div class="ttdeci">static asm void dStage_stEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1920</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11906,8 +11876,8 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;RPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a31a9ac0ea874d1c7274e011d703a18cd">dStage_rpatInfoInit</a>}, {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#a3d3bfb3a38d3f06d8e15b9848bab085b">dStage_filiInfoInit</a>},    {<span class="stringliteral">&quot;FLOR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a9590815d49148a29aab0aab8a580cb68">dStage_floorInfoInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;LBNK&quot;</span>, <a class="code" href="d__stage_8cpp.html#af2275d3fc1a6654aa99e3b9e0f2db867">dStage_lbnkInfoInit</a>}, {<span class="stringliteral">&quot;SOND&quot;</span>, <a class="code" href="d__stage_8cpp.html#aad58cff825e771317e4013e05bc415ea">dStage_soundInfoInitCL</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a9c53238c7af8e8773f29c90462e8f985"><div class="ttname"><a href="d__stage_8cpp.html#a9c53238c7af8e8773f29c90462e8f985">dStage_RoomCameraInit</a></div><div class="ttdeci">static asm void dStage_RoomCameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1505</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_af2275d3fc1a6654aa99e3b9e0f2db867"><div class="ttname"><a href="d__stage_8cpp.html#af2275d3fc1a6654aa99e3b9e0f2db867">dStage_lbnkInfoInit</a></div><div class="ttdeci">static asm void dStage_lbnkInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2083</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9c53238c7af8e8773f29c90462e8f985"><div class="ttname"><a href="d__stage_8cpp.html#a9c53238c7af8e8773f29c90462e8f985">dStage_RoomCameraInit</a></div><div class="ttdeci">static asm void dStage_RoomCameraInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1501</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af2275d3fc1a6654aa99e3b9e0f2db867"><div class="ttname"><a href="d__stage_8cpp.html#af2275d3fc1a6654aa99e3b9e0f2db867">dStage_lbnkInfoInit</a></div><div class="ttdeci">static asm void dStage_lbnkInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2079</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11936,11 +11906,11 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;TGSC&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a>},  {<span class="stringliteral">&quot;SCOB&quot;</span>, <a class="code" href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;TGDR&quot;</span>, <a class="code" href="d__stage_8cpp.html#a23b44e49672ef103fc8e5bee10e28361">dStage_tgscInfoInit</a>},         {<span class="stringliteral">&quot;REVT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a578f82851de8160e274cb3142211c0f9">dStage_mapEventInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a416b33f572cd468dc208d438f3fc4246"><div class="ttname"><a href="d__stage_8cpp.html#a416b33f572cd468dc208d438f3fc4246">dStage_roomTresureInit</a></div><div class="ttdeci">static asm void dStage_roomTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2095</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a4cecf5ca526a70271eaefe3c1221a079"><div class="ttname"><a href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_tgscCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1749</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a578f82851de8160e274cb3142211c0f9"><div class="ttname"><a href="d__stage_8cpp.html#a578f82851de8160e274cb3142211c0f9">dStage_mapEventInfoInit</a></div><div class="ttdeci">static asm void dStage_mapEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1936</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a9a4d6dd68d2d21648d62322f3701b1e5"><div class="ttname"><a href="d__stage_8cpp.html#a9a4d6dd68d2d21648d62322f3701b1e5">dStage_actorCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_actorCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1737</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_af92904dc32a571e7dd22f3afdf8ac6ea"><div class="ttname"><a href="d__stage_8cpp.html#af92904dc32a571e7dd22f3afdf8ac6ea">dStage_roomDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_roomDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2142</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a416b33f572cd468dc208d438f3fc4246"><div class="ttname"><a href="d__stage_8cpp.html#a416b33f572cd468dc208d438f3fc4246">dStage_roomTresureInit</a></div><div class="ttdeci">static asm void dStage_roomTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2091</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a4cecf5ca526a70271eaefe3c1221a079"><div class="ttname"><a href="d__stage_8cpp.html#a4cecf5ca526a70271eaefe3c1221a079">dStage_tgscCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_tgscCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1745</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a578f82851de8160e274cb3142211c0f9"><div class="ttname"><a href="d__stage_8cpp.html#a578f82851de8160e274cb3142211c0f9">dStage_mapEventInfoInit</a></div><div class="ttdeci">static asm void dStage_mapEventInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1932</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a9a4d6dd68d2d21648d62322f3701b1e5"><div class="ttname"><a href="d__stage_8cpp.html#a9a4d6dd68d2d21648d62322f3701b1e5">dStage_actorCommonLayerInit</a></div><div class="ttdeci">static asm void dStage_actorCommonLayerInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1733</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_af92904dc32a571e7dd22f3afdf8ac6ea"><div class="ttname"><a href="d__stage_8cpp.html#af92904dc32a571e7dd22f3afdf8ac6ea">dStage_roomDrtgInfoInit</a></div><div class="ttdeci">static asm void dStage_roomDrtgInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2138</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11968,9 +11938,9 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;FILI&quot;</span>, <a class="code" href="d__stage_8cpp.html#abd5c59ea69116a4cb61510c86d35429f">dStage_fieldMapFiliInfo2Init</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;MPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a98b40430fbf4d42c57286555a44acc91">dStage_fieldMapMapPathInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a227f584b7d68ea901cbd9f4995e4aa21"><div class="ttname"><a href="d__stage_8cpp.html#a227f584b7d68ea901cbd9f4995e4aa21">dStage_fieldMapTresureInit</a></div><div class="ttdeci">static asm void dStage_fieldMapTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1994</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a98b40430fbf4d42c57286555a44acc91"><div class="ttname"><a href="d__stage_8cpp.html#a98b40430fbf4d42c57286555a44acc91">dStage_fieldMapMapPathInit</a></div><div class="ttdeci">static asm void dStage_fieldMapMapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2039</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_abd5c59ea69116a4cb61510c86d35429f"><div class="ttname"><a href="d__stage_8cpp.html#abd5c59ea69116a4cb61510c86d35429f">dStage_fieldMapFiliInfo2Init</a></div><div class="ttdeci">static asm void dStage_fieldMapFiliInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1616</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a227f584b7d68ea901cbd9f4995e4aa21"><div class="ttname"><a href="d__stage_8cpp.html#a227f584b7d68ea901cbd9f4995e4aa21">dStage_fieldMapTresureInit</a></div><div class="ttdeci">static asm void dStage_fieldMapTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1990</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a98b40430fbf4d42c57286555a44acc91"><div class="ttname"><a href="d__stage_8cpp.html#a98b40430fbf4d42c57286555a44acc91">dStage_fieldMapMapPathInit</a></div><div class="ttdeci">static asm void dStage_fieldMapMapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2035</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_abd5c59ea69116a4cb61510c86d35429f"><div class="ttname"><a href="d__stage_8cpp.html#abd5c59ea69116a4cb61510c86d35429f">dStage_fieldMapFiliInfo2Init</a></div><div class="ttdeci">static asm void dStage_fieldMapFiliInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1612</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -11998,9 +11968,9 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;MPA0&quot;</span>, <a class="code" href="d__stage_8cpp.html#aa25ceb27adc4563cbcba16b7fe258aa5">dStage_mapPathInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;Doo0&quot;</span>, <a class="code" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a2dcaf819d6cd3772465c704283fda7e4"><div class="ttname"><a href="d__stage_8cpp.html#a2dcaf819d6cd3772465c704283fda7e4">dStage_stageKeepTresureInit</a></div><div class="ttdeci">static asm void dStage_stageKeepTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1982</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_aa25ceb27adc4563cbcba16b7fe258aa5"><div class="ttname"><a href="d__stage_8cpp.html#aa25ceb27adc4563cbcba16b7fe258aa5">dStage_mapPathInit</a></div><div class="ttdeci">static asm void dStage_mapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2015</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_acbd831ff94563c6146be4215644477f8"><div class="ttname"><a href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a></div><div class="ttdeci">static asm void dStage_RoomKeepDoorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:592</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a2dcaf819d6cd3772465c704283fda7e4"><div class="ttname"><a href="d__stage_8cpp.html#a2dcaf819d6cd3772465c704283fda7e4">dStage_stageKeepTresureInit</a></div><div class="ttdeci">static asm void dStage_stageKeepTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1978</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_aa25ceb27adc4563cbcba16b7fe258aa5"><div class="ttname"><a href="d__stage_8cpp.html#aa25ceb27adc4563cbcba16b7fe258aa5">dStage_mapPathInit</a></div><div class="ttdeci">static asm void dStage_mapPathInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2011</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_acbd831ff94563c6146be4215644477f8"><div class="ttname"><a href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a></div><div class="ttdeci">static asm void dStage_RoomKeepDoorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:564</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -12027,8 +11997,8 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;MEM0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a5a1eb9c9ccfc086d871a2920e2b9f58f">dStage_memaInfoInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;MEC0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a903a9c2470e2eb8b9d80d081c0ac7772">dStage_mecoInfoInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a5a1eb9c9ccfc086d871a2920e2b9f58f"><div class="ttname"><a href="d__stage_8cpp.html#a5a1eb9c9ccfc086d871a2920e2b9f58f">dStage_memaInfoInit</a></div><div class="ttdeci">static asm void dStage_memaInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1959</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a903a9c2470e2eb8b9d80d081c0ac7772"><div class="ttname"><a href="d__stage_8cpp.html#a903a9c2470e2eb8b9d80d081c0ac7772">dStage_mecoInfoInit</a></div><div class="ttdeci">static asm void dStage_mecoInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1970</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a5a1eb9c9ccfc086d871a2920e2b9f58f"><div class="ttname"><a href="d__stage_8cpp.html#a5a1eb9c9ccfc086d871a2920e2b9f58f">dStage_memaInfoInit</a></div><div class="ttdeci">static asm void dStage_memaInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1955</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a903a9c2470e2eb8b9d80d081c0ac7772"><div class="ttname"><a href="d__stage_8cpp.html#a903a9c2470e2eb8b9d80d081c0ac7772">dStage_mecoInfoInit</a></div><div class="ttdeci">static asm void dStage_mecoInfoInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1966</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -12057,8 +12027,8 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;ACT0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a6b0210810337c8c2a7ae3fec770be783">dStage_actorInit</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;TRE0&quot;</span>, <a class="code" href="d__stage_8cpp.html#a0f1b0ad67bb64d5a6cab81ee98333638">dStage_layerTresureInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a0f1b0ad67bb64d5a6cab81ee98333638"><div class="ttname"><a href="d__stage_8cpp.html#a0f1b0ad67bb64d5a6cab81ee98333638">dStage_layerTresureInit</a></div><div class="ttdeci">static asm void dStage_layerTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2107</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a6b0210810337c8c2a7ae3fec770be783"><div class="ttname"><a href="d__stage_8cpp.html#a6b0210810337c8c2a7ae3fec770be783">dStage_actorInit</a></div><div class="ttdeci">static asm void dStage_actorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1760</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a0f1b0ad67bb64d5a6cab81ee98333638"><div class="ttname"><a href="d__stage_8cpp.html#a0f1b0ad67bb64d5a6cab81ee98333638">dStage_layerTresureInit</a></div><div class="ttdeci">static asm void dStage_layerTresureInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2103</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a6b0210810337c8c2a7ae3fec770be783"><div class="ttname"><a href="d__stage_8cpp.html#a6b0210810337c8c2a7ae3fec770be783">dStage_actorInit</a></div><div class="ttdeci">static asm void dStage_actorInit(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1756</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -12131,8 +12101,8 @@ Variables</h2></td></tr>
 <div class="line">    {<span class="stringliteral">&quot;MPAT&quot;</span>, <a class="code" href="d__stage_8cpp.html#a55ebe07efa5db18e1d16d0b7c0c7d98e">dStage_mapPathInitCommonLayer</a>},</div>
 <div class="line">    {<span class="stringliteral">&quot;Door&quot;</span>, <a class="code" href="d__stage_8cpp.html#acbd831ff94563c6146be4215644477f8">dStage_RoomKeepDoorInit</a>},</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__stage_8cpp_html_a44a7793198a123753e3533367e2f8cec"><div class="ttname"><a href="d__stage_8cpp.html#a44a7793198a123753e3533367e2f8cec">dStage_filiInfo2Init</a></div><div class="ttdeci">static asm void dStage_filiInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1604</div></div>
-<div class="ttc" id="ad__stage_8cpp_html_a55ebe07efa5db18e1d16d0b7c0c7d98e"><div class="ttname"><a href="d__stage_8cpp.html#a55ebe07efa5db18e1d16d0b7c0c7d98e">dStage_mapPathInitCommonLayer</a></div><div class="ttdeci">static asm void dStage_mapPathInitCommonLayer(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2027</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a44a7793198a123753e3533367e2f8cec"><div class="ttname"><a href="d__stage_8cpp.html#a44a7793198a123753e3533367e2f8cec">dStage_filiInfo2Init</a></div><div class="ttdeci">static asm void dStage_filiInfo2Init(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:1600</div></div>
+<div class="ttc" id="ad__stage_8cpp_html_a55ebe07efa5db18e1d16d0b7c0c7d98e"><div class="ttname"><a href="d__stage_8cpp.html#a55ebe07efa5db18e1d16d0b7c0c7d98e">dStage_mapPathInitCommonLayer</a></div><div class="ttdeci">static asm void dStage_mapPathInitCommonLayer(dStage_dt_c *param_0, void *param_1, int param_2, void *param_3)</div><div class="ttdef"><b>Definition:</b> d_stage.cpp:2023</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -12416,28 +12386,6 @@ Variables</h2></td></tr>
           <td class="memname">bool sTimePass</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2dc92b452e4f7f6fc8d522d24e55de12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dc92b452e4f7f6fc8d522d24e55de12">&#9670;&nbsp;</a></span>stringBase_80378A50</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80378A50 = &quot;OPENING&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

@@ -76,7 +76,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">d_stage.h File Reference</div>  </div>
 </div><!--header-->
@@ -86,6 +87,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="d__save_8h_source.html">d/save/d_save.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="f__op__actor_8h_source.html">f_op/f_op_actor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__op__actor__mng_8h_source.html">f_op/f_op_actor_mng.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="msl__c_2string_8h_source.html">msl_c/string.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_stage.h:</div>
@@ -186,9 +188,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdStage__roomControl__c_1_1roomDzs__c.html">dStage_roomControl_c::roomDzs_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdStage__nextStage__c.html">dStage_nextStage_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdStage__startStage__c.html">dStage_startStage_c</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdStage__nextStage__c.html">dStage_nextStage_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdStage__objectNameInf.html">dStage_objectNameInf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -304,8 +306,17 @@ Functions</h2></td></tr>
 <tr class="separator:aa801aba27db07ec0bff2091e75b514bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38038996cf5a243eddbf79bc83e63997"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8h.html#a38038996cf5a243eddbf79bc83e63997">dStage_fieldMapMapPathInit</a> (<a class="el" href="structdStage__dt__c.html">dStage_dt_c</a> *, void *, int, void *)</td></tr>
 <tr class="separator:a38038996cf5a243eddbf79bc83e63997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae382ab66b59c890401cd549b3eae4106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8h.html#ae382ab66b59c890401cd549b3eae4106">dStage_roomRead_dt_c_GetReverbStage</a> (<a class="el" href="structroomRead__class.html">roomRead_class</a> &amp;, int)</td></tr>
+<tr class="separator:ae382ab66b59c890401cd549b3eae4106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4106e879d2bc8c8175b2266cba1a5f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8h.html#a4106e879d2bc8c8175b2266cba1a5f22">dStage_roomRead_dt_c_GetLoadRoomIndex</a> (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> param_0)</td></tr>
 <tr class="separator:a4106e879d2bc8c8175b2266cba1a5f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005db3aec06428506ebb50529d5b48cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8h.html#a005db3aec06428506ebb50529d5b48cd">dStage_stagInfo_GetSTType</a> (<a class="el" href="structstage__stag__info__class.html">stage_stag_info_class</a> *pstag)</td></tr>
+<tr class="separator:a005db3aec06428506ebb50529d5b48cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9cdc519cb7f5f3b68365fe7e45c00edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__stage_8h.html#a9cdc519cb7f5f3b68365fe7e45c00edf">struct_80450D64</a></td></tr>
+<tr class="separator:a9cdc519cb7f5f3b68365fe7e45c00edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a36d8652635f25d1fe029e9ede3909e70"></a>
@@ -1865,6 +1876,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae382ab66b59c890401cd549b3eae4106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae382ab66b59c890401cd549b3eae4106">&#9670;&nbsp;</a></span>dStage_roomRead_dt_c_GetReverbStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> dStage_roomRead_dt_c_GetReverbStage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structroomRead__class.html">roomRead_class</a> &amp;&#160;</td>
+          <td class="paramname"><em>param_0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>param_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8f2a42d4d195152df49dfbfa2c918fdc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f2a42d4d195152df49dfbfa2c918fdc">&#9670;&nbsp;</a></span>dStage_roomReadInit()</h2>
 
@@ -2315,6 +2354,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a005db3aec06428506ebb50529d5b48cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005db3aec06428506ebb50529d5b48cd">&#9670;&nbsp;</a></span>dStage_stagInfo_GetSTType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> dStage_stagInfo_GetSTType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstage__stag__info__class.html">stage_stag_info_class</a> *&#160;</td>
+          <td class="paramname"><em>pstag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a46a8fc6018e8eb8fbd6bfb70d2ded009"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46a8fc6018e8eb8fbd6bfb70d2ded009">&#9670;&nbsp;</a></span>dStage_stagInfoInit()</h2>
 
@@ -2635,6 +2700,29 @@ Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a9cdc519cb7f5f3b68365fe7e45c00edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cdc519cb7f5f3b68365fe7e45c00edf">&#9670;&nbsp;</a></span>struct_80450D64</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> struct_80450D64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

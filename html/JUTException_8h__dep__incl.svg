@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1005;
+var viewWidth = 1006;
 var viewHeight = 106;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>include/JSystem/JUtility/JUTException.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 1000.5,-102 1000.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-102 1001.5,-102 1001.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -148,50 +148,50 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="JKRHeap_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="635,-0.5 635,-30.5 744,-30.5 744,-0.5 635,-0.5"/>
+<g id="a_node7"><a xlink:href="JKRMemArchive_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="635,-0.5 635,-30.5 746,-30.5 746,-0.5 635,-0.5"/>
 <text text-anchor="start" x="643" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JKernel</text>
-<text text-anchor="middle" x="689.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRHeap.cpp</text>
+<text text-anchor="middle" x="690.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRMemArchive.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M549.65,-64.09C580.49,-53.6 619.25,-40.41 648.14,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="548.28,-60.86 539.94,-67.4 550.54,-67.49 548.28,-60.86"/>
+<path fill="none" stroke="midnightblue" d="M549.92,-64.09C580.92,-53.6 619.88,-40.41 648.92,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="548.51,-60.87 540.16,-67.4 550.76,-67.5 548.51,-60.87"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="JKRMemArchive_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="762,-0.5 762,-30.5 873,-30.5 873,-0.5 762,-0.5"/>
-<text text-anchor="start" x="770" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JKernel</text>
-<text text-anchor="middle" x="817.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRMemArchive.cpp</text>
+<g id="a_node8"><a xlink:href="JKRHeap_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="764,-0.5 764,-30.5 873,-30.5 873,-0.5 764,-0.5"/>
+<text text-anchor="start" x="772" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JKernel</text>
+<text text-anchor="middle" x="818.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRHeap.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M569.62,-67.95C620.83,-58.07 691.52,-44.16 753.5,-31 756.17,-30.43 758.91,-29.84 761.67,-29.24"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="568.81,-64.55 559.65,-69.88 570.13,-71.42 568.81,-64.55"/>
+<path fill="none" stroke="midnightblue" d="M569.69,-68.15C621.34,-58.31 692.86,-44.36 755.5,-31 758.24,-30.41 761.05,-29.81 763.89,-29.18"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="568.8,-64.76 559.63,-70.06 570.1,-71.63 568.8,-64.76"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="JUTException_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="890.5,-0.5 890.5,-30.5 996.5,-30.5 996.5,-0.5 890.5,-0.5"/>
-<text text-anchor="start" x="898.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JUtility</text>
-<text text-anchor="middle" x="943.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JUTException.cpp</text>
+<polygon fill="white" stroke="black" points="891.5,-0.5 891.5,-30.5 997.5,-30.5 997.5,-0.5 891.5,-0.5"/>
+<text text-anchor="start" x="899.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JUtility</text>
+<text text-anchor="middle" x="944.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JUTException.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M569.77,-74.34C647.12,-66.06 774.12,-50.95 882.5,-31 885.07,-30.53 887.69,-30.02 890.34,-29.48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="569.23,-70.88 559.66,-75.42 569.97,-77.84 569.23,-70.88"/>
+<path fill="none" stroke="midnightblue" d="M569.76,-74.26C647.1,-65.91 774.08,-50.76 882.5,-31 885.44,-30.46 888.44,-29.88 891.47,-29.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="569.21,-70.8 559.64,-75.35 569.96,-77.76 569.21,-70.8"/>
 </g>
 </g>
 </svg>
