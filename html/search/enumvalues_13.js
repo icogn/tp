@@ -1,17 +1,11 @@
 var searchData=
 [
-  ['ugly_5fsoup_95540',['UGLY_SOUP',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ab67ea255f785e98f7c9b810d9626da7b',1,'d_save.h']]],
-  ['unk_95541',['Unk',['../structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a0dcf0ead3f47b96db4f9b63d0a2143a4',1,'daPy_py_c']]],
-  ['unk0_95542',['Unk0',['../structdaAlink__c.html#aec4a16a0dabe1247aedc0449068864d1a0d15d786fba700b67303163133c154af',1,'daAlink_c']]],
-  ['unk1_95543',['Unk1',['../structdaAlink__c.html#aec4a16a0dabe1247aedc0449068864d1abf34b4add0520c17bd15c89a86a3cf89',1,'daAlink_c']]],
-  ['unkarmor_95544',['UnkArmor',['../structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a711dac30460dacd1064b7c80d86de5f6',1,'daPy_py_c']]],
-  ['unkforceputpos_95545',['UnkForcePutPos',['../structdaPy__py__c.html#a0a39c81a139137cb3ab3768de238557fa93b53a531d47e0b8a64c96d964bbcd26',1,'daPy_py_c']]],
-  ['unkfrollcrashflg1_95546',['UnkFrollCrashFlg1',['../structdaPy__py__c.html#ae31e40b486e08a4375979902714bd2c0a2d6ec9770cc81132c317ca5e4dce1ce2',1,'daPy_py_c']]],
-  ['unkfrollcrashflg2_95547',['UnkFrollCrashFlg2',['../structdaPy__py__c.html#ae31e40b486e08a4375979902714bd2c0a38d17144a8893ae72f201007b034ca27',1,'daPy_py_c']]],
-  ['unknown_95548',['UNKNOWN',['../structJKRAramStreamCommand.html#a584a0f0d44d10e7db7ae9487b83a3486a2de801cff5693dc0762b74549e5efeb1',1,'JKRAramStreamCommand']]],
-  ['unknown_5fealloc_5fdirection_95549',['UNKNOWN_EALLOC_DIRECTION',['../structJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161aaa755b34b664d87cb5d121fe07d24c22',1,'JKRDvdRipper']]],
-  ['unknown_5fmount_5fdirection_95550',['UNKNOWN_MOUNT_DIRECTION',['../structJKRArchive.html#adcf19e3c6e754c27610ed30a8acd1b0fa7ada7bee31268bae4ae8b40f883df688',1,'JKRArchive']]],
-  ['unknown_5fmount_5fmode_95551',['UNKNOWN_MOUNT_MODE',['../structJKRArchive.html#afa04710b1fffa15f661f0dd3a66bba3ea59ff20ff12931705e7c27dd9f7dd78b9',1,'JKRArchive']]],
-  ['upper_5fnow_95552',['UPPER_NOW',['../structdaAlink__c.html#aec4a16a0dabe1247aedc0449068864d1a1d826fa0f56990ef5efd9525194dfa86',1,'daAlink_c']]],
-  ['utawa_5fheart_95553',['UTAWA_HEART',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a1c6d5d9756bef24449738cd48ec1e1b7',1,'d_save.h']]]
+  ['tail_97144',['TAIL',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5aafec09f67c269de8b3813b8738de58cd',1,'JKRAramHeap']]],
+  ['taste_97145',['TASTE',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a8585a493765238d03fa238f05c6b846a',1,'d_save.h']]],
+  ['throwdamage_97146',['ThrowDamage',['../structdaPy__py__c.html#ae926fe69b6a76e784bc3a05a26732d61a2348d915b17ea285b9940a46a2f3e77d',1,'daPy_py_c']]],
+  ['tks_5fletter_97147',['TKS_LETTER',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a8cf3f8015305307ac0f971f9e6e1d930',1,'d_save.h']]],
+  ['tomato_5fpuree_97148',['TOMATO_PUREE',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ae388225fb64b5b94b84cb4c4d0744215',1,'d_save.h']]],
+  ['tresure_5fstand_97149',['TRESURE_STAND',['../structdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa8a846d7cd4613a4837267fdbf5d9d034',1,'daAlink_c']]],
+  ['triple_5fheart_97150',['TRIPLE_HEART',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a668e5062a5823a0c688bd0a01758d8e5',1,'d_save.h']]],
+  ['turn_5fmove_97151',['TURN_MOVE',['../structdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aab924807b4a02a01c5b335e38d1a9ac9a',1,'daAlink_c']]]
 ];

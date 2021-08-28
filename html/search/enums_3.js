@@ -1,23 +1,12 @@
 var searchData=
 [
-  ['daalink_5fanm_94898',['daAlink_ANM',['../structdaAlink__c.html#a634f76c59df10f1d590e674a665ec724',1,'daAlink_c']]],
-  ['daalink_5fftanm_94899',['daAlink_FTANM',['../structdaAlink__c.html#ae160a0e037c8f9af8b72ecd1a9978b8c',1,'daAlink_c']]],
-  ['daalink_5fproc_94900',['daAlink_PROC',['../structdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79a',1,'daAlink_c']]],
-  ['daalink_5funder_94901',['daAlink_UNDER',['../structdaAlink__c.html#ab648cd37b444a6b86395bd841f25d0c8',1,'daAlink_c']]],
-  ['daalink_5fupper_94902',['daAlink_UPPER',['../structdaAlink__c.html#aec4a16a0dabe1247aedc0449068864d1',1,'daAlink_c']]],
-  ['daalink_5fwanm_94903',['daAlink_WANM',['../structdaAlink__c.html#a72d8ae70c614c166d4458ef3a080788d',1,'daAlink_c']]],
-  ['daalink_5fwarp_5fmat_5fmode_94904',['daAlink_WARP_MAT_MODE',['../structdaAlink__c.html#a7552ed2f0b5817d770322e8de477d2fc',1,'daAlink_c']]],
-  ['daalinkheap_5ftype_94905',['daAlinkHEAP_TYPE',['../classdaPy__anmHeap__c.html#afb299842834557aa76560115ba6f53f3',1,'daPy_anmHeap_c']]],
-  ['damidna_5ferflg0_94906',['daMidna_ERFLG0',['../structdaMidna__c.html#af44f83d157f63375a0decd84f8de9193',1,'daMidna_c']]],
-  ['damidna_5fflg1_94907',['daMidna_FLG1',['../structdaMidna__c.html#a6da20cf56778ea842fcbc6447120156f',1,'daMidna_c']]],
-  ['danbomb_5fflg0_94908',['daNbomb_FLG0',['../classdaNbomb__c.html#a56b4e0dc7fe4e5d6d2abe26dbd67caf3',1,'daNbomb_c']]],
-  ['dapy_5ferflg0_94909',['daPy_ERFLG0',['../structdaPy__py__c.html#a4953bb86a496faa991c75c48a6564d0a',1,'daPy_py_c']]],
-  ['dapy_5ferflg1_94910',['daPy_ERFLG1',['../structdaPy__py__c.html#a0a39c81a139137cb3ab3768de238557f',1,'daPy_py_c']]],
-  ['dapy_5ferflg2_94911',['daPy_ERFLG2',['../structdaPy__py__c.html#aaa88576210ca5dfd006110018985781d',1,'daPy_py_c']]],
-  ['dapy_5fflg0_94912',['daPy_FLG0',['../structdaPy__py__c.html#ae31e40b486e08a4375979902714bd2c0',1,'daPy_py_c']]],
-  ['dapy_5fflg1_94913',['daPy_FLG1',['../structdaPy__py__c.html#ae926fe69b6a76e784bc3a05a26732d61',1,'daPy_py_c']]],
-  ['dapy_5fflg2_94914',['daPy_FLG2',['../structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7',1,'daPy_py_c']]],
-  ['dapy_5fflg3_94915',['daPy_FLG3',['../structdaPy__py__c.html#afd295e095e771c1b8ec3077f7d679497',1,'daPy_py_c']]],
-  ['dapy_5frflg0_94916',['daPy_RFLG0',['../structdaPy__py__c.html#aae52cea617087a937ba59045e1b4994d',1,'daPy_py_c']]],
-  ['dvdstate_94917',['DVDState',['../dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7',1,'dvd.h']]]
+  ['eallocdirection_96260',['EAllocDirection',['../structJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161',1,'JKRDvdRipper']]],
+  ['eallocmode_96261',['EAllocMode',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5',1,'JKRAramHeap']]],
+  ['eiostate_96262',['EIoState',['../JSUIosBase_8h.html#a61dd3f9cb1b6fb3089120128760e0642',1,'JSUIosBase.h']]],
+  ['emountdirection_96263',['EMountDirection',['../structJKRArchive.html#adcf19e3c6e754c27610ed30a8acd1b0f',1,'JKRArchive']]],
+  ['emountmode_96264',['EMountMode',['../structJKRArchive.html#afa04710b1fffa15f661f0dd3a66bba3e',1,'JKRArchive']]],
+  ['epadport_96265',['EPadPort',['../structJUTGamePad.html#a3990b295576728aa2d2615d6e1eb7721',1,'JUTGamePad']]],
+  ['erumble_96266',['ERumble',['../structJUTGamePad_1_1CRumble.html#aa36f3f11ae6dd87c2cb7488c10178796',1,'JUTGamePad::CRumble']]],
+  ['estickmode_96267',['EStickMode',['../structJUTGamePad.html#abca75dfff195b24734a99dea1527843b',1,'JUTGamePad']]],
+  ['ewhichstick_96268',['EWhichStick',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6b',1,'JUTGamePad']]]
 ];

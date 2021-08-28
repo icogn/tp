@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mode_5fflg_94937',['MODE_FLG',['../structdaAlink__c.html#a7b182e7449148983e233f8d27761820e',1,'daAlink_c']]]
+  ['ossoundmode_96292',['OSSoundMode',['../OS_8h.html#a7085b2211651a7235a458e1d4b19a607',1,'OS.h']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['padmask_94939',['PADMask',['../Pad_8h.html#ab96557969238b9fc6c43629bda3adf1c',1,'Pad.h']]],
-  ['pushpulllabel_94940',['PushPullLabel',['../structdBgW__Base.html#ac7576eb3c56d041a93b302116ab071dc',1,'dBgW_Base']]]
+  ['shields_96295',['Shields',['../d__save_8h.html#a180a6a9bca7044e6ac566db4967500d8',1,'d_save.h']]],
+  ['swords_96296',['Swords',['../d__save_8h.html#a3c66d6f382ea908fcb6d2f2f82a22b4d',1,'d_save.h']]]
 ];
