@@ -702,38 +702,38 @@ var sectionId = 'dynsection-1';
 <!-- Node48 -->
 <g id="node31" class="node">
 <title>Node48</title>
-<g id="a_node31"><a xlink:href="J2DTextBox_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="red" points="1586.5,-257.5 1586.5,-287.5 1721.5,-287.5 1721.5,-257.5 1586.5,-257.5"/>
-<text text-anchor="start" x="1594.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/J2DGraph</text>
-<text text-anchor="middle" x="1654" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/J2DTextBox.h</text>
-</a>
-</g>
-</g>
-<!-- Node43&#45;&gt;Node48 -->
-<g id="edge39" class="edge">
-<title>Node43&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M1605.15,-317.6C1616.02,-307.78 1628.7,-296.34 1638.41,-287.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1602.7,-315.1 1597.62,-324.4 1607.39,-320.29 1602.7,-315.1"/>
-</g>
-<!-- Node50 -->
-<g id="node32" class="node">
-<title>Node50</title>
-<g id="a_node32"><a xlink:href="J2DScreen_8h.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="J2DScreen_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="red" points="1739.5,-257.5 1739.5,-287.5 1874.5,-287.5 1874.5,-257.5 1739.5,-257.5"/>
 <text text-anchor="start" x="1747.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/J2DGraph</text>
 <text text-anchor="middle" x="1807" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/J2DScreen.h</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node50 -->
-<g id="edge40" class="edge">
-<title>Node43&#45;&gt;Node50</title>
+<!-- Node43&#45;&gt;Node48 -->
+<g id="edge39" class="edge">
+<title>Node43&#45;&gt;Node48</title>
 <path fill="none" stroke="midnightblue" d="M1640.57,-321.58C1677.11,-311.02 1723.6,-297.59 1758.15,-287.61"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1639.18,-318.34 1630.54,-324.48 1641.12,-325.06 1639.18,-318.34"/>
 </g>
-<!-- Node50&#45;&gt;Node46 -->
+<!-- Node55 -->
+<g id="node32" class="node">
+<title>Node55</title>
+<g id="a_node32"><a xlink:href="J2DTextBox_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="red" points="1586.5,-257.5 1586.5,-287.5 1721.5,-287.5 1721.5,-257.5 1586.5,-257.5"/>
+<text text-anchor="start" x="1594.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/J2DGraph</text>
+<text text-anchor="middle" x="1654" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/J2DTextBox.h</text>
+</a>
+</g>
+</g>
+<!-- Node43&#45;&gt;Node55 -->
 <g id="edge41" class="edge">
-<title>Node50&#45;&gt;Node46</title>
+<title>Node43&#45;&gt;Node55</title>
+<path fill="none" stroke="midnightblue" d="M1605.15,-317.6C1616.02,-307.78 1628.7,-296.34 1638.41,-287.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1602.7,-315.1 1597.62,-324.4 1607.39,-320.29 1602.7,-315.1"/>
+</g>
+<!-- Node48&#45;&gt;Node46 -->
+<g id="edge40" class="edge">
+<title>Node48&#45;&gt;Node46</title>
 <path fill="none" stroke="midnightblue" d="M1823.5,-249.16C1830.5,-239.68 1838.44,-228.92 1844.61,-220.58"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1820.54,-247.27 1817.42,-257.4 1826.17,-251.43 1820.54,-247.27"/>
 </g>
