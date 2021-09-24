@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['gb_5fmaple_5fcol_5fchange_51119',['GB_MAPLE_COL_CHANGE',['../structGB__MAPLE__COL__CHANGE.html',1,'']]],
-  ['gb_5fwind_5finfluence_51120',['GB_WIND_INFLUENCE',['../structGB__WIND__INFLUENCE.html',1,'']]],
-  ['global_5fmemory_51121',['GLOBAL_MEMORY',['../structGLOBAL__MEMORY.html',1,'']]],
-  ['gly1_51122',['GLY1',['../structResFONT_1_1GLY1.html',1,'ResFONT']]],
-  ['group_5fclass_51123',['group_class',['../structdDrawPath__c_1_1group__class.html',1,'dDrawPath_c']]],
-  ['gxfogadjtable_51124',['GXFogAdjTable',['../structGXFogAdjTable.html',1,'']]],
-  ['gxrendermodeobj_51125',['GXRenderModeObj',['../structGXRenderModeObj.html',1,'']]]
+  ['gb_5fmaple_5fcol_5fchange_52326',['GB_MAPLE_COL_CHANGE',['../structGB__MAPLE__COL__CHANGE.html',1,'']]],
+  ['gb_5fwind_5finfluence_52327',['GB_WIND_INFLUENCE',['../structGB__WIND__INFLUENCE.html',1,'']]],
+  ['global_5fmemory_52328',['GLOBAL_MEMORY',['../structGLOBAL__MEMORY.html',1,'']]],
+  ['gly1_52329',['GLY1',['../structResFONT_1_1GLY1.html',1,'ResFONT']]],
+  ['group_5fclass_52330',['group_class',['../structdDrawPath__c_1_1group__class.html',1,'dDrawPath_c']]],
+  ['gxfogadjtable_52331',['GXFogAdjTable',['../structGXFogAdjTable.html',1,'']]]
 ];

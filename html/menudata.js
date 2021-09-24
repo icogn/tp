@@ -139,6 +139,7 @@ var menudata={children:[
 {text:"d",url:"functions_enum.html#index_d"},
 {text:"e",url:"functions_enum.html#index_e"},
 {text:"m",url:"functions_enum.html#index_m"},
+{text:"o",url:"functions_enum.html#index_o"},
 {text:"p",url:"functions_enum.html#index_p"},
 {text:"t",url:"functions_enum.html#index_t"},
 {text:"u",url:"functions_enum.html#index_u"}]},
@@ -162,7 +163,9 @@ var menudata={children:[
 {text:"t",url:"functions_eval_t.html#index_t"},
 {text:"u",url:"functions_eval_u.html#index_u"},
 {text:"v",url:"functions_eval_v.html#index_v"},
-{text:"w",url:"functions_eval_w.html#index_w"}]},
+{text:"w",url:"functions_eval_w.html#index_w"},
+{text:"x",url:"functions_eval_x.html#index_x"},
+{text:"z",url:"functions_eval_z.html#index_z"}]},
 {text:"Related Functions",url:"functions_rela.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},

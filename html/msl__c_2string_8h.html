@@ -113,6 +113,8 @@ Functions</h2></td></tr>
 <tr class="separator:a787798e1b48a7981b5840f32aa41d604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11bd144d7d44914099a3aeddf1c8567d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#a11bd144d7d44914099a3aeddf1c8567d">strcmp</a> (const char *s1, const char *s2)</td></tr>
 <tr class="separator:a11bd144d7d44914099a3aeddf1c8567d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e93ca7f5cf22ef778f43c0af990f899"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#a6e93ca7f5cf22ef778f43c0af990f899">stricmp</a> (const char *, const char *)</td></tr>
+<tr class="separator:a6e93ca7f5cf22ef778f43c0af990f899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf21a05197ab99ec7761725d99181ded"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#acf21a05197ab99ec7761725d99181ded">strcat</a> (char *dest, const char *source)</td></tr>
 <tr class="separator:acf21a05197ab99ec7761725d99181ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d7605916c8879fcdece4b3df1087bf9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#a9d7605916c8879fcdece4b3df1087bf9">strncpy</a> (char *dest, const char *source, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> n)</td></tr>
@@ -127,6 +129,8 @@ Functions</h2></td></tr>
 <tr class="separator:afb3bd535ce7ceb797e93d3bf11f04edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3275c2da349019932874fbf31fd91c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#ad3275c2da349019932874fbf31fd91c6">printf</a> (const char *,...)</td></tr>
 <tr class="separator:ad3275c2da349019932874fbf31fd91c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6657a2e3ca3a511567b9023cfb972905"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msl__c_2string_8h.html#a6657a2e3ca3a511567b9023cfb972905">snprintf</a> (char *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, const char *,...)</td></tr>
+<tr class="separator:a6657a2e3ca3a511567b9023cfb972905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a32250af6e01455312882c1c227676ab4"></a>
@@ -206,6 +210,46 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int printf </td>
           <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6657a2e3ca3a511567b9023cfb972905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6657a2e3ca3a511567b9023cfb972905">&#9670;&nbsp;</a></span>snprintf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int snprintf </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname">, </td>
         </tr>
@@ -360,6 +404,34 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e93ca7f5cf22ef778f43c0af990f899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e93ca7f5cf22ef778f43c0af990f899">&#9670;&nbsp;</a></span>stricmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int stricmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>

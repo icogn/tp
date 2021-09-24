@@ -84,16 +84,10 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="JUTVideo_8h_source.html">JSystem/JUtility/JUTVideo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/createManager__8JUTVideoFPC16_GXRenderModeObj.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/destroyManager__8JUTVideoFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTVideo/__ct__8JUTVideoFPC16_GXRenderModeObj.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/__dt__8JUTVideoFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTVideo/preRetraceProc__8JUTVideoFUl.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/drawDoneStart__8JUTVideoFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/dummyNoDrawWait__8JUTVideoFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTVideo/drawDoneCallback__8JUTVideoFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTVideo/postRetraceProc__8JUTVideoFUl.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTVideo/setRenderMode__8JUTVideoFPC16_GXRenderModeObj.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for JUTVideo.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -105,7 +99,7 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTXfb.html">JUTXfb</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTXfb.html">JUTXfb</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTDirectPrint.html">JUTDirectPrint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,26 +134,26 @@ Functions</h2></td></tr>
 <tr class="separator:a498e6440d5c316e2672169ee4ed92309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3ab065ebb1f8b50b35c623e4494df05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#ab3ab065ebb1f8b50b35c623e4494df05">changeFrameBuffer__14JUTDirectPrintFPvUsUs</a> ()</td></tr>
 <tr class="separator:ab3ab065ebb1f8b50b35c623e4494df05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12cf9a3c25e7504b2400a730437422e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a12cf9a3c25e7504b2400a730437422e5">VISetPreRetraceCallback</a> ()</td></tr>
-<tr class="separator:a12cf9a3c25e7504b2400a730437422e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db832c7157b9eb1835106546d6ca92a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a4db832c7157b9eb1835106546d6ca92a">VISetPostRetraceCallback</a> ()</td></tr>
-<tr class="separator:a4db832c7157b9eb1835106546d6ca92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814b3bd1b9be51f430c0530d6d616ccd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a814b3bd1b9be51f430c0530d6d616ccd">VISetPreRetraceCallback</a> (<a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a>)</td></tr>
+<tr class="separator:a814b3bd1b9be51f430c0530d6d616ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8a607538ee6d3d902a26b2e3c78081b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#aa8a607538ee6d3d902a26b2e3c78081b">VISetPostRetraceCallback</a> (<a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a>)</td></tr>
+<tr class="separator:aa8a607538ee6d3d902a26b2e3c78081b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add040ebf74d129a616b5dc6ee864af08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#add040ebf74d129a616b5dc6ee864af08">VIInit</a> ()</td></tr>
 <tr class="separator:add040ebf74d129a616b5dc6ee864af08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aac54aef4b6ac33b634bac9ab99de71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a9aac54aef4b6ac33b634bac9ab99de71">VIWaitForRetrace</a> ()</td></tr>
 <tr class="separator:a9aac54aef4b6ac33b634bac9ab99de71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f7eeb9676e16073c5cb8b40c542b51b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a9f7eeb9676e16073c5cb8b40c542b51b">VIConfigure</a> ()</td></tr>
-<tr class="separator:a9f7eeb9676e16073c5cb8b40c542b51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b563fdc9082f14f99ed703cafba659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a37b563fdc9082f14f99ed703cafba659">VIConfigure</a> (<a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> *)</td></tr>
+<tr class="separator:a37b563fdc9082f14f99ed703cafba659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6c3cd1fbde41e7a7118a69df5e45a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a1e6c3cd1fbde41e7a7118a69df5e45a0">VIFlush</a> ()</td></tr>
 <tr class="separator:a1e6c3cd1fbde41e7a7118a69df5e45a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3fea561ebb1d7f5755d18ec81aea9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a8e3fea561ebb1d7f5755d18ec81aea9c">VISetNextFrameBuffer</a> ()</td></tr>
 <tr class="separator:a8e3fea561ebb1d7f5755d18ec81aea9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3c091e93ccac2852839de2856d9f71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a8e3c091e93ccac2852839de2856d9f71">VIGetNextFrameBuffer</a> ()</td></tr>
 <tr class="separator:a8e3c091e93ccac2852839de2856d9f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2fbf5d248ef8635477c2e7872b57fef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#ae2fbf5d248ef8635477c2e7872b57fef">VISetBlack</a> ()</td></tr>
-<tr class="separator:ae2fbf5d248ef8635477c2e7872b57fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46a6fed32f5f16b4bc29b1db97d3cb04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a46a6fed32f5f16b4bc29b1db97d3cb04">VIGetRetraceCount</a> ()</td></tr>
-<tr class="separator:a46a6fed32f5f16b4bc29b1db97d3cb04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d48219acf4170a1ef6e6351cb2db2a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a7d48219acf4170a1ef6e6351cb2db2a8">VISetBlack</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>)</td></tr>
+<tr class="separator:a7d48219acf4170a1ef6e6351cb2db2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf60e3156aec493c62bddac6b87e5bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#aacf60e3156aec493c62bddac6b87e5bf">VIGetRetraceCount</a> ()</td></tr>
+<tr class="separator:aacf60e3156aec493c62bddac6b87e5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd6381e4d5bb7335b4a1112a2abc396"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a0fd6381e4d5bb7335b4a1112a2abc396">GXSetDrawDone</a> ()</td></tr>
 <tr class="separator:a0fd6381e4d5bb7335b4a1112a2abc396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1731d6943f7713e51c532a192fca7f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#ac1731d6943f7713e51c532a192fca7f9">GXCopyDisp</a> ()</td></tr>
@@ -181,8 +175,8 @@ Variables</h2></td></tr>
 <tr class="separator:ac221fa8dbb438ec834514e44f22a4552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6501b8fef59103bee9cea8cae48e5ff7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a6501b8fef59103bee9cea8cae48e5ff7">data_80451544</a> [4]</td></tr>
 <tr class="separator:a6501b8fef59103bee9cea8cae48e5ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ca6de6ca9698de5b18f36b95dd3bee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#aa8ca6de6ca9698de5b18f36b95dd3bee">frameBuffer</a> [4]</td></tr>
-<tr class="separator:aa8ca6de6ca9698de5b18f36b95dd3bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea58fd484f2962297ec8fc6b5ca8ab4"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a4ea58fd484f2962297ec8fc6b5ca8ab4">frameBuffer</a></td></tr>
+<tr class="separator:a4ea58fd484f2962297ec8fc6b5ca8ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c6325a0fd511fd31d37f289ac1d074c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTVideo_8cpp.html#a0c6325a0fd511fd31d37f289ac1d074c">data_8045154C</a> [4]</td></tr>
 <tr class="separator:a0c6325a0fd511fd31d37f289ac1d074c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -442,8 +436,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9f7eeb9676e16073c5cb8b40c542b51b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f7eeb9676e16073c5cb8b40c542b51b">&#9670;&nbsp;</a></span>VIConfigure()</h2>
+<a id="a37b563fdc9082f14f99ed703cafba659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37b563fdc9082f14f99ed703cafba659">&#9670;&nbsp;</a></span>VIConfigure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,6 +445,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void VIConfigure </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -493,14 +488,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a46a6fed32f5f16b4bc29b1db97d3cb04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46a6fed32f5f16b4bc29b1db97d3cb04">&#9670;&nbsp;</a></span>VIGetRetraceCount()</h2>
+<a id="aacf60e3156aec493c62bddac6b87e5bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf60e3156aec493c62bddac6b87e5bf">&#9670;&nbsp;</a></span>VIGetRetraceCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void VIGetRetraceCount </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> VIGetRetraceCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -527,8 +522,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2fbf5d248ef8635477c2e7872b57fef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2fbf5d248ef8635477c2e7872b57fef">&#9670;&nbsp;</a></span>VISetBlack()</h2>
+<a id="a7d48219acf4170a1ef6e6351cb2db2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d48219acf4170a1ef6e6351cb2db2a8">&#9670;&nbsp;</a></span>VISetBlack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -536,6 +531,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void VISetBlack </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -561,8 +557,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4db832c7157b9eb1835106546d6ca92a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db832c7157b9eb1835106546d6ca92a">&#9670;&nbsp;</a></span>VISetPostRetraceCallback()</h2>
+<a id="aa8a607538ee6d3d902a26b2e3c78081b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8a607538ee6d3d902a26b2e3c78081b">&#9670;&nbsp;</a></span>VISetPostRetraceCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,6 +566,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void VISetPostRetraceCallback </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -578,8 +575,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a12cf9a3c25e7504b2400a730437422e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12cf9a3c25e7504b2400a730437422e5">&#9670;&nbsp;</a></span>VISetPreRetraceCallback()</h2>
+<a id="a814b3bd1b9be51f430c0530d6d616ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a814b3bd1b9be51f430c0530d6d616ccd">&#9670;&nbsp;</a></span>VISetPreRetraceCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -587,6 +584,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void VISetPreRetraceCallback </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -705,8 +703,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa8ca6de6ca9698de5b18f36b95dd3bee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8ca6de6ca9698de5b18f36b95dd3bee">&#9670;&nbsp;</a></span>frameBuffer</h2>
+<a id="a4ea58fd484f2962297ec8fc6b5ca8ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea58fd484f2962297ec8fc6b5ca8ab4">&#9670;&nbsp;</a></span>frameBuffer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -715,7 +713,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> frameBuffer[4]</td>
+          <td class="memname">void* frameBuffer</td>
         </tr>
       </table>
   </td>
