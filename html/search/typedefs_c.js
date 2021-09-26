@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['padmask_98457',['PADMask',['../Pad_8h.html#a7404754183daab7d421ecde004064ca7',1,'Pad.h']]],
-  ['padstatus_98458',['PADStatus',['../Pad_8h.html#a34c1f6ed3b394610199d7687c801ac47',1,'Pad.h']]],
-  ['process_5fmethod_5fclass_98459',['process_method_class',['../f__pc__method_8h.html#a3943a81a1425703d954ec66652482173',1,'f_pc_method.h']]],
-  ['process_5fmethod_5ffunc_98460',['process_method_func',['../f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac',1,'f_pc_method.h']]],
-  ['process_5fmethod_5ftag_5fclass_98461',['process_method_tag_class',['../f__pc__method__tag_8h.html#a3ddd344c025c737a27dd37323bd396ca',1,'f_pc_method_tag.h']]],
-  ['process_5fmethod_5ftag_5ffunc_98462',['process_method_tag_func',['../f__pc__method__tag_8h.html#aedd35e5640fb9c9cb31ec7c27ea67a92',1,'f_pc_method_tag.h']]],
-  ['process_5fnode_5fclass_98463',['process_node_class',['../f__pc__layer_8h.html#ac650192cd781f2429d8c9f9871a51c4e',1,'process_node_class():&#160;f_pc_layer.h'],['../f__pc__node_8h.html#ac650192cd781f2429d8c9f9871a51c4e',1,'process_node_class():&#160;f_pc_node.h']]],
-  ['process_5fpriority_5fclass_98464',['process_priority_class',['../f__pc__priority_8h.html#a0cfa6a22f1b0a721f61bb2d90500a673',1,'f_pc_priority.h']]],
-  ['process_5fpriority_5fqueue_5finfo_98465',['process_priority_queue_info',['../f__pc__priority_8h.html#a1cf46ac436421d1fb28c031914d195bf',1,'f_pc_priority.h']]],
-  ['process_5fprofile_5fdefinition_98466',['process_profile_definition',['../f__pc__profile_8h.html#a3bf87d720828244bd2fdb4f39f39598b',1,'f_pc_profile.h']]]
+  ['osheaphandle_98485',['OSHeapHandle',['../OS_8h.html#ae0c405377b244e5e71a2a748144255dc',1,'OS.h']]],
+  ['osmessage_98486',['OSMessage',['../OS_8h.html#a29207f9ff15a7a595a6aad5f8edd83c0',1,'OS.h']]],
+  ['ossoundmode_98487',['OSSoundMode',['../OS_8h.html#aa65c8d71200e7bc7332b36675eae141f',1,'OS.h']]],
+  ['osswitchthreadcallback_98488',['OSSwitchThreadCallback',['../OS_8h.html#a97d7f058b58da0d2beeb58cbd3e937db',1,'OS.h']]],
+  ['osthreadstate_98489',['OSThreadState',['../OS_8h.html#ae9698ad228e88ed96289bf7968ba711a',1,'OS.h']]],
+  ['ostick_98490',['OSTick',['../OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4',1,'OS.h']]],
+  ['ostime_98491',['OSTime',['../OS_8h.html#a3d32c840b403a8d37875867a7ea9b381',1,'OS.h']]]
 ];

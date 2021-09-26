@@ -146,64 +146,64 @@ var sectionId = 'dynsection-1';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="structJSUList.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="157,-220.5 157,-239.5 283,-239.5 283,-220.5 157,-220.5"/>
-<text text-anchor="middle" x="220" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUList&lt; JKRDisposer &gt;</text>
+<polygon fill="white" stroke="black" points="156,-220.5 156,-239.5 282,-239.5 282,-220.5 156,-220.5"/>
+<text text-anchor="middle" x="219" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUList&lt; JKRDisposer &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node3 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M219.82,-210.33C219.41,-166.47 218.38,-58.16 218.08,-26.39"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="216.32,-210.48 219.92,-220.45 223.32,-210.41 216.32,-210.48"/>
-<text text-anchor="middle" x="253" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mDisposerList</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.91,-210.33C218.7,-166.47 218.19,-58.16 218.04,-26.39"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="215.41,-210.46 218.96,-220.45 222.41,-210.43 215.41,-210.46"/>
+<text text-anchor="middle" x="252" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mDisposerList</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="structJSUPtrList.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="224.5,-338.5 224.5,-357.5 289.5,-357.5 289.5,-338.5 224.5,-338.5"/>
-<text text-anchor="middle" x="257" y="-345.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUPtrList</text>
+<polygon fill="white" stroke="black" points="221.5,-338.5 221.5,-357.5 286.5,-357.5 286.5,-338.5 221.5,-338.5"/>
+<text text-anchor="middle" x="254" y="-345.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUPtrList</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge8" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M249.29,-328.8C248.14,-325.87 247,-322.87 246,-320 235.88,-290.97 226.39,-255.72 222.22,-239.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="246.07,-330.17 253.1,-338.09 252.54,-327.51 246.07,-330.17"/>
+<path fill="none" stroke="midnightblue" d="M246.24,-328.82C245.09,-325.89 243.97,-322.88 243,-320 233.24,-291.04 224.68,-255.75 220.97,-239.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="243.01,-330.18 250.05,-338.1 249.49,-327.52 243.01,-330.18"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="structJSUPtrLink.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="274,-259.5 274,-278.5 342,-278.5 342,-259.5 274,-259.5"/>
-<text text-anchor="middle" x="308" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUPtrLink</text>
+<polygon fill="white" stroke="black" points="271,-259.5 271,-278.5 339,-278.5 339,-259.5 271,-259.5"/>
+<text text-anchor="middle" x="305" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00">JSUPtrLink</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge11" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M251.03,-328.44C249.04,-318.72 248.53,-307 254,-298 259.43,-289.07 268.74,-282.86 278.11,-278.6"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="247.7,-329.56 253.66,-338.32 254.47,-327.75 247.7,-329.56"/>
-<text text-anchor="middle" x="268" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mList</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M248.03,-328.44C246.04,-318.72 245.53,-307 251,-298 256.43,-289.07 265.74,-282.86 275.11,-278.6"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="244.7,-329.56 250.66,-338.32 251.47,-327.75 244.7,-329.56"/>
+<text text-anchor="middle" x="265" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mList</text>
 </g>
 <!-- Node8&#45;&gt;Node7 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node7</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M301.99,-288.32C298.26,-298.22 292.86,-310.35 286,-320 281.06,-326.95 274.1,-333.51 268.24,-338.41"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="305.37,-289.28 305.38,-278.69 298.76,-286.96 305.37,-289.28"/>
-<text text-anchor="middle" x="315" y="-312" font-family="Helvetica,sans-Serif" font-size="10.00"> mHead</text>
-<text text-anchor="middle" x="315" y="-301" font-family="Helvetica,sans-Serif" font-size="10.00">mTail</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M298.99,-288.32C295.26,-298.22 289.86,-310.35 283,-320 278.06,-326.95 271.1,-333.51 265.24,-338.41"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="302.37,-289.28 302.38,-278.69 295.76,-286.96 302.37,-289.28"/>
+<text text-anchor="middle" x="312" y="-312" font-family="Helvetica,sans-Serif" font-size="10.00"> mHead</text>
+<text text-anchor="middle" x="312" y="-301" font-family="Helvetica,sans-Serif" font-size="10.00">mTail</text>
 </g>
 <!-- Node8&#45;&gt;Node8 -->
 <g id="edge10" class="edge">
 <title>Node8&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M352.15,-274.96C356.92,-273.82 360,-271.83 360,-269 360,-264.47 352.13,-262.1 342.01,-261.89"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="351.55,-271.51 342.01,-276.11 352.34,-278.46 351.55,-271.51"/>
-<text text-anchor="middle" x="375.5" y="-272" font-family="Helvetica,sans-Serif" font-size="10.00"> mNext</text>
-<text text-anchor="middle" x="375.5" y="-261" font-family="Helvetica,sans-Serif" font-size="10.00">mPrev</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M349.15,-274.96C353.92,-273.82 357,-271.83 357,-269 357,-264.47 349.13,-262.1 339.01,-261.89"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="348.55,-271.51 339.01,-276.11 349.34,-278.46 348.55,-271.51"/>
+<text text-anchor="middle" x="372.5" y="-272" font-family="Helvetica,sans-Serif" font-size="10.00"> mNext</text>
+<text text-anchor="middle" x="372.5" y="-261" font-family="Helvetica,sans-Serif" font-size="10.00">mPrev</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -217,8 +217,8 @@ var sectionId = 'dynsection-1';
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge13" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M308.51,-249.02C308.91,-233.74 309.47,-212.98 309.77,-201.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="305,-249.31 308.23,-259.4 311.99,-249.49 305,-249.31"/>
+<path fill="none" stroke="midnightblue" d="M306.27,-249.02C307.28,-233.74 308.67,-212.98 309.43,-201.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="302.75,-249.19 305.57,-259.4 309.73,-249.65 302.75,-249.19"/>
 </g>
 <!-- Node9&#45;&gt;Node2 -->
 <g id="edge12" class="edge">
@@ -231,16 +231,16 @@ var sectionId = 'dynsection-1';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="structJUtility_1_1TColor.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="403,-182.5 403,-201.5 483,-201.5 483,-182.5 403,-182.5"/>
-<text text-anchor="middle" x="443" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUtility::TColor</text>
+<polygon fill="white" stroke="black" points="395,-182.5 395,-201.5 475,-201.5 475,-182.5 395,-182.5"/>
+<text text-anchor="middle" x="435" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUtility::TColor</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node1 -->
 <g id="edge14" class="edge">
 <title>Node10&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M423.6,-175.89C404.78,-159.89 377.44,-132.72 366,-102 355.62,-74.14 378.82,-41.63 391.88,-26.32"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="421.61,-178.79 431.56,-182.43 426.06,-173.38 421.61,-178.79"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M417.39,-175.28C400.5,-158.91 376.12,-131.57 366,-102 356.37,-73.87 379.22,-41.49 392.04,-26.27"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="415.3,-178.11 424.99,-182.39 420.08,-173 415.3,-178.11"/>
 <text text-anchor="middle" x="389" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00"> field_0x5c</text>
 <text text-anchor="middle" x="389" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">field_0x60</text>
 </g>
@@ -256,27 +256,27 @@ var sectionId = 'dynsection-1';
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge17" class="edge">
 <title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M443.96,-172.03C445.04,-150.54 446.76,-116.47 447.56,-100.62"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="440.45,-172.05 443.44,-182.21 447.44,-172.4 440.45,-172.05"/>
-<text text-anchor="middle" x="465.5" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00"> mColor1</text>
-<text text-anchor="middle" x="465.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">mColor2</text>
-<text text-anchor="middle" x="465.5" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">mColor3</text>
-<text text-anchor="middle" x="465.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">mColor4</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M437.49,-172.03C440.31,-150.54 444.79,-116.47 446.87,-100.62"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="433.99,-171.84 436.15,-182.21 440.93,-172.76 433.99,-171.84"/>
+<text text-anchor="middle" x="463.5" y="-156" font-family="Helvetica,sans-Serif" font-size="10.00"> mColor1</text>
+<text text-anchor="middle" x="463.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">mColor2</text>
+<text text-anchor="middle" x="463.5" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">mColor3</text>
+<text text-anchor="middle" x="463.5" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">mColor4</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="struct__GXColor.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="413.5,-259.5 413.5,-278.5 472.5,-278.5 472.5,-259.5 413.5,-259.5"/>
-<text text-anchor="middle" x="443" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00">_GXColor</text>
+<polygon fill="white" stroke="black" points="408.5,-259.5 408.5,-278.5 461.5,-278.5 461.5,-259.5 408.5,-259.5"/>
+<text text-anchor="middle" x="435" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00">GXColor</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M443,-249.02C443,-233.74 443,-212.98 443,-201.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="439.5,-249.4 443,-259.4 446.5,-249.4 439.5,-249.4"/>
+<path fill="none" stroke="midnightblue" d="M435,-249.02C435,-233.74 435,-212.98 435,-201.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="431.5,-249.4 435,-259.4 438.5,-249.4 431.5,-249.4"/>
 </g>
 <!-- Node12&#45;&gt;Node1 -->
 <g id="edge16" class="edge">
