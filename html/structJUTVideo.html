@@ -75,6 +75,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="structJUTVideo-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">JUTVideo Class Reference</div>  </div>
@@ -93,8 +94,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:adc8f1d14a91551496b4c35ca952b03fc"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#adc8f1d14a91551496b4c35ca952b03fc">CallbackFn</a>) (void)</td></tr>
-<tr class="separator:adc8f1d14a91551496b4c35ca952b03fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4f60162a8dd449a1c1ac471aa82b9a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#afe4f60162a8dd449a1c1ac471aa82b9a">Callback</a>) (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
+<tr class="separator:afe4f60162a8dd449a1c1ac471aa82b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -112,33 +113,33 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a586ef549f0135e7638643421a17c616b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a5f240303dc139f1be162edbdbf9ca6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a8a5f240303dc139f1be162edbdbf9ca6">createManager</a> (<a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *)</td></tr>
 <tr class="separator:a8a5f240303dc139f1be162edbdbf9ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32bb0e73320cc4a5eaefbc5bd9816fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ad32bb0e73320cc4a5eaefbc5bd9816fe">JUTVideo</a> (<a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *)</td></tr>
-<tr class="separator:ad32bb0e73320cc4a5eaefbc5bd9816fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4157967ddcb9d3a16415d899786aa4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aec4157967ddcb9d3a16415d899786aa4">JUTVideo</a> (<a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *)</td></tr>
+<tr class="separator:aec4157967ddcb9d3a16415d899786aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa872253fd470107b2ccc0ab7980f61eb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aa872253fd470107b2ccc0ab7980f61eb">~JUTVideo</a> ()</td></tr>
 <tr class="separator:aa872253fd470107b2ccc0ab7980f61eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c1e0438d9a6bb1efd0458f354fc0560"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a4c1e0438d9a6bb1efd0458f354fc0560">preRetraceProc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
-<tr class="separator:a4c1e0438d9a6bb1efd0458f354fc0560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ca3d106b31483e6bfed01ce40400799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a5ca3d106b31483e6bfed01ce40400799">drawDoneStart</a> ()</td></tr>
 <tr class="separator:a5ca3d106b31483e6bfed01ce40400799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd0573cccbeb6545e0656ddf9d72677b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#afd0573cccbeb6545e0656ddf9d72677b">dummyNoDrawWait</a> ()</td></tr>
 <tr class="separator:afd0573cccbeb6545e0656ddf9d72677b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ec49d677bb78b857132a8012ee62f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ad4ec49d677bb78b857132a8012ee62f0">drawDoneCallback</a> ()</td></tr>
-<tr class="separator:ad4ec49d677bb78b857132a8012ee62f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d45723895741a0f0e189576773bb665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a6d45723895741a0f0e189576773bb665">postRetraceProc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
-<tr class="separator:a6d45723895741a0f0e189576773bb665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d3538fc2a2c0ba6e14842c8f84e8cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a25d3538fc2a2c0ba6e14842c8f84e8cf">setRenderMode</a> (<a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *)</td></tr>
-<tr class="separator:a25d3538fc2a2c0ba6e14842c8f84e8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243bc36b693b0bed3f48268055934d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a243bc36b693b0bed3f48268055934d7f">setRenderMode</a> (<a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *)</td></tr>
+<tr class="separator:a243bc36b693b0bed3f48268055934d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586ef549f0135e7638643421a17c616b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a586ef549f0135e7638643421a17c616b">waitRetraceIfNeed</a> ()</td></tr>
 <tr class="separator:a586ef549f0135e7638643421a17c616b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71285cdb3699d9bb1a59acfd16f6ed44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a71285cdb3699d9bb1a59acfd16f6ed44">getRenderMode</a> () const</td></tr>
-<tr class="separator:a71285cdb3699d9bb1a59acfd16f6ed44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c40b3d46d1b4434b70acc86e91bc2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a30c40b3d46d1b4434b70acc86e91bc2c">getRenderMode</a> () const</td></tr>
+<tr class="separator:a30c40b3d46d1b4434b70acc86e91bc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a37ea6f4df4ee3b538a041e131267ff4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTVideo.html">JUTVideo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a37ea6f4df4ee3b538a041e131267ff4b">createManager</a> (<a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *)</td></tr>
-<tr class="separator:a37ea6f4df4ee3b538a041e131267ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84bf807b278a0374f2f72ce129f67bc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTVideo.html">JUTVideo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ae84bf807b278a0374f2f72ce129f67bc">createManager</a> (<a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *)</td></tr>
+<tr class="separator:ae84bf807b278a0374f2f72ce129f67bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e97618ca66e722f88b7d23b3c42ab68"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a1e97618ca66e722f88b7d23b3c42ab68">destroyManager</a> ()</td></tr>
 <tr class="separator:a1e97618ca66e722f88b7d23b3c42ab68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35c1de15e59e5aa629efdb32bf59ff7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aa35c1de15e59e5aa629efdb32bf59ff7">preRetraceProc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
+<tr class="separator:aa35c1de15e59e5aa629efdb32bf59ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9d9a4f05fa4fb27de5532ab921e37f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a6c9d9a4f05fa4fb27de5532ab921e37f">postRetraceProc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
+<tr class="separator:a6c9d9a4f05fa4fb27de5532ab921e37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66b72bab5db1d525e20f37d55281fb5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ab66b72bab5db1d525e20f37d55281fb5">drawDoneCallback</a> ()</td></tr>
+<tr class="separator:ab66b72bab5db1d525e20f37d55281fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be552bcc4c82096594bbaff28d846a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTVideo.html">JUTVideo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a3be552bcc4c82096594bbaff28d846a9">getManager</a> ()</td></tr>
 <tr class="separator:a3be552bcc4c82096594bbaff28d846a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,16 +147,10 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aa4f05340001644d62de1aea1c263008f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aa4f05340001644d62de1aea1c263008f">sManager</a> [4]</td></tr>
 <tr class="separator:aa4f05340001644d62de1aea1c263008f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1b6f2e4f7361137db7a0e7f04a10c8b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ac1b6f2e4f7361137db7a0e7f04a10c8b">sVideoLastTick</a> [4]</td></tr>
-<tr class="separator:ac1b6f2e4f7361137db7a0e7f04a10c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b1837d81ef398fe4964d08e573b22a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a0b1837d81ef398fe4964d08e573b22a1">sVideoInterval</a> [4]</td></tr>
-<tr class="separator:a0b1837d81ef398fe4964d08e573b22a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a468a59384615032cf1a5c4545ea230ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTVideo.html">JUTVideo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a468a59384615032cf1a5c4545ea230ed">sManager</a></td></tr>
-<tr class="separator:a468a59384615032cf1a5c4545ea230ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee5fc2f36dfe8dd8c9b62f8b8d4391d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aee5fc2f36dfe8dd8c9b62f8b8d4391d5">sVideoLastTick</a></td></tr>
-<tr class="separator:aee5fc2f36dfe8dd8c9b62f8b8d4391d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e65ef232083ae1551234bb4d4cc4ba9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a1e65ef232083ae1551234bb4d4cc4ba9">sVideoInterval</a></td></tr>
-<tr class="separator:a1e65ef232083ae1551234bb4d4cc4ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6501e4b6b574cdad8462a1e61445b8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a6f6501e4b6b574cdad8462a1e61445b8">sVideoLastTick</a> [4]</td></tr>
+<tr class="separator:a6f6501e4b6b574cdad8462a1e61445b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c85ba4e0fdad09fedac3f3804a54e1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a97c85ba4e0fdad09fedac3f3804a54e1">sVideoInterval</a> [4]</td></tr>
+<tr class="separator:a97c85ba4e0fdad09fedac3f3804a54e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -175,10 +170,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a61d7e2193cea582d97466adcf8d2ff14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2422e970ebb769949758b48dcdd00a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#ac2422e970ebb769949758b48dcdd00a3">mPostRetraceCallback</a></td></tr>
 <tr class="separator:ac2422e970ebb769949758b48dcdd00a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cdadf667eb95da4b39ce57d31cc3289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJUTVideo.html#adc8f1d14a91551496b4c35ca952b03fc">CallbackFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a3cdadf667eb95da4b39ce57d31cc3289">unknown_callback_1</a></td></tr>
-<tr class="separator:a3cdadf667eb95da4b39ce57d31cc3289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32b1dfca3c6a67ca24fddc11801c5a45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJUTVideo.html#adc8f1d14a91551496b4c35ca952b03fc">CallbackFn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a32b1dfca3c6a67ca24fddc11801c5a45">unknown_callback_2</a></td></tr>
-<tr class="separator:a32b1dfca3c6a67ca24fddc11801c5a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27693615514864d60b59659a87990729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJUTVideo.html#afe4f60162a8dd449a1c1ac471aa82b9a">Callback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a27693615514864d60b59659a87990729">mPreCallback</a></td></tr>
+<tr class="separator:a27693615514864d60b59659a87990729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee744bc2b36934a5fc09e411f33b1bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJUTVideo.html#afe4f60162a8dd449a1c1ac471aa82b9a">Callback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a2ee744bc2b36934a5fc09e411f33b1bd">mPostCallback</a></td></tr>
+<tr class="separator:a2ee744bc2b36934a5fc09e411f33b1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b519bfd36aed31748ff949376560042"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a2b519bfd36aed31748ff949376560042">mSetBlack</a></td></tr>
 <tr class="separator:a2b519bfd36aed31748ff949376560042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec3b1701ffcf905f09cfa1b261eb9779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#aec3b1701ffcf905f09cfa1b261eb9779">mSetBlackFrameCount</a></td></tr>
@@ -187,16 +182,25 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2d39c4a899dbae1b25c83ef64def018a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc8eac2c5466da5551fb8bece3ad908c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSMessageQueue.html">OSMessageQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#afc8eac2c5466da5551fb8bece3ad908c">mMessageQueue</a></td></tr>
 <tr class="separator:afc8eac2c5466da5551fb8bece3ad908c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a468a59384615032cf1a5c4545ea230ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTVideo.html">JUTVideo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a468a59384615032cf1a5c4545ea230ed">sManager</a></td></tr>
+<tr class="separator:a468a59384615032cf1a5c4545ea230ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd0733c99f7e4f38b1377e3e5ffe915"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a0fd0733c99f7e4f38b1377e3e5ffe915">sVideoLastTick</a></td></tr>
+<tr class="separator:a0fd0733c99f7e4f38b1377e3e5ffe915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a666a7edf7b6223ee6e62057af02dae31"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html#a666a7edf7b6223ee6e62057af02dae31">sVideoInterval</a></td></tr>
+<tr class="separator:a666a7edf7b6223ee6e62057af02dae31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="adc8f1d14a91551496b4c35ca952b03fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc8f1d14a91551496b4c35ca952b03fc">&#9670;&nbsp;</a></span>CallbackFn</h2>
+<a id="afe4f60162a8dd449a1c1ac471aa82b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4f60162a8dd449a1c1ac471aa82b9a">&#9670;&nbsp;</a></span>Callback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* JUTVideo::CallbackFn) (void)</td>
+          <td class="memname">typedef void(* JUTVideo::Callback) (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,16 +208,16 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad32bb0e73320cc4a5eaefbc5bd9816fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad32bb0e73320cc4a5eaefbc5bd9816fe">&#9670;&nbsp;</a></span>JUTVideo()</h2>
+<a id="aec4157967ddcb9d3a16415d899786aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4157967ddcb9d3a16415d899786aa4">&#9670;&nbsp;</a></span>JUTVideo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm JUTVideo::JUTVideo </td>
+          <td class="memname">JUTVideo::JUTVideo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *&#160;</td>
           <td class="paramname"><em>param_0</em></td><td>)</td>
           <td></td>
         </tr>
@@ -248,34 +252,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a37ea6f4df4ee3b538a041e131267ff4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37ea6f4df4ee3b538a041e131267ff4b">&#9670;&nbsp;</a></span>createManager() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="structJUTVideo.html">JUTVideo</a>* JUTVideo::createManager </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8a5f240303dc139f1be162edbdbf9ca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a5f240303dc139f1be162edbdbf9ca6">&#9670;&nbsp;</a></span>createManager() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5f240303dc139f1be162edbdbf9ca6">&#9670;&nbsp;</a></span>createManager() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,6 +266,32 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae84bf807b278a0374f2f72ce129f67bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84bf807b278a0374f2f72ce129f67bc">&#9670;&nbsp;</a></span>createManager() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structJUTVideo.html">JUTVideo</a>* JUTVideo::createManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -334,19 +338,27 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4ec49d677bb78b857132a8012ee62f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4ec49d677bb78b857132a8012ee62f0">&#9670;&nbsp;</a></span>drawDoneCallback()</h2>
+<a id="ab66b72bab5db1d525e20f37d55281fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab66b72bab5db1d525e20f37d55281fb5">&#9670;&nbsp;</a></span>drawDoneCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm void JUTVideo::drawDoneCallback </td>
+          <td class="memname">void JUTVideo::drawDoneCallback </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -444,8 +456,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a71285cdb3699d9bb1a59acfd16f6ed44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71285cdb3699d9bb1a59acfd16f6ed44">&#9670;&nbsp;</a></span>getRenderMode()</h2>
+<a id="a30c40b3d46d1b4434b70acc86e91bc2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c40b3d46d1b4434b70acc86e91bc2c">&#9670;&nbsp;</a></span>getRenderMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,7 +466,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a>* JUTVideo::getRenderMode </td>
+          <td class="memname"><a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a>* JUTVideo::getRenderMode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -469,38 +481,54 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d45723895741a0f0e189576773bb665"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d45723895741a0f0e189576773bb665">&#9670;&nbsp;</a></span>postRetraceProc()</h2>
+<a id="a6c9d9a4f05fa4fb27de5532ab921e37f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9d9a4f05fa4fb27de5532ab921e37f">&#9670;&nbsp;</a></span>postRetraceProc()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm void JUTVideo::postRetraceProc </td>
+          <td class="memname">void JUTVideo::postRetraceProc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>retrace_count</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4c1e0438d9a6bb1efd0458f354fc0560"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c1e0438d9a6bb1efd0458f354fc0560">&#9670;&nbsp;</a></span>preRetraceProc()</h2>
+<a id="aa35c1de15e59e5aa629efdb32bf59ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35c1de15e59e5aa629efdb32bf59ff7">&#9670;&nbsp;</a></span>preRetraceProc()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm void JUTVideo::preRetraceProc </td>
+          <td class="memname">void JUTVideo::preRetraceProc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>retrace_count</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -533,7 +561,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void JUTVideo::setRenderMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>pObj</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -541,8 +569,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a25d3538fc2a2c0ba6e14842c8f84e8cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25d3538fc2a2c0ba6e14842c8f84e8cf">&#9670;&nbsp;</a></span>setRenderMode() <span class="overload">[3/3]</span></h2>
+<a id="a243bc36b693b0bed3f48268055934d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243bc36b693b0bed3f48268055934d7f">&#9670;&nbsp;</a></span>setRenderMode() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -550,8 +578,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void JUTVideo::setRenderMode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a> const *&#160;</td>
-          <td class="paramname"><em>pObj</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="GX_8h.html#a1e9a66640aae9a5e9fc045dac21369a4">GXRenderModeObj</a> const *&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -726,6 +754,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ee744bc2b36934a5fc09e411f33b1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee744bc2b36934a5fc09e411f33b1bd">&#9670;&nbsp;</a></span>mPostCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJUTVideo.html#afe4f60162a8dd449a1c1ac471aa82b9a">Callback</a> JUTVideo::mPostCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac2422e970ebb769949758b48dcdd00a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2422e970ebb769949758b48dcdd00a3">&#9670;&nbsp;</a></span>mPostRetraceCallback</h2>
 
@@ -737,6 +787,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="vi_8h.html#ad56e725d6c069973a6943492eab84fd0">VIRetraceCallback</a> JUTVideo::mPostRetraceCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27693615514864d60b59659a87990729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27693615514864d60b59659a87990729">&#9670;&nbsp;</a></span>mPreCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structJUTVideo.html#afe4f60162a8dd449a1c1ac471aa82b9a">Callback</a> JUTVideo::mPreCallback</td>
         </tr>
       </table>
   </td>
@@ -873,7 +945,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -902,8 +974,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e65ef232083ae1551234bb4d4cc4ba9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e65ef232083ae1551234bb4d4cc4ba9">&#9670;&nbsp;</a></span>sVideoInterval <span class="overload">[1/2]</span></h2>
+<a id="a666a7edf7b6223ee6e62057af02dae31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666a7edf7b6223ee6e62057af02dae31">&#9670;&nbsp;</a></span>sVideoInterval <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -912,7 +984,29 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTVideo::sVideoInterval</td>
+          <td class="memname"><a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a> JUTVideo::sVideoInterval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97c85ba4e0fdad09fedac3f3804a54e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c85ba4e0fdad09fedac3f3804a54e1">&#9670;&nbsp;</a></span>sVideoInterval <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a> JUTVideo::sVideoInterval</td>
         </tr>
       </table>
   </td>
@@ -924,8 +1018,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b1837d81ef398fe4964d08e573b22a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b1837d81ef398fe4964d08e573b22a1">&#9670;&nbsp;</a></span>sVideoInterval <span class="overload">[2/2]</span></h2>
+<a id="a0fd0733c99f7e4f38b1377e3e5ffe915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd0733c99f7e4f38b1377e3e5ffe915">&#9670;&nbsp;</a></span>sVideoLastTick <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,100 +1028,34 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTVideo::sVideoInterval</td>
+          <td class="memname"><a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a> JUTVideo::sVideoLastTick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f6501e4b6b574cdad8462a1e61445b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f6501e4b6b574cdad8462a1e61445b8">&#9670;&nbsp;</a></span>sVideoLastTick <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a> JUTVideo::sVideoLastTick</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aee5fc2f36dfe8dd8c9b62f8b8d4391d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee5fc2f36dfe8dd8c9b62f8b8d4391d5">&#9670;&nbsp;</a></span>sVideoLastTick <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTVideo::sVideoLastTick</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac1b6f2e4f7361137db7a0e7f04a10c8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1b6f2e4f7361137db7a0e7f04a10c8b">&#9670;&nbsp;</a></span>sVideoLastTick <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTVideo::sVideoLastTick</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3cdadf667eb95da4b39ce57d31cc3289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cdadf667eb95da4b39ce57d31cc3289">&#9670;&nbsp;</a></span>unknown_callback_1</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structJUTVideo.html#adc8f1d14a91551496b4c35ca952b03fc">CallbackFn</a> JUTVideo::unknown_callback_1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a32b1dfca3c6a67ca24fddc11801c5a45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32b1dfca3c6a67ca24fddc11801c5a45">&#9670;&nbsp;</a></span>unknown_callback_2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structJUTVideo.html#adc8f1d14a91551496b4c35ca952b03fc">CallbackFn</a> JUTVideo::unknown_callback_2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

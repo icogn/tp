@@ -81,6 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="printf_8h_source.html">MSL_C.PPCEABI.bare.H/MSL_Common/Src/printf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="____va__arg_8h_source.html">Runtime.PPCEABI.H/__va_arg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/MSL_C.PPCEABI.bare.H/MSL_Common/Src/printf/sprintf.s&quot;</code><br />
@@ -113,8 +114,8 @@ Functions</h2></td></tr>
 <tr class="separator:a84191174c69215693bd801985a205889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e8c81352852dc3a2910be00f5eca7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#a78e8c81352852dc3a2910be00f5eca7b">snprintf</a> ()</td></tr>
 <tr class="separator:a78e8c81352852dc3a2910be00f5eca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a957932b17041be4f825ffc2e20ab78e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#a957932b17041be4f825ffc2e20ab78e9">vsnprintf</a> (char *<a class="el" href="ai_8cpp.html#ad62c771481ae37881ceb00ea8b604b1b">buffer</a>, <a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> buffer_size, const char *format, <a class="el" href="struct____va__list__struct.html">__va_list_struct</a> *args)</td></tr>
-<tr class="separator:a957932b17041be4f825ffc2e20ab78e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3517e92be664223c065becaeeb393dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#ac3517e92be664223c065becaeeb393dd">vsnprintf</a> (char *<a class="el" href="ai_8cpp.html#ad62c771481ae37881ceb00ea8b604b1b">buffer</a>, <a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> buffer_size, const char *format, <a class="el" href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a> args)</td></tr>
+<tr class="separator:ac3517e92be664223c065becaeeb393dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13148cf2798c331172221a13743319e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#ac13148cf2798c331172221a13743319e">vprintf</a> ()</td></tr>
 <tr class="separator:ac13148cf2798c331172221a13743319e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358ab065fbc9b7f8973049a5b5da8a77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#a358ab065fbc9b7f8973049a5b5da8a77">fprintf</a> ()</td></tr>
@@ -141,8 +142,6 @@ Functions</h2></td></tr>
 <tr class="separator:a5a57ea51d2b7cac9fb323682c4b60f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6bb37288ea54f2151b2ecd4d4ccf3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#adc00f0d3ad529c0cb72985d54bfe7ccf">SECTION_INIT</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#afc6bb37288ea54f2151b2ecd4d4ccf3b">memcpy</a> ()</td></tr>
 <tr class="separator:afc6bb37288ea54f2151b2ecd4d4ccf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f21dd1770b2e1edd3bc60b874673f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#a93f21dd1770b2e1edd3bc60b874673f0">__va_arg</a> ()</td></tr>
-<tr class="separator:a93f21dd1770b2e1edd3bc60b874673f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa6177b08adf46fbd0a45d19a25a13b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#acfa6177b08adf46fbd0a45d19a25a13b">__div2u</a> ()</td></tr>
 <tr class="separator:acfa6177b08adf46fbd0a45d19a25a13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3c427a3aed43a8c38c6dce0fd7e0f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="printf_8cpp.html#ad3c427a3aed43a8c38c6dce0fd7e0f1c">__mod2u</a> ()</td></tr>
@@ -337,23 +336,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">asm void __StringWrite </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a93f21dd1770b2e1edd3bc60b874673f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93f21dd1770b2e1edd3bc60b874673f0">&#9670;&nbsp;</a></span>__va_arg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void __va_arg </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -717,8 +699,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a957932b17041be4f825ffc2e20ab78e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a957932b17041be4f825ffc2e20ab78e9">&#9670;&nbsp;</a></span>vsnprintf()</h2>
+<a id="ac3517e92be664223c065becaeeb393dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3517e92be664223c065becaeeb393dd">&#9670;&nbsp;</a></span>vsnprintf()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -744,7 +726,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct____va__list__struct.html">__va_list_struct</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a>&#160;</td>
           <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
@@ -915,7 +897,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#a9569ad17995c78215ab4f819b67ffdfe">longlong2str</a>) + 0x108), (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#a9569ad17995c78215ab4f819b67ffdfe">longlong2str</a>) + 0x108),</div>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#a9569ad17995c78215ab4f819b67ffdfe">longlong2str</a>) + 0xF8),</div>
 <div class="line">}</div>
-<div class="ttc" id="aprintf_8cpp_html_a9569ad17995c78215ab4f819b67ffdfe"><div class="ttname"><a href="printf_8cpp.html#a9569ad17995c78215ab4f819b67ffdfe">longlong2str</a></div><div class="ttdeci">static void longlong2str()</div><div class="ttdef"><b>Definition:</b> printf.cpp:246</div></div>
+<div class="ttc" id="aprintf_8cpp_html_a9569ad17995c78215ab4f819b67ffdfe"><div class="ttname"><a href="printf_8cpp.html#a9569ad17995c78215ab4f819b67ffdfe">longlong2str</a></div><div class="ttdeci">static void longlong2str()</div><div class="ttdef"><b>Definition:</b> printf.cpp:244</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -957,7 +939,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#ac8f83557c3e0749c126a44d9160379c0">long2str</a>) + 0xB4), (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#ac8f83557c3e0749c126a44d9160379c0">long2str</a>) + 0xB4),</div>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code" href="printf_8cpp.html#ac8f83557c3e0749c126a44d9160379c0">long2str</a>) + 0xA8),</div>
 <div class="line">}</div>
-<div class="ttc" id="aprintf_8cpp_html_ac8f83557c3e0749c126a44d9160379c0"><div class="ttname"><a href="printf_8cpp.html#ac8f83557c3e0749c126a44d9160379c0">long2str</a></div><div class="ttdeci">static void long2str()</div><div class="ttdef"><b>Definition:</b> printf.cpp:278</div></div>
+<div class="ttc" id="aprintf_8cpp_html_ac8f83557c3e0749c126a44d9160379c0"><div class="ttname"><a href="printf_8cpp.html#ac8f83557c3e0749c126a44d9160379c0">long2str</a></div><div class="ttdeci">static void long2str()</div><div class="ttdef"><b>Definition:</b> printf.cpp:276</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1001,7 +983,7 @@ Variables</h2></td></tr>
 <div class="line">    </div>
 <div class="line">    <a class="code" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aprintf_8cpp_html_a5a57ea51d2b7cac9fb323682c4b60f98"><div class="ttname"><a href="printf_8cpp.html#a5a57ea51d2b7cac9fb323682c4b60f98">parse_format</a></div><div class="ttdeci">static void parse_format()</div><div class="ttdef"><b>Definition:</b> printf.cpp:344</div></div>
+<div class="ttc" id="aprintf_8cpp_html_a5a57ea51d2b7cac9fb323682c4b60f98"><div class="ttname"><a href="printf_8cpp.html#a5a57ea51d2b7cac9fb323682c4b60f98">parse_format</a></div><div class="ttdeci">static void parse_format()</div><div class="ttdef"><b>Definition:</b> printf.cpp:342</div></div>
 <div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:34</div></div>
 </div><!-- fragment -->
 </div>
