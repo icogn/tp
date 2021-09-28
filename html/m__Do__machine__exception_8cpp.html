@@ -85,12 +85,12 @@ $(function() {
 <code>#include &quot;<a class="el" href="JFWSystem_8h_source.html">JSystem/JFramework/JFWSystem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="JKRAram_8h_source.html">JSystem/JKernel/JKRAram.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="JUTConsole_8h_source.html">JSystem/JUtility/JUTConsole.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="____va__arg_8h_source.html">Runtime.PPCEABI.H/__va_arg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__com__inf__game_8h_source.html">d/com/d_com_inf_game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="m__Do__ext_8h_source.html">m_Do/m_Do_ext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="m__Do__main_8h_source.html">m_Do/m_Do_main.h</a>&quot;</code><br />
-<code>#include &quot;asm/m_Do/m_Do_machine_exception/print_f__FPCce.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for m_Do_machine_exception.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,10 +109,8 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a93ca21b10727d8654670ead77745977d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#a93ca21b10727d8654670ead77745977d">dump__24DynamicModuleControlBaseFv</a> ()</td></tr>
 <tr class="separator:a93ca21b10727d8654670ead77745977d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a366afcc3119bae5768f6caa5fe093"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#a86a366afcc3119bae5768f6caa5fe093">JUTConsole_print_f_va_</a> ()</td></tr>
-<tr class="separator:a86a366afcc3119bae5768f6caa5fe093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad780e574e0ca9a0482632f6dccc95779"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#ad780e574e0ca9a0482632f6dccc95779">print_f</a> (char const *param_0,...)</td></tr>
-<tr class="separator:ad780e574e0ca9a0482632f6dccc95779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd695d41704754aec1f036b725108064"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#acd695d41704754aec1f036b725108064">print_f</a> (char const *fmt,...)</td></tr>
+<tr class="separator:acd695d41704754aec1f036b725108064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac9b07d27d4eada7323f657df7d3ec2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#a4ac9b07d27d4eada7323f657df7d3ec2">print</a> (char const *string)</td></tr>
 <tr class="separator:a4ac9b07d27d4eada7323f657df7d3ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5be4daac778c5094ee70371197786cb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__machine__exception_8cpp.html#a5be4daac778c5094ee70371197786cb4">dispHeapInfo</a> ()</td></tr>
@@ -243,23 +241,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a86a366afcc3119bae5768f6caa5fe093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a366afcc3119bae5768f6caa5fe093">&#9670;&nbsp;</a></span>JUTConsole_print_f_va_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void JUTConsole_print_f_va_ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4ac9b07d27d4eada7323f657df7d3ec2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ac9b07d27d4eada7323f657df7d3ec2">&#9670;&nbsp;</a></span>print()</h2>
 
@@ -278,20 +259,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad780e574e0ca9a0482632f6dccc95779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad780e574e0ca9a0482632f6dccc95779">&#9670;&nbsp;</a></span>print_f()</h2>
+<a id="acd695d41704754aec1f036b725108064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd695d41704754aec1f036b725108064">&#9670;&nbsp;</a></span>print_f()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void print_f </td>
+          <td class="memname">void print_f </td>
           <td>(</td>
           <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>fmt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,11 +283,6 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
