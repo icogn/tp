@@ -76,6 +76,9 @@ $(function() {
 : <a class="el" href="structJGeometry_1_1TBox.html#aeba9a6498edd20c671f37b5135f7b4ce">JGeometry::TBox&lt; T &gt;</a>
 , <a class="el" href="structJGeometry_1_1TBox_3_01TVec2_3_01f32_01_4_01_4.html#a386d9d79595355cfeed41644df812c3a">JGeometry::TBox&lt; TVec2&lt; f32 &gt; &gt;</a>
 </li>
+<li>fader
+: <a class="el" href="structJAISound.html#a1ba7f6082d26acd5a6b5e8bbf32e9f06">JAISound</a>
+</li>
 <li>fb_width
 : <a class="el" href="struct__GXRenderModeObj.html#ae6083fe9d4c84a2f75f02852085c2c2a">_GXRenderModeObj</a>
 </li>
@@ -110,8 +113,12 @@ $(function() {
 , <a class="el" href="structHOUSI__EFF.html#a3c0bd37437ff262ec10d7a6701b331d7">HOUSI_EFF</a>
 , <a class="el" href="structJ2DWindow_1_1TContentsColor.html#ac4fb1c75de030fa52f5e36210e937df0">J2DWindow::TContentsColor</a>
 , <a class="el" href="structJ2DWindow_1_1TMaterial.html#a4d8a4eedc9b4478f9c1a3dbac8d85f65">J2DWindow::TMaterial</a>
-, <a class="el" href="structJAISoundParams.html#a0c3865499f7cdf3ae911034c76bf2f09">JAISoundParams</a>
+, <a class="el" href="structJAISoundActivity.html#aefd00adb44e902235235738da3d4735a">JAISoundActivity</a>
+, <a class="el" href="structJAISoundParamsProperty.html#ae5cf564ffcea0ebb10e334b985b5817c">JAISoundParamsProperty</a>
+, <a class="el" href="structJAISoundParamsTransition_1_1TTransition.html#ab821055438cd34c740c3d1d9d0b92558">JAISoundParamsTransition::TTransition</a>
+, <a class="el" href="structJAISoundStatus__.html#a6d8d10645e85fe58c23636659497b7e0">JAISoundStatus_</a>
 , <a class="el" href="structJASAudioReseter.html#acf7fb41365dae7b431227ae1526586f6">JASAudioReseter</a>
+, <a class="el" href="structJASNonCopyable.html#a59963e8e13071e17e38a74e1a5550a90">JASNonCopyable</a>
 , <a class="el" href="classJKRDecompCommand.html#a0122b559483c0f9eb40741ab3331b034">JKRDecompCommand</a>
 , <a class="el" href="structJKRSolidHeap_1_1Unknown.html#a747a17e1b1fac83b7fd97f7423aa6ed7">JKRSolidHeap::Unknown</a>
 , <a class="el" href="structJUTException.html#ad0865fadb119c25e9e2734172120be00">JUTException</a>
@@ -134,8 +141,12 @@ $(function() {
 , <a class="el" href="structTTransition.html#a8964d6e42e1fab6bfb614545034abf9e">TTransition</a>
 , <a class="el" href="structVRKUMO__EFF.html#a86f6a952cc749db45aba80e8f25e4be8">VRKUMO_EFF</a>
 , <a class="el" href="structWIND__INF__ENTITY.html#ae4b44f8b68d242ad14b29b1d7c46ec64">WIND_INF_ENTITY</a>
+, <a class="el" href="structZ2Audience3DSetting.html#aa1acc42daca770c8d0797804d11a0196">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2AudioCamera.html#a0f992561f35a01528bde1ca92a4e4be6">Z2AudioCamera</a>
 , <a class="el" href="structZ2EnvSeMgr.html#a6d71a0cd6df289571128efb71f3c164a">Z2EnvSeMgr</a>
-, <a class="el" href="structZ2SoundStarter__vtable.html#ac050e6e612d3519db7ee5ee585610457">Z2SoundStarter_vtable</a>
+, <a class="el" href="structZ2FxLineMgr.html#a366f43c2f6604d4f51d3fd6f01837cf1">Z2FxLineMgr</a>
+, <a class="el" href="structZ2SpeechMgr2.html#a5f1ef81445379a5d78d68bab65915499">Z2SpeechMgr2</a>
+, <a class="el" href="structZ2SpotMic.html#ac6c557a390e978391fa5f850c1ac75bc">Z2SpotMic</a>
 </li>
 <li>field_0x00
 : <a class="el" href="structcamera__class.html#a96f4b3092873b330af316881c631c044">camera_class</a>
@@ -185,7 +196,6 @@ $(function() {
 , <a class="el" href="classfapGm__HIO__c.html#a83992f86800fe1be43c7d2975df061ff">fapGm_HIO_c</a>
 , <a class="el" href="structfopAcM__prmBase__class.html#aa85e080f525b15a2278b4985cf12ef51">fopAcM_prmBase_class</a>
 , <a class="el" href="structHOUSI__EFF.html#a404b00bec390e478a8ed83943d628883">HOUSI_EFF</a>
-, <a class="el" href="structJAISoundHandles.html#a16a17db2403782e2dd524305e6c2d5f5">JAISoundHandles</a>
 , <a class="el" href="structJMSMesgEntry__c.html#a2667be6b5529235a66e384993ef6cf9f">JMSMesgEntry_c</a>
 , <a class="el" href="structMUD__EFF.html#a0437b0da41512308183c606b97129397">MUD_EFF</a>
 , <a class="el" href="structODOUR__EFF.html#ac7f4c1cee80869f3357087931bc9ef3a">ODOUR_EFF</a>
@@ -478,6 +488,7 @@ $(function() {
 , <a class="el" href="classdDlst__shadowReal__c.html#a188a7f06ac9fc91c08e2cb1447419c79">dDlst_shadowReal_c</a>
 , <a class="el" href="structEF__THUNDER.html#accfa08a808a71e0dbb9720e53bbca446">EF_THUNDER</a>
 , <a class="el" href="structEFLIGHT__PROC.html#a4fce2d19927dc2fbc3af2887a7dbd257">EFLIGHT_PROC</a>
+, <a class="el" href="structJAISoundStatus__.html#a0a87a4119627447fda8b97974848a02d">JAISoundStatus_</a>
 , <a class="el" href="structJUTFont_1_1TWidth.html#ab264c77eb201fc920e1bfa105ef8a91d">JUTFont::TWidth</a>
 , <a class="el" href="classoverlap__request__class.html#a1e3e3ddfa9ad3128b239ad7851ff8d64">overlap_request_class</a>
 , <a class="el" href="structrequest__base__class.html#acebee71f6711609d134c0085b6c353ea">request_base_class</a>
@@ -524,7 +535,7 @@ $(function() {
 , <a class="el" href="structHOUSI__EFF.html#a944f3c6e546d0c956a212830ba8fdd50">HOUSI_EFF</a>
 , <a class="el" href="structJ2DWindow_1_1TMaterial.html#a43b6dc3970ac364de7bea8c73f668c16">J2DWindow::TMaterial</a>
 , <a class="el" href="structJ3DModel.html#a45f5e9444f20ec3d5857b825c801ed9b">J3DModel</a>
-, <a class="el" href="structJAISoundParams.html#a006d70dd7fa8676807812c3a6046f425">JAISoundParams</a>
+, <a class="el" href="structJAISeMgr.html#a7275453d822508c47cf596bbb08a1107">JAISeMgr</a>
 , <a class="el" href="structJKRThreadSwitch.html#ab7e5a7bbd9cabedbcbc5894a82bc62d4">JKRThreadSwitch</a>
 , <a class="el" href="structJMSMesgEntry__c.html#ad43e3506c30d6831c81426072ee4b4d5">JMSMesgEntry_c</a>
 , <a class="el" href="structJUTDirectPrint.html#a88a2d5c87128415a69c89fe6362799f5">JUTDirectPrint</a>
@@ -542,8 +553,11 @@ $(function() {
 , <a class="el" href="structSTControl.html#a97b4e4fc1bab861b2da07df7bd80ec29">STControl</a>
 , <a class="el" href="structVRKUMO__EFF.html#ad400c802714e9707a8e9d6dd8b4be81b">VRKUMO_EFF</a>
 , <a class="el" href="structWIND__INF__ENTITY.html#ac6db2d8dc9d022aa18a03a4badda55e3">WIND_INF_ENTITY</a>
+, <a class="el" href="structZ2Audience3DSetting.html#aafd7dade0b58e4fae1ccdb2316db512c">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#a85d7be5f7ae05b888102510f8e8b8f92">Z2SeqMgr</a>
 , <a class="el" href="structZ2SoundObjMgr.html#a18ec0fbe5b8af207fc4d73715f1316c9">Z2SoundObjMgr</a>
+, <a class="el" href="structZ2SpeechMgr2.html#a193935754cfb943a21032fbafc7eb132">Z2SpeechMgr2</a>
+, <a class="el" href="structZ2SpotMic.html#ad673ae973c6d4eb201993e5d76755c13">Z2SpotMic</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#af408e1b9563d6733bd3001e532129e1c">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x100
@@ -1247,7 +1261,6 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a0335e40aba7235a9a3edb159ea21be22">dVibration_c</a>
 , <a class="el" href="structEF__THUNDER.html#ad08eddaedf0c7a995a405462c5e4621e">EF_THUNDER</a>
 , <a class="el" href="structJ2DGrafContext.html#ad51061fd56457e01b9a85d17aea0252b">J2DGrafContext</a>
-, <a class="el" href="structJAISoundParams.html#a71137a5b50ae02b86c37167d52aafc74">JAISoundParams</a>
 , <a class="el" href="structJKRThreadSwitch.html#abd28b5cb8eb3d9e02675abc9f79deffe">JKRThreadSwitch</a>
 , <a class="el" href="structJUTVideo.html#ab963554d6472710071c5338d897f4252">JUTVideo</a>
 , <a class="el" href="structLIGHT__INFLUENCE.html#addbc845b1ba469725b2bee2b53bf9264">LIGHT_INFLUENCE</a>
@@ -1263,6 +1276,7 @@ $(function() {
 , <a class="el" href="structstage__stag__info__class.html#ad4d6abf07df4234a25bfd83bce6a53fb">stage_stag_info_class</a>
 , <a class="el" href="structSTControl.html#acaa658fbf3108cdbc70b0860cfeefdae">STControl</a>
 , <a class="el" href="structview__class.html#a45ffb3083ee1ad3c357c1e5863181d7f">view_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a14e78887953bdd1994756a2a12a8b6b0">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#a6878a75dc38e39b07d59ee092bd1186c">Z2SeqMgr</a>
 , <a class="el" href="structZ2SoundObjMgr.html#a8a58f11ffe09f5d33cf44c4d212232c2">Z2SoundObjMgr</a>
 , <a class="el" href="structZ2StatusMgr.html#aaf1fc3631ba364c6ca2bee77fcfb31d4">Z2StatusMgr</a>
@@ -1426,8 +1440,6 @@ $(function() {
 , <a class="el" href="structdSelect__icon__c.html#adab653d0ed42f3f53c4d70483d5a2fa4">dSelect_icon_c</a>
 , <a class="el" href="structdVibration__c.html#a0ff9600e3b66a0dc4fafd4db5b9822d6">dVibration_c</a>
 , <a class="el" href="structEF__THUNDER.html#a796cd31a5d74934751fcd57803695929">EF_THUNDER</a>
-, <a class="el" href="structJAISound.html#a37aa321961da76f2a53f6dcc08eb08bf">JAISound</a>
-, <a class="el" href="structJAISoundParams.html#a42c2cc9187c37cb674cac453e28dae07">JAISoundParams</a>
 , <a class="el" href="structJKRThreadSwitch.html#a5602b03d7d7974cbbb3d9ad905300bc8">JKRThreadSwitch</a>
 , <a class="el" href="structJUTVideo.html#a27480a18ddd3049c2a6ebd889df9ddd5">JUTVideo</a>
 , <a class="el" href="structLIGHT__INFLUENCE.html#a7a58be1190d6c2b130b3adaef37b93de">LIGHT_INFLUENCE</a>
@@ -1437,8 +1449,10 @@ $(function() {
 , <a class="el" href="structrequest__base__class.html#aee9db118f0312f1eda3ac19c46b2ff2b">request_base_class</a>
 , <a class="el" href="structSArcHeader.html#ad9bb18f1b896f84eeb1579239cec8683">SArcHeader</a>
 , <a class="el" href="structWIND__INFLUENCE.html#a73c06eb67ff8894c143fa246cbb8f3e9">WIND_INFLUENCE</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a95bd12e741aa58e1177d1b9ede0fe00a">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SceneMgr.html#a125ebcdeadf40a1f2066a53eea13c59f">Z2SceneMgr</a>
 , <a class="el" href="structZ2SoundObjMgr.html#a3bd3481f4219c5016126d00f0d431750">Z2SoundObjMgr</a>
+, <a class="el" href="structZ2SpotMic.html#a04db1ea79b8df537bfedf13c68bb871d">Z2SpotMic</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a2841464aebadf68177d7feb5c69ff02f">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x1800
@@ -1448,14 +1462,12 @@ $(function() {
 : <a class="el" href="structdaAlink__c.html#a4af14ddfb4fe7be1af55c0c89d21d3d3">daAlink_c</a>
 </li>
 <li>field_0x19
-: <a class="el" href="structJAISound.html#aa9dbfd2a1c77478a0ae2d92da3ec1041">JAISound</a>
-, <a class="el" href="structJKRFile.html#a6e8a2e85f2e27468793dd7d4f60c7acd">JKRFile</a>
+: <a class="el" href="structJKRFile.html#a6e8a2e85f2e27468793dd7d4f60c7acd">JKRFile</a>
 , <a class="el" href="structrequest__base__class.html#af5d3098b7974b472abf4e882eec28ea9">request_base_class</a>
 , <a class="el" href="structZ2SceneMgr.html#a693115623412dc88877b4e481dadeaf5">Z2SceneMgr</a>
 </li>
 <li>field_0x1a
-: <a class="el" href="structJAISound.html#a71516624c80a99b312c898def7c70662">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a0c8a6d128bf44a4d20fe413a56d39810">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a0c8a6d128bf44a4d20fe413a56d39810">request_base_class</a>
 , <a class="el" href="structZ2SceneMgr.html#a8cdeedb1669753b9d10dbb94802bbf7f">Z2SceneMgr</a>
 , <a class="el" href="structZ2SoundObjMgr.html#a76ef5d353d823ada7e5d39bb5086d0d1">Z2SoundObjMgr</a>
 </li>
@@ -1469,8 +1481,7 @@ $(function() {
 : <a class="el" href="structdEvent__manager__c.html#a4a69819cced7a19da420d66f51f294ed">dEvent_manager_c</a>
 </li>
 <li>field_0x1b
-: <a class="el" href="structJAISound.html#a8b20267974558d369ac7cda6b11f6a48">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a9b21d8718475e0b54abcdd65f85c927d">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a9b21d8718475e0b54abcdd65f85c927d">request_base_class</a>
 , <a class="el" href="structZ2SceneMgr.html#a1f880952ccd38c3f0eb83a86049ebdca">Z2SceneMgr</a>
 </li>
 <li>field_0x1b0
@@ -1508,7 +1519,6 @@ $(function() {
 , <a class="el" href="structEF__THUNDER.html#a0132bb0ea6d1c35ce0e20d80472d0038">EF_THUNDER</a>
 , <a class="el" href="structEVIL__EFF.html#a110e2b80efecbcd56cb5ed4ecc0722ce">EVIL_EFF</a>
 , <a class="el" href="structHOUSI__EFF.html#a7a8a40cc0eefa37a2c722a7d80a6abdf">HOUSI_EFF</a>
-, <a class="el" href="structJAISoundParams.html#a814d9999cbc5092bc52c7429a6b2d8b7">JAISoundParams</a>
 , <a class="el" href="classJKRDecompCommand.html#a2d920bfe8a8df11c5e57aa3c6627aa06">JKRDecompCommand</a>
 , <a class="el" href="structJUTGamePad_1_1CButton.html#a1ab33dd4b78ff9428f186f765fdee133">JUTGamePad::CButton</a>
 , <a class="el" href="structJUTGamePadLongPress.html#a882cc1fd1e69b124b581c883f6c6b0ce">JUTGamePadLongPress</a>
@@ -1523,8 +1533,10 @@ $(function() {
 , <a class="el" href="structSTAR__EFF.html#a01a8c4937fb14555521798012cb72de1">STAR_EFF</a>
 , <a class="el" href="structSTControl.html#ac4dd968a120227bccfe212d2392a563b">STControl</a>
 , <a class="el" href="structVRKUMO__EFF.html#a35e6f405f090f655df36ea4f4e92ee39">VRKUMO_EFF</a>
+, <a class="el" href="structZ2Audience3DSetting.html#af6adf9edfc50e072f484881476ded861">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2MultiSeObj.html#aac1610fd97015f2d42191a760aef7b15">Z2MultiSeObj</a>
 , <a class="el" href="structZ2SoundObjBase.html#ad7b28dd7cf261f0b84e5129b1b05d89e">Z2SoundObjBase</a>
+, <a class="el" href="structZ2SpotMic.html#a688701c8970492e866eb076f8e6eb0ca">Z2SpotMic</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a531936b21d324d4f4875dcd6ff4eb24f">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x1c0
@@ -1544,6 +1556,9 @@ $(function() {
 </li>
 <li>field_0x1d4
 : <a class="el" href="classdMeter__drawHIO__c.html#aea4b1f2ba59d7d5dc3dde530096961ae">dMeter_drawHIO_c</a>
+</li>
+<li>field_0x1d8
+: <a class="el" href="structZ2Audience.html#ab340338540e5b32478dc78b3cf72bfc2">Z2Audience</a>
 </li>
 <li>field_0x1ddf8
 : <a class="el" href="classdComIfG__inf__c.html#a95d2483601f5c93072536b5eb096a0ca">dComIfG_inf_c</a>
@@ -1643,7 +1658,6 @@ $(function() {
 , <a class="el" href="structdSelect__icon__c.html#a01545b7750e0b6239ac784c502664b83">dSelect_icon_c</a>
 , <a class="el" href="structdVibration__c.html#a287de24d966278b6fe4623920c19eaea">dVibration_c</a>
 , <a class="el" href="structEF__THUNDER.html#a6215eda8401c80f65aff0a64966becb1">EF_THUNDER</a>
-, <a class="el" href="structJAISound.html#ac1f9ad50673af0174db6fe24f13ec5d6">JAISound</a>
 , <a class="el" href="classJKRDecompCommand.html#a6d78caf0013992b2b10cd09221930667">JKRDecompCommand</a>
 , <a class="el" href="structJKRThreadSwitch.html#a7627bea7c1ac779579ce689d304596fd">JKRThreadSwitch</a>
 , <a class="el" href="structJUTConsole.html#a9f0b07b9199e40b45cc5e7646a53361e">JUTConsole</a>
@@ -1654,8 +1668,10 @@ $(function() {
 , <a class="el" href="structstage__stag__info__class.html#af5f9747d89f8010a6f932efb14da4368">stage_stag_info_class</a>
 , <a class="el" href="structstage__tgsc__data__class.html#aa5eafc8e32e3d50df4fddcb91047f349">stage_tgsc_data_class</a>
 , <a class="el" href="structSTControl.html#a376d196ca3426d95a23201feeee0bbd5">STControl</a>
+, <a class="el" href="structZ2Audience3DSetting.html#adfce6a9ebe00c0768fb36c263ff56843">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2MultiSeObj.html#a9116821b6c836e5fc836577c7f6e8d5d">Z2MultiSeObj</a>
 , <a class="el" href="structZ2SoundObjAnime.html#aa1cc9e5d3336c47fd00668e48dd65e8e">Z2SoundObjAnime</a>
+, <a class="el" href="structZ2SpotMic.html#aae925329348fdff2a58d7500d8bc8e81">Z2SpotMic</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aaa41c34b3fa8b2dfcc5710d7b444c44d">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x200
@@ -1718,7 +1734,6 @@ $(function() {
 , <a class="el" href="structEF__THUNDER.html#adbbffe5bdb2de0643bbe9b46a14c76cd">EF_THUNDER</a>
 , <a class="el" href="structGLOBAL__MEMORY.html#a95ef8621394053b6369b2450801d5ba8">GLOBAL_MEMORY</a>
 , <a class="el" href="structJ2DGrafContext.html#aac06f7a93a1d0efaea927d001ee8f1b4">J2DGrafContext</a>
-, <a class="el" href="structJAISound.html#a84a7c6dcd9508e410bb9c5fe5831ac0e">JAISound</a>
 , <a class="el" href="structJKRThreadSwitch.html#abdaed1551018f3e84ff76aea02d3a587">JKRThreadSwitch</a>
 , <a class="el" href="structJUTConsole.html#a66d6db9af617ec06846b1347ae5ece9f">JUTConsole</a>
 , <a class="el" href="structJUTFader.html#a3f159f0aeeb0f2b9d9bb73a7f9b385ed">JUTFader</a>
@@ -1727,6 +1742,7 @@ $(function() {
 , <a class="el" href="structrequest__base__class.html#a8dad93b15d2d65ac7997e60a45058216">request_base_class</a>
 , <a class="el" href="structSTControl.html#aecc6d0f70cff132dcd115540c3f4fe10">STControl</a>
 , <a class="el" href="structWIND__INFLUENCE.html#a4fc1b78fa682b973f64de63a20f53ec3">WIND_INFLUENCE</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a9aaced090283f65770e5a796917c0152">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#a5f40bbbc55fdcd7be1832539ddf104c8">Z2SeqMgr</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a9509e7f1e6ffcf3a02c198db5da2e17f">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ad93607981c0e54f144a43c163214a858">Z2WolfHowlMgr</a>
@@ -1753,6 +1769,7 @@ $(function() {
 , <a class="el" href="structdMsgFlow__c.html#a80773901a95e1bafddf32e884db9d3b5">dMsgFlow_c</a>
 , <a class="el" href="structrequest__base__class.html#a721d2e616bd98aad1747e12563183fc1">request_base_class</a>
 , <a class="el" href="structSTControl.html#a86937369d84ad893548399da377094c6">STControl</a>
+, <a class="el" href="structZ2SpotMic.html#abe51bd414f3741acc7e7738ed1730c57">Z2SpotMic</a>
 </li>
 <li>field_0x27
 : <a class="el" href="structdMsgFlow__c.html#aff99ae101897a8058af7c7b113d8efd2">dMsgFlow_c</a>
@@ -1788,11 +1805,11 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a513c0a48815d87bac90ba141b983a3ca">dVibration_c</a>
 , <a class="el" href="structHOUSI__EFF.html#ae9c7a18af6a4fee7e1cd6e703c642c8a">HOUSI_EFF</a>
 , <a class="el" href="structJ2DGrafContext.html#a4ed0c05efe7f7d7533cbf9c72b297eb1">J2DGrafContext</a>
-, <a class="el" href="structJAISound.html#aede8473202d0e43abed2cd78c9d6dfe9">JAISound</a>
 , <a class="el" href="structJUTGamePad_1_1CButton.html#a08e9f6d486f0dc1176689ad15855717e">JUTGamePad::CButton</a>
 , <a class="el" href="structMUD__EFF.html#a375dba61b8dbfdffd53f9086ecb3ab75">MUD_EFF</a>
 , <a class="el" href="structrequest__base__class.html#a3a283a493067356e4de5dc04cae55cfa">request_base_class</a>
 , <a class="el" href="structWIND__INFLUENCE.html#ac918d31d58c13b70475902c1c0fab149">WIND_INFLUENCE</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a126748bab198aa0697838c9f6a78d4e6">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a918ccb8f74fcbb2c37d7cd796fc883ad">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aed041fdb88da8bf9da49c10a2248db36">Z2WolfHowlMgr</a>
 </li>
@@ -1922,7 +1939,6 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a8638fb98341979b7a39a44da1546eeb1">dVibration_c</a>
 , <a class="el" href="structGLOBAL__MEMORY.html#a29784fe50410bfc5b95b8a6e296ec45c">GLOBAL_MEMORY</a>
 , <a class="el" href="structJ2DGrafContext.html#a5db2319040b0cb74c21d944c2a62ac2b">J2DGrafContext</a>
-, <a class="el" href="structJAISound.html#aa3453d95f088cb82cd61285d770429a3">JAISound</a>
 , <a class="el" href="structJKRAramStreamCommand.html#a4c9f5014794b73e1cd1a679e69dfd60b">JKRAramStreamCommand</a>
 , <a class="el" href="structJUTConsole.html#a709ceee87e414198c336bd1011210599">JUTConsole</a>
 , <a class="el" href="structJUTGamePad_1_1CButton.html#adde688a94f62ec4a60d247cd5ad54d0b">JUTGamePad::CButton</a>
@@ -1934,6 +1950,7 @@ $(function() {
 </li>
 <li>field_0x2c
 : <a class="el" href="structSTControl.html#a282f8cc448a6b900c77b07445734229b">STControl</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a998442e9c2136e3c9342bceb3586c305">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a5e236a188ffbf58ebc0c1db6cd80315f">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ad38b1f421a5594ab7c70e1407545390e">Z2WolfHowlMgr</a>
 </li>
@@ -1951,9 +1968,6 @@ $(function() {
 </li>
 <li>field_0x2d
 : <a class="el" href="structrequest__base__class.html#a159aedc91bb7874c31ef19a1446ba88b">request_base_class</a>
-</li>
-<li>field_0x2d75
-: <a class="el" href="structdaAlink__c.html#a63af9f22d304d652676248f16c6ae261">daAlink_c</a>
 </li>
 <li>field_0x2d78
 : <a class="el" href="structdaAlink__c.html#a4ff11c741cfd712f8c083d6af9b11dfd">daAlink_c</a>
@@ -2307,6 +2321,7 @@ $(function() {
 , <a class="el" href="structJUTConsole.html#a0951c6e7c4b0ebc4080c370db33b6490">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#a8f3f5577fdaa0cad078e2d54facf7ca7">request_base_class</a>
 , <a class="el" href="structscene__class.html#aa576976ca3d0439ff53e7ebe0f9225d1">scene_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a5b0230da7391ad63545c1da44fa804ad">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a9b37251e8440e1a26178514cf9b87c3a">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#adc7ca6038e038c7193212057345e4871">Z2WolfHowlMgr</a>
 </li>
@@ -3127,6 +3142,7 @@ $(function() {
 , <a class="el" href="structJAISound.html#a7aa9f859f60da7a3322aa1a8b29a685c">JAISound</a>
 , <a class="el" href="structJUTConsole.html#a126e59f103b8dc7e601d5d0eb628cc24">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#a578454a2fc32a1b92eb761b082534486">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#ae7865c4fb213bf1b0828a42eadae7199">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#a5c0714df53736ae8de42818d4d219360">Z2SeqMgr</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a508e72eed0e13469628076e0b8186d98">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ae1a10c02a5fd70e7f2e03c8e98a38bed">Z2WolfHowlMgr</a>
@@ -3488,6 +3504,7 @@ $(function() {
 , <a class="el" href="structGLOBAL__MEMORY.html#a88bcb1d635876f383178325604fe060e">GLOBAL_MEMORY</a>
 , <a class="el" href="structJUTConsole.html#ac2d8f3cb765ae65159656772fa2274b1">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#ae869d0d85f03613d0daf929dd7ac4eae">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#aa51609cfdd87bab2dfd0a6fca7a6c385">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#af3ec24e6a51fb38d5f6f3941871a009c">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a8ab044df86217815e8ff07ac5e790918">Z2WolfHowlMgr</a>
 </li>
@@ -3553,6 +3570,7 @@ $(function() {
 , <a class="el" href="structJUTGamePadLongPress.html#a784248eb6149e81ca812637d67015c5b">JUTGamePadLongPress</a>
 , <a class="el" href="structJUTTexture.html#a4ea6e452a0f7be6e3f7b91aa1692cb49">JUTTexture</a>
 , <a class="el" href="structrequest__base__class.html#a33c0c2905b39349db77a7eeca1b2fa39">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a0200e4cf7a5f2238e42e5909bdb35de8">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a54ce2ac67eaad121d57cc07c936c4036">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a62e9f891ef4afa736ead95252d96a6d0">Z2WolfHowlMgr</a>
 </li>
@@ -3626,6 +3644,19 @@ $(function() {
 </li>
 <li>field_0x3f8
 : <a class="el" href="classdMeter__drawHIO__c.html#a7ae869d61834e8e6beba1aee712dd6f5">dMeter_drawHIO_c</a>
+, <a class="el" href="structZ2SpeechMgr2.html#a18c3efd7509073d8db1e0523726942bb">Z2SpeechMgr2</a>
+</li>
+<li>field_0x3fa
+: <a class="el" href="structZ2SpeechMgr2.html#a972cb575b2bda6efcb42993b192f571e">Z2SpeechMgr2</a>
+</li>
+<li>field_0x3fc
+: <a class="el" href="structZ2SpeechMgr2.html#a1ab681d58fca4874ca8f36fc74ac0235">Z2SpeechMgr2</a>
+</li>
+<li>field_0x3fe
+: <a class="el" href="structZ2SpeechMgr2.html#a87dcb64ce958961a12e328ae84b4273f">Z2SpeechMgr2</a>
+</li>
+<li>field_0x3ff
+: <a class="el" href="structZ2SpeechMgr2.html#a869c72c598d01b3efeabd922cd9f43aa">Z2SpeechMgr2</a>
 </li>
 <li>field_0x4
 : <a class="el" href="classdaAlink__lockCursor__c.html#aa724d1975b3ca14ae90f40af29c0c454">daAlink_lockCursor_c</a>
@@ -3665,7 +3696,10 @@ $(function() {
 , <a class="el" href="structJ2DWindow_1_1TContentsColor.html#a27584149646f5bb5dd06aa7c2a1857f5">J2DWindow::TContentsColor</a>
 , <a class="el" href="structJ2DWindow_1_1TMaterial.html#ad51dc3390c749811b82842b035a90494">J2DWindow::TMaterial</a>
 , <a class="el" href="structJ3DMtxBuffer.html#a7e1af2f9dec666519abb6aef93501aac">J3DMtxBuffer</a>
-, <a class="el" href="structJAISoundParams.html#add0d870693f85709f6fd8a2cb274d447">JAISoundParams</a>
+, <a class="el" href="structJAISeCategoryMgr.html#acde2d4286c3d4b67a39b8db5a6d4c308">JAISeCategoryMgr</a>
+, <a class="el" href="structJAISoundFader.html#a9d8a5bb91fb5c1ec748c4337575e27a2">JAISoundFader</a>
+, <a class="el" href="structJAISoundParamsProperty.html#ae2b4ef10437ef4ab8098f8edaa109a3a">JAISoundParamsProperty</a>
+, <a class="el" href="structJAISoundParamsTransition_1_1TTransition.html#a24c5d5884f8e0b1961d476e879f46e47">JAISoundParamsTransition::TTransition</a>
 , <a class="el" href="structJKRSolidHeap_1_1Unknown.html#a66ab08d4f701564df5c87cfbcb1f44af">JKRSolidHeap::Unknown</a>
 , <a class="el" href="structJUTGamePad_1_1CRumble.html#a356479d5c27dfd69bd909b9dbe9d9069">JUTGamePad::CRumble</a>
 , <a class="el" href="classmDoMtx__quatStack__c.html#a1bcdb04766ac6eeaf280bcf95a48a40e">mDoMtx_quatStack_c</a>
@@ -3673,7 +3707,10 @@ $(function() {
 , <a class="el" href="structrequest__base__class.html#a3f65679d9e854d5057e1cdb1f3cdb4ff">request_base_class</a>
 , <a class="el" href="structstage__tgsc__data__class.html#a81fed02d0e5931fc15d480786fbafffa">stage_tgsc_data_class</a>
 , <a class="el" href="structTTransition.html#a9fe20873b46b75c30aec42801e9620fd">TTransition</a>
-, <a class="el" href="structZ2SoundStarter__vtable.html#ad004dd42bb4739d9e12f05658f8ff209">Z2SoundStarter_vtable</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a9ea334245b808f55e9ac1e9020016473">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2Audience.html#a286c85cda594ecf47eef8f2292b32480">Z2Audience</a>
+, <a class="el" href="structZ2SpeechMgr2.html#aca31a9d5f6e82b922e6c547fb15697bb">Z2SpeechMgr2</a>
+, <a class="el" href="structZ2SpotMic.html#aa805defa60669af992caaca4689b5dac">Z2SpotMic</a>
 </li>
 <li>field_0x40
 : <a class="el" href="structcBgS__LinChk.html#a2e8d58dba39ba427e9f34d36ea9e1f0b">cBgS_LinChk</a>
@@ -3686,8 +3723,18 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a589e3bd7f96987a7dbbe47ca14145552">dVibration_c</a>
 , <a class="el" href="structJ2DGrafContext.html#a982e7f171187d5ba8f316f7e5da85caa">J2DGrafContext</a>
 , <a class="el" href="structrequest__base__class.html#afc0a9a5eeb3a6cac56a6cf79b4b3bd05">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a3cfa7a171c3b61ca23193f327ca37ab0">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a2e5c768c88ab250a72325634eb01583d">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aa2ab803537dadccaaec3f69bf778731b">Z2WolfHowlMgr</a>
+</li>
+<li>field_0x400
+: <a class="el" href="structZ2SpeechMgr2.html#aea977f0f954194793c70db9fd8b7526e">Z2SpeechMgr2</a>
+</li>
+<li>field_0x401
+: <a class="el" href="structZ2SpeechMgr2.html#a5743ff9483464c68691fa0957985d290">Z2SpeechMgr2</a>
+</li>
+<li>field_0x402
+: <a class="el" href="structZ2SpeechMgr2.html#aa7272cbf894495afbde3a91ae22dd777">Z2SpeechMgr2</a>
 </li>
 <li>field_0x41
 : <a class="el" href="classdEvDtStaff__c.html#aaf34c247c783842005fdbdd94e0fac4a">dEvDtStaff_c</a>
@@ -3729,6 +3776,7 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a1b72b2fcf900d4b68c6d339d3ef5eb3d">dVibration_c</a>
 , <a class="el" href="structJUTResFont.html#a538537a299a1a182c62c9f84a14ce140">JUTResFont</a>
 , <a class="el" href="structrequest__base__class.html#af74945c569a716b6bb30a53eab36801f">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a0208e1b3c3319f0ebb9aab51fe52302c">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#ad3606e664a5b6fe05f52f11487142852">Z2SeqMgr</a>
 , <a class="el" href="structZ2SoundObjAnime.html#a2f639dd852c35faeb49f0b20a277187e">Z2SoundObjAnime</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a9bb832da167d000e39b0f044994eae23">Z2WolfHowlMgr</a>
@@ -3756,6 +3804,8 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a2337bba3b3198ebfc42efa32d0dbf511">dVibration_c</a>
 , <a class="el" href="structJUTGamePadLongPress.html#a1b45744eeab610569f0b14029d940d54">JUTGamePadLongPress</a>
 , <a class="el" href="structrequest__base__class.html#a55fb03250931d0bcde08f4854a59016c">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#ad238cd0773f1c88e5d27f5edf7d5e904">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2AudioCamera.html#a56106e4d61e02d9653ecf4a84acb5735">Z2AudioCamera</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aa3fb3e7f6dd537e1f746495703857ac6">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x48c
@@ -3797,6 +3847,7 @@ $(function() {
 , <a class="el" href="structdVibration__c.html#a8e0f1538702cf307abe86027082d523f">dVibration_c</a>
 , <a class="el" href="structJKRDvdFile.html#a771b945cf41cc3c464ee9c9cad0e987c">JKRDvdFile</a>
 , <a class="el" href="structrequest__base__class.html#a4b786b20e41eeab3b66de56ad781a978">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a5696d98ed37de6b96447593e9c2b5e2e">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#afc08a28c671f66983269ba406efd29b3">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x4c0
@@ -4041,6 +4092,7 @@ $(function() {
 , <a class="el" href="structJUTGamePadLongPress.html#af1c0294600b315948061d0f34fc987f3">JUTGamePadLongPress</a>
 , <a class="el" href="structJUTResFont.html#aa4f52f08d9687959092b860d27b2c114">JUTResFont</a>
 , <a class="el" href="structrequest__base__class.html#ab0edc1f4b1d6c745644e6c501876aa03">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a74076250ea91c297c443f64bc3d5e958">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aade4a70a04cf59f9c1a12203edd7f94f">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x501d
@@ -4048,6 +4100,9 @@ $(function() {
 </li>
 <li>field_0x51
 : <a class="el" href="structrequest__base__class.html#a44229f56e65bb918c2ba26f0fc9a3d00">request_base_class</a>
+</li>
+<li>field_0x519
+: <a class="el" href="structZ2AudioMgr.html#ace224be7019eb0cac9ccfe9d26c9c294">Z2AudioMgr</a>
 </li>
 <li>field_0x52
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a74cdc409d9ec4b9ed1219eee8f01128a">daAlinkHIO_autoJump_c1</a>
@@ -4066,10 +4121,12 @@ $(function() {
 , <a class="el" href="classdMeter__drawLightDropHIO__c.html#abc6425bed11f3bf9ff6f62b4dd894a44">dMeter_drawLightDropHIO_c</a>
 , <a class="el" href="classdMeter__drawMiniGameHIO__c.html#abf89f549b07136c38ea455ee6d3d984d">dMeter_drawMiniGameHIO_c</a>
 , <a class="el" href="structdVibration__c.html#aeed276aaed30b29b72695d942fde83e9">dVibration_c</a>
+, <a class="el" href="structJAIStreamMgr.html#a3a5c59dd611ab4f20645faeee5d5f816">JAIStreamMgr</a>
 , <a class="el" href="classJKRAMCommand.html#a713484cb0e67ddc39c589bdfdc091014">JKRAMCommand</a>
 , <a class="el" href="structJKRAramStreamCommand.html#a34eec588f338431e507b939ded209800">JKRAramStreamCommand</a>
 , <a class="el" href="structJKRDvdFile.html#ae5476aa7df5593f62de921266bbbb601">JKRDvdFile</a>
 , <a class="el" href="structrequest__base__class.html#acd54d6ed8b3ba0aad25922dfec1a8f40">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a07d4212d6ac5e40ffd85587d40373f60">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#aa8d3b76e1f22e87b9d18970e8b14becf">Z2SeqMgr</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a2500c992d631ed8ec484d980945346f1">Z2WolfHowlMgr</a>
 </li>
@@ -4106,16 +4163,15 @@ $(function() {
 , <a class="el" href="classdMeter__mapIconHIO__c.html#ad2c380101759f6d1b7744c14e789e715">dMeter_mapIconHIO_c</a>
 , <a class="el" href="classdStage__stageDt__c.html#a82c174cba921ce41c7ad73793d737757">dStage_stageDt_c</a>
 , <a class="el" href="structdVibration__c.html#a3a17cfd9b57339fe1a8a9302efa3a3a1">dVibration_c</a>
-, <a class="el" href="structJAISound.html#ab8d0a12b608ce5cffe3e210f29fc3969">JAISound</a>
 , <a class="el" href="structJKRAramStreamCommand.html#a4636269889835cf17c53fa0aa4a34a29">JKRAramStreamCommand</a>
 , <a class="el" href="structJKRArchive.html#af895902ce3e0cb9883e1c876e3ee9a71">JKRArchive</a>
 , <a class="el" href="structJKRDvdFile.html#ae6d52cd4feedf651d91f873a283f5003">JKRDvdFile</a>
 , <a class="el" href="structrequest__base__class.html#a006f9b362e829b175c4dde0268139607">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a65597a6b4b8cb935a860e11dff71ff1b">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ae15c7b5c215f60d5f6761b078d45740c">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x59
-: <a class="el" href="structJAISound.html#aa11ba4567b8e5288f554ec42dbc8cd2f">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a59b04f35bd4da29dd447edc0cdc991f1">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a59b04f35bd4da29dd447edc0cdc991f1">request_base_class</a>
 </li>
 <li>field_0x594
 : <a class="el" href="structdaPy__py__c.html#a2d01cdcc073bc37c521b1b4bad99035b">daPy_py_c</a>
@@ -4125,19 +4181,16 @@ $(function() {
 </li>
 <li>field_0x5a
 : <a class="el" href="classdStage__stageDt__c.html#a333c0afbe59808ca3cdb918220c12fee">dStage_stageDt_c</a>
-, <a class="el" href="structJAISound.html#a0d62c5fb020b31d42ba2784fff86e7a3">JAISound</a>
 , <a class="el" href="structrequest__base__class.html#a12f298cca8537f4095e78cf9c3cf7da7">request_base_class</a>
 </li>
 <li>field_0x5b
-: <a class="el" href="structJAISound.html#a50daeedad4fed51042ec2cef6e5e5fc7">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a52a5411b95d42389060d49f3f8f22326">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a52a5411b95d42389060d49f3f8f22326">request_base_class</a>
 </li>
 <li>field_0x5c
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a4fac15b51e234d098b9a607596395ae2">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="classdaAlinkHIO__wlAutoJump__c1.html#af9f6edcd818e9ef3e395df7f48c6a3ef">daAlinkHIO_wlAutoJump_c1</a>
 , <a class="el" href="structdVibration__c.html#a3a5c23639320ab032fe7550e28847821">dVibration_c</a>
 , <a class="el" href="structJ3DSys.html#a8fa3633c5a6513945fffdfd74a436d7e">J3DSys</a>
-, <a class="el" href="structJAISound.html#ab9fad57b9bc6cee8f3d4f933a91e76c5">JAISound</a>
 </li>
 <li>field_0x5C
 : <a class="el" href="classJKRAMCommand.html#a83aa5e2369906e564b772292c5b183b5">JKRAMCommand</a>
@@ -4145,19 +4198,17 @@ $(function() {
 <li>field_0x5c
 : <a class="el" href="structJUTConsole.html#ab93de1c17b223b0182270f7163c72de5">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#adc404a3fab27bd4346b6ff020b41f17f">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a0ec48c6c6b3665bf8fe9e3f75997f13b">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a7d0d165d574bb0ea4f1788acf6eb3e84">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x5d
-: <a class="el" href="structJAISound.html#ad66c075c372ffa86a5c0ecbeeff79293">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ae28efd341a827b88e4343d2b1920c5dc">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ae28efd341a827b88e4343d2b1920c5dc">request_base_class</a>
 </li>
 <li>field_0x5e
-: <a class="el" href="structJAISound.html#a6685ed2df961cbb377e4138d1a9df2e2">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ae1215d755e24373a7cefab0d9f0e84d8">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ae1215d755e24373a7cefab0d9f0e84d8">request_base_class</a>
 </li>
 <li>field_0x5f
-: <a class="el" href="structJAISound.html#a9b37d10fd8713c0c7b8964b4c647579f">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ada70a6f769b51586fa372a166f42ca23">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ada70a6f769b51586fa372a166f42ca23">request_base_class</a>
 </li>
 <li>field_0x5f8
 : <a class="el" href="structdaPy__py__c.html#a22506065c663e1bcefa3b457c22e4caa">daPy_py_c</a>
@@ -4177,10 +4228,10 @@ $(function() {
 , <a class="el" href="classdMeter__mapIconHIO__c.html#a5ebb7003681b368b93da67aef7f1146e">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#ae5a7b2e15a4c74564b1fea80ff66f873">dVibration_c</a>
 , <a class="el" href="structGLOBAL__MEMORY.html#a11ec94ff86571e104bbdabd237f61f24">GLOBAL_MEMORY</a>
-, <a class="el" href="structJAISound.html#a611239b2333f227d5aa1c9023b0f75b1">JAISound</a>
 , <a class="el" href="classJKRAMCommand.html#a2202c891820de1444b33427a36f73c64">JKRAMCommand</a>
 , <a class="el" href="structJUTConsole.html#af877e7aa0ca55979b60113a28f3c331f">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#a5741160a54a3f3532992ba69096a01fc">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a62f081e6ab7c6ced9ff42d2e6ef8013d">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeMgr.html#afcd3570f012fea70a37f872e465b5c41">Z2SeMgr</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a0da867f4c5d881a441427a6568904c2c">Z2WolfHowlMgr</a>
 </li>
@@ -4188,18 +4239,15 @@ $(function() {
 : <a class="el" href="classdMeter__drawHIO__c.html#aa37718cbb7b65f17e4e442b12920b678">dMeter_drawHIO_c</a>
 </li>
 <li>field_0x61
-: <a class="el" href="structJAISound.html#ab8d3cb231d9dbb67121f41aac2e6c7d1">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a072eb98b7b88a6f858a205d446608ffa">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a072eb98b7b88a6f858a205d446608ffa">request_base_class</a>
 </li>
 <li>field_0x62
 : <a class="el" href="structCPaneMgr.html#a7fbd2fd87d9bbb496e4b2aed506430b3">CPaneMgr</a>
 , <a class="el" href="classdStage__roomDt__c.html#a9dd2ef7fe75319f30dc60f4c3319253a">dStage_roomDt_c</a>
-, <a class="el" href="structJAISound.html#ae8f3d0ab80376b0cde8e8ae6b146b99d">JAISound</a>
 , <a class="el" href="structrequest__base__class.html#a3cd38a28d1b2c0acaecbacd8f2d7bce0">request_base_class</a>
 </li>
 <li>field_0x63
-: <a class="el" href="structJAISound.html#aacd3d72fba7adfc5b07ffd40177e146a">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#adfe3f0308b9a70e02ffb92ba1e67f1ab">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#adfe3f0308b9a70e02ffb92ba1e67f1ab">request_base_class</a>
 </li>
 <li>field_0x64
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a235e57e983f9e7e2a8e1e6cf3634e28c">daAlinkHIO_autoJump_c1</a>
@@ -4207,26 +4255,24 @@ $(function() {
 , <a class="el" href="structdDlst__list__c.html#ab4958719a42f7cacbda11aa1d4ff76cb">dDlst_list_c</a>
 , <a class="el" href="classdMeter__drawMiniGameHIO__c.html#a1253054415d95414d497672dc81b97f3">dMeter_drawMiniGameHIO_c</a>
 , <a class="el" href="structdVibration__c.html#a57b973e2977c0735b2ebce3d9e567d26">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a8e4aa599b65bc86d83a11052369670a5">JAISound</a>
+, <a class="el" href="structJAIStreamMgr.html#af4a0441c11190edfea1ac1fdcf42cda0">JAIStreamMgr</a>
 , <a class="el" href="structJKRDvdArchive.html#aa3caf1f0b30c1b03b1bc9c494f42bc3f">JKRDvdArchive</a>
 , <a class="el" href="structJUTConsole.html#a9a3ec2b7fa3d4dfb9e7fd3fb3ba9927e">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#a9e98c0f51be9c498cb50432a82d26925">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#af1e5001fc45e4a09e32a485702f32d48">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SeqMgr.html#a464f32d79fe200f6b4fe5802e20db7b3">Z2SeqMgr</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a2834cb0bf2b0786bd7d1d3bc23cbe449">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x65
-: <a class="el" href="structJAISound.html#aa95a4c12d35b73a65774e56d1d0eb80f">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#aa57399ccd823da6ed2818073a6c24158">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#aa57399ccd823da6ed2818073a6c24158">request_base_class</a>
 </li>
 <li>field_0x66
 : <a class="el" href="structCPaneMgr.html#a348669d95d4987ae53f4de1e85ecfde6">CPaneMgr</a>
-, <a class="el" href="structJAISound.html#a4820a26d1b4fadc2caf70063132b06c9">JAISound</a>
 , <a class="el" href="structJUTResFont.html#a8f6f406ed1b5f0b53b8bd011a2b00723">JUTResFont</a>
 , <a class="el" href="structrequest__base__class.html#a15f5b8c8a5e629181da771d2cb779007">request_base_class</a>
 </li>
 <li>field_0x67
-: <a class="el" href="structJAISound.html#a2f2efcecf680f5aff4e0910f3f41a19a">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a0925635f563fec029aa77bfa80dedf8d">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a0925635f563fec029aa77bfa80dedf8d">request_base_class</a>
 </li>
 <li>field_0x68
 : <a class="el" href="structCPaneMgr.html#afeccfa7df192a0a9eba94fd4b0da55f1">CPaneMgr</a>
@@ -4235,24 +4281,23 @@ $(function() {
 , <a class="el" href="structdDlst__list__c.html#a211d0ec67262af9f8b21057bd521ef3f">dDlst_list_c</a>
 , <a class="el" href="classdMeter__mapIconHIO__c.html#a832b8cd226cdd4a5e36f699f80a84d73">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#aecd2a9a4066fc2735d27aefefa26aa5a">dVibration_c</a>
-, <a class="el" href="structJAISound.html#acf0925b76890e67df5cc55ddc51f2532">JAISound</a>
+, <a class="el" href="structJAIStreamMgr.html#a271b8fd7f90df0908bbe6ddf7edd2f15">JAIStreamMgr</a>
 , <a class="el" href="structJUTResFont.html#aa919cb6f37c385e7da6810a34423fcc4">JUTResFont</a>
 , <a class="el" href="structrequest__base__class.html#a1622182c4bbe1eae7a08f5915d580683">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#ad32365496e7e2687f43985f7314e4ee5">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2AudioCamera.html#a6e2ccc76727e527d4ec18cca5f367703">Z2AudioCamera</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a362576af0fd9cec7014b16a2d5e8ecf8">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x69
-: <a class="el" href="structJAISound.html#a1d2c0038bca9b5f3c3ac44cac4bfc36c">JAISound</a>
-, <a class="el" href="structJUTConsole.html#a7585554184805482c3a2dfc94553dab8">JUTConsole</a>
+: <a class="el" href="structJUTConsole.html#a7585554184805482c3a2dfc94553dab8">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#a5abb6b8d80b6611ecb8364f4e45468ac">request_base_class</a>
 </li>
 <li>field_0x6a
-: <a class="el" href="structJAISound.html#af6085bd394de255ec35fee606573c641">JAISound</a>
-, <a class="el" href="structJUTConsole.html#ac700877d4ce2f3fc1df687840ae6245c">JUTConsole</a>
+: <a class="el" href="structJUTConsole.html#ac700877d4ce2f3fc1df687840ae6245c">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#ab302a10312fb1d1ce69c567377de1e55">request_base_class</a>
 </li>
 <li>field_0x6b
-: <a class="el" href="structJAISound.html#ae0540bc10c99be30871573cbb4a8e6ce">JAISound</a>
-, <a class="el" href="structJUTConsole.html#ac98049aaf444a8c598edf40bc72f555b">JUTConsole</a>
+: <a class="el" href="structJUTConsole.html#ac98049aaf444a8c598edf40bc72f555b">JUTConsole</a>
 , <a class="el" href="structrequest__base__class.html#ae85d8f6a265e6eaa99b15b56258e7432">request_base_class</a>
 </li>
 <li>field_0x6c
@@ -4261,25 +4306,24 @@ $(function() {
 , <a class="el" href="structdDlst__list__c.html#ae6cc6277e1a18a40794ecd2da90f3a27">dDlst_list_c</a>
 , <a class="el" href="classdMeter__drawMiniGameHIO__c.html#a1871215d4b34a2c637e33983927e2851">dMeter_drawMiniGameHIO_c</a>
 , <a class="el" href="structdVibration__c.html#a72be56a750ae7d922ac2802024070dc2">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a2b40e503e214f785a99b8d50532d920b">JAISound</a>
+, <a class="el" href="structJAIStreamMgr.html#af2699a6c9f68ed58c8e789bb3836c988">JAIStreamMgr</a>
 , <a class="el" href="structJKRExpHeap.html#ac1be217f96893743ee11d7d9582ad9cd">JKRExpHeap</a>
 , <a class="el" href="structJUTResFont.html#afc745da3d46cd427fe85fee969e4729b">JUTResFont</a>
 , <a class="el" href="structrequest__base__class.html#a7664826bdd47182a6885bf1f765a59a2">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a3cbc31ad897fb635c85527bb05ad81d6">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2AudioCamera.html#a8bfbae0eebdf0f4f490cb28144d5c25a">Z2AudioCamera</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ae7479e49d8aa7c9a8186182304979abb">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x6d
-: <a class="el" href="structJAISound.html#a4d24f6643e1ffde0a2198804331ef0ad">JAISound</a>
-, <a class="el" href="structJKRMemArchive.html#a03c981a2de914e4837040a4bfed67456">JKRMemArchive</a>
+: <a class="el" href="structJKRMemArchive.html#a03c981a2de914e4837040a4bfed67456">JKRMemArchive</a>
 , <a class="el" href="structrequest__base__class.html#ab9a3ed2f6580dd4505972edfe68d7983">request_base_class</a>
 </li>
 <li>field_0x6e
-: <a class="el" href="structJAISound.html#a5ec371257c48d24d14c49e8b08709d5d">JAISound</a>
-, <a class="el" href="structJKRExpHeap.html#a207903faf34ccb1352a49e4a6f616304">JKRExpHeap</a>
+: <a class="el" href="structJKRExpHeap.html#a207903faf34ccb1352a49e4a6f616304">JKRExpHeap</a>
 , <a class="el" href="structrequest__base__class.html#a18a5ca8d70f82980bba833ef925a2f35">request_base_class</a>
 </li>
 <li>field_0x6f
-: <a class="el" href="structJAISound.html#adaa840a439cf3ef7ac821d37cad4c6ce">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a3718d5f243dad6609add8a0d2827e36f">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a3718d5f243dad6609add8a0d2827e36f">request_base_class</a>
 </li>
 <li>field_0x7
 : <a class="el" href="classdAttDraw__c.html#a38d9545689f0354e089f8a76360bc948">dAttDraw_c</a>
@@ -4292,26 +4336,24 @@ $(function() {
 , <a class="el" href="structdDlst__list__c.html#ac10a8c2af85b8270304245bba48e3b8a">dDlst_list_c</a>
 , <a class="el" href="classdMeter__drawMiniGameHIO__c.html#a3c60fe8ec402246b6830e6ae3b4309f0">dMeter_drawMiniGameHIO_c</a>
 , <a class="el" href="structdVibration__c.html#afcc78e6ab8a960852287b7ca0102cd66">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a0c74e748354666795d668620b7dd7815">JAISound</a>
+, <a class="el" href="structJAISeqMgr.html#a206966da8386e280689d0153edc3b050">JAISeqMgr</a>
 , <a class="el" href="structJKRExpHeap.html#a04e5daf3c91325328d16c99ffb18257a">JKRExpHeap</a>
 , <a class="el" href="structrequest__base__class.html#ad1c8febd9ae5af0f6c22991687879e6d">request_base_class</a>
 , <a class="el" href="classscene__request__class.html#aabd1f55cc7e33ddd7ebea3a40ec6e86d">scene_request_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a7af585a89f8b3259e24e3c8afb009900">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#aea77b818b0a73fe4a9ab6b1377781164">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x71
-: <a class="el" href="structJAISound.html#a95ebe7506484823a7cfa1c73cd5bf0c5">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ab70a3ada0c3471c2a7af35ea22931ec3">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ab70a3ada0c3471c2a7af35ea22931ec3">request_base_class</a>
 </li>
 <li>field_0x72
-: <a class="el" href="structJAISound.html#a50c86a0c14bf6d3404c495a1a73d9777">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a1dba1b4f2de0cdf9d0fb4684be8d42f4">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a1dba1b4f2de0cdf9d0fb4684be8d42f4">request_base_class</a>
 </li>
 <li>field_0x72c
 : <a class="el" href="structdScnKy__env__light__c.html#a7c6f0eb7c0a35aacb373bde101e43b95">dScnKy_env_light_c</a>
 </li>
 <li>field_0x73
-: <a class="el" href="structJAISound.html#a0705b00419660f7add9e455e4ded1f24">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ae45330f7b7c91c305177d1416a5d1099">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ae45330f7b7c91c305177d1416a5d1099">request_base_class</a>
 </li>
 <li>field_0x730
 : <a class="el" href="structdaAlink__c.html#aa7fdd475fb9da80c932021d1c8cf31f8">daAlink_c</a>
@@ -4320,7 +4362,6 @@ $(function() {
 : <a class="el" href="classdaAlinkHIO__wlAutoJump__c1.html#aebe90adab9d743395d26edbc5ef90304">daAlinkHIO_wlAutoJump_c1</a>
 , <a class="el" href="classdMeter__mapIconHIO__c.html#abba3b5ff0442bd560424ec4f4900e0be">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#a6bdfc92bb1a13f9829e1569160034006">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a5c92d32595a5a1d5a632a7c6be10e213">JAISound</a>
 , <a class="el" href="structJKRExpHeap.html#a87eaf9e96f4399cb8c80bb5829dfe9c5">JKRExpHeap</a>
 , <a class="el" href="structrequest__base__class.html#a3244eb2606ccffe160318ffd06353c19">request_base_class</a>
 , <a class="el" href="structZ2SeqMgr.html#a07fda7399e1a053bfe096e049c2a278d">Z2SeqMgr</a>
@@ -4333,64 +4374,53 @@ $(function() {
 : <a class="el" href="structdaAlink__c.html#aa451ad8c14b7ae38ae897b3b10e68ce1">daAlink_c</a>
 </li>
 <li>field_0x75
-: <a class="el" href="structJAISound.html#a0aff8ad2caa63c09cb13a1b91eb17a73">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a3484f72526834bb0f8c8be2d4d3eb380">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a3484f72526834bb0f8c8be2d4d3eb380">request_base_class</a>
 </li>
 <li>field_0x76
-: <a class="el" href="structJAISound.html#a820af25eb1f66feae4476de737ea7052">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#af7b863431048947d5549d63572e6d5b6">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#af7b863431048947d5549d63572e6d5b6">request_base_class</a>
 </li>
 <li>field_0x760
 : <a class="el" href="structdScnKy__env__light__c.html#a43577fba6774ece7cb37ce7648501e7a">dScnKy_env_light_c</a>
 </li>
 <li>field_0x77
-: <a class="el" href="structJAISound.html#a2131c4b4c7e5912e625e9bceb87ac6ca">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a1525e7ae8f2dd9cf6a99f863d176457d">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a1525e7ae8f2dd9cf6a99f863d176457d">request_base_class</a>
 </li>
 <li>field_0x78
 : <a class="el" href="classdaAlinkHIO__wlAutoJump__c1.html#a82f78eff03de9f640816428ced74e368">daAlinkHIO_wlAutoJump_c1</a>
 , <a class="el" href="structdBgS__Acch.html#abed31d5fec571a6d015b7397f6b414e1">dBgS_Acch</a>
 , <a class="el" href="structdVibration__c.html#ac53e7d76ab7eed6dd6add00757a328f0">dVibration_c</a>
-, <a class="el" href="structJAISound.html#aee2fc053d84c0ec35e5bdb305fd6c7b9">JAISound</a>
 , <a class="el" href="structJKRSolidHeap.html#a7358da0bce60c5749292874dab874016">JKRSolidHeap</a>
 , <a class="el" href="structrequest__base__class.html#a55f14ecc1bbad3dcba297106170b8ed4">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a09f85c93604c5ba744992d82a09ea44a">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x79
-: <a class="el" href="structJAISound.html#a86878c7a2b65872e23931bea16dbc4c4">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a48ea79e9409285e64050502dbea4897e">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a48ea79e9409285e64050502dbea4897e">request_base_class</a>
 </li>
 <li>field_0x7a
-: <a class="el" href="structJAISound.html#a5d4604071a2ce78542c21fd9f26ff729">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#aa7ec2c59f1a288ee69061e5b829092d1">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#aa7ec2c59f1a288ee69061e5b829092d1">request_base_class</a>
 </li>
 <li>field_0x7a4
 : <a class="el" href="structdScnKy__env__light__c.html#a3354667361277c7d70e9162ddb23328f">dScnKy_env_light_c</a>
 </li>
 <li>field_0x7b
-: <a class="el" href="structJAISound.html#a710e0d6c7dbbebdb1bcf61c330199a2f">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a7b196663da9ce5786076e37af22f9ade">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a7b196663da9ce5786076e37af22f9ade">request_base_class</a>
 </li>
 <li>field_0x7c
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a497715c276ac6c5b14eb0df4e951493b">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdBgS__Acch.html#a4f45a13307f94d435cef9b124d1549f8">dBgS_Acch</a>
 , <a class="el" href="classdMeter__mapIconHIO__c.html#ad617a4d0c847fca6f134a6e51b2ee723">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#a1d4b3aafdcf9967b70d132064f0dc04b">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a41287a2bd999088ef59544f923da1b41">JAISound</a>
 , <a class="el" href="structrequest__base__class.html#a78fb13c63a40de9199242987093a0ca0">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a596ed7082a3fb4b40ed2b01a5aa44cb5">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x7d
-: <a class="el" href="structJAISound.html#a09c86d3f08e451497a94c300814b62cd">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a39118048b9d6d682a707593f48171aee">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a39118048b9d6d682a707593f48171aee">request_base_class</a>
 </li>
 <li>field_0x7e
-: <a class="el" href="structJAISound.html#a753a6931dc9d3e21a0a42efd3352360e">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a568e55ed988d510bac8fbcf492b4f29b">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a568e55ed988d510bac8fbcf492b4f29b">request_base_class</a>
 </li>
 <li>field_0x7f
-: <a class="el" href="structJAISound.html#ab8dfcbde76b42a3af31da0ef534a35f7">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a6b870051e2c3baad41129f2b6f8ec7da">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a6b870051e2c3baad41129f2b6f8ec7da">request_base_class</a>
 </li>
 <li>field_0x8
 : <a class="el" href="classcBgS__ChkElm.html#a782b314733d23cc64e601715d30d8079">cBgS_ChkElm</a>
@@ -4413,7 +4443,8 @@ $(function() {
 , <a class="el" href="structJ2DWindow_1_1TContentsColor.html#a0fac26b94d7535cb2c4b6bd25ab0fbf3">J2DWindow::TContentsColor</a>
 , <a class="el" href="structJ2DWindow_1_1TMaterial.html#aff7192cebdb8994f247197cc90028a6b">J2DWindow::TMaterial</a>
 , <a class="el" href="structJ3DMtxBuffer.html#ae5989d08de5060ff470200d3ab50a910">J3DMtxBuffer</a>
-, <a class="el" href="structJAISoundParams.html#acb284b51e267d74e2d717ea3c9e27d48">JAISoundParams</a>
+, <a class="el" href="structJAISeqMgr.html#a8e9464247791cc60f476f8b595272f27">JAISeqMgr</a>
+, <a class="el" href="structJAISoundParamsProperty.html#ac55fe0c80016af4c7c1af7b4bdd30c34">JAISoundParamsProperty</a>
 , <a class="el" href="structJKRArchive_1_1SDirEntry.html#a5742c63466520d93fce64ec6b227bcbc">JKRArchive::SDirEntry</a>
 , <a class="el" href="structJKRSolidHeap_1_1Unknown.html#a1abc893b273784df4393e68abac3896a">JKRSolidHeap::Unknown</a>
 , <a class="el" href="structJUTFader.html#a5049f8f4ac4dce1f7f6ffb1309db4fad">JUTFader</a>
@@ -4423,36 +4454,37 @@ $(function() {
 , <a class="el" href="classoverlap__request__class.html#a21c9b834538805d7e3c294be40e26674">overlap_request_class</a>
 , <a class="el" href="structrequest__base__class.html#a310229a9e205c8c3b7c6dd2221f66354">request_base_class</a>
 , <a class="el" href="structstage__tgsc__data__class.html#ac5a1c78d789e876050a4ef27fdeaf53f">stage_tgsc_data_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a0d5eed4c4df658d8c23ecdd13132dad7">Z2Audience3DSetting</a>
+, <a class="el" href="structZ2Audience.html#a006d4ec626346747fb237c5d9da38506">Z2Audience</a>
+, <a class="el" href="structZ2SpotMic.html#a8c35a718c6c7679c0d5d797ea9583ba0">Z2SpotMic</a>
 </li>
 <li>field_0x80
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a0a3dc12999961d0a1da4958892965c39">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdBgS__Acch.html#a09d604f6522d029826d4cc3667d2a123">dBgS_Acch</a>
 , <a class="el" href="structdVibration__c.html#a28d46efc90fb2ee303ecb75547b6414c">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a65dff7df135c6027869bd9dff046c807">JAISound</a>
 , <a class="el" href="structJUTException.html#a1e74e076268854afacb09902a096dc48">JUTException</a>
 , <a class="el" href="structrequest__base__class.html#ab39854868f9385afca1835de211b2cf4">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a3eefa3e9dfc984aa9abc8ef77137c331">Z2WolfHowlMgr</a>
 </li>
+<li>field_0x80c
+: <a class="el" href="structZ2SoundMgr.html#a09025df28cb47dfbe33efdfd2c97efd3">Z2SoundMgr</a>
+</li>
 <li>field_0x81
-: <a class="el" href="structJAISound.html#a83f094c784b9f8ad45c61d1d1abd37c7">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ab03deb593a6210c8fc4021f3a9a36174">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ab03deb593a6210c8fc4021f3a9a36174">request_base_class</a>
 </li>
 <li>field_0x814
 : <a class="el" href="structdaAlink__c.html#a68cfa1949c1401804fd9f034d03044be">daAlink_c</a>
 </li>
 <li>field_0x82
-: <a class="el" href="structJAISound.html#a3b6e94702a8651aab495cd6a71d48f25">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a18af23e041edf3c9e33afd3ec53db184">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a18af23e041edf3c9e33afd3ec53db184">request_base_class</a>
 </li>
 <li>field_0x83
-: <a class="el" href="structJAISound.html#ace7696095d70ba84f96172eb57b76364">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ad9552be3ad329e6616eca850eb7e0c83">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ad9552be3ad329e6616eca850eb7e0c83">request_base_class</a>
 </li>
 <li>field_0x84
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a49885033d4675bc7fe3c8b55f1ed058a">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="classdMeter__mapIconHIO__c.html#ad5c7bee18b654610ca7d9627fbb6b6b5">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#a33a67a0cd729dbe121a2d54d2ec35893">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a45b4818a9c49d0bfc0bc90188ede838b">JAISound</a>
 , <a class="el" href="structJUTException.html#a7731a6c6931bef6e49253cdc95d43b3c">JUTException</a>
 , <a class="el" href="structrequest__base__class.html#a98f23c3ffff62c10b500aca50f074def">request_base_class</a>
 , <a class="el" href="structZ2SeqMgr.html#a4e91a86b1aa56688310b63c6e63d1ad6">Z2SeqMgr</a>
@@ -4462,45 +4494,37 @@ $(function() {
 : <a class="el" href="structdScnKy__env__light__c.html#a9ac445638b80ce2e60445d6b5c8e1705">dScnKy_env_light_c</a>
 </li>
 <li>field_0x85
-: <a class="el" href="structJAISound.html#a11c2ae7edc946947eed9f70526ba8dfb">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a04fa48a48b0aaca981e46706dd2016e6">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a04fa48a48b0aaca981e46706dd2016e6">request_base_class</a>
 </li>
 <li>field_0x850
 : <a class="el" href="structdaAlink__c.html#ae3fcea8b5df49cc5273d2a7a0f17fdea">daAlink_c</a>
 </li>
 <li>field_0x86
-: <a class="el" href="structJAISound.html#a23e09a5f1d17df878cca8d32b8be354a">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a3a525ff9fdb2b03dc3e580275bcd57b7">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a3a525ff9fdb2b03dc3e580275bcd57b7">request_base_class</a>
 </li>
 <li>field_0x87
-: <a class="el" href="structJAISound.html#a6ee74d5293e8ffca0edc25b428064f82">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a5352f21137ff82755dbf26a9a61253fb">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a5352f21137ff82755dbf26a9a61253fb">request_base_class</a>
 </li>
 <li>field_0x88
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#aeb2c74ec35628cfdb795762f7eb04b58">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdVibration__c.html#ac277404b50183b8fdf9c5f16416b2923">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a9ee338814efb5fad9235f258b5ee17e8">JAISound</a>
 , <a class="el" href="structJUTException.html#abea7f7329fedf02b8aff511ad67518cd">JUTException</a>
 , <a class="el" href="structrequest__base__class.html#aa6ef3372bc716de2462ed5b5b3196668">request_base_class</a>
 </li>
 <li>field_0x89
-: <a class="el" href="structJAISound.html#af70ffed64b9c7f7c235d9bef88a8ed3a">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#acb5c5f17bf6fd83913da9ad6bdd892fe">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#acb5c5f17bf6fd83913da9ad6bdd892fe">request_base_class</a>
 </li>
 <li>field_0x8a
-: <a class="el" href="structJAISound.html#ac2c38d9a3646d85aa1111874f26fc69f">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#aa5b53c80672bdf177e4a3284faa60fd6">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#aa5b53c80672bdf177e4a3284faa60fd6">request_base_class</a>
 </li>
 <li>field_0x8b
-: <a class="el" href="structJAISound.html#aaa70872ae3fe896466d01bd9dbffc002">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#acdcd5b3185f2f60054f82ed4ddbb4ffd">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#acdcd5b3185f2f60054f82ed4ddbb4ffd">request_base_class</a>
 </li>
 <li>field_0x8c
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a4eca9aab0b58913a8042d352c69ec980">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdBgS__Acch.html#a00cd109eb64128c8bfff57450100bba6">dBgS_Acch</a>
 , <a class="el" href="classdMeter__mapIconHIO__c.html#a199a42bd28af21d7418c964c8a3992de">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structdVibration__c.html#abc03166c26aba7c4aa9a1ac743257a57">dVibration_c</a>
-, <a class="el" href="structJAISound.html#a8dbda7197a66a1731e0c85c4c2d287b7">JAISound</a>
 </li>
 <li>field_0x8C
 : <a class="el" href="classJKRAMCommand.html#ab1676231c3c3e287805e6f02c657d2bc">JKRAMCommand</a>
@@ -4510,17 +4534,14 @@ $(function() {
 , <a class="el" href="structrequest__base__class.html#af9f8fad10aaca214dd0611b43d35ccd3">request_base_class</a>
 </li>
 <li>field_0x8d
-: <a class="el" href="structJAISound.html#af1eb680283fdf2c557a63afa080c74b1">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ab7069844d3bf23b15fd4ba58169b64fd">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ab7069844d3bf23b15fd4ba58169b64fd">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a1f42d59394f190ff6c39b27428e23a94">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x8e
-: <a class="el" href="structJAISound.html#a778f14de7d02ae987dd09a253dfb139b">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a9541b286e4250209b44bc3f5599aec7a">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a9541b286e4250209b44bc3f5599aec7a">request_base_class</a>
 </li>
 <li>field_0x8f
-: <a class="el" href="structJAISound.html#a7f492c97b6e5813979d3ea3aabc2443c">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a75469111d0b50890b9df5f6ca7b445a6">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a75469111d0b50890b9df5f6ca7b445a6">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ada3b853ae4fffe97572d4ae7d79abf93">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x9
@@ -4530,24 +4551,20 @@ $(function() {
 <li>field_0x90
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a487915a8fa0c42d5ca7d198f2932ba5c">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdBgS__Acch.html#a6e48691e6db4c26ed7b2cc69461a5acf">dBgS_Acch</a>
-, <a class="el" href="structJAISound.html#ae3b82f77ea69044cfe616ccef9062b9a">JAISound</a>
 , <a class="el" href="classJKRAMCommand.html#aba6c6cccf1ab543c10d57ed5e9118529">JKRAMCommand</a>
 , <a class="el" href="structJUTException.html#ad6cc61ae163f4457cf0a4cf098d48306">JUTException</a>
 , <a class="el" href="structrequest__base__class.html#ae7ef93cdce35f626de59de9b2073c2dd">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#a59b5bfbb25be0bd9b3e748080c420e54">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x91
-: <a class="el" href="structJAISound.html#aab7d41c2d78e86e50460eca32a2b4bc4">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#aab1e9496486ba5e405aa54aa6edc5299">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#aab1e9496486ba5e405aa54aa6edc5299">request_base_class</a>
 </li>
 <li>field_0x92
-: <a class="el" href="structJAISound.html#ab98cd5ac68497ceeee8b585d78309609">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#a1c195018e6be60f7c5de06ae27502279">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#a1c195018e6be60f7c5de06ae27502279">request_base_class</a>
 , <a class="el" href="structZ2WolfHowlMgr.html#ad99d32b010892fa82182f12ebfc2c465">Z2WolfHowlMgr</a>
 </li>
 <li>field_0x93
-: <a class="el" href="structJAISound.html#a2b7bdd098ef18debae53e0491315d5fa">JAISound</a>
-, <a class="el" href="structrequest__base__class.html#ad4aa16b149d24129b4b3a832308d78d9">request_base_class</a>
+: <a class="el" href="structrequest__base__class.html#ad4aa16b149d24129b4b3a832308d78d9">request_base_class</a>
 </li>
 <li>field_0x94
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#ad12debd957d0283c7dd1de46c2bba79c">daAlinkHIO_autoJump_c1</a>
@@ -4665,6 +4682,7 @@ $(function() {
 : <a class="el" href="classdaAlinkHIO__autoJump__c1.html#a6a3fa8cc29ea6aab35ca2bebd19adcaf">daAlinkHIO_autoJump_c1</a>
 , <a class="el" href="structdDlst__list__c.html#a9c2826fbf09af979e8c006bf2ca3244c">dDlst_list_c</a>
 , <a class="el" href="structrequest__base__class.html#ab06320eec702fb8993c45d0027437150">request_base_class</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a550de70d8130f7bae7a329c547f7c6de">Z2Audience3DSetting</a>
 </li>
 <li>field_0xad
 : <a class="el" href="structrequest__base__class.html#a60e727bdc11bbb5f3a4edde06b0c0fef">request_base_class</a>
@@ -4795,8 +4813,6 @@ $(function() {
 , <a class="el" href="structGB__WIND__INFLUENCE.html#abbb1699357bca297117327bf368b3560">GB_WIND_INFLUENCE</a>
 , <a class="el" href="structJ2DWindow_1_1TContentsColor.html#a39ff1481cacc9b814629b595b39bed13">J2DWindow::TContentsColor</a>
 , <a class="el" href="structJ2DWindow_1_1TMaterial.html#a3d1be3bbba1695955ccf0130b16550e1">J2DWindow::TMaterial</a>
-, <a class="el" href="structJAISound.html#a018d2bff06cd98e4873cc8dba103ca7a">JAISound</a>
-, <a class="el" href="structJAISoundParams.html#a79e727ed04bbd1b8cbed8b3840f03d09">JAISoundParams</a>
 , <a class="el" href="structJASAudioReseter.html#a1239b66ec5623fcdc97bfd94c3de191a">JASAudioReseter</a>
 , <a class="el" href="classJKRHeap_1_1TState.html#a9a7620e56e1c20a5888dbf12a282c005">JKRHeap::TState</a>
 , <a class="el" href="structJKRSolidHeap_1_1Unknown.html#a6c0b0e91b75b83e597e3b3963c61b114">JKRSolidHeap::Unknown</a>
@@ -4809,7 +4825,9 @@ $(function() {
 , <a class="el" href="classoverlap__request__class.html#ad5ce31b044d2b422f7b9c0fcf814b084">overlap_request_class</a>
 , <a class="el" href="structrequest__base__class.html#a1b94a0fbee99f8a80ab62f5c63ed46ea">request_base_class</a>
 , <a class="el" href="structSND__INFLUENCE.html#a4de723ed24114c5d52bc8e1c388e41ed">SND_INFLUENCE</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a408d058b8df080571a24d8842d229010">Z2Audience3DSetting</a>
 , <a class="el" href="structZ2SoundObjMgr.html#a5d71ad8775d8167456e722bf3dc31ae0">Z2SoundObjMgr</a>
+, <a class="el" href="structZ2SpotMic.html#ac00a016df5c3172ac7fc6e9712295d4b">Z2SpotMic</a>
 </li>
 <li>field_0xc0
 : <a class="el" href="structdBgS__Acch.html#a2c20bf192f98082798d4f28294fe4dd6">dBgS_Acch</a>
@@ -4821,7 +4839,8 @@ $(function() {
 : <a class="el" href="structdaAlink__c.html#a9c0a4b4e01033ce003fa0be26d6beb05">daAlink_c</a>
 </li>
 <li>field_0xc1
-: <a class="el" href="structZ2SeqMgr.html#abe29b644446c1279de512fb54ddc24a4">Z2SeqMgr</a>
+: <a class="el" href="structZ2CreatureLink.html#a7821e189b495cb120dc5858301789117">Z2CreatureLink</a>
+, <a class="el" href="structZ2SeqMgr.html#abe29b644446c1279de512fb54ddc24a4">Z2SeqMgr</a>
 </li>
 <li>field_0xc2
 : <a class="el" href="structZ2SeqMgr.html#a47895d95a81a9d8242963505ef84b322">Z2SeqMgr</a>
@@ -4837,11 +4856,11 @@ $(function() {
 <li>field_0xc8
 : <a class="el" href="classdMeter__mapIconHIO__c.html#ac9d793ea1f17c23ab11bbfc79f873ce5">dMeter_mapIconHIO_c</a>
 , <a class="el" href="structrequest__base__class.html#a91630722f274ea3f83e5653b67d06973">request_base_class</a>
-, <a class="el" href="structZ2SeqMgr.html#a7e082527ed6c12cfc5e65561a1a22387">Z2SeqMgr</a>
+, <a class="el" href="structZ2SeqMgr.html#a4daf6f307fdf4ff69d8788c12e4670f1">Z2SeqMgr</a>
 </li>
 <li>field_0xcc
 : <a class="el" href="structdBgS__Acch.html#a067e500f55471f7d1cbdcf7f86eaf084">dBgS_Acch</a>
-, <a class="el" href="structZ2SeqMgr.html#a496987e299812c85cffc61392c678170">Z2SeqMgr</a>
+, <a class="el" href="structZ2SeqMgr.html#a2beb51959a651dd34ebec4f4c669b270">Z2SeqMgr</a>
 </li>
 <li>field_0xd
 : <a class="el" href="classdAttCatch__c.html#a13950cfcf512efa4780799887e85774c">dAttCatch_c</a>
@@ -4935,6 +4954,7 @@ $(function() {
 <li>field_0xe8
 : <a class="el" href="structdEvt__control__c.html#a7b692d965f418d6b3386ce1fe37b92ce">dEvt_control_c</a>
 , <a class="el" href="structGLOBAL__MEMORY.html#a6d630c896ad1adaa8cedaa959485752e">GLOBAL_MEMORY</a>
+, <a class="el" href="structZ2Audience3DSetting.html#a8523d413b8fb5030c24ca6c1266d816c">Z2Audience3DSetting</a>
 </li>
 <li>field_0xe84
 : <a class="el" href="structdScnKy__env__light__c.html#a68fb4042cb7a8f1a0bf4107b9a76706d">dScnKy_env_light_c</a>
@@ -5150,12 +5170,6 @@ $(function() {
 </li>
 <li>flags
 : <a class="el" href="structJKRArchive_1_1SDirEntry.html#a00bbc6e42cf380564fa616c310d3450f">JKRArchive::SDirEntry</a>
-</li>
-<li>flags1
-: <a class="el" href="structZ2CreatureLink.html#a6eca91b5c236dbc961766d7c2a42c12f">Z2CreatureLink</a>
-</li>
-<li>flags2
-: <a class="el" href="structZ2CreatureLink.html#a05aca4f68e0f3ad6644024f744396f21">Z2CreatureLink</a>
 </li>
 <li>fontType
 : <a class="el" href="structResFONT_1_1INF1.html#a8425a762263108619c1276a1ddd380e0">ResFONT::INF1</a>
