@@ -864,34 +864,34 @@ var sectionId = 'dynsection-1';
 <!-- Node110 -->
 <g id="node45" class="node">
 <title>Node110</title>
-<g id="a_node45"><a xlink:href="JUTConsole_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="red" points="1870,-391.5 1870,-421.5 1992,-421.5 1992,-391.5 1870,-391.5"/>
-<text text-anchor="start" x="1878" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JUtility</text>
-<text text-anchor="middle" x="1931" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JUTConsole.h</text>
-</a>
-</g>
-</g>
-<!-- Node91&#45;&gt;Node110 -->
-<g id="edge61" class="edge">
-<title>Node91&#45;&gt;Node110</title>
-<path fill="none" stroke="midnightblue" d="M2026.85,-453.99C2005.61,-443.69 1979.59,-431.07 1960.02,-421.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2025.4,-457.18 2035.92,-458.4 2028.45,-450.88 2025.4,-457.18"/>
-</g>
-<!-- Node114 -->
-<g id="node46" class="node">
-<title>Node114</title>
-<g id="a_node46"><a xlink:href="JUTDbPrint_8h.html" target="_top" xlink:title=" ">
+<g id="a_node45"><a xlink:href="JUTDbPrint_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="red" points="2042,-324.5 2042,-354.5 2164,-354.5 2164,-324.5 2042,-324.5"/>
 <text text-anchor="start" x="2050" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JUtility</text>
 <text text-anchor="middle" x="2103" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JUTDbPrint.h</text>
 </a>
 </g>
 </g>
-<!-- Node91&#45;&gt;Node114 -->
-<g id="edge63" class="edge">
-<title>Node91&#45;&gt;Node114</title>
+<!-- Node91&#45;&gt;Node110 -->
+<g id="edge61" class="edge">
+<title>Node91&#45;&gt;Node110</title>
 <path fill="none" stroke="midnightblue" d="M2048.77,-449.91C2038.88,-433.17 2029.76,-410.06 2039,-391 2046.59,-375.33 2061.66,-363.06 2075.28,-354.54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="2045.91,-451.93 2054.24,-458.49 2051.82,-448.17 2045.91,-451.93"/>
+</g>
+<!-- Node112 -->
+<g id="node46" class="node">
+<title>Node112</title>
+<g id="a_node46"><a xlink:href="JUTConsole_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="red" points="1870,-391.5 1870,-421.5 1992,-421.5 1992,-391.5 1870,-391.5"/>
+<text text-anchor="start" x="1878" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JUtility</text>
+<text text-anchor="middle" x="1931" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JUTConsole.h</text>
+</a>
+</g>
+</g>
+<!-- Node91&#45;&gt;Node112 -->
+<g id="edge63" class="edge">
+<title>Node91&#45;&gt;Node112</title>
+<path fill="none" stroke="midnightblue" d="M2026.85,-453.99C2005.61,-443.69 1979.59,-431.07 1960.02,-421.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2025.4,-457.18 2035.92,-458.4 2028.45,-450.88 2025.4,-457.18"/>
 </g>
 <!-- Node116 -->
 <g id="node47" class="node">
@@ -909,17 +909,17 @@ var sectionId = 'dynsection-1';
 <path fill="none" stroke="midnightblue" d="M2080.32,-449.87C2086.69,-440.46 2093.88,-429.83 2099.47,-421.58"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="2077.25,-448.15 2074.55,-458.4 2083.05,-452.08 2077.25,-448.15"/>
 </g>
-<!-- Node110&#45;&gt;Node46 -->
+<!-- Node110&#45;&gt;Node47 -->
 <g id="edge62" class="edge">
-<title>Node110&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M1936.88,-381.6C1939.67,-370.28 1942.82,-357.46 1944.86,-349.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1933.46,-380.85 1934.47,-391.4 1940.26,-382.52 1933.46,-380.85"/>
-</g>
-<!-- Node114&#45;&gt;Node47 -->
-<g id="edge64" class="edge">
-<title>Node114&#45;&gt;Node47</title>
+<title>Node110&#45;&gt;Node47</title>
 <path fill="none" stroke="midnightblue" d="M2059.7,-320.46C2029.56,-307.9 1990.74,-291.72 1967.42,-282.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="2058.57,-323.78 2069.15,-324.4 2061.27,-317.32 2058.57,-323.78"/>
+</g>
+<!-- Node112&#45;&gt;Node46 -->
+<g id="edge64" class="edge">
+<title>Node112&#45;&gt;Node46</title>
+<path fill="none" stroke="midnightblue" d="M1936.88,-381.6C1939.67,-370.28 1942.82,-357.46 1944.86,-349.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1933.46,-380.85 1934.47,-391.4 1940.26,-382.52 1933.46,-380.85"/>
 </g>
 <!-- Node116&#45;&gt;Node93 -->
 <g id="edge66" class="edge">
