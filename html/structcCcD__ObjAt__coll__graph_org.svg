@@ -816,18 +816,18 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="469.7,-107.68 459.16,-106.61 466.73,-114.02 469.7,-107.68"/>
 <text text-anchor="middle" x="569.5" y="-274" font-family="Helvetica,sans-Serif" font-size="10.00"> mModel</text>
 </g>
-<!-- Node63 -->
+<!-- Node100 -->
 <g id="node43" class="node">
-<title>Node63</title>
-<g id="a_node43"><a xlink:href="structJ3DShapePacket.html" target="_top" xlink:title=" ">
+<title>Node100</title>
+<g id="a_node43"><a xlink:href="classJ3DShapePacket.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="red" points="664,-31.5 664,-50.5 756,-50.5 756,-31.5 664,-31.5"/>
 <text text-anchor="middle" x="710" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DShapePacket</text>
 </a>
 </g>
 </g>
-<!-- Node53&#45;&gt;Node63 -->
+<!-- Node53&#45;&gt;Node100 -->
 <g id="edge65" class="edge">
-<title>Node53&#45;&gt;Node63</title>
+<title>Node53&#45;&gt;Node100</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M461.86,-84.73C476.33,-79.15 493.81,-73.03 510,-69 561.97,-56.07 623.16,-48.58 663.83,-44.65"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="460.39,-81.54 452.37,-88.47 462.96,-88.05 460.39,-81.54"/>
 <text text-anchor="middle" x="569.5" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> mpModel</text>
@@ -836,7 +836,7 @@
 <g id="node41" class="node">
 <title>Node54</title>
 <g id="a_node41"><a xlink:href="structJ3DVtxColorCalc.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="155.5,-88.5 155.5,-107.5 245.5,-107.5 245.5,-88.5 155.5,-88.5"/>
+<polygon fill="white" stroke="red" points="155.5,-88.5 155.5,-107.5 245.5,-107.5 245.5,-88.5 155.5,-88.5"/>
 <text text-anchor="middle" x="200.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DVtxColorCalc</text>
 </a>
 </g>
@@ -848,152 +848,152 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="255.71,-94.5 245.71,-98 255.71,-101.5 255.71,-94.5"/>
 <text text-anchor="middle" x="312.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00"> mVtxColorCalc</text>
 </g>
-<!-- Node55 -->
+<!-- Node57 -->
 <g id="node42" class="node">
-<title>Node55</title>
-<g id="a_node42"><a xlink:href="structJ3DMatPacket.html" target="_top" xlink:title=" ">
+<title>Node57</title>
+<g id="a_node42"><a xlink:href="classJ3DMatPacket.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="red" points="917.5,-61.5 917.5,-80.5 998.5,-80.5 998.5,-61.5 917.5,-61.5"/>
 <text text-anchor="middle" x="958" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DMatPacket</text>
 </a>
 </g>
 </g>
-<!-- Node55&#45;&gt;Node53 -->
+<!-- Node57&#45;&gt;Node53 -->
 <g id="edge63" class="edge">
-<title>Node55&#45;&gt;Node53</title>
+<title>Node57&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M907.38,-77.76C899.89,-78.62 892.25,-79.4 885,-80 724.47,-93.18 531.25,-96.78 459.06,-97.7"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="907.94,-81.22 917.45,-76.56 907.11,-74.27 907.94,-81.22"/>
 <text text-anchor="middle" x="710" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00"> mMatPacket</text>
 </g>
-<!-- Node63&#45;&gt;Node53 -->
+<!-- Node100&#45;&gt;Node53 -->
 <g id="edge71" class="edge">
-<title>Node63&#45;&gt;Node53</title>
+<title>Node100&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M659.91,-29.54C618.69,-22.18 558.87,-16.86 510,-34 479.12,-44.83 451.3,-73.16 438.1,-88.23"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="659.49,-33.02 669.97,-31.44 660.79,-26.14 659.49,-33.02"/>
 <text text-anchor="middle" x="569.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00"> mShapePacket</text>
 </g>
-<!-- Node63&#45;&gt;Node55 -->
+<!-- Node100&#45;&gt;Node57 -->
 <g id="edge64" class="edge">
-<title>Node63&#45;&gt;Node55</title>
+<title>Node100&#45;&gt;Node57</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M766.45,-45.26C800.7,-48.18 845.49,-52.51 885,-58 895.57,-59.47 906.95,-61.37 917.48,-63.27"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="766.44,-41.75 756.18,-44.4 765.86,-48.72 766.44,-41.75"/>
 <text text-anchor="middle" x="838" y="-72" font-family="Helvetica,sans-Serif" font-size="10.00"> mpFirstShapePacket</text>
 <text text-anchor="middle" x="838" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">mpShapePacket</text>
 </g>
-<!-- Node64 -->
+<!-- Node86 -->
 <g id="node44" class="node">
-<title>Node64</title>
-<g id="a_node44"><a xlink:href="structJ3DMtxBuffer.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="163,-0.5 163,-19.5 238,-19.5 238,-0.5 163,-0.5"/>
+<title>Node86</title>
+<g id="a_node44"><a xlink:href="classJ3DMtxBuffer.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="red" points="163,-0.5 163,-19.5 238,-19.5 238,-0.5 163,-0.5"/>
 <text text-anchor="middle" x="200.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DMtxBuffer</text>
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node53 -->
+<!-- Node86&#45;&gt;Node53 -->
 <g id="edge72" class="edge">
-<title>Node64&#45;&gt;Node53</title>
+<title>Node86&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M246.66,-22.41C275.97,-30.97 314.77,-43.26 348,-57 370.5,-66.3 395.28,-79.49 411.22,-88.38"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="247.29,-18.95 236.71,-19.54 245.35,-25.68 247.29,-18.95"/>
 <text text-anchor="middle" x="312.5" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00"> mMtxBuffer</text>
 </g>
-<!-- Node64&#45;&gt;Node63 -->
+<!-- Node86&#45;&gt;Node100 -->
 <g id="edge66" class="edge">
-<title>Node64&#45;&gt;Node63</title>
+<title>Node86&#45;&gt;Node100</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M248.17,-7.24C327.09,-3.4 491.73,1 629,-19 646.53,-21.55 665.69,-26.73 680.85,-31.42"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="247.88,-3.75 238.07,-7.75 248.23,-10.74 247.88,-3.75"/>
 <text text-anchor="middle" x="429" y="-10" font-family="Helvetica,sans-Serif" font-size="10.00"> mpMtxBuffer</text>
 </g>
-<!-- Node73 -->
+<!-- Node101 -->
 <g id="node45" class="node">
-<title>Node73</title>
+<title>Node101</title>
 <g id="a_node45"><a xlink:href="structJ3DDeformData.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="157.5,-202.5 157.5,-221.5 243.5,-221.5 243.5,-202.5 157.5,-202.5"/>
+<polygon fill="white" stroke="red" points="157.5,-202.5 157.5,-221.5 243.5,-221.5 243.5,-202.5 157.5,-202.5"/>
 <text text-anchor="middle" x="200.5" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DDeformData</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node53 -->
+<!-- Node101&#45;&gt;Node53 -->
 <g id="edge67" class="edge">
-<title>Node73&#45;&gt;Node53</title>
+<title>Node101&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M253.91,-210.78C284.59,-207.47 322.25,-198.56 348,-176 364.51,-161.53 351.3,-146.31 366,-130 375,-120.01 387.85,-112.67 399.53,-107.56"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="253.44,-207.31 243.8,-211.7 254.08,-214.28 253.44,-207.31"/>
 <text text-anchor="middle" x="312.5" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00"> mDeformData</text>
 </g>
-<!-- Node74 -->
+<!-- Node106 -->
 <g id="node46" class="node">
-<title>Node74</title>
+<title>Node106</title>
 <g id="a_node46"><a xlink:href="structJ3DModelData.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="160.5,-164.5 160.5,-183.5 240.5,-183.5 240.5,-164.5 160.5,-164.5"/>
+<polygon fill="white" stroke="red" points="160.5,-164.5 160.5,-183.5 240.5,-183.5 240.5,-164.5 160.5,-164.5"/>
 <text text-anchor="middle" x="200.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DModelData</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node53 -->
+<!-- Node106&#45;&gt;Node53 -->
 <g id="edge68" class="edge">
-<title>Node74&#45;&gt;Node53</title>
+<title>Node106&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M250.51,-166.17C279.47,-160.68 316.5,-152.13 348,-140 356.54,-136.71 357.93,-134.32 366,-130 380.41,-122.28 396.87,-113.8 409.2,-107.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="249.83,-162.73 240.63,-167.98 251.1,-169.62 249.83,-162.73"/>
 <text text-anchor="middle" x="312.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00"> mModelData</text>
 </g>
-<!-- Node75 -->
+<!-- Node109 -->
 <g id="node47" class="node">
-<title>Node75</title>
+<title>Node109</title>
 <g id="a_node47"><a xlink:href="structJ3DVertexBuffer.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="157,-126.5 157,-145.5 244,-145.5 244,-126.5 157,-126.5"/>
+<polygon fill="white" stroke="red" points="157,-126.5 157,-145.5 244,-145.5 244,-126.5 157,-126.5"/>
 <text text-anchor="middle" x="200.5" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DVertexBuffer</text>
 </a>
 </g>
 </g>
-<!-- Node75&#45;&gt;Node53 -->
+<!-- Node109&#45;&gt;Node53 -->
 <g id="edge69" class="edge">
-<title>Node75&#45;&gt;Node53</title>
+<title>Node109&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M254.14,-128.12C282.06,-123.85 316.93,-118.35 348,-113 364.85,-110.1 383.64,-106.59 398.78,-103.69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="253.54,-124.67 244.18,-129.64 254.6,-131.59 253.54,-124.67"/>
 <text text-anchor="middle" x="312.5" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00"> mVertexBuffer</text>
 </g>
-<!-- Node76 -->
+<!-- Node110 -->
 <g id="node48" class="node">
-<title>Node76</title>
-<g id="a_node48"><a xlink:href="structJ3DSkinDeform.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="158,-50.5 158,-69.5 243,-69.5 243,-50.5 158,-50.5"/>
+<title>Node110</title>
+<g id="a_node48"><a xlink:href="classJ3DSkinDeform.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="red" points="158,-50.5 158,-69.5 243,-69.5 243,-50.5 158,-50.5"/>
 <text text-anchor="middle" x="200.5" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">J3DSkinDeform</text>
 </a>
 </g>
 </g>
-<!-- Node76&#45;&gt;Node53 -->
+<!-- Node110&#45;&gt;Node53 -->
 <g id="edge70" class="edge">
-<title>Node76&#45;&gt;Node53</title>
+<title>Node110&#45;&gt;Node53</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M253.23,-67.74C281.3,-72.03 316.59,-77.59 348,-83 364.85,-85.9 383.64,-89.41 398.78,-92.31"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="253.64,-64.26 243.23,-66.22 252.59,-71.18 253.64,-64.26"/>
 <text text-anchor="middle" x="312.5" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00"> mSkinDeform</text>
 </g>
-<!-- Node77 -->
+<!-- Node112 -->
 <g id="node49" class="node">
-<title>Node77</title>
+<title>Node112</title>
 <g id="a_node49"><a xlink:href="classdJntColData__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="389,-281.5 389,-300.5 469,-300.5 469,-281.5 389,-281.5"/>
 <text text-anchor="middle" x="429" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">dJntColData_c</text>
 </a>
 </g>
 </g>
-<!-- Node77&#45;&gt;Node52 -->
+<!-- Node112&#45;&gt;Node52 -->
 <g id="edge74" class="edge">
-<title>Node77&#45;&gt;Node52</title>
+<title>Node112&#45;&gt;Node52</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M479.15,-290.65C537.36,-290.23 632.38,-289.55 679.95,-289.21"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="479.06,-287.15 469.09,-290.72 479.11,-294.15 479.06,-287.15"/>
 <text text-anchor="middle" x="569.5" y="-294" font-family="Helvetica,sans-Serif" font-size="10.00"> mData</text>
 </g>
-<!-- Node78 -->
+<!-- Node113 -->
 <g id="node50" class="node">
-<title>Node78</title>
+<title>Node113</title>
 <g id="a_node50"><a xlink:href="structcCcD__DivideInfo.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="1259,-540.5 1259,-559.5 1348,-559.5 1348,-540.5 1259,-540.5"/>
 <text text-anchor="middle" x="1303.5" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00">cCcD_DivideInfo</text>
 </a>
 </g>
 </g>
-<!-- Node78&#45;&gt;Node3 -->
+<!-- Node113&#45;&gt;Node3 -->
 <g id="edge75" class="edge">
-<title>Node78&#45;&gt;Node3</title>
+<title>Node113&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1358.17,-556.66C1378.07,-559.68 1400.72,-563.76 1421,-569 1428.8,-571.01 1437.13,-573.78 1444.6,-576.49"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1358.45,-553.17 1348.04,-555.18 1357.43,-560.09 1358.45,-553.17"/>
 <text text-anchor="middle" x="1393.5" y="-572" font-family="Helvetica,sans-Serif" font-size="10.00"> mDivideInfo</text>

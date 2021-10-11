@@ -198,34 +198,34 @@
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="JAIStreamDataMgr_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="481.16,-313.5 481.16,-343.5 608.16,-343.5 608.16,-313.5 481.16,-313.5"/>
-<text text-anchor="start" x="489.16" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JAudio2</text>
-<text text-anchor="middle" x="544.66" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamDataMgr.h</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node26 -->
-<g id="edge34" class="edge">
-<title>Node3&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M1103.81,-380.02C993.22,-365.04 730.2,-343.87 608.36,-334.39"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1103.64,-383.53 1114.02,-381.45 1104.61,-376.6 1103.64,-383.53"/>
-</g>
-<!-- Node28 -->
-<g id="node28" class="node">
-<title>Node28</title>
-<g id="a_node28"><a xlink:href="JAIStreamMgr_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="JAIStreamMgr_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="31.16,-313.5 31.16,-343.5 158.16,-343.5 158.16,-313.5 31.16,-313.5"/>
 <text text-anchor="start" x="39.16" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JAudio2</text>
 <text text-anchor="middle" x="94.66" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamMgr.h</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node28 -->
-<g id="edge36" class="edge">
-<title>Node3&#45;&gt;Node28</title>
+<!-- Node3&#45;&gt;Node26 -->
+<g id="edge34" class="edge">
+<title>Node3&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M1103.98,-380.07C727.94,-335.67 629.19,-368.73 255.66,-344 223.59,-341.88 188,-338.75 158.46,-335.95"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1103.7,-383.56 1114.05,-381.27 1104.53,-376.61 1103.7,-383.56"/>
+</g>
+<!-- Node28 -->
+<g id="node28" class="node">
+<title>Node28</title>
+<g id="a_node28"><a xlink:href="JAIStreamDataMgr_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="481.16,-313.5 481.16,-343.5 608.16,-343.5 608.16,-313.5 481.16,-313.5"/>
+<text text-anchor="start" x="489.16" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">include/JSystem/JAudio2</text>
+<text text-anchor="middle" x="544.66" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamDataMgr.h</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node28 -->
+<g id="edge37" class="edge">
+<title>Node3&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M1103.81,-380.02C993.22,-365.04 730.2,-343.87 608.36,-334.39"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1103.64,-383.53 1114.02,-381.45 1104.61,-376.6 1103.64,-383.53"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node">
@@ -591,43 +591,43 @@
 <path fill="none" stroke="midnightblue" d="M1936.73,-236.4C1934.5,-227.37 1932.05,-217.41 1930.12,-209.58"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1933.4,-237.52 1939.19,-246.4 1940.19,-235.85 1933.4,-237.52"/>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node">
-<title>Node27</title>
-<g id="a_node27"><a xlink:href="JAIStreamDataMgr_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="442.16,-246.5 442.16,-276.5 563.16,-276.5 563.16,-246.5 442.16,-246.5"/>
-<text text-anchor="start" x="450.16" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JAudio2</text>
-<text text-anchor="middle" x="502.66" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamDataMgr.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node26&#45;&gt;Node27 -->
-<g id="edge35" class="edge">
-<title>Node26&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M530.03,-304.87C523.95,-295.46 517.09,-284.83 511.75,-276.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="527.18,-306.9 535.54,-313.4 533.06,-303.1 527.18,-306.9"/>
-</g>
-<!-- Node28&#45;&gt;Node9 -->
-<g id="edge38" class="edge">
-<title>Node28&#45;&gt;Node9</title>
+<!-- Node26&#45;&gt;Node9 -->
+<g id="edge36" class="edge">
+<title>Node26&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M57.71,-307.72C46.61,-299.76 35.76,-289.48 29.66,-277 23.6,-264.62 21.74,-257.27 29.66,-246 49.85,-217.24 88.1,-204.79 119.52,-199.43"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="55.91,-310.72 66.17,-313.35 59.78,-304.9 55.91,-310.72"/>
 </g>
-<!-- Node29 -->
-<g id="node29" class="node">
-<title>Node29</title>
-<g id="a_node29"><a xlink:href="JAIStreamMgr_8cpp.html" target="_top" xlink:title=" ">
+<!-- Node27 -->
+<g id="node27" class="node">
+<title>Node27</title>
+<g id="a_node27"><a xlink:href="JAIStreamMgr_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="39.16,-246.5 39.16,-276.5 150.16,-276.5 150.16,-246.5 39.16,-246.5"/>
 <text text-anchor="start" x="47.16" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JAudio2</text>
 <text text-anchor="middle" x="94.66" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamMgr.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node29 -->
-<g id="edge37" class="edge">
-<title>Node28&#45;&gt;Node29</title>
+<!-- Node26&#45;&gt;Node27 -->
+<g id="edge35" class="edge">
+<title>Node26&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M94.66,-303.11C94.66,-294.15 94.66,-284.32 94.66,-276.58"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="91.16,-303.4 94.66,-313.4 98.16,-303.4 91.16,-303.4"/>
+</g>
+<!-- Node29 -->
+<g id="node29" class="node">
+<title>Node29</title>
+<g id="a_node29"><a xlink:href="JAIStreamDataMgr_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="442.16,-246.5 442.16,-276.5 563.16,-276.5 563.16,-246.5 442.16,-246.5"/>
+<text text-anchor="start" x="450.16" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JAudio2</text>
+<text text-anchor="middle" x="502.66" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JAIStreamDataMgr.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge38" class="edge">
+<title>Node28&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M530.03,-304.87C523.95,-295.46 517.09,-284.83 511.75,-276.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="527.18,-306.9 535.54,-313.4 533.06,-303.1 527.18,-306.9"/>
 </g>
 <!-- Node30&#45;&gt;Node11 -->
 <g id="edge42" class="edge">
